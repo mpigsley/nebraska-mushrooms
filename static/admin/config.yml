@@ -26,3 +26,59 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Geolocation', name: 'geolocation', widget: 'map' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
+
+  - name: 'species-profile'
+    identifier_field: name
+    label: 'Species Profiles'
+    folder: 'content/species-profiles'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Common Name(s)', name: 'name', widget: 'string' }
+      - { label: 'Scientific Name', name: 'scientific_name', widget: 'string' }
+      - {
+          label: 'Location',
+          name: 'location',
+          widget: 'relation',
+          collection: 'location-profiles',
+          value_field: 'title',
+        }
+      - {
+          label: 'Tag',
+          name: 'tag',
+          widget: 'select',
+          options: ['edible', 'poisonous', 'interesting'],
+        }
+      - { label: 'Synonyms', name: 'synonyms', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - {
+          label: 'Observations',
+          name: 'observations',
+          widget: 'list',
+          fields:
+            [{ label: 'Observation', name: 'observation', widget: 'string' }],
+        }
+      - {
+          label: 'External Links',
+          name: 'external_links',
+          widget: 'list',
+          fields: [{ label: 'Link', name: 'link', widget: 'string' }],
+        }
+      - { label: 'Icon Photo', name: 'icon_photo', widget: 'image' }
+      - {
+          label: 'Photos',
+          name: 'photos',
+          widget: 'list',
+          fields: [{ label: 'Photo', name: 'photo', widget: 'image' }],
+        }
+
+  - name: 'articles'
+    label: 'Articles'
+    folder: 'content/articles'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
