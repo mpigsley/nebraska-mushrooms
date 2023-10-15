@@ -11,5 +11,18 @@ backend:
 local_backend: true
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+
+display_url: https://nebraska-mushrooms.netlify.app
+site_url: https://nebraska-mushrooms.netlify.app
 
 collections:
+  - name: 'location-profiles'
+    label: 'Location Profiles'
+    folder: 'content/location-profiles'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Geolocation', name: 'geolocation', widget: 'map' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
