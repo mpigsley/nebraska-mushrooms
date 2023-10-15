@@ -41,6 +41,7 @@ collections:
           name: 'location',
           widget: 'relation',
           collection: 'location-profiles',
+          search_fields: ['title'],
           value_field: 'title',
         }
       - {
