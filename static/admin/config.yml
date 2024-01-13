@@ -65,7 +65,6 @@ collections:
           fields:
             [
               { label: 'Link', name: 'link', widget: 'string' },
-              { label: 'Name', name: 'name', widget: 'string' },
               {
                 label: 'Tag',
                 name: 'tag',
@@ -80,7 +79,6 @@ collections:
               },
             ],
         }
-      - { label: 'Icon Photo', name: 'icon_photo', widget: 'image' }
       - {
           label: 'Photos',
           name: 'photos',
