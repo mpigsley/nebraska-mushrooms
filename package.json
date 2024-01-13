@@ -26,6 +26,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "gatsby clean",
+    "clean:packages": "rm -rf node_modules && rm package-lock.json",
     "start": "npm run develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
