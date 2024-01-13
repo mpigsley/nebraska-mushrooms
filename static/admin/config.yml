@@ -56,34 +56,36 @@ collections:
           label: 'Taxonomy',
           name: 'taxonomy',
           widget: 'list',
-          fields:
-            - { label: 'Taxon', name: 'taxon', widget: 'string' }
+          fields: [{ label: 'Taxon', name: 'taxon', widget: 'string' }],
         }
       - {
           label: 'External Links',
           name: 'external_links',
           widget: 'list',
           fields:
-            - { label: 'Link', name: 'link', widget: 'string' }
-            - { label: 'Name', name: 'name', widget: 'string' }
-            - {
+            [
+              { label: 'Link', name: 'link', widget: 'string' },
+              { label: 'Name', name: 'name', widget: 'string' },
+              {
                 label: 'Tag',
                 name: 'tag',
                 widget: 'select',
                 options:
-                  - Index Fungorum
-                  - iNaturalist Species Description
-                  - iNaturalist Observation
-                  - Wikipedia
-              }
+                  [
+                    'Index Fungorum',
+                    'iNaturalist Species Description',
+                    'iNaturalist Observation',
+                    'Wikipedia',
+                  ],
+              },
+            ],
         }
       - { label: 'Icon Photo', name: 'icon_photo', widget: 'image' }
       - {
           label: 'Photos',
           name: 'photos',
           widget: 'list',
-          fields: 
-            - { label: 'Photo', name: 'photo', widget: 'image' }
+          fields: [{ label: 'Photo', name: 'photo', widget: 'image' }],
         }
 
   - name: 'articles'
