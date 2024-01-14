@@ -23,9 +23,17 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Geolocation', name: 'geolocation', widget: 'map' }
-      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Geolocation
+        name: geolocation
+        widget: map
+
+      - label: Description
+        name: body
+        widget: markdown
 
   - name: 'species'
     identifier_field: name
@@ -34,47 +42,59 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - { label: 'Common Name(s)', name: 'name', widget: 'string' }
-      - { label: 'Scientific Name', name: 'scientific_name', widget: 'string' }
-      - {
-          label: 'Location',
-          name: 'location',
-          widget: 'relation',
-          collection: 'location-profiles',
-          search_fields: ['title'],
-          value_field: 'title',
-        }
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
-          field: 'select',
-          options: ['edible', 'poisonous', 'interesting'],
-        }
-      - { label: 'Description', name: 'body', widget: 'markdown' }
-      - { label: 'Taxonomy', name: 'taxonomy', widget: 'list', field: 'string' }
-      - {
-          label: 'External Links',
-          name: 'external_links',
-          widget: 'list',
-          fields:
-            [
-              { label: 'Link', name: 'link', widget: 'string' },
-              {
-                label: 'Tag',
-                name: 'tag',
-                widget: 'select',
-                options:
-                  [
-                    'Index Fungorum',
-                    'iNaturalist Species Description',
-                    'iNaturalist Observation',
-                    'Wikipedia',
-                  ],
-              },
-            ],
-        }
-      - { label: 'Photos', name: 'photos', widget: 'list', field: 'image' }
+      - label: Common Name(s)
+        name: name
+        widget: string
+
+      - label: Scientific Name
+        name: scientific_name
+        widget: string
+
+      - label: Location
+        name: location
+        widget: relation
+        collection: location-profiles
+        search_fields: ['title']
+        value_field: 'title'
+
+      - label: Tags
+        name: tags
+        widget: list
+        field:
+          widget: select
+          options: ['edible', 'poisonous', 'interesting']
+
+      - label: Description
+        name: body
+        widget: markdown
+
+      - label: Taxonomy
+        name: taxonomy
+        widget: list
+        field:
+          widget: string
+
+      - label: External Links
+        name: external_links
+        widget: list
+        fields:
+          - label: Link
+            name: link
+            widget: string
+          - label: Tag
+            name: tag
+            widget: select
+            options:
+              - Index Fungorum
+              - iNaturalist Species Description
+              - iNaturalist Observation
+              - Wikipedia
+
+      - label: Photos
+        name: photos
+        widget: list
+        field:
+          - widget: 'image'
 
   - name: 'articles'
     label: 'Articles'
@@ -82,7 +102,18 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Date
+        name: date
+        widget: datetime
+
+      - label: Author
+        name: author
+        widget: string
+
+      - label: Body
+        name: body
+        widget: markdown
