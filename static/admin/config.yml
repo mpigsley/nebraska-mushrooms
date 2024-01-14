@@ -73,6 +73,10 @@ collections:
       - label: Taxonomy
         name: taxonomy
         widget: list
+        field:
+          label: Taxon
+          name: taxon
+          widget: string
 
       - label: External Links
         name: external_links
@@ -94,6 +98,10 @@ collections:
       - label: Photos
         name: photos
         widget: list
+        field:
+          label: Photo
+          name: photo
+          widget: image
 
   - name: 'articles'
     label: 'Articles'
