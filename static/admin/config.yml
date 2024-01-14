@@ -61,6 +61,8 @@ collections:
         name: tags
         widget: list
         field:
+          label: Tag
+          name: tag
           widget: select
           options: ['edible', 'poisonous', 'interesting']
 
@@ -72,6 +74,8 @@ collections:
         name: taxonomy
         widget: list
         field:
+          label: Taxon
+          name: taxon
           widget: string
 
       - label: External Links
@@ -94,7 +98,9 @@ collections:
         name: photos
         widget: list
         field:
-          - widget: 'image'
+          label: Photo
+          name: photo
+          widget: image
 
   - name: 'articles'
     label: 'Articles'
