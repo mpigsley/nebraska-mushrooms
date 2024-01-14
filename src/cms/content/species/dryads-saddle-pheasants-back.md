@@ -16,7 +16,9 @@ external_links:
   - link: https://www.inaturalist.org/taxa/940028-Cerioporus-squamosus
     tag: iNaturalist Species Description
 photos:
-  - https://inaturalist-open-data.s3.amazonaws.com/photos/11463375/medium.jpeg
+  - /img/dryad-s-saddle-1.jpeg
+  - /img/dryad-s-saddle-2.jpeg
+  - /img/dryad-s-saddle-3.jpeg
 ---
 
 #### Description
