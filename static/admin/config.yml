@@ -73,18 +73,11 @@ collections:
       - label: Taxonomy
         name: taxonomy
         widget: list
-        field:
-          label: Taxon
-          name: taxon
-          widget: string
 
       - label: External Links
         name: external_links
         widget: list
         fields:
-          - label: Link
-            name: link
-            widget: string
           - label: Tag
             name: tag
             widget: select
@@ -94,13 +87,13 @@ collections:
               - iNaturalist Observation
               - Wikipedia
 
+          - label: Link
+            name: link
+            widget: string
+
       - label: Photos
         name: photos
         widget: list
-        field:
-          label: Photo
-          name: photo
-          widget: image
 
   - name: 'articles'
     label: 'Articles'
