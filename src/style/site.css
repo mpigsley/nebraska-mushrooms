@@ -5,3 +5,13 @@
 .noMargin {
   margin-bottom: 0;
 }
+
+.horizontalScroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontalScrollItem {
+  display: inline-block;
+  white-space: normal;
+}
