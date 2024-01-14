@@ -62,7 +62,6 @@ export const pageQuery = graphql`
         scientific_name
         taxonomy
         tags
-        photos
         external_links {
           link
           tag
