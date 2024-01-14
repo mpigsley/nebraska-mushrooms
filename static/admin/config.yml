@@ -17,9 +17,9 @@ display_url: https://nebraska-mushrooms.netlify.app
 site_url: https://nebraska-mushrooms.netlify.app
 
 collections:
-  - name: 'location-profiles'
+  - name: 'location'
     label: 'Location Profiles'
-    folder: 'content/location-profiles'
+    folder: 'src/cms/content/location'
     create: true
     slug: '{{slug}}'
     fields:
@@ -27,10 +27,10 @@ collections:
       - { label: 'Geolocation', name: 'geolocation', widget: 'map' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
 
-  - name: 'species-profile'
+  - name: 'species'
     identifier_field: name
     label: 'Species Profiles'
-    folder: 'content/species-profiles'
+    folder: 'src/cms/content/species'
     create: true
     slug: '{{slug}}'
     fields:
@@ -45,19 +45,14 @@ collections:
           value_field: 'title',
         }
       - {
-          label: 'Tag',
-          name: 'tag',
-          widget: 'select',
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+          field: 'select',
           options: ['edible', 'poisonous', 'interesting'],
         }
-      - { label: 'Description', name: 'description', widget: 'markdown' }
-      - { label: 'Morphology', name: 'morphology', widget: 'markdown' }
-      - {
-          label: 'Taxonomy',
-          name: 'taxonomy',
-          widget: 'list',
-          fields: [{ label: 'Taxon', name: 'taxon', widget: 'string' }],
-        }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - { label: 'Taxonomy', name: 'taxonomy', widget: 'list', field: 'string' }
       - {
           label: 'External Links',
           name: 'external_links',
@@ -79,16 +74,11 @@ collections:
               },
             ],
         }
-      - {
-          label: 'Photos',
-          name: 'photos',
-          widget: 'list',
-          fields: [{ label: 'Photo', name: 'photo', widget: 'image' }],
-        }
+      - { label: 'Photos', name: 'photos', widget: 'list', field: 'image' }
 
   - name: 'articles'
     label: 'Articles'
-    folder: 'content/articles'
+    folder: 'src/cms/content/articles'
     create: true
     slug: '{{slug}}'
     fields:

@@ -6,9 +6,6 @@ const config: GatsbyConfig = {
     siteUrl: 'https://nebraskamushrooms.org',
     description: '',
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
     {
@@ -33,9 +30,16 @@ const config: GatsbyConfig = {
         name: 'images',
       },
     },
-    `gatsby-plugin-image`,
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/cms/content`,
+        name: 'cms',
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -43,28 +47,24 @@ const config: GatsbyConfig = {
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
-            },
+            options: { maxWidth: 2048 },
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              destinationDir: 'static',
-            },
+            options: { destinationDir: 'static' },
           },
         ],
       },
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.ts`,
+        google: {
+          families: ['Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600'],
+        },
       },
     },
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 };
