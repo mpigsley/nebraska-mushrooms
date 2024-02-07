@@ -35,6 +35,20 @@ collections:
         name: body
         widget: markdown
 
+  - name: 'reference'
+    label: 'Reference'
+    folder: 'src/cms/content/reference'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Short Name
+        name: short_name
+        widget: string
+
+      - label: Title
+        name: title
+        widget: string
+
   - name: 'species'
     identifier_field: name
     label: 'Species Profiles'
@@ -56,6 +70,15 @@ collections:
         collection: location-profiles
         search_fields: ['title']
         value_field: 'title'
+
+      - label: References
+        name: location
+        widget: list
+        field:
+          widget: relation
+          collection: location-profiles
+          search_fields: ['short_name']
+          value_field: 'title'
 
       - label: Tags
         name: tags
