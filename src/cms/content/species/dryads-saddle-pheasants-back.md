@@ -2,13 +2,11 @@
 name: Dryad's Saddle, Pheasant's Back
 scientific_name: Cerioporus squamosus
 location: Indian Cave State Park
+references: []
 tags:
   - interesting
 taxonomy:
-  - Fungi
   - Basidiomycota
-  - Agaricomycotina
-  - Agaricomycetes
   - Polyporales
   - Polyporaceae
   - Cerioporus squamosus
