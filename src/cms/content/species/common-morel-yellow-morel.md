@@ -2,7 +2,8 @@
 name: Common Morel, Yellow Morel
 scientific_name: Morchella esculentoides
 location: Indian Cave State Park
-references: []
+references:
+  - Morchella esculentoides | MushroomExpert
 tags:
   - edible
   - interesting
