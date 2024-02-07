@@ -72,10 +72,11 @@ collections:
         value_field: 'title'
 
       - label: References
-        name: location
+        name: references
         widget: list
         field:
           widget: relation
+          name: reference
           collection: location-profiles
           search_fields: ['short_name']
           value_field: 'title'
