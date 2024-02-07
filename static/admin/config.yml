@@ -17,7 +17,7 @@ display_url: https://nebraska-mushrooms.netlify.app
 site_url: https://nebraska-mushrooms.netlify.app
 
 collections:
-  - name: 'location'
+  - name: 'location-profiles'
     label: 'Location Profiles'
     folder: 'src/cms/content/location'
     create: true
@@ -35,7 +35,7 @@ collections:
         name: body
         widget: markdown
 
-  - name: 'reference'
+  - name: 'references'
     label: 'References'
     folder: 'src/cms/content/reference'
     create: true
