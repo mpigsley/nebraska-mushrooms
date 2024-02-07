@@ -79,7 +79,7 @@ collections:
           name: reference
           collection: references
           search_fields: ['short_name', 'title']
-          value_field: 'title'
+          value_field: 'short_name'
 
       - label: Tags
         name: tags
