@@ -6,10 +6,7 @@ references: []
 tags:
   - interesting
 taxonomy:
-  - Fungi
   - Basidiomycota
-  - Agaricomycotina
-  - Agaricomycetes
   - Polyporales
   - Polyporaceae
   - Cerioporus squamosus
