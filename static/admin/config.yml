@@ -36,7 +36,7 @@ collections:
         widget: markdown
 
   - name: 'reference'
-    label: 'Reference'
+    label: 'References'
     folder: 'src/cms/content/reference'
     create: true
     slug: '{{slug}}'
@@ -77,8 +77,8 @@ collections:
         field:
           widget: relation
           name: reference
-          collection: location-profiles
-          search_fields: ['short_name']
+          collection: references
+          search_fields: ['short_name', 'title']
           value_field: 'title'
 
       - label: Tags
