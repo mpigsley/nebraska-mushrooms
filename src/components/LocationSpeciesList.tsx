@@ -27,7 +27,7 @@ export default function LocationSpeciesList({
             field?.toLowerCase().includes(search.toLowerCase()),
           ),
         )
-        .toSorted((a, b) => {
+        .sort((a, b) => {
           if (a.name && b.name) {
             return a.name.localeCompare(b.name);
           }
