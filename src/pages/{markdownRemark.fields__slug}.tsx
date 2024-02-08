@@ -5,7 +5,6 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 export default function SpeciesProfileTemplate({
   data,
 }: Readonly<PageProps<Queries.SpeciesProfileQuery>>): JSX.Element {
-  console.log(data);
   return (
     <>
       <div className="horizontalScroll u-full-width">

@@ -19,6 +19,7 @@ photos:
   - /img/boletus7.jpg
   - /img/boletus8.jpeg
 ---
+
 This eastern member of the *[Boletus edulis](https://www.mushroomexpert.com/boletus_edulis.html#key)* species group is distinguished by its wrinkled cap surface (which becomes minutely patchy and fibrillose at maturity), its association with hardwoods, and the gorgeous purple reaction of its cap surface when a drop of ammonia is applied. Several species are very similar, including *[Boletus variipes](https://www.mushroomexpert.com/boletus_variipes.html)*, *[Boletus nobilis](https://www.mushroomexpert.com/boletus_nobilis.html)*, and [*Boletus* cf. *reticulatus*](https://www.mushroomexpert.com/boletus_cf_reticulatus.html); see the [Key to 14 North American edulis-like boletes](https://www.mushroomexpert.com/boletus_edulis.html#key) for help separating them.
 
 I believe *Boletus nobilissimus*, described in 2000 from New York, is probably identical to *Boletus atkinsonii* (which was described from New York in 1904); the putative differences (whether the cap is wrinkled or not, whether the reticulation is "brownish" or white, and whether there are "tufts of roughened hyphae" on the cap surface) are all subject to variability—and, in the case of the "roughened hyphae," subject to the probable fallibility of an observation made by Smith & Thiers (1971) while studying a shellacked and pasted-to-cardboard type specimen from 1904.
