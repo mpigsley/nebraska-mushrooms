@@ -1,5 +1,5 @@
 ---
-name: Atkinson’s Bolete
+name: Atkinson's Bolete
 scientific_name: Boletus atkinsonii
 location: Indian Cave State Park
 references:
