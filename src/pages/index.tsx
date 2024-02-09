@@ -22,6 +22,47 @@ export default function IndexPage({
     ) as { type: 'Point'; coordinates: [number, number] };
     geolocation = `${coordinates[1]},${coordinates[0]}`;
   }
+
+  const [filteredSpecies, setFilteredSpecies] = React.useState<
+    {
+      id: string;
+      slug: string | undefined;
+      name: string | undefined;
+      location: string | undefined;
+      scientificName: string | undefined;
+      bodyText: string;
+      photos: IGatsbyImageData[];
+    }[]
+  >([]);
+
+  React.useEffect(() => {
+    setFilteredSpecies(
+      data.species.edges.map((edge) => ({
+        id: edge.node.id,
+        slug: edge.node.fields?.slug ?? undefined,
+        name: edge.node.frontmatter?.name ?? undefined,
+        location: edge.node.frontmatter?.location ?? undefined,
+        scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
+        bodyText: stripHtml(edge.node.html ?? ''),
+        photos:
+          edge.node.frontmatter?.photos?.reduce(
+            (acc: IGatsbyImageData[], photo) => {
+              if (photo?.childImageSharp) {
+                const gatsbyImageData = getImage(
+                  photo.childImageSharp.gatsbyImageData,
+                );
+                if (gatsbyImageData) {
+                  acc.push(gatsbyImageData);
+                }
+              }
+              return acc;
+            },
+            [],
+          ) ?? [],
+      })),
+    );
+  }, [data.species.edges]);
+
   return (
     <main className="container page">
       <h3 className="noMargin">Mushrooms of Nebraska</h3>
@@ -32,31 +73,7 @@ export default function IndexPage({
       >
         <h5>{data.location?.frontmatter?.title}</h5>
       </a>
-      <LocationSpeciesList
-        species={data.species.edges.map((edge) => ({
-          id: edge.node.id,
-          slug: edge.node.fields?.slug ?? undefined,
-          name: edge.node.frontmatter?.name ?? undefined,
-          location: edge.node.frontmatter?.location ?? undefined,
-          scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
-          bodyText: stripHtml(edge.node.html ?? ''),
-          photos:
-            edge.node.frontmatter?.photos?.reduce(
-              (acc: IGatsbyImageData[], photo) => {
-                if (photo?.childImageSharp) {
-                  const gatsbyImageData = getImage(
-                    photo.childImageSharp.gatsbyImageData,
-                  );
-                  if (gatsbyImageData) {
-                    acc.push(gatsbyImageData);
-                  }
-                }
-                return acc;
-              },
-              [],
-            ) ?? [],
-        }))}
-      />
+      <LocationSpeciesList species={filteredSpecies} />
     </main>
   );
 }
