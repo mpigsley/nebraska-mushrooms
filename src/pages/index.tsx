@@ -1,7 +1,16 @@
+import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
+
 import LocationSpeciesList from '../components/LocationSpeciesList';
-import { getImage } from 'gatsby-plugin-image';
+
+function stripHtml(html: string) {
+  let tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  const result = tmp.textContent || tmp.innerText || '';
+  tmp.remove();
+  return result;
+}
 
 export default function IndexPage({
   data,
@@ -16,19 +25,13 @@ export default function IndexPage({
   return (
     <main className="container page">
       <h3 className="noMargin">Mushrooms of Nebraska</h3>
-      <h5>{data.location?.frontmatter?.title}</h5>
-      <p>
-        <i>
-          <a
-            href={`https://www.google.com/maps/place/${geolocation}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View on Google Maps
-          </a>
-        </i>
-      </p>
-      <hr />
+      <a
+        href={`https://www.google.com/maps/place/${geolocation}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h5>{data.location?.frontmatter?.title}</h5>
+      </a>
       <LocationSpeciesList
         species={data.species.edges.map((edge) => ({
           id: edge.node.id,
@@ -36,9 +39,22 @@ export default function IndexPage({
           name: edge.node.frontmatter?.name ?? undefined,
           location: edge.node.frontmatter?.location ?? undefined,
           scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
-          photos: edge.node.frontmatter?.photos?.map((photo) =>
-            getImage(photo?.childImageSharp ?? null),
-          ),
+          bodyText: stripHtml(edge.node.html ?? ''),
+          photos:
+            edge.node.frontmatter?.photos?.reduce(
+              (acc: IGatsbyImageData[], photo) => {
+                if (photo?.childImageSharp) {
+                  const gatsbyImageData = getImage(
+                    photo.childImageSharp.gatsbyImageData,
+                  );
+                  if (gatsbyImageData) {
+                    acc.push(gatsbyImageData);
+                  }
+                }
+                return acc;
+              },
+              [],
+            ) ?? [],
         }))}
       />
     </main>
@@ -66,6 +82,7 @@ export const query = graphql`
       edges {
         node {
           id
+          html
           fields {
             slug
           }
@@ -77,8 +94,8 @@ export const query = graphql`
               childImageSharp {
                 id
                 gatsbyImageData(
-                  height: 50
-                  width: 50
+                  height: 235
+                  width: 235
                   quality: 90
                   layout: CONSTRAINED
                 )

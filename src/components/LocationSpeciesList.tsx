@@ -1,11 +1,13 @@
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import * as React from 'react';
+import { Image, Menu } from 'react-feather';
 
 type Species = {
   id: string;
   slug?: string;
   name?: string;
   location?: string;
+  bodyText: string;
   scientificName?: string;
   photos?: IGatsbyImageData[];
 };
@@ -14,16 +16,124 @@ type LocationSpeciesListProps = Readonly<{
   species: Species[];
 }>;
 
+type FormattedSpecies = {
+  id: string;
+  slug: string;
+  name: string;
+  scientificName: string;
+  photo?: IGatsbyImageData;
+  bodyMatch?: [string, string, string]; // [pre-text, match, post-text]
+};
+
+const ImageList = ({ species }: { species: FormattedSpecies[] }) => (
+  <div className="grid">
+    {species.map(
+      ({
+        id,
+        slug,
+        name,
+        scientificName,
+        photo,
+        bodyMatch,
+      }: FormattedSpecies) => (
+        <a key={id} href={slug} className="grid-item">
+          <div>
+            {!!photo && (
+              <GatsbyImage className="grid-image" image={photo} alt={name} />
+            )}
+            <h5 className="noMargin">{name}</h5>
+            <div className="mb-2">{scientificName}</div>
+            {!!bodyMatch && (
+              <>
+                <i>{bodyMatch[0]}</i>
+                <b>{bodyMatch[1]}</b>
+                <i>{bodyMatch[2]}</i>
+              </>
+            )}
+          </div>
+        </a>
+      ),
+    )}
+  </div>
+);
+
+const TableList = ({ species }: { species: FormattedSpecies[] }) => (
+  <table className="u-full-width">
+    <thead>
+      <tr>
+        <th className="photo-table-column">Index</th>
+        <th className="main-table-column">Common Name(s)</th>
+        <th>Scientific Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      {species.map(
+        ({
+          id,
+          slug,
+          name,
+          scientificName,
+          photo,
+          bodyMatch,
+        }: FormattedSpecies) => (
+          <tr key={id}>
+            <td>{!!photo && <GatsbyImage image={photo} alt={name} />}</td>
+            <td>
+              <a href={slug}>{name}</a>
+              {!!bodyMatch && (
+                <div>
+                  <i>{bodyMatch[0]}</i>
+                  <b>{bodyMatch[1]}</b>
+                  <i>{bodyMatch[2]}</i>
+                </div>
+              )}
+            </td>
+            <td>{scientificName}</td>
+          </tr>
+        ),
+      )}
+    </tbody>
+  </table>
+);
+
+const PRE_POST_PADDING = 20;
+const buildBodyMatch = (
+  bodyText: string,
+  search: string,
+): [string, string, string] | undefined => {
+  if (search.length < 3) {
+    return;
+  }
+  const index = bodyText.toLowerCase().indexOf(search.toLowerCase());
+  if (index === -1) {
+    return;
+  }
+
+  const preText = bodyText.slice(Math.max(0, index - PRE_POST_PADDING), index);
+  const match = bodyText.slice(index, index + search.length);
+  const postText = bodyText.slice(
+    index + search.length,
+    index + search.length + PRE_POST_PADDING,
+  );
+
+  return [preText, match, postText];
+};
+
 export default function LocationSpeciesList({
   species,
 }: LocationSpeciesListProps): JSX.Element {
+  const [listType, setListType] = React.useState<'table' | 'image'>('table');
   const [search, setSearch] = React.useState('');
 
-  const sortedSpecies = React.useMemo(
+  const formattedSpecies = React.useMemo(
     () =>
       species
         .filter((edge) =>
-          [edge.name, edge.scientificName].some((field) =>
+          [
+            edge.name,
+            edge.scientificName,
+            search.length > 2 ? edge.bodyText : '',
+          ].some((field) =>
             field?.toLowerCase().includes(search.toLowerCase()),
           ),
         )
@@ -32,9 +142,19 @@ export default function LocationSpeciesList({
             return a.name.localeCompare(b.name);
           }
           return 0;
-        }),
+        })
+        .map((species) => ({
+          id: species.id,
+          slug: species.slug ?? '',
+          name: species.name ?? '',
+          scientificName: species.scientificName ?? '',
+          photo: species.photos?.[0],
+          bodyMatch: buildBodyMatch(species.bodyText, search),
+        })),
     [species, search],
   );
+
+  const ActiveList = listType === 'table' ? TableList : ImageList;
 
   return (
     <>
@@ -49,31 +169,36 @@ export default function LocationSpeciesList({
             onChange={(event) => setSearch(event.target.value)}
           />
         </div>
+        <div className="six columns content-right">
+          <button
+            type="button"
+            className={`button${
+              listType === 'table' ? '-primary' : ''
+            } button-icon`}
+            onClick={() => {
+              if (listType !== 'table') {
+                setListType('table');
+              }
+            }}
+          >
+            <Menu size={20} />
+          </button>
+          <button
+            type="button"
+            className={`button${
+              listType === 'image' ? '-primary' : ''
+            } button-icon ml-2`}
+            onClick={() => {
+              if (listType !== 'image') {
+                setListType('image');
+              }
+            }}
+          >
+            <Image size={20} />
+          </button>
+        </div>
       </div>
-      <table className="u-full-width">
-        <thead>
-          <tr>
-            <th style={{ width: 50 }}>Index</th>
-            <th>Common Name(s)</th>
-            <th>Scientific Name</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sortedSpecies.map((edge) => (
-            <tr key={edge.id}>
-              <td>
-                {edge.photos?.length ? (
-                  <GatsbyImage image={edge.photos[0]} alt={edge.name ?? ''} />
-                ) : null}
-              </td>
-              <td>
-                <a href={edge.slug ?? '#'}>{edge.name}</a>
-              </td>
-              <td>{edge.scientificName}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <ActiveList species={formattedSpecies} />
     </>
   );
 }
