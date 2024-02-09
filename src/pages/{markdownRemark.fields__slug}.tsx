@@ -39,24 +39,40 @@ export default function SpeciesProfileTemplate({
             }}
           />
           <div className="four columns">
-            <b>External Links</b>
-            <ul>
-              {data.markdownRemark?.frontmatter?.external_links?.map((item) => (
-                <li key={item?.link}>
-                  <a href={item?.link ?? '/'} target="_blank" rel="noreferrer">
-                    {item?.tag}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <b>Tags</b>
-            <ul>
-              {data.markdownRemark?.frontmatter?.tags?.map((item) => (
-                <li key={item}>
-                  <i>{item}</i>
-                </li>
-              ))}
-            </ul>
+            {!!data.markdownRemark?.frontmatter?.external_links?.length && (
+              <>
+                <b>External Links</b>
+                <ul>
+                  {data.markdownRemark.frontmatter.external_links.map(
+                    (item) => (
+                      <li key={item?.link}>
+                        <a
+                          href={item?.link ?? '/'}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {item?.tag}
+                        </a>
+                      </li>
+                    ),
+                  )}
+                </ul>
+              </>
+            )}
+            {!!data.markdownRemark?.frontmatter?.tags?.length && (
+              <>
+                <b>Tags</b>
+                <ul>
+                  {[...data.markdownRemark.frontmatter.tags]
+                    .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
+                    .map((item) => (
+                      <li key={item}>
+                        <span className={`${item} tag`}>{item}</span>
+                      </li>
+                    ))}
+                </ul>
+              </>
+            )}
           </div>
         </section>
       </main>
