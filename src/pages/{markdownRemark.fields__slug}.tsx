@@ -49,7 +49,7 @@ export default function SpeciesProfileTemplate({
         </section>
         <section className="row">
           <div className="eight columns">
-            <p
+            <div
               dangerouslySetInnerHTML={{
                 __html: data.markdownRemark?.html ?? '',
               }}
