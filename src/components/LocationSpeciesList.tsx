@@ -7,7 +7,7 @@ type Species = {
   slug?: string;
   name?: string;
   location?: string;
-  bodyText: string;
+  bodyHtml: string;
   scientificName?: string;
   photos?: IGatsbyImageData[];
 };
@@ -24,6 +24,14 @@ type FormattedSpecies = {
   photo?: IGatsbyImageData;
   bodyMatch?: [string, string, string]; // [pre-text, match, post-text]
 };
+
+function stripHtml(html: string) {
+  let tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  const result = tmp.textContent || tmp.innerText || '';
+  tmp.remove();
+  return result;
+}
 
 const ImageList = ({ species }: { species: FormattedSpecies[] }) => (
   <div className="grid">
@@ -98,12 +106,13 @@ const TableList = ({ species }: { species: FormattedSpecies[] }) => (
 
 const PRE_POST_PADDING = 20;
 const buildBodyMatch = (
-  bodyText: string,
+  bodyHtml: string,
   search: string,
 ): [string, string, string] | undefined => {
   if (search.length < 3) {
     return;
   }
+  const bodyText = stripHtml(bodyHtml);
   const index = bodyText.toLowerCase().indexOf(search.toLowerCase());
   if (index === -1) {
     return;
@@ -132,7 +141,7 @@ export default function LocationSpeciesList({
           [
             edge.name,
             edge.scientificName,
-            search.length > 2 ? edge.bodyText : '',
+            search.length > 2 ? stripHtml(edge.bodyHtml) : '',
           ].some((field) =>
             field?.toLowerCase().includes(search.toLowerCase()),
           ),
@@ -149,7 +158,7 @@ export default function LocationSpeciesList({
           name: species.name ?? '',
           scientificName: species.scientificName ?? '',
           photo: species.photos?.[0],
-          bodyMatch: buildBodyMatch(species.bodyText, search),
+          bodyMatch: buildBodyMatch(species.bodyHtml, search),
         })),
     [species, search],
   );
