@@ -5,21 +5,37 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 export default function SpeciesProfileTemplate({
   data,
 }: Readonly<PageProps<Queries.SpeciesProfileQuery>>): JSX.Element {
+  const scrollRef = React.useRef<HTMLDivElement>(null);
+
   return (
     <>
-      <div className="horizontalScroll u-full-width">
-        {data.markdownRemark?.frontmatter?.photos?.map((item) => {
-          if (item?.childImageSharp?.gatsbyImageData) {
-            return (
-              <GatsbyImage
-                className="horizontalScrollItem"
-                key={item?.childImageSharp?.id}
-                image={item?.childImageSharp?.gatsbyImageData}
-                alt={`${data.markdownRemark?.frontmatter?.name} (${data.markdownRemark?.frontmatter?.scientific_name})`}
-              />
-            );
-          }
-        })}
+      <div className="u-full-width relative">
+        <div className="horizontalScroll u-full-width" ref={scrollRef}>
+          {data.markdownRemark?.frontmatter?.photos?.map((item) => {
+            if (item?.childImageSharp?.gatsbyImageData) {
+              return (
+                <GatsbyImage
+                  className="horizontalScrollItem"
+                  key={item?.childImageSharp?.id}
+                  image={item?.childImageSharp?.gatsbyImageData}
+                  alt={`${data.markdownRemark?.frontmatter?.name} (${data.markdownRemark?.frontmatter?.scientific_name})`}
+                />
+              );
+            }
+          })}
+        </div>
+        <button
+          className="button-more-images"
+          onClick={() => {
+            scrollRef.current?.scrollTo({
+              left: scrollRef.current?.scrollWidth,
+              behavior: 'smooth',
+            });
+          }}
+        >
+          +{data.markdownRemark?.frontmatter?.photos?.length ?? 0} more photos
+          &gt;
+        </button>
       </div>
       <main className="container page">
         <section className="row">
@@ -32,12 +48,24 @@ export default function SpeciesProfileTemplate({
           <hr />
         </section>
         <section className="row">
-          <div
-            className="eight columns"
-            dangerouslySetInnerHTML={{
-              __html: data.markdownRemark?.html ?? '',
-            }}
-          />
+          <div className="eight columns">
+            <p
+              dangerouslySetInnerHTML={{
+                __html: data.markdownRemark?.html ?? '',
+              }}
+            />
+            {!!data.markdownRemark?.frontmatter?.references?.length && (
+              <>
+                <b>References</b>
+                {[...(data.markdownRemark?.frontmatter?.references ?? [])]
+                  .sort()
+                  .map((item) => (
+                    <p key={item}>{item}</p>
+                  ))}
+              </>
+            )}
+          </div>
+
           <div className="four columns">
             {!!data.markdownRemark?.frontmatter?.external_links?.length && (
               <>
@@ -101,6 +129,7 @@ export const pageQuery = graphql`
           link
           tag
         }
+        references
         photos {
           childImageSharp {
             id

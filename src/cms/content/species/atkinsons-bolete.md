@@ -3,7 +3,9 @@ name: Atkinson's Bolete
 scientific_name: Boletus atkinsonii
 location: Indian Cave State Park
 references:
-  - Boletus atkinsonii | MushroomExpert
+  - 'Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
+    MushroomExpert.Com Web site:
+    http://www.mushroomexpert.com/boletus_atkinsonii.html'
 taxonomy:
   - Basidiomycota
   - Boletales

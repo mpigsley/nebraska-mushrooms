@@ -8,6 +8,7 @@
 .page {
   margin-bottom: var(--s4);
   margin-top: var(--s4);
+  overflow-x: hidden;
 }
 
 .noMargin {
@@ -22,6 +23,18 @@
 .horizontalScrollItem {
   display: inline-block;
   white-space: normal;
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.button-more-images {
+  background-color: #fff;
+  position: absolute;
+  bottom: var(--s2);
+  right: var(--s2);
 }
 
 .button-icon {
