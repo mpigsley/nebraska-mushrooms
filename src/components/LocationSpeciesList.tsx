@@ -1,6 +1,6 @@
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import * as React from 'react';
 import { Image, Menu } from 'react-feather';
+import * as React from 'react';
 
 type Species = {
   id: string;

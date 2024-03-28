@@ -3,6 +3,7 @@ import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
 import LocationSpeciesList from '../components/LocationSpeciesList';
+import Footer from '../components/Footer';
 
 export default function IndexPage({
   data,
@@ -16,41 +17,47 @@ export default function IndexPage({
   }
 
   return (
-    <main className="container page">
-      <h3 className="noMargin" style={{textAlign: 'center'}}>Mushrooms of Nebraska<hr /></h3>
-      <a
-        href={`https://www.google.com/maps/place/${geolocation}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h5>{data.location?.frontmatter?.title}</h5>
-      </a>
-      <LocationSpeciesList
-        species={data.species.edges.map((edge) => ({
-          id: edge.node.id,
-          slug: edge.node.fields?.slug ?? undefined,
-          name: edge.node.frontmatter?.name ?? undefined,
-          location: edge.node.frontmatter?.location ?? undefined,
-          scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
-          bodyHtml: edge.node.html ?? '',
-          photos:
-            edge.node.frontmatter?.photos?.reduce(
-              (acc: IGatsbyImageData[], photo) => {
-                if (photo?.childImageSharp) {
-                  const gatsbyImageData = getImage(
-                    photo.childImageSharp.gatsbyImageData,
-                  );
-                  if (gatsbyImageData) {
-                    acc.push(gatsbyImageData);
+    <>
+      <main className="container page">
+        <h3 className="noMargin" style={{ textAlign: 'center' }}>
+          Mushrooms of Nebraska
+          <hr />
+        </h3>
+        <a
+          href={`https://www.google.com/maps/place/${geolocation}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h5>{data.location?.frontmatter?.title}</h5>
+        </a>
+        <LocationSpeciesList
+          species={data.species.edges.map((edge) => ({
+            id: edge.node.id,
+            slug: edge.node.fields?.slug ?? undefined,
+            name: edge.node.frontmatter?.name ?? undefined,
+            location: edge.node.frontmatter?.location ?? undefined,
+            scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
+            bodyHtml: edge.node.html ?? '',
+            photos:
+              edge.node.frontmatter?.photos?.reduce(
+                (acc: IGatsbyImageData[], photo) => {
+                  if (photo?.childImageSharp) {
+                    const gatsbyImageData = getImage(
+                      photo.childImageSharp.gatsbyImageData,
+                    );
+                    if (gatsbyImageData) {
+                      acc.push(gatsbyImageData);
+                    }
                   }
-                }
-                return acc;
-              },
-              [],
-            ) ?? [],
-        }))}
-      />
-    </main>
+                  return acc;
+                },
+                [],
+              ) ?? [],
+          }))}
+        />
+      </main>
+      <Footer />
+    </>
   );
 }
 

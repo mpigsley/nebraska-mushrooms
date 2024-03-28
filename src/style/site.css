@@ -8,6 +8,7 @@
 .page {
   margin-bottom: var(--s4);
   margin-top: var(--s4);
+  min-height: calc(100vh - 20rem);
   overflow-x: hidden;
 }
 
@@ -115,4 +116,25 @@
 }
 .interesting {
   background-color: #ccf;
+}
+
+.footer {
+  background-color: #fafaf9;
+  padding-bottom: var(--s4);
+  padding-top: var(--s4);
+}
+
+.footer-link {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--s2);
+}
+
+.footer-link:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer-link-text {
+  margin-left: var(--s2);
 }

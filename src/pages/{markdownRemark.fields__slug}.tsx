@@ -1,6 +1,8 @@
-import * as React from 'react';
 import { type PageProps, graphql, Link, type HeadFC } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
+import * as React from 'react';
+
+import Footer from '../components/Footer';
 
 export default function SpeciesProfileTemplate({
   data,
@@ -104,6 +106,7 @@ export default function SpeciesProfileTemplate({
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
