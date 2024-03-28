@@ -17,7 +17,7 @@ export default function IndexPage({
 
   return (
     <main className="container page">
-      <h3 className="noMargin">Mushrooms of Nebraska</h3>
+      <h3 className="noMargin" style={{textAlign: 'center'}}>Mushrooms of Nebraska<hr /></h3>
       <a
         href={`https://www.google.com/maps/place/${geolocation}`}
         target="_blank"
