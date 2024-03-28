@@ -2,7 +2,7 @@ import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
-import LocationSpeciesList from '../components/LocationSpeciesList';
+import LocationSpeciesList, { Tag } from '../components/LocationSpeciesList';
 import Footer from '../components/Footer';
 
 export default function IndexPage({
@@ -35,6 +35,7 @@ export default function IndexPage({
             id: edge.node.id,
             slug: edge.node.fields?.slug ?? undefined,
             name: edge.node.frontmatter?.name ?? undefined,
+            tags: (edge.node.frontmatter?.tags ?? []) as Tag[],
             location: edge.node.frontmatter?.location ?? undefined,
             scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
             bodyHtml: edge.node.html ?? '',
@@ -90,6 +91,7 @@ export const query = graphql`
             name
             location
             scientific_name
+            tags
             photos {
               childImageSharp {
                 id
