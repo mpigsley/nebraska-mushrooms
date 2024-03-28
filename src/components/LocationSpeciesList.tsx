@@ -42,13 +42,20 @@ function stripHtml(html: string) {
   return result;
 }
 
-const ImageList = ({ species }: { species: FormattedSpecies[] }) => (
+const ImageList = ({
+  species,
+  onChangeTag,
+}: {
+  species: FormattedSpecies[];
+  onChangeTag: (tag: Tag) => void;
+}) => (
   <div className="grid">
     {species.map(
       ({
         id,
         slug,
         name,
+        tags,
         scientificName,
         photo,
         bodyMatch,
@@ -60,6 +67,19 @@ const ImageList = ({ species }: { species: FormattedSpecies[] }) => (
             )}
             <h5 className="noMargin">{name}</h5>
             <div className="mb-2">{scientificName}</div>
+            <div>
+              {tags.map((tag) => (
+                <span
+                  className={`${tag} tag tag-list-item clickable-tag`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onChangeTag(tag);
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
             {!!bodyMatch && (
               <>
                 <i>{bodyMatch[0]}</i>
@@ -186,13 +206,6 @@ export default function LocationSpeciesList({
               !!field &&
               field.toLowerCase().includes(filteredSearch.toLowerCase());
             const tagMatch = !!matchedTag && edge.tags.includes(matchedTag);
-
-            console.log(
-              edge.name,
-              !filteredSearch && !matchedTag,
-              searchMatch,
-              tagMatch,
-            );
 
             return (
               (!filteredSearch && !matchedTag) ||
