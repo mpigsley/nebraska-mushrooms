@@ -1,5 +1,5 @@
 ---
-name: Yellow Morel
+name: Yellow Morel, Common Morel
 scientific_name: Morchella esculentoides
 location: Indian Cave State Park
 references:
