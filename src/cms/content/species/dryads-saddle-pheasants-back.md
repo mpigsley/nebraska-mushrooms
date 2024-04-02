@@ -7,7 +7,7 @@ references:
     MushroomExpert.Com Web site:
     http://www.mushroomexpert.com/polyporus_squamosus.html"
 tags:
-  - interesting
+  - edible
 taxonomy:
   - Basidiomycota
   - Polyporales
