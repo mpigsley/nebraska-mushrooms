@@ -37,11 +37,11 @@ This is a large and common mushroom in Nebraska. It's most noticable by its scal
 
 #### Habitat
 
-Dryad's Saddle can be found fruiting from decaying logs and stumps in woodland settings, urban locations, and roadsides.
+Dryad's Saddle can be found fruiting from decaying logs and stumps on a wide variety of trees in woodland settings, urban locations, and roadsides.
 
 #### Abundance
 
-Dryad's Saddle is the most commonly sighted mushroom in Nebraska, according to [iNaturalist](https://www.inaturalist.org/projects/nebraska-fungal-diversity). 
+Dryad's Saddle is the most commonly sighted mushroom in Nebraska, according to [iNaturalist](https://www.inaturalist.org/projects/nebraska-fungal-diversity). It is generally found growing alone or in small groups.
 
 #### Fruiting Period
 
