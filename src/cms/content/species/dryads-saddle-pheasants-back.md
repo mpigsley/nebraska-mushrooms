@@ -2,7 +2,10 @@
 name: Dryad's Saddle, Pheasant's Back
 scientific_name: Cerioporus squamosus
 location: Indian Cave State Park
-references: []
+references:
+  - "Kuo, M. (2015, April). Polyporus squamosus. Retrieved from the
+    MushroomExpert.Com Web site:
+    http://www.mushroomexpert.com/polyporus_squamosus.html"
 tags:
   - interesting
 taxonomy:
