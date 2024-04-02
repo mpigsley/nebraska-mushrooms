@@ -32,17 +32,20 @@ This is a widespread and common mushroom in the Park. It is especially abundant 
 
 ##### Statewide Range
 
-This mushroom is common throughout Nebraska in wooded habitats according to iNaturalist. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
+This mushroom is common throughout Nebraska in wooded habitats. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
 
-Fruiting Period: This is a spring mushroom that appears in mid-April through May at Indian Cave. In
-northern Nebraska it can be found into mid-June. It may not appear in dry years.
+#### Fruiting Period
 
-Similar Species: there are 4 other morel species in Nebraska. The giant morel is a later-fruiting\
-less common species that grows up to 8 inches tall and is a more dull yellow in color. The little grey morel
-appears earlier than the common morel and is 1 to 2 inches tall and grey in color. The common yellow
-morel can only be distinguished from the less common yellow morel through DNA analysis.
+This spring-time mushroom appears in mid-April through May at Indian Cave. In
+northern Nebraska it can still be found through mid-June. It may not appear in dry years.
 
-Interesting facts: The common morel is one of our most delicious edible mushrooms and is pursued by
+#### Similar Species
+
+There are 4 other morel species in Nebraska. The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a more dull yellow color. The little grey morel appears earlier than the common morel and is 1 to 2 inches tall and grey in color. The common yellow morel can only be distinguished from the less common yellow morel through DNA analysis.
+
+#### Interesting facts
+
+The common morel is one of our most delicious edible mushrooms and is pursued by
 many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species
 under cooked. Native American used this species as a medical mushroom to treat hooping cough.
 Today, a compound from the mushroom is used to treat foot odor.
