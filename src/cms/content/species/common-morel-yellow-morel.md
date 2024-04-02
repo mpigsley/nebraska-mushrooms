@@ -8,6 +8,8 @@ references:
     http://www.mushroomexpert.com/morchella_esculentoides.html.'
 tags:
   - edible
+  - edible-with-caution
+  - poisonous
   - interesting
 taxonomy:
   - Basidiomycota

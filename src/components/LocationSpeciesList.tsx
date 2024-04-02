@@ -4,6 +4,7 @@ import * as React from 'react';
 
 export enum Tag {
   Edible = 'edible',
+  EdibleWithCaution = 'edible-with-caution',
   Poisonous = 'poisonous',
   Interesting = 'interesting',
 }
@@ -70,6 +71,8 @@ const ImageList = ({
             <div>
               {tags.map((tag) => (
                 <span
+                  key={tag}
+                  role="button"
                   className={`${tag} tag tag-list-item clickable-tag`}
                   onClick={(e) => {
                     e.preventDefault();

@@ -135,6 +135,9 @@
 .edible {
   background-color: #cfc;
 }
+.edible-with-caution {
+  background-color: #ffc;
+}
 .poisonous {
   background-color: #fcc;
 }
