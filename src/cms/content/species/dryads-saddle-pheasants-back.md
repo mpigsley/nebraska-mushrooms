@@ -20,6 +20,8 @@ external_links:
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
   - link: https://www.mushroomexpert.com/polyporus_squamosus.html
     tag: Mushroom Expert
+  - tag: Wikipedia
+    link: https://en.wikipedia.org/wiki/Cerioporus_squamosus
 photos:
   - /img/cerioporus_squamosus1.jpeg
   - /img/cerioporus_squamosus2.jpeg
