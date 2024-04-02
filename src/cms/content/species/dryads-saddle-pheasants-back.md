@@ -13,6 +13,8 @@ taxonomy:
 external_links:
   - link: https://www.inaturalist.org/taxa/940028-Cerioporus-squamosus
     tag: iNaturalist Species Description
+  - tag: Index Fungorum
+    link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
 photos:
   - /img/dryad-s-saddle-1.jpeg
   - /img/dryad-s-saddle-2.jpeg
