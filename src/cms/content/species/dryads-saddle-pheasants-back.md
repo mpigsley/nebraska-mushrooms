@@ -17,9 +17,12 @@ external_links:
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
 photos:
   - https://static.inaturalist.org/photos/319194436/large.jpeg
+  - https://static.inaturalist.org/photos/156704677/large.jpg
   - https://static.inaturalist.org/photos/319194479/large.jpeg
   - https://static.inaturalist.org/photos/319194492/large.jpeg
   - https://static.inaturalist.org/photos/319508405/large.jpeg
+  - https://static.inaturalist.org/photos/90327530/large.jpeg
+  - https://static.inaturalist.org/photos/104374636/large.jpg
 ---
 #### Description
 
@@ -30,11 +33,11 @@ Key features include:
 * The distinctive smell of watermelon rind.
 * White spore print.
 
-This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long. The stem is generally tough and cork-like, especially with age.
+This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. The stem is generally tough and cork-like, especially with age. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long. 
 
 #### Habitat
 
-Dryad's Saddle can be found fruiting from decaying logs and stumps. It can be found in woodland settings as well as urban locations. It is a prominant, large mushroom that gathers the attention of by those passing by.
+Dryad's Saddle can be found fruiting from decaying logs and stumps in woodland settings, urban locations, and roadsides.
 
 #### Abundance
 
@@ -42,8 +45,16 @@ Dryad's Saddle is the most commonly sighted mushroom in Nebraska, according to [
 
 #### Fruiting Period
 
-This mushroom can be found fruiting from spring through fall. However, it prefers cooler weather and is most abundant in the spring and fall. This is a common mushroom to find while morel hunting.
+This mushroom can be found fruiting from spring through fall. However, it prefers cooler weather and is most abundant in the spring and fall. This is a common mushroom to find while morel hunting. Although the mushroom is not perineal, its older forms can be found in the winter, slowly decomposing, making it discoverable year-round.
 
 #### Similar Species
 
-[Cerioporus varius](https://www.inaturalist.org/observations/178674415) is a close relative that is smaller in size.
+* [Cerioporus varius](https://www.inaturalist.org/observations/178674415) is a close relative that is smaller in size.
+
+#### Edibility
+
+This is a good edible mushroom when collected young in its small button stage. It's easy to determine edible parts, as they will be soft, pliable, and break apart by hand. With age, the mushroom becomes leathery and undesirable. Older specimens can be collected for the table by cutting the softer edges on the cap margin with a knife. All wild mushrooms should be cooked thoroughly before eating. Please see our [disclaimer](/canieatit) on wild mushroom edibility before eating any wild mushrooms.
+
+#### Toxicity
+
+This mushroom is not known to be toxic. However, allergies and sensitivities may affect individuals differently. Please use caution when eating any wild mushrooms.
