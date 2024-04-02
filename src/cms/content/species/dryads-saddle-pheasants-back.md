@@ -16,20 +16,18 @@ external_links:
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
 photos:
-  - /img/dryad-s-saddle-1.jpeg
-  - /img/dryad-s-saddle-2.jpeg
-  - /img/dryad-s-saddle-3.jpeg
+  - https://static.inaturalist.org/photos/319194436/original.jpeg
 ---
 #### Description
 
-At maturity, this species can get particularly large, generally 5-30 cm wide and 1-4 cm thick. 
+This is a large and common mushroom in Nebraska. It's most noticable by it's scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long.
 
 Key features include: 
 
-* Flattened scales (squamules) on the cap surface from which the mushroom gets its name
-* Large pores under the cap that extend down the stem
-* The distinctive smell of watermelon rind
-* White spore print
+* Flattened scales (squamules) on the cap surface from which the mushroom gets its name.
+* Large pores under the cap that extend down the stem. The pore surface is not separatable from the cap.
+* The distinctive smell of watermelon rind.
+* White spore print.
 
 #### Habitat
 
