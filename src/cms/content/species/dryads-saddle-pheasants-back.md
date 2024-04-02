@@ -58,7 +58,7 @@ This mushroom can be found fruiting from spring through fall. However, it prefer
 
 #### Edibility
 
-This is a good edible mushroom when collected young in its small button stage. It's easy to determine edible parts, as they will be soft, pliable, and break apart by hand. With age, the mushroom becomes leathery and undesirable. Older specimens can be collected for the table by cutting the softer edges on the cap margin with a knife. All wild mushrooms should be cooked thoroughly before eating. Please see our [disclaimer](/canieatit) on wild mushroom edibility before eating any wild mushrooms.
+This is a good edible mushroom when collected young in its small button stage. It's easy to determine edible parts, as they will be soft, pliable, and break apart by hand. With age, the mushroom becomes leathery and undesirable. Older specimens can be collected for the table by cutting the softer edges on the cap margin with a knife. All wild mushrooms should be cooked thoroughly before eating. Please see our [disclaimer](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/) before eating any wild mushrooms.
 
 #### Toxicity
 
