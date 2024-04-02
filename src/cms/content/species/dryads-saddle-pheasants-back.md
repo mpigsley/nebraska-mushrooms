@@ -21,13 +21,13 @@ external_links:
   - link: https://www.mushroomexpert.com/polyporus_squamosus.html
     tag: Mushroom Expert
 photos:
-  - https://static.inaturalist.org/photos/319194436/large.jpeg
-  - https://static.inaturalist.org/photos/156704677/large.jpg
-  - https://static.inaturalist.org/photos/319194479/large.jpeg
-  - https://static.inaturalist.org/photos/319194492/large.jpeg
-  - https://static.inaturalist.org/photos/319508405/large.jpeg
-  - https://static.inaturalist.org/photos/90327530/large.jpeg
-  - https://static.inaturalist.org/photos/104374636/large.jpg
+  - /img/cerioporus_squamosus1.jpeg
+  - /img/cerioporus_squamosus2.jpeg
+  - /img/cerioporus_squamosus3.jpeg
+  - /img/cerioporus_squamosus4.jpeg
+  - /img/cerioporus_squamosus5.jpeg
+  - /img/cerioporus_squamosus6.jpeg
+  - /img/cerioporus_squamosus7.jpeg
 ---
 #### Description
 
