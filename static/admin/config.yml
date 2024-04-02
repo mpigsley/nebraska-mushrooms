@@ -13,8 +13,8 @@ media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
 
-display_url: https://nebraska-mushrooms.netlify.app
-site_url: https://nebraska-mushrooms.netlify.app
+display_url: https://nebraskamushrooms.org/
+site_url: https://nebraskamushrooms.org/
 
 collections:
   - name: 'location-profiles'
