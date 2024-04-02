@@ -55,4 +55,6 @@ many Nebraskans. It can be cooked in numerous ways. People have gotten sick from
 
 Choice. [Read this first!](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
 
-Toxicity: Morels **must be thoroughly cooked to be safely eaten**! Poisonings from raw or undercooked morels are serious and have led to death.
+#### Toxicity
+
+Morels **must be thoroughly cooked to be safely eaten**! Poisonings from raw or undercooked morels are serious and have led to death.
