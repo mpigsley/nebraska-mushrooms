@@ -18,17 +18,19 @@ external_links:
 photos:
   - https://static.inaturalist.org/photos/319194436/large.jpeg
   - https://static.inaturalist.org/photos/319194479/large.jpeg
+  - https://static.inaturalist.org/photos/319194492/large.jpeg
+  - https://static.inaturalist.org/photos/319508405/large.jpeg
 ---
 #### Description
 
 Key features include: 
 
 * Flattened scales (squamules) on the cap surface. A feature from which the mushroom gets its name *C. squamosus*.
-* Large pores under the cap that extend down the stem. The pore surface is not separatable from the cap.
+* Large, honeycomb-like pores under the cap that extend down the stem. The pore surface is not separatable from the cap.
 * The distinctive smell of watermelon rind.
 * White spore print.
 
-This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long.
+This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long. The stem is generally tough and cork-like, especially with age.
 
 #### Habitat
 
