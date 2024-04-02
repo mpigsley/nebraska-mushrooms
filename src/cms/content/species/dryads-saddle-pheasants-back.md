@@ -19,7 +19,7 @@ external_links:
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
   - link: https://www.mushroomexpert.com/polyporus_squamosus.html
-    tag: Wikipedia
+    tag: Mushroom Expert
 photos:
   - https://static.inaturalist.org/photos/319194436/large.jpeg
   - https://static.inaturalist.org/photos/156704677/large.jpg
