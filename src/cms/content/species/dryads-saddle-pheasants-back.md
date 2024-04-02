@@ -13,16 +13,48 @@ taxonomy:
 external_links:
   - link: https://www.inaturalist.org/taxa/940028-Cerioporus-squamosus
     tag: iNaturalist Species Description
+  - tag: Index Fungorum
+    link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
 photos:
-  - /img/dryad-s-saddle-1.jpeg
-  - /img/dryad-s-saddle-2.jpeg
-  - /img/dryad-s-saddle-3.jpeg
+  - https://static.inaturalist.org/photos/319194436/large.jpeg
+  - https://static.inaturalist.org/photos/156704677/large.jpg
+  - https://static.inaturalist.org/photos/319194479/large.jpeg
+  - https://static.inaturalist.org/photos/319194492/large.jpeg
+  - https://static.inaturalist.org/photos/319508405/large.jpeg
+  - https://static.inaturalist.org/photos/90327530/large.jpeg
+  - https://static.inaturalist.org/photos/104374636/large.jpg
 ---
-
 #### Description
 
-Dryad's saddle is an annual mushroom commonly found attached to dead logs and stumps or on living hardwood trees at one point with a thick stem. Generally, the fruit body is round and between 8–30 centimetres (3–12 inches) across and up to 10 cm (4 in) thick. The body can be yellow to brown and has "squamules" or scales on its upper side. On the underside one can see the pores that are characteristic of the genus Cerioporus; they are made up of tubes packed together closely. The tubes are between 1 and 12 mm (1⁄32 and 15⁄32 in) long. The stalk is thick and short, up to 5 cm (2 in) long. The fruit body will produce a white spore print if laid onto a sheet of paper. The spores are 11-15 x 4-5 µm and are long and smooth ellipsoids. They can be found alone, in clusters of two or three, or forming shelves. Young specimens are soft but toughen with age. It is particularly common on dead elm and is also found on living maple trees.
+Key features include: 
 
-#### Distribution and habitat
+* Flattened scales (squamules) on the cap surface. A feature from which the mushroom gets its name *C. squamosus*.
+* Large, honeycomb-like pores under the cap that extend down the stem. The pore surface is not separatable from the cap.
+* The distinctive smell of watermelon rind.
+* White spore print.
 
-This organism is common and widespread, being found east of the Rocky Mountains in the United States and over much of Europe. It is also found in Australia and Asia. It commonly fruits in the spring, occasionally during autumn, and rarely during other seasons. Many mushroom hunters will stumble upon this when looking for morels during the spring as both have similar fruiting times, and this fungus can grow to a noticeable size of up to 50 cm (20 in) across. It plays an important role in woodland ecosystems by decomposing wood, usually elm, silver maple, or box elder but is occasionally a parasite on living trees. Other tree hosts include ash, beech, horse chestnut, Persian walnut, lime, maple, planetree, poplar, magnolia, and willow.
+This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. The stem is generally tough and cork-like, especially with age. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long. 
+
+#### Habitat
+
+Dryad's Saddle can be found fruiting from decaying logs and stumps in woodland settings, urban locations, and roadsides.
+
+#### Abundance
+
+Dryad's Saddle is the most commonly sighted mushroom in Nebraska, according to [iNaturalist](https://www.inaturalist.org/projects/nebraska-fungal-diversity). 
+
+#### Fruiting Period
+
+This mushroom can be found fruiting from spring through fall. However, it prefers cooler weather and is most abundant in the spring and fall. This is a common mushroom to find while morel hunting. Although the mushroom is not perineal, its older forms can be found in the winter, slowly decomposing, making it discoverable year-round.
+
+#### Similar Species
+
+* [Cerioporus varius](https://www.inaturalist.org/observations/178674415) is a close relative that is smaller in size.
+
+#### Edibility
+
+This is a good edible mushroom when collected young in its small button stage. It's easy to determine edible parts, as they will be soft, pliable, and break apart by hand. With age, the mushroom becomes leathery and undesirable. Older specimens can be collected for the table by cutting the softer edges on the cap margin with a knife. All wild mushrooms should be cooked thoroughly before eating. Please see our [disclaimer](/canieatit) on wild mushroom edibility before eating any wild mushrooms.
+
+#### Toxicity
+
+This mushroom is not known to be toxic. However, allergies and sensitivities may affect individuals differently. Please use caution when eating any wild mushrooms.
