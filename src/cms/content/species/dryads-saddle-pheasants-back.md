@@ -2,9 +2,12 @@
 name: Dryad's Saddle, Pheasant's Back
 scientific_name: Cerioporus squamosus
 location: Indian Cave State Park
-references: []
+references:
+  - "Kuo, M. (2015, April). Polyporus squamosus. Retrieved from the
+    MushroomExpert.Com Web site:
+    http://www.mushroomexpert.com/polyporus_squamosus.html"
 tags:
-  - interesting
+  - edible
 taxonomy:
   - Basidiomycota
   - Polyporales
@@ -15,6 +18,8 @@ external_links:
     tag: iNaturalist Species Description
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=163056
+  - link: https://www.mushroomexpert.com/polyporus_squamosus.html
+    tag: Wikipedia
 photos:
   - https://static.inaturalist.org/photos/319194436/large.jpeg
   - https://static.inaturalist.org/photos/156704677/large.jpg
@@ -33,7 +38,7 @@ Key features include:
 * The distinctive smell of watermelon rind.
 * White spore print.
 
-This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. The stem is generally tough and cork-like, especially with age. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long. 
+This is a large and common mushroom in Nebraska. It's most noticable by its scales on the cap surface and the smell of watermelon rind. The cap color is pale tan to creamy yellowish with brown to black scales. When old, the cap color turns whitish with reddish to blackish scales sometimes with a dark brown to black patch in the center of the cap and black velvet extending from the base of the stem upwards. The cap shape is variable, but mostly semicircular to kidney-shaped to fan-shaped. The stem is generally tough and cork-like, especially with age. This species can get particularly large, generally a cap of 5-30 cm wide and 1-4 cm thick and stem 1-4 cm thick and 2-8 cm long.
 
 #### Habitat
 
