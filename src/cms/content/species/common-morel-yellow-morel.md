@@ -7,8 +7,7 @@ references:
     MushroomExpert.Com Web site:
     http://www.mushroomexpert.com/morchella_esculentoides.html."
 tags:
-  - edible
-  - interesting
+  - edible-with-caution
 taxonomy:
   - Basidiomycota
   - Agaricales
@@ -17,17 +16,23 @@ taxonomy:
 external_links: []
 photos: []
 ---
-This is a hollow-stemmed mushroom, 2 to 4 inches tall. It is bright yellow when young turning a dull brown with time. It has a fuzzy cap and the odor of Clorox which make it easily identified from other mushrooms. It is a mycorrhizal mushroom which associate with Elms.
+#### Description
 
-Habitat: Yellow morel occurs in sites ranging from deep-shaded forest ravines to open bur oak hilltop
-prairies to floodplain cottonwood forest. It commonly grows near recently dead elms and cottonwoods
-feeding on the recently deceased roots, but is found near many other tree species.
+This is a hollow-stemmed mushroom, 2-4 inches tall. It is bright yellow when young, turning a dull brown with time. It has a fuzzy cap and the odor of Clorox which makes it easily identifiable from other mushrooms. It is a mycorrhizal mushroom.
 
-Abundance: This is a widespread and common mushroom in the Park. It is especially abundant along
-Trail 9 near the overlook.
+#### Habitat
 
-Statewide Range: This mushroom is common throughout Nebraska in wooded habitat (use records from
-I-naturalist for this).
+Yellow morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods feeding on the recently deceased roots, but is found near many other tree species.
+
+#### Abundance
+
+##### Indian Cave State Park
+
+This is a widespread and common mushroom in the Park. It is especially abundant along Trail 9 near the overlook. ([map](https://www.inaturalist.org/observations?place_id=160642&subview=map&taxon_id=56830))
+
+##### Statewide Range
+
+This mushroom is common throughout Nebraska in wooded habitats according to iNaturalist. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
 
 Fruiting Period: This is a spring mushroom that appears in mid-April through May at Indian Cave. In
 northern Nebraska it can be found into mid-June. It may not appear in dry years.
