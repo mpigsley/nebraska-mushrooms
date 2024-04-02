@@ -110,6 +110,7 @@ collections:
               - iNaturalist Species Description
               - iNaturalist Observation
               - Wikipedia
+              - Mushroom Expert
 
           - label: Link
             name: link
