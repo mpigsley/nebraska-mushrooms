@@ -17,7 +17,7 @@ taxonomy:
   - Basidiomycota
   - Agaricales
   - Morchellaceae
-  - Morchella esculentoides
+  - Morchella americana
 external_links: []
 photos:
   - /img/morchella-esculentoides1.jpg
