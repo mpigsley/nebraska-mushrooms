@@ -45,12 +45,11 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 * The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color. 
 * There are undoubtedly more species of Morels in the state that are less common.
 
-Note: Recent DNA studies (Kuo, 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples turned out to actually be younger "yellow morels".
-
 #### Interesting facts
 
-The common morel is one of our most delicious edible mushrooms and is pursued by
-many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
+The common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
+
+Recent DNA studies (Kuo, 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples were actually younger "yellow morels."
 
 #### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
 
