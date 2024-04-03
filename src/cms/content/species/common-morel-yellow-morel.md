@@ -52,9 +52,9 @@ Note: Recent DNA studies (Kuo, 2012) suggest that mushrooms commonly called "gra
 The common morel is one of our most delicious edible mushrooms and is pursued by
 many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
 
-#### Edibility
+#### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
 
-Choice. [Read this first!](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+Choice edible, poisonous if eaten raw.
 
 #### Toxicity
 
