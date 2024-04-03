@@ -1,5 +1,5 @@
 ---
-name: Yellow Morel, Common Morel
+name: Yellow Morel
 scientific_name: Morchella esculentoides
 location: Indian Cave State Park
 references:
@@ -14,7 +14,8 @@ taxonomy:
   - Morchellaceae
   - Morchella esculentoides
 external_links: []
-photos: []
+photos:
+  - /img/morchella-esculentoides1.jpg
 ---
 #### Description
 
@@ -41,15 +42,9 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 
 #### Similar Species
 
-There are 4 other morel species in Nebraska. 
-
 * The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color. 
-* The little grey morel appears earlier than the common morel and is 1 to 2 inches tall and grey in color. 
-* The common yellow morel can only be distinguished from the less common yellow morel through DNA analysis.
 
-In recent DNA studies (Kuo, 2012),
-
-
+Note: Recent DNA studies (Kuo, 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples turned out to actually be younger "yellow morels".
 
 #### Interesting facts
 
