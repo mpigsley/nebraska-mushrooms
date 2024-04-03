@@ -12,6 +12,7 @@ references:
     https://doi.org/10.3852/11-375
 tags:
   - edible-with-caution
+  - edible
 taxonomy:
   - Basidiomycota
   - Agaricales
