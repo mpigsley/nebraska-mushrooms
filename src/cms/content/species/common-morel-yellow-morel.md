@@ -1,6 +1,6 @@
 ---
 name: Yellow Morel
-scientific_name: Morchella esculentoides
+scientific_name: Morchella americana (Morchella esculentoides)
 location: Indian Cave State Park
 references:
   - "Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
