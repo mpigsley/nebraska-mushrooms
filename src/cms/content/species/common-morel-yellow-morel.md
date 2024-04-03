@@ -47,6 +47,10 @@ There are 4 other morel species in Nebraska.
 * The little grey morel appears earlier than the common morel and is 1 to 2 inches tall and grey in color. 
 * The common yellow morel can only be distinguished from the less common yellow morel through DNA analysis.
 
+In recent DNA studies (Kuo, 2012),
+
+
+
 #### Interesting facts
 
 The common morel is one of our most delicious edible mushrooms and is pursued by
