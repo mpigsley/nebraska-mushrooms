@@ -43,6 +43,7 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 #### Similar Species
 
 * The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color. 
+* There are undoubtedly more species of Morels in the state that are less common.
 
 Note: Recent DNA studies (Kuo, 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples turned out to actually be younger "yellow morels".
 
