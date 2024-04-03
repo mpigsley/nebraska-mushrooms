@@ -10,6 +10,11 @@ references:
     Moore, J. D., … Volk, T. J. (2012). Taxonomic revision of true morels
     (Morchella) in Canada and the United States. Mycologia, 104(5), 1159–1177.
     https://doi.org/10.3852/11-375
+  - "Richard, F., Bellanger, J. M., Clowez, P., Hansen, K., O’Donnell, K.,
+    Urban, A., … Moreau, P. A. (2015). True morels (Morchella, Pezizales) of
+    Europe and North America: evolutionary relationships inferred from
+    multilocus data and a unified taxonomy. Mycologia, 107(2), 359–382.
+    https://doi.org/10.3852/14-166"
 tags:
   - edible-with-caution
   - edible
