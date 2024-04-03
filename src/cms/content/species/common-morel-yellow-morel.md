@@ -54,7 +54,7 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 
 The common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
 
-Recent DNA studies (Kuo 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples were actually younger "yellow morels."
+Recent DNA studies (Kuo 2012) suggest that mushrooms commonly called "gray morels" probably aren't distinct from this species in North America. The "gray morels" in the study's samples turned out to be younger "yellow morels" according to their genetic code.
 
 #### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
 
