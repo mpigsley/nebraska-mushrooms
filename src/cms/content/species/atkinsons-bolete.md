@@ -22,7 +22,8 @@ external_links:
     link: https://www.inaturalist.org/observations/31742371
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/167454161
-photos: []
+photos:
+  - /img/img_1416.jpeg
 ---
 
 
