@@ -24,6 +24,6 @@ external_links:
     link: https://www.inaturalist.org/observations/167454161
 photos:
   - /img/img_1416.jpeg
+  - /img/img_1417.jpeg
 ---
-
-
+Template
