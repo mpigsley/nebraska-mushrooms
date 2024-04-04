@@ -84,7 +84,17 @@ collections:
           label: Tag
           name: tag
           widget: select
-          options: ['edible', 'edible-with-caution', 'poisonous', 'interesting']
+          options:
+            [
+              'edible',
+              'edible-with-caution',
+              'poisonous',
+              'interesting',
+              'spring',
+              'summer',
+              'fall',
+              'winter',
+            ]
 
       - label: Description
         name: body

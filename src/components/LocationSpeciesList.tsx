@@ -3,10 +3,14 @@ import { Image, Menu } from 'react-feather';
 import * as React from 'react';
 
 export enum Tag {
-  Edible = 'edible',
-  EdibleWithCaution = 'edible-with-caution',
   Poisonous = 'poisonous',
+  EdibleWithCaution = 'edible-with-caution',
+  Edible = 'edible',
   Interesting = 'interesting',
+  Spring = 'spring',
+  Summer = 'summer',
+  Fall = 'fall',
+  Winter = 'winter',
 }
 
 type Species = {
@@ -209,6 +213,7 @@ export default function LocationSpeciesList({
               !!field &&
               field.toLowerCase().includes(filteredSearch.toLowerCase());
             const tagMatch = !!matchedTag && edge.tags.includes(matchedTag);
+            console.log(edge.tags, matchedTag, tagMatch);
 
             return (
               (!filteredSearch && !matchedTag) ||

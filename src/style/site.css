@@ -133,16 +133,28 @@
 }
 
 .edible {
-  background-color: #cfc;
+  background-color: #dcfce7;
 }
 .edible-with-caution {
-  background-color: #ffc;
+  background-color: #fef9c3;
 }
 .poisonous {
-  background-color: #fcc;
+  background-color: #fee2e2;
 }
 .interesting {
-  background-color: #ccf;
+  background-color: #ede9fe;
+}
+.spring {
+  background-color: #fce7f3;
+}
+.summer {
+  background-color: #ecfccb;
+}
+.fall {
+  background-color: #ffedd5;
+}
+.winter {
+  background-color: #cffafe;
 }
 
 .footer {
