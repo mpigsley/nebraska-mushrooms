@@ -67,7 +67,7 @@ const ImageList = ({
               <GatsbyImage className="grid-image" image={photo} alt={name} />
             )}
             <h5 className="noMargin">{name || scientificName}</h5>
-            {name && <div className="mb-2">{scientificName}</div>}
+            {!!name && <div className="mb-2">{scientificName}</div>}
             <div>
               {tags.map((tag) => (
                 <span
@@ -127,7 +127,7 @@ const TableList = ({
             <td>{!!photo && <GatsbyImage image={photo} alt={name} />}</td>
             <td>
               <a href={slug}>{name || scientificName}</a>
-              {name && <div>{scientificName}</div>}
+              {!!name && <div>{scientificName}</div>}
               {!!bodyMatch && (
                 <div>
                   <i>{bodyMatch[0]}</i>
