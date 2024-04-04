@@ -23,7 +23,28 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/167454161
 photos:
-  - /img/img_1416.jpeg
+  - /img/boletus-atkinsonii1.jpeg
 ---
+#### Description
 
+#### Habitat
 
+#### Abundance
+
+**Indian Cave State Park**:
+
+**Statewide Range**:
+
+**North America**:
+
+#### Fruiting Period
+
+#### Similar Species
+
+#### Interesting facts
+
+#### More In Depth
+
+#### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+
+#### Toxicity
