@@ -25,7 +25,7 @@ taxonomy:
   - Morchella americana
 external_links: []
 photos:
-  - /img/morchella-americana1.jpg
+  - /img/morchella-americana1.jpeg
 ---
 #### Description
 

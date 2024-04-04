@@ -2,9 +2,7 @@
 name: Maroon Brittlestem
 scientific_name: Psathyrella bipellis
 location: Indian Cave State Park
-tags:
-  - edible-with-caution
-  - edible
+tags: []
 taxonomy:
   - Basidiomycota
   - Agaricales
@@ -23,4 +21,26 @@ photos:
   - /img/psathyrella-bipellis5.jpeg
   - /img/psathyrella-bipellis6.jpeg
 ---
-Info
+#### Description
+
+#### Habitat
+
+#### Abundance
+
+**Indian Cave State Park**:
+
+**Statewide Range**:
+
+**North America**:
+
+#### Fruiting Period
+
+#### Similar Species
+
+#### Interesting facts
+
+#### More In Depth
+
+#### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+
+#### Toxicity
