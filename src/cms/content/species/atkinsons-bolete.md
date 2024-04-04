@@ -14,12 +14,14 @@ taxonomy:
   - Boletaceae
   - Boletus atkinsonii
 external_links:
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/167454161
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=203845
   - tag: Mushroom Expert
     link: https://www.mushroomexpert.com/boletus_atkinsonii.html
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/31742371
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/167454161
 photos: []
 ---
 
