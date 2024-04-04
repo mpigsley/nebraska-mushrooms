@@ -1,4 +1,5 @@
 ---
+templateKey: reference
 title: "Richard, F., Bellanger, J. M., Clowez, P., Hansen, K., O’Donnell, K.,
   Urban, A., … Moreau, P. A. (2015). True morels (Morchella, Pezizales) of
   Europe and North America: evolutionary relationships inferred from multilocus

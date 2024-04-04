@@ -1,4 +1,5 @@
 ---
+templateKey: species
 name: Dryad's Saddle, Pheasant's Back
 scientific_name: Cerioporus squamosus
 location: Indian Cave State Park

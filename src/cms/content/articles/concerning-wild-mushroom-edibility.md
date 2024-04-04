@@ -1,4 +1,5 @@
 ---
+templateKey: article
 title: Concerning Wild Mushroom Edibility
 date: 2024-04-02T19:41:28.615Z
 author: Derek Zeller

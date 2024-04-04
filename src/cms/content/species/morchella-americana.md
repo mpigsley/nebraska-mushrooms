@@ -1,4 +1,5 @@
 ---
+templateKey: species
 name: Yellow Morel
 scientific_name: Morchella americana (=Morchella esculentoides)
 location: Indian Cave State Park

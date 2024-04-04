@@ -1,4 +1,5 @@
 ---
+templateKey: species
 name: Maroon Brittlestem
 scientific_name: Psathyrella bipellis
 location: Indian Cave State Park
