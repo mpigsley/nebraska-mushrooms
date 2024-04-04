@@ -1,6 +1,6 @@
 ---
 name: Yellow Morel
-scientific_name: Morchella esculentoides
+scientific_name: Morchella americana (=Morchella esculentoides)
 location: Indian Cave State Park
 references:
   - "Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
@@ -10,13 +10,19 @@ references:
     Moore, J. D., … Volk, T. J. (2012). Taxonomic revision of true morels
     (Morchella) in Canada and the United States. Mycologia, 104(5), 1159–1177.
     https://doi.org/10.3852/11-375
+  - "Richard, F., Bellanger, J. M., Clowez, P., Hansen, K., O’Donnell, K.,
+    Urban, A., … Moreau, P. A. (2015). True morels (Morchella, Pezizales) of
+    Europe and North America: evolutionary relationships inferred from
+    multilocus data and a unified taxonomy. Mycologia, 107(2), 359–382.
+    https://doi.org/10.3852/14-166"
 tags:
   - edible-with-caution
+  - edible
 taxonomy:
   - Basidiomycota
   - Agaricales
   - Morchellaceae
-  - Morchella esculentoides
+  - Morchella americana
 external_links: []
 photos:
   - /img/morchella-esculentoides1.jpg
@@ -31,29 +37,27 @@ Yellow morels occur in sites ranging from deep-shaded forest ravines to open Bur
 
 #### Abundance
 
-##### Indian Cave State Park
+**Indian Cave State Park**: Common and abundant. Especially abundant along Trail 9 near the overlook. ([map](https://www.inaturalist.org/observations?place_id=160642&subview=map&taxon_id=56830))
 
-This is a widespread and common mushroom in the Park. It is especially abundant along Trail 9 near the overlook. ([map](https://www.inaturalist.org/observations?place_id=160642&subview=map&taxon_id=56830))
+**Statewide Range**: Common throughout Nebraska in wooded habitats. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
 
-##### Statewide Range
-
-This mushroom is common throughout Nebraska in wooded habitats. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
+**North America**: Widespread.
 
 #### Fruiting Period
 
 This spring-time mushroom appears in mid-April through May at Indian Cave. In
 northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
 
-#### Similar Species
+#### Similar Species in Nebraska
 
 * The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color. 
 * There are undoubtedly more species of Morels in the state that are less common.
 
 #### Interesting facts
 
-The common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
-
-Recent DNA studies (Kuo 2012) suggest that mushrooms commonly called "gray morels" aren't distinct from this species. The "gray morels" in the study's samples were actually younger "yellow morels."
+* The common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
+* Recent DNA studies (Kuo 2012) suggest that mushrooms commonly called "gray morels" probably aren't distinct from this species in North America. The "gray morels" in the study's samples turned out to be younger "yellow morels" according to their genetic code.
+* A morel species in northeastern North America (M. cryptica) can't be distinguished from the "yellow morel" without DNA testing.
 
 #### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
 
