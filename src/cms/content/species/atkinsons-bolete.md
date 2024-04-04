@@ -6,12 +6,16 @@ references:
   - "Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
     MushroomExpert.Com Web site:
     http://www.mushroomexpert.com/boletus_atkinsonii.html"
+tags:
+  - edible-with-caution
 taxonomy:
   - Basidiomycota
   - Boletales
   - Boletaceae
   - Boletus atkinsonii
 external_links:
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/167454161
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=203845
   - tag: Mushroom Expert
