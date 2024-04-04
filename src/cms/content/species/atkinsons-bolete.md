@@ -14,6 +14,8 @@ taxonomy:
 external_links:
   - tag: Index Fungorum
     link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=203845
+  - tag: Mushroom Expert
+    link: https://www.mushroomexpert.com/boletus_atkinsonii.html
 photos: []
 ---
 
