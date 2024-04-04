@@ -3,23 +3,18 @@ name: Atkinson's Bolete
 scientific_name: Boletus atkinsonii
 location: Indian Cave State Park
 references:
-  - 'Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
+  - "Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
     MushroomExpert.Com Web site:
-    http://www.mushroomexpert.com/boletus_atkinsonii.html'
+    http://www.mushroomexpert.com/boletus_atkinsonii.html"
 taxonomy:
   - Basidiomycota
   - Boletales
   - Boletaceae
   - Boletus atkinsonii
-photos:
-  - /img/boletus1.jpeg
-  - /img/boletus2.jpeg
-  - /img/boletus3.jpeg
-  - /img/boletus4.jpeg
-  - /img/boletus5.jpeg
-  - /img/boletus6.jpeg
-  - /img/boletus7.jpg
-  - /img/boletus8.jpeg
+external_links:
+  - tag: Index Fungorum
+    link: https://indexfungorum.org/Names/NamesRecord.asp?RecordID=203845
+photos: []
 ---
 
 This eastern member of the *[Boletus edulis](https://www.mushroomexpert.com/boletus_edulis.html#key)* species group is distinguished by its wrinkled cap surface (which becomes minutely patchy and fibrillose at maturity), its association with hardwoods, and the gorgeous purple reaction of its cap surface when a drop of ammonia is applied. Several species are very similar, including *[Boletus variipes](https://www.mushroomexpert.com/boletus_variipes.html)*, *[Boletus nobilis](https://www.mushroomexpert.com/boletus_nobilis.html)*, and [*Boletus* cf. *reticulatus*](https://www.mushroomexpert.com/boletus_cf_reticulatus.html); see the [Key to 14 North American edulis-like boletes](https://www.mushroomexpert.com/boletus_edulis.html#key) for help separating them.
