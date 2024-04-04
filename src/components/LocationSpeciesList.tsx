@@ -66,8 +66,8 @@ const ImageList = ({
             {!!photo && (
               <GatsbyImage className="grid-image" image={photo} alt={name} />
             )}
-            <h5 className="noMargin">{name}</h5>
-            <div className="mb-2">{scientificName}</div>
+            <h5 className="noMargin">{name || scientificName}</h5>
+            {name && <div className="mb-2">{scientificName}</div>}
             <div>
               {tags.map((tag) => (
                 <span
@@ -126,8 +126,8 @@ const TableList = ({
           <tr key={id}>
             <td>{!!photo && <GatsbyImage image={photo} alt={name} />}</td>
             <td>
-              <a href={slug}>{name}</a>
-              <div>{scientificName}</div>
+              <a href={slug}>{name || scientificName}</a>
+              {name && <div>{scientificName}</div>}
               {!!bodyMatch && (
                 <div>
                   <i>{bodyMatch[0]}</i>
@@ -218,8 +218,8 @@ export default function LocationSpeciesList({
           }),
         )
         .sort((a, b) => {
-          if (a.name && b.name) {
-            return a.name.localeCompare(b.name);
+          if (a.scientificName && b.scientificName) {
+            return a.scientificName.localeCompare(b.scientificName);
           }
           return 0;
         })

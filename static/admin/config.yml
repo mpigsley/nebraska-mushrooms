@@ -46,7 +46,7 @@ collections:
         widget: string
 
   - name: 'species'
-    identifier_field: name
+    identifier_field: scientific_name
     label: 'Species Profiles'
     folder: 'src/cms/content/species'
     create: true
@@ -55,6 +55,7 @@ collections:
       - label: Common Name(s)
         name: name
         widget: string
+        required: false
 
       - label: Scientific Name
         name: scientific_name

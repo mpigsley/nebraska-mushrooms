@@ -9,6 +9,9 @@ export default function SpeciesProfileTemplate({
 }: Readonly<PageProps<Queries.SpeciesProfileQuery>>): JSX.Element {
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
+  const commonName = data.markdownRemark?.frontmatter?.name;
+  const scientificName = data.markdownRemark?.frontmatter?.scientific_name;
+
   return (
     <>
       <div className="u-full-width relative">
@@ -42,8 +45,8 @@ export default function SpeciesProfileTemplate({
       <main className="container page">
         <section className="row">
           <Link to="/">&lt; Back to Home</Link>
-          <h3 className="noMargin">{data.markdownRemark?.frontmatter?.name}</h3>
-          <h5>{data.markdownRemark?.frontmatter?.scientific_name}</h5>
+          <h3 className="noMargin">{commonName || scientificName}</h3>
+          {commonName && <h5>{scientificName}</h5>}
           <p>
             <i>{data.markdownRemark?.frontmatter?.taxonomy?.join(' > ')}</i>
           </p>
