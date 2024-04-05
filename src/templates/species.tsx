@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 export default function SpeciesProfileTemplate({
   data,
-}: Readonly<PageProps<Queries.SpeciesProfileQuery>>): JSX.Element {
+}: Readonly<PageProps<Queries.SpeciesProfileTemplateQuery>>): JSX.Element {
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
   const commonName = data.markdownRemark?.frontmatter?.name;
@@ -114,7 +114,7 @@ export default function SpeciesProfileTemplate({
   );
 }
 
-export const Head: HeadFC<Queries.SpeciesProfileQuery> = ({ data }) => (
+export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
   <title>
     {data.markdownRemark?.frontmatter?.name} (
     {data.markdownRemark?.frontmatter?.scientific_name})
@@ -122,7 +122,7 @@ export const Head: HeadFC<Queries.SpeciesProfileQuery> = ({ data }) => (
 );
 
 export const pageQuery = graphql`
-  query SpeciesProfile($id: String!) {
+  query SpeciesProfileTemplate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
