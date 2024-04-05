@@ -23,17 +23,17 @@ export default function ArticleTemplate({
         <header className="row">
           <div className="one columns">&nbsp;</div>
           <div className="ten columns">
-            <h2>{data.markdownRemark?.frontmatter?.title}</h2>
-            <p>
+            <Link to="/">&lt; Back to Home</Link>
+            <h2 className="noMargin">
+              {data.markdownRemark?.frontmatter?.title}
+            </h2>
+            <p className="mt-2">
               {!!formattedDate && (
                 <>
                   - <i>{formattedDate}</i>
                 </>
               )}{' '}
               by <strong>{data.markdownRemark?.frontmatter?.author}</strong>
-            </p>
-            <p>
-              <Link to="/">&lt; Back to Home</Link>
             </p>
             <hr />
           </div>

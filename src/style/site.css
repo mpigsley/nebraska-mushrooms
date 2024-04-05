@@ -55,6 +55,10 @@
   justify-content: flex-end;
 }
 
+.mt-2 {
+  margin-top: var(--s2);
+}
+
 .mb-2 {
   margin-bottom: var(--s2);
 }
