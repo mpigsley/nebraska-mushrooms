@@ -115,6 +115,30 @@ collections:
       - label: Description
         name: body
         widget: markdown
+        default: >-
+          #### Description
+
+          #### Habitat
+
+          #### Abundance
+
+          **Indian Cave State Park**:
+
+          **Statewide Range**:
+
+          **North America**:
+
+          #### Fruiting Period
+
+          #### Similar Species
+
+          #### Interesting facts
+
+          #### More In Depth
+
+          #### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+
+          #### Toxicity
 
       - label: Taxonomy
         name: taxonomy
