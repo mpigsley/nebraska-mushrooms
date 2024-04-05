@@ -23,10 +23,10 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - label: "Template Key",
-        name: "templateKey",
-        widget: "hidden",
-        default: "location",
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: location
 
       - label: Title
         name: title
@@ -46,10 +46,10 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - label: "Template Key",
-        name: "templateKey",
-        widget: "hidden",
-        default: "reference",
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: reference
 
       - label: Title
         name: title
@@ -62,10 +62,10 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - label: "Template Key",
-        name: "templateKey",
-        widget: "hidden",
-        default: "species",
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: species
 
       - label: Common Name(s)
         name: name
@@ -180,10 +180,10 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - label: "Template Key",
-        name: "templateKey",
-        widget: "hidden",
-        default: "article",
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: article
 
       - label: Title
         name: title
