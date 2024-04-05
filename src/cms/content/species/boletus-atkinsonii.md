@@ -4,9 +4,9 @@ name: Atkinson's Bolete
 scientific_name: Boletus atkinsonii
 location: Indian Cave State Park
 references:
-  - "Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
+  - 'Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
     MushroomExpert.Com Web site:
-    http://www.mushroomexpert.com/boletus_atkinsonii.html"
+    http://www.mushroomexpert.com/boletus_atkinsonii.html'
 tags:
   - edible-with-caution
 taxonomy:
@@ -26,6 +26,7 @@ external_links:
 photos:
   - /img/boletus-atkinsonii1.jpeg
 ---
+
 #### Description
 
 #### Habitat
@@ -46,6 +47,6 @@ photos:
 
 #### More In Depth
 
-#### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+#### [Edibility](/articles/concerning-wild-mushroom-edibility/)
 
 #### Toxicity

@@ -22,6 +22,7 @@ photos:
   - /img/psathyrella-bipellis5.jpeg
   - /img/psathyrella-bipellis6.jpeg
 ---
+
 #### Description
 
 #### Habitat
@@ -42,6 +43,6 @@ photos:
 
 #### More In Depth
 
-#### [Edibility](https://nebraskamushrooms.org/articles/concerning-wild-mushroom-edibility/)
+#### [Edibility](/articles/concerning-wild-mushroom-edibility/)
 
 #### Toxicity
