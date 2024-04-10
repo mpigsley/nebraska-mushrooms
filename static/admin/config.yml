@@ -161,6 +161,7 @@ collections:
               - iNaturalist Observation
               - Wikipedia
               - Mushroom Expert
+              - MycoBank
 
           - label: Link
             name: link
