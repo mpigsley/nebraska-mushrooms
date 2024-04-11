@@ -1,0 +1,31 @@
+---
+templateKey: species
+name: Crown-tipped Coral Fungus
+scientific_name: Artomyces pyxidatus
+location: Indian Cave State Park
+tags:
+    - spring
+taxonomy:
+  - Basidiomycota
+  - Agaricomycotina
+  - Agaricomycetes
+  - Russulales
+  - Amylostereaceae
+  - Artomyces
+external_links:
+  - tag: MycoBank
+    link: https://www.mycobank.org/page/Name%20details%20page/35335
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/166139014
+photos:
+  - /img/artomyces-pyxidatus1.jpeg
+  - /img/artomyces-pyxidatus2.jpeg
+  - /img/artomyces-pyxidatus3.jpeg
+  - /img/artomyces-pyxidatus4.jpeg
+---
+
+**Field Characteristics:**
+
+36
+
+Growing on the logs of a large hardwood tree in large moist oak/hickory woodland draw.
