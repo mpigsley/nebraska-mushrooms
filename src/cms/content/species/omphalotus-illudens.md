@@ -5,6 +5,7 @@ scientific_name: Omphalotus illudens
 location: Indian Cave State Park
 tags:
     - fall
+    - poisonous
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

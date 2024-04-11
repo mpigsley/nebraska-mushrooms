@@ -5,6 +5,7 @@ scientific_name: Ophiocordyceps variabilis
 location: Indian Cave State Park
 tags:
     - summer
+    - interesting
 taxonomy:
   - Ascomycota
   - Pezizomycotina

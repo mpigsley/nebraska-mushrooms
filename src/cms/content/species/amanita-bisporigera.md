@@ -5,6 +5,7 @@ scientific_name: Amanita bisporigera
 location: Indian Cave State Park
 tags:
     - summer
+    - poisonous
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
