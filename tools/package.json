@@ -1,0 +1,20 @@
+{
+  "name": "heavylifting",
+  "version": "1.0.0",
+  "scripts": {
+    "addnew": "ts-node ./index.ts",
+    "dataload": "ts-node ./DataLoad.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "puppeteer": "^22.6.3",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
