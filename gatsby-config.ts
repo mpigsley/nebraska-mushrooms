@@ -70,6 +70,18 @@ const config: GatsbyConfig = {
         modulePath: `${__dirname}/src/cms/cms.ts`
       }
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-4DX2ZV0LF8",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 };
