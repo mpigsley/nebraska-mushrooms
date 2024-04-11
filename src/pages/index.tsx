@@ -23,6 +23,7 @@ export default function IndexPage({
           Mushrooms of Nebraska
           <hr />
         </h3>
+        <p>Important! Please read our <a href="/articles/concerning-wild-mushroom-edibility/">disclaimer on edibility</a></p>
         <a
           href={`https://www.google.com/maps/place/${geolocation}`}
           target="_blank"
