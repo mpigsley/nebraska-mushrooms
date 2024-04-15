@@ -9,7 +9,11 @@ export const createPages: GatsbyNode['createPages'] = ({
   return graphql(`
     query SpeciesAndArticles {
       allMarkdownRemark(
-        filter: { frontmatter: { templateKey: { in: ["species", "article"] } } }
+        filter: {
+          frontmatter: {
+            templateKey: { in: ["species", "article", "location"] }
+          }
+        }
       ) {
         edges {
           node {
@@ -18,7 +22,9 @@ export const createPages: GatsbyNode['createPages'] = ({
               slug
             }
             frontmatter {
+              location
               templateKey
+              title
             }
           }
         }
@@ -38,7 +44,11 @@ export const createPages: GatsbyNode['createPages'] = ({
           node: {
             id: string;
             fields: { slug: string };
-            frontmatter: { templateKey: string };
+            frontmatter: {
+              templateKey: string;
+              location?: string;
+              title?: string;
+            };
           };
         }[];
       };
@@ -46,12 +56,18 @@ export const createPages: GatsbyNode['createPages'] = ({
 
     data.allMarkdownRemark.edges.forEach((edge) => {
       const id = edge.node.id;
+
+      const locationName =
+        edge.node.frontmatter.templateKey === 'location'
+          ? edge.node.frontmatter.title
+          : undefined;
+
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.tsx`,
         ),
-        context: { id },
+        context: { id, locationName },
       });
     });
   });
