@@ -5,6 +5,7 @@ scientific_name: Laetiporus sulphureus
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

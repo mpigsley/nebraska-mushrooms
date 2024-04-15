@@ -5,6 +5,8 @@ scientific_name: Ischnoderma resinosum
 location: Indian Cave State Park
 tags:
     - fall
+    - polypore
+    - conk
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

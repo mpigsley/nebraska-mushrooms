@@ -5,6 +5,8 @@ scientific_name: Steccherinum subrawakense
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
+    - toothed
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

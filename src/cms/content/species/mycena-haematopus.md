@@ -5,6 +5,7 @@ scientific_name: Mycena haematopus
 location: Indian Cave State Park
 tags:
     - summer
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

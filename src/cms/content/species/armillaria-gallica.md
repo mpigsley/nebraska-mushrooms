@@ -5,6 +5,7 @@ scientific_name: Armillaria gallica
 location: Indian Cave State Park
 tags:
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -5,6 +5,7 @@ scientific_name: Aleurodiscus oakesii
 location: Indian Cave State Park
 tags:
     - fall
+    - disc
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

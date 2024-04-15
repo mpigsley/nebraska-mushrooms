@@ -5,6 +5,7 @@ scientific_name: Biscogniauxia atropunctata
 location: Indian Cave State Park
 tags:
     - summer
+    - crust
 taxonomy:
   - Ascomycota
   - Pezizomycotina

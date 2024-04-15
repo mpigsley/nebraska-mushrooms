@@ -9,6 +9,7 @@ references:
     http://www.mushroomexpert.com/boletus_atkinsonii.html'
 tags:
   - edible-with-caution
+  - bolete
 taxonomy:
   - Basidiomycota
   - Boletales

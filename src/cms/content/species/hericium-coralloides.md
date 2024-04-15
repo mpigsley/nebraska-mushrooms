@@ -5,6 +5,7 @@ scientific_name: Hericium coralloides
 location: Indian Cave State Park
 tags:
     - fall
+    - toothed
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

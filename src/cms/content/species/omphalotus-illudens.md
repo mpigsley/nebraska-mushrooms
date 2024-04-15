@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - poisonous
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

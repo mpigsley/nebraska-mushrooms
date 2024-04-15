@@ -5,6 +5,7 @@ scientific_name: Irpex lacteus
 location: Indian Cave State Park
 tags:
     - spring
+    - crust
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

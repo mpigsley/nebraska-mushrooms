@@ -5,6 +5,7 @@ scientific_name: Merulius tremellosus
 location: Indian Cave State Park
 tags:
     - fall
+    - Polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

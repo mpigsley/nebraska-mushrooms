@@ -5,6 +5,7 @@ scientific_name: Exidia crenata
 location: Indian Cave State Park
 tags:
     - fall
+    - jelly
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

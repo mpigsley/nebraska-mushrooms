@@ -5,6 +5,7 @@ scientific_name: Laetiporus cincinnatus
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

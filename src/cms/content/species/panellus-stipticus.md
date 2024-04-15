@@ -5,6 +5,7 @@ scientific_name: Panellus stipticus
 location: Indian Cave State Park
 tags:
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

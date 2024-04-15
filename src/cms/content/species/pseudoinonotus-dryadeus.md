@@ -5,6 +5,7 @@ scientific_name: Pseudoinonotus dryadeus
 location: Indian Cave State Park
 tags:
     - fall
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

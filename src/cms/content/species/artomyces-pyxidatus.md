@@ -5,6 +5,7 @@ scientific_name: Artomyces pyxidatus
 location: Indian Cave State Park
 tags:
     - spring
+    - coral
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -3,7 +3,9 @@ templateKey: species
 name: Maroon Brittlestem
 scientific_name: Psathyrella bipellis
 location: Indian Cave State Park
-tags: []
+tags:
+  - agaric
+  - spring
 taxonomy:
   - Basidiomycota
   - Agaricales

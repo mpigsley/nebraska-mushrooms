@@ -5,6 +5,7 @@ scientific_name: Dacrymyces spathularia
 location: Indian Cave State Park
 tags:
     - summer
+    - jelly
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

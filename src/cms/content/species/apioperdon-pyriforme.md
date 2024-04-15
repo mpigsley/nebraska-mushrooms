@@ -5,6 +5,7 @@ scientific_name: Apioperdon pyriforme
 location: Indian Cave State Park
 tags:
     - fall
+    - sequestrate
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -5,6 +5,7 @@ scientific_name: Sarcoscypha dudleyi
 location: Indian Cave State Park
 tags:
     - fall
+    - disc
 taxonomy:
   - Ascomycota
   - Pezizomycotina

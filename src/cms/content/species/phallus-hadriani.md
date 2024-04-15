@@ -5,6 +5,7 @@ scientific_name: Phallus hadriani
 location: Indian Cave State Park
 tags:
     - summer
+    - stinkhorn
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

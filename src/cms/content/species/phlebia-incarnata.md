@@ -5,6 +5,7 @@ scientific_name: Phlebia incarnata
 location: Indian Cave State Park
 tags:
     - summer
+    - crust
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -5,6 +5,7 @@ scientific_name: Laccaria ochropurpurea
 location: Indian Cave State Park
 tags:
     - summer
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

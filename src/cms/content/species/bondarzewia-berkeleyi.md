@@ -5,6 +5,7 @@ scientific_name: Bondarzewia berkeleyi
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

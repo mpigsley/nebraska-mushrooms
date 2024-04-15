@@ -5,6 +5,7 @@ scientific_name: Grifola frondosa
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

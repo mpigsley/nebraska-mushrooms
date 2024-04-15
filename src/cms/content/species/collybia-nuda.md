@@ -5,6 +5,7 @@ scientific_name: Collybia nuda
 location: Indian Cave State Park
 tags:
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

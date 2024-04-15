@@ -5,6 +5,7 @@ scientific_name: Xylobolus frustulatus
 location: Indian Cave State Park
 tags:
     - spring
+    - crust
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

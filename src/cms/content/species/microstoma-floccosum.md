@@ -5,6 +5,7 @@ scientific_name: Microstoma floccosum
 location: Indian Cave State Park
 tags:
     - spring
+    - disc
 taxonomy:
   - Ascomycota
   - Pezizomycotina

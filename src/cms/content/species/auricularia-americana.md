@@ -5,6 +5,7 @@ scientific_name: Auricularia americana
 location: Indian Cave State Park
 tags:
     - spring
+    - jelly
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

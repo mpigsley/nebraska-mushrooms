@@ -5,6 +5,7 @@ scientific_name: Flammulina velutipes
 location: Indian Cave State Park
 tags:
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

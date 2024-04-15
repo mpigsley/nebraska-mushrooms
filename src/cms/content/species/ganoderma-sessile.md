@@ -5,6 +5,8 @@ scientific_name: Ganoderma sessile
 location: Indian Cave State Park
 tags:
     - fall
+    - polypore
+    - conk
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

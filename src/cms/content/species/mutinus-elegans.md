@@ -5,6 +5,7 @@ scientific_name: Mutinus elegans
 location: Indian Cave State Park
 tags:
     - summer
+    - stinkhorn
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -5,6 +5,7 @@ scientific_name: Boletinellus merulioides
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -5,6 +5,8 @@ scientific_name: Cerrena unicolor
 location: Indian Cave State Park
 tags:
     - fall
+    - polypore
+    - shelf
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

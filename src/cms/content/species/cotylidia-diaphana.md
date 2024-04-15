@@ -5,6 +5,7 @@ scientific_name: Cotylidia diaphana
 location: Indian Cave State Park
 tags:
     - summer
+    - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

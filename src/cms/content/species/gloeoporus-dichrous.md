@@ -5,6 +5,8 @@ scientific_name: Gloeoporus dichrous
 location: Indian Cave State Park
 tags:
     - fall
+    - polypore
+    - cust
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

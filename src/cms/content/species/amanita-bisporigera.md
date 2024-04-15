@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - poisonous
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

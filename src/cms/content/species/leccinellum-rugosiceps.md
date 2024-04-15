@@ -5,6 +5,7 @@ scientific_name: Leccinellum rugosiceps
 location: Indian Cave State Park
 tags:
     - summer
+    - bolete
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
