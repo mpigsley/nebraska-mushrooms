@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="six columns">
             <div>
               <a
-                className="footer-link"
+                className="footer-link content-right"
                 href="https://www.nebmyco.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,7 +34,7 @@ export default function Footer() {
                 </span>
               </a>
               <a
-                className="footer-link"
+                className="footer-link content-right"
                 href="https://www.outdoornebraska.gov/"
                 target="_blank"
                 rel="noopener noreferrer"

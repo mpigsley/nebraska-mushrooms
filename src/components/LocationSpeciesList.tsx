@@ -72,7 +72,9 @@ const ImageList = ({
             {!!photo && (
               <GatsbyImage className="grid-image" image={photo} alt={name} />
             )}
-            <h5 className="noMargin">{name || scientificName}</h5>
+            <h5 className="noMargin small-header my-1">
+              {name || scientificName}
+            </h5>
             {!!name && <div className="mb-2">{scientificName}</div>}
             <div>
               {tags.map((tag) => (
@@ -146,6 +148,7 @@ const TableList = ({
               <div className="tag-container">
                 {tags.map((tag) => (
                   <span
+                    key={tag}
                     className={`${tag} tag tag-list-item clickable-tag`}
                     onClick={() => onChangeTag(tag)}
                   >

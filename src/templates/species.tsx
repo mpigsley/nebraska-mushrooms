@@ -116,7 +116,7 @@ export default function SpeciesProfileTemplate({
 export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
   <title>
     {data.species?.frontmatter?.name} (
-    {data.species?.frontmatter?.scientific_name})
+    {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
   </title>
 );
 

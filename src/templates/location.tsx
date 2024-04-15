@@ -4,6 +4,7 @@ import * as React from 'react';
 
 import LocationSpeciesList, { Tag } from '../components/LocationSpeciesList';
 import Footer from '../components/Footer';
+import PageLayout from '../components/PageLayout';
 
 export default function LocationTemplate({
   data,
@@ -17,54 +18,45 @@ export default function LocationTemplate({
   }
 
   return (
-    <>
-      <main className="container page">
-        <h3 className="noMargin" style={{ textAlign: 'center' }}>
-          Mushrooms of Nebraska
-          <hr />
-        </h3>
-        <p>
-          Important! Please read our{' '}
-          <a href="/articles/concerning-wild-mushroom-edibility/">
-            disclaimer on edibility
-          </a>
-        </p>
+    <PageLayout>
+      <h3>
+        {data.location?.frontmatter?.title}
         <a
+          className="maps-link"
           href={`https://www.google.com/maps/place/${geolocation}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h5>{data.location?.frontmatter?.title}</h5>
+          View Map
         </a>
-        <LocationSpeciesList
-          species={data.species.edges.map((edge) => ({
-            id: edge.node.id,
-            slug: edge.node.fields?.slug ?? undefined,
-            name: edge.node.frontmatter?.name ?? undefined,
-            tags: (edge.node.frontmatter?.tags ?? []) as Tag[],
-            location: edge.node.frontmatter?.location ?? undefined,
-            scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
-            bodyHtml: edge.node.html ?? '',
-            photos:
-              edge.node.frontmatter?.photos?.reduce(
-                (acc: IGatsbyImageData[], photo) => {
-                  if (photo?.childImageSharp) {
-                    const gatsbyImageData = getImage(
-                      photo.childImageSharp.gatsbyImageData,
-                    );
-                    if (gatsbyImageData) {
-                      acc.push(gatsbyImageData);
-                    }
+      </h3>
+      <LocationSpeciesList
+        species={data.species.edges.map((edge) => ({
+          id: edge.node.id,
+          slug: edge.node.fields?.slug ?? undefined,
+          name: edge.node.frontmatter?.name ?? undefined,
+          tags: (edge.node.frontmatter?.tags ?? []) as Tag[],
+          location: edge.node.frontmatter?.location ?? undefined,
+          scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
+          bodyHtml: edge.node.html ?? '',
+          photos:
+            edge.node.frontmatter?.photos?.reduce(
+              (acc: IGatsbyImageData[], photo) => {
+                if (photo?.childImageSharp) {
+                  const gatsbyImageData = getImage(
+                    photo.childImageSharp.gatsbyImageData,
+                  );
+                  if (gatsbyImageData) {
+                    acc.push(gatsbyImageData);
                   }
-                  return acc;
-                },
-                [],
-              ) ?? [],
-          }))}
-        />
-      </main>
-      <Footer />
-    </>
+                }
+                return acc;
+              },
+              [],
+            ) ?? [],
+        }))}
+      />
+    </PageLayout>
   );
 }
 

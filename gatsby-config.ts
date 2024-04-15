@@ -67,19 +67,30 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.ts`
-      }
+        modulePath: `${__dirname}/src/cms/cms.ts`,
+      },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingIds: [
-          "G-4DX2ZV0LF8",
-        ],
+        trackingIds: ['G-4DX2ZV0LF8'],
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
         },
+      },
+    },
+
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Mushrooms of Nebraska',
+        short_name: 'NE Mushrooms',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#33c3f0',
+        display: 'standalone',
+        icon: 'src/img/favicon.svg',
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
