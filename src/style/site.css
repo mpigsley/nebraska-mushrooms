@@ -181,3 +181,24 @@
 .footer-link-text {
   margin-left: var(--s2);
 }
+
+.clearable-input {
+  padding-right: 38px;
+}
+
+.input-clear {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  margin: 0;
+  padding: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 38px;
+  transition: color 0.2s;
+}
+
+.input-clear:hover {
+  color: gray;
+}

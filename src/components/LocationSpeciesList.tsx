@@ -1,6 +1,8 @@
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { Image, Menu } from 'react-feather';
 import * as React from 'react';
+import { useActiveSearch } from '../utils/active-search';
+import ClearableInput from './ClearableInput';
 
 export enum Tag {
   Poisonous = 'poisonous',
@@ -187,7 +189,7 @@ export default function LocationSpeciesList({
   species,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('table');
-  const [search, setSearch] = React.useState('');
+  const { search, setSearch } = useActiveSearch();
 
   const { matchedTag, filteredSearch } = React.useMemo(() => {
     const matchedTag = TagMatch.find((tag) => search.includes(tag))?.split(
@@ -213,7 +215,6 @@ export default function LocationSpeciesList({
               !!field &&
               field.toLowerCase().includes(filteredSearch.toLowerCase());
             const tagMatch = !!matchedTag && edge.tags.includes(matchedTag);
-            console.log(edge.tags, matchedTag, tagMatch);
 
             return (
               (!filteredSearch && !matchedTag) ||
@@ -254,13 +255,14 @@ export default function LocationSpeciesList({
     <>
       <div className="row">
         <div className="six columns">
-          <input
+          <ClearableInput
             type="text"
             id="search"
             placeholder="Search for species"
             className="u-full-width"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
+            onClear={() => setSearch('')}
           />
         </div>
         <div className="six columns content-right">
