@@ -1,8 +1,11 @@
 import * as React from 'react';
 
+// window may not be defined in server-side rendering... so we need to check
+const Window = typeof window !== 'undefined' ? window : null;
+
 export const useActiveSearch = () => {
   const [search, setSearch] = React.useState(
-    new URL(window.location.href).searchParams.get('q') ?? '',
+    Window ? new URL(Window?.location?.href).searchParams.get('q') ?? '' : '',
   );
 
   React.useEffect(() => {
