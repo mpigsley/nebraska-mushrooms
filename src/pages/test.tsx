@@ -40,7 +40,7 @@ export default function TestIndex(): JSX.Element {
                 </table>
                 <p><a href="https://www.weather.gov/cle/Seasons">Further reading on seasons.</a></p>
                 <h4>Edibility</h4>
-                <p>Important! Please read our <a href="/articles/concerning-wild-mushroom-edibility/">disclaimer on edibility</a></p>
+                <p><b>Important!</b> Please read our <a href="/articles/concerning-wild-mushroom-edibility/">disclaimer on edibility</a></p>
                 <table>
                     <thead>
                         <th>Type</th>
@@ -49,12 +49,24 @@ export default function TestIndex(): JSX.Element {
                     </thead>
                     <tbody>
                         <tr><td>Edible</td><td>Mushrooms generally considered to be edible by <a href='/articles/edibility-sources'>our sources</a></td><td>{generateTagLink('edible', 'List of Mushrooms Considered Edible')}</td></tr>
-                        <tr><td>Edible with Caution</td><td>Mushrooms generally considered to be edible with caution by <a href='/articles/edibility-sources'>our sources</a></td><td>{generateTagLink('edible-with-caution', 'List of Mushrooms Considered Edible with Caution')}</td></tr>
+                        <tr><td>Edible with  Caution</td><td>Mushrooms generally considered to be edible with caution by <a href='/articles/edibility-sources'>our sources</a></td><td>{generateTagLink('edible-with-caution', 'List of Mushrooms Considered Edible with Caution')}</td></tr>
                         <tr><td>Poisonous</td><td>Mushrooms generally considered to be poisonous <a href='/articles/edibility-sources'>our sources</a></td><td>{generateTagLink('poisonous', 'List of Mushrooms Considered Poisonous')}</td></tr>
                     </tbody>
                 </table>
 
-                <h4 id="major-forms">Major Forms</h4>
+                <h4>Major Forms</h4>
+                <p><b>Note:</b> click on the form name to view an article explaining it further.</p>
+                <table>
+                    <thead>
+                        <th>Form</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                    </thead>
+                    <tbody>
+                        <tr><td>Gilled Mushrooms</td><td>= Agaric. These mushrooms possess a cap with "gills" on the underside. They typically have a stem, but not always.</td><td>{generateTagLink('agaric', 'List of Gilled Mushrooms')}</td></tr>
+                        <tr><td>Boletes</td><td>These mushrooms possess fruiting bodies with easily separatable pore structure underneith the cap.</td><td>{generateTagLink('agaric', 'List of Gilled Mushrooms')}</td></tr>
+                    </tbody>
+                </table>
                 <p>Agaric (Gilled Mushrooms)</p>
                 <p>Bolete</p>
                 <p>Polypore</p>

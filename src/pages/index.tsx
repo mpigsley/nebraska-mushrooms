@@ -20,17 +20,17 @@ export default function IndexPage({
     <>
       <main className="container page">
         <h3 className="noMargin" style={{ textAlign: 'center' }}>
-          Mushrooms of Nebraska
-          <hr />
+          Mushrooms of
         </h3>
-        <p>Important! Please read our <a href="/articles/concerning-wild-mushroom-edibility/">disclaimer on edibility</a></p>
         <a
           href={`https://www.google.com/maps/place/${geolocation}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h5>{data.location?.frontmatter?.title}</h5>
+          <h4 style={{ textAlign: 'center' }}>{data.location?.frontmatter?.title}</h4>
         </a>
+        <hr />
+        <p><b>Important!</b> Please read our <a href="/articles/concerning-wild-mushroom-edibility/">disclaimer on edibility</a></p>
         <LocationSpeciesList
           species={data.species.edges.map((edge) => ({
             id: edge.node.id,
