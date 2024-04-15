@@ -57,10 +57,17 @@ export const createPages: GatsbyNode['createPages'] = ({
     data.allMarkdownRemark.edges.forEach((edge) => {
       const id = edge.node.id;
 
-      const locationName =
+      let locationName =
         edge.node.frontmatter.templateKey === 'location'
           ? edge.node.frontmatter.title
           : undefined;
+
+      if (!locationName && edge.node.frontmatter.location) {
+        const locationNode = data.allMarkdownRemark.edges.find(
+          (e) => e.node.frontmatter.title === edge.node.frontmatter.location,
+        );
+        locationName = locationNode?.node.frontmatter.title;
+      }
 
       createPage({
         path: edge.node.fields.slug,

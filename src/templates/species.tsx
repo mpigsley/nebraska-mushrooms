@@ -9,21 +9,21 @@ export default function SpeciesProfileTemplate({
 }: Readonly<PageProps<Queries.SpeciesProfileTemplateQuery>>): JSX.Element {
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
-  const commonName = data.markdownRemark?.frontmatter?.name;
-  const scientificName = data.markdownRemark?.frontmatter?.scientific_name;
+  const commonName = data.species?.frontmatter?.name;
+  const scientificName = data.species?.frontmatter?.scientific_name;
 
   return (
     <>
       <div className="u-full-width relative">
         <div className="horizontalScroll u-full-width" ref={scrollRef}>
-          {data.markdownRemark?.frontmatter?.photos?.map((item) => {
+          {data.species?.frontmatter?.photos?.map((item) => {
             if (item?.childImageSharp?.gatsbyImageData) {
               return (
                 <GatsbyImage
                   className="horizontalScrollItem"
                   key={item?.childImageSharp?.id}
                   image={item?.childImageSharp?.gatsbyImageData}
-                  alt={`${data.markdownRemark?.frontmatter?.name} (${data.markdownRemark?.frontmatter?.scientific_name})`}
+                  alt={`${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})`}
                 />
               );
             }
@@ -38,17 +38,18 @@ export default function SpeciesProfileTemplate({
             });
           }}
         >
-          +{data.markdownRemark?.frontmatter?.photos?.length ?? 0} more photos
-          &gt;
+          +{data.species?.frontmatter?.photos?.length ?? 0} more photos &gt;
         </button>
       </div>
       <main className="container page">
         <section className="row">
-          <Link to="/">&lt; Back to Home</Link>
+          <Link to={data.location?.fields?.slug ?? '/'}>
+            &lt; Back to {data.location?.frontmatter?.title ?? 'Home'}
+          </Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
-            <i>{data.markdownRemark?.frontmatter?.taxonomy?.join(' > ')}</i>
+            <i>{data.species?.frontmatter?.taxonomy?.join(' > ')}</i>
           </p>
           <hr />
         </section>
@@ -56,13 +57,13 @@ export default function SpeciesProfileTemplate({
           <div className="eight columns">
             <div
               dangerouslySetInnerHTML={{
-                __html: data.markdownRemark?.html ?? '',
+                __html: data.species?.html ?? '',
               }}
             />
-            {!!data.markdownRemark?.frontmatter?.references?.length && (
+            {!!data.species?.frontmatter?.references?.length && (
               <>
                 <b>References</b>
-                {[...(data.markdownRemark?.frontmatter?.references ?? [])]
+                {[...(data.species?.frontmatter?.references ?? [])]
                   .sort()
                   .map((item) => (
                     <p key={item}>{item}</p>
@@ -72,31 +73,29 @@ export default function SpeciesProfileTemplate({
           </div>
 
           <div className="four columns">
-            {!!data.markdownRemark?.frontmatter?.external_links?.length && (
+            {!!data.species?.frontmatter?.external_links?.length && (
               <>
                 <b>External Links</b>
                 <ul>
-                  {data.markdownRemark.frontmatter.external_links.map(
-                    (item) => (
-                      <li key={item?.link}>
-                        <a
-                          href={item?.link ?? '/'}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          {item?.tag}
-                        </a>
-                      </li>
-                    ),
-                  )}
+                  {data.species.frontmatter.external_links.map((item) => (
+                    <li key={item?.link}>
+                      <a
+                        href={item?.link ?? '/'}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {item?.tag}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </>
             )}
-            {!!data.markdownRemark?.frontmatter?.tags?.length && (
+            {!!data.species?.frontmatter?.tags?.length && (
               <>
                 <b>Tags</b>
                 <ul>
-                  {[...data.markdownRemark.frontmatter.tags]
+                  {[...data.species.frontmatter.tags]
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
@@ -116,14 +115,22 @@ export default function SpeciesProfileTemplate({
 
 export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
   <title>
-    {data.markdownRemark?.frontmatter?.name} (
-    {data.markdownRemark?.frontmatter?.scientific_name})
+    {data.species?.frontmatter?.name} (
+    {data.species?.frontmatter?.scientific_name})
   </title>
 );
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query SpeciesProfileTemplate($id: String!, $locationName: String!) {
+    location: markdownRemark(frontmatter: { title: { eq: $locationName } }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+    species: markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
