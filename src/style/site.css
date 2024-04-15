@@ -181,6 +181,12 @@
   padding-top: var(--s2);
 }
 
+.header-title-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
 .footer {
   background-color: #fafaf9;
   padding-bottom: var(--s3);

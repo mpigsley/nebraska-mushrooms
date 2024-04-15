@@ -12,7 +12,9 @@ export default function PageLayout({ children }: Props) {
     <main>
       <header className="header">
         <div className="container row">
-          <h5 className="noMargin">Mushrooms of Nebraska</h5>
+          <a href="/" className="header-title-link">
+            <h5 className="noMargin">Mushrooms of Nebraska</h5>
+          </a>
           <p className="noMargin">
             Important! Please read our{' '}
             <a href="/articles/concerning-wild-mushroom-edibility/">
