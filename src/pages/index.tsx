@@ -2,20 +2,11 @@ import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
-import LocationSpeciesList, { Tag } from '../components/LocationSpeciesList';
-import Footer from '../components/Footer';
 import PageLayout from '../components/PageLayout';
 
 export default function IndexPage({
   data,
 }: Readonly<PageProps<Queries.LocationIndexQuery>>): JSX.Element {
-  // let geolocation: string | undefined;
-  // if (data.location?.frontmatter?.geolocation) {
-  //   const { coordinates } = JSON.parse(
-  //     data.location.frontmatter.geolocation,
-  //   ) as { type: 'Point'; coordinates: [number, number] };
-  //   geolocation = `${coordinates[1]},${coordinates[0]}`;
-  // }
 
   return (
     <PageLayout>
