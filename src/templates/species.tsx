@@ -2,6 +2,7 @@ import { type PageProps, graphql, Link, type HeadFC } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 
+import { type Tag, getTagClass } from '../utils/tag.util';
 import Footer from '../components/Footer';
 
 export default function SpeciesProfileTemplate({
@@ -99,7 +100,9 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <span className={`${item} tag`}>{item}</span>
+                        <span className={`${getTagClass(item as Tag)} tag`}>
+                          {item}
+                        </span>
                       </li>
                     ))}
                 </ul>
