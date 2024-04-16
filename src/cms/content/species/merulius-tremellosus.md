@@ -4,8 +4,8 @@ name: Trembling Crust
 scientific_name: Merulius tremellosus
 location: Indian Cave State Park
 tags:
-    - fall
-    - Polypore
+  - fall
+  - polypore
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

@@ -59,7 +59,6 @@ type FormattedSpecies = {
   bodyMatch?: [string, string, string]; // [pre-text, match, post-text]
 };
 
-const TagMatch = Object.values(Tag).map((tag) => `tag:${tag}`);
 function stripHtml(html: string) {
   let tmp = document.createElement('div');
   tmp.innerHTML = html;
@@ -67,6 +66,30 @@ function stripHtml(html: string) {
   tmp.remove();
   return result;
 }
+
+const TagMatch = Object.values(Tag).map((tag) => `tag:${tag}`);
+const getTagClass = (tag: Tag) => {
+  switch (tag) {
+    case Tag.Poisonous:
+      return 'poisonous';
+    case Tag.EdibleWithCaution:
+      return 'edible-with-caution';
+    case Tag.Edible:
+      return 'edible';
+    case Tag.Interesting:
+      return 'interesting';
+    case Tag.Spring:
+      return 'spring';
+    case Tag.Summer:
+      return 'summer';
+    case Tag.Fall:
+      return 'fall';
+    case Tag.Winter:
+      return 'winter';
+    default:
+      return 'other';
+  }
+};
 
 const ImageList = ({
   species,
@@ -168,7 +191,9 @@ const TableList = ({
                 {tags.map((tag) => (
                   <span
                     key={tag}
-                    className={`${tag} tag tag-list-item clickable-tag`}
+                    className={`${getTagClass(
+                      tag,
+                    )} tag tag-list-item clickable-tag`}
                     onClick={() => onChangeTag(tag)}
                   >
                     {tag}
