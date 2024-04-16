@@ -14,15 +14,30 @@ export default function IndexPage({
         <p>Welcome adventurer! This website is designed to provide a location to research parks in Nebraska that have been surveyed for fungi, and view lists of those fungi.</p>
         <hr />
         <div>
-          <h5>Quick Links</h5>
+          <h4>Quick Links</h4>
           <div className='grid'>
-            <div className='grid-item'><a href='/articles/concerning-wild-mushroom-edibility'>Concerning Wild Mushroom Edibility</a></div>
-            <div className='grid-item'><a href='/articles/manual'>How to use this website</a></div>
-            <div className='grid-item'><a href='/articles/key'>Identification key</a></div>
+            <div className='grid-item'>
+              <a href='/articles/concerning-wild-mushroom-edibility'>
+              <img src="https://static.inaturalist.org/photos/329308003/small.jpeg" alt="Gilled Mushroom" />
+                <h5>Concerning Wild Mushroom Edibility</h5>
+                </a>
+              </div>
+            <div className='grid-item'>
+              <a href='/articles/manual'>
+              <img src="https://static.inaturalist.org/photos/298467504/small.jpg" alt="Coral" />
+                <h5>How to use this website</h5>
+              </a>
+            </div>
+            <div className='grid-item'>
+              <a href='/articles/key'>
+              <img src="https://static.inaturalist.org/photos/290390330/small.jpeg" alt="Snaketongue Truffleclub" />
+                <h5>Identification key</h5>
+              </a>
+            </div>
           </div>
         </div>
         <hr />
-        <h5>Mushroom of the Day</h5>
+        <h4>Mushroom of the Day</h4>
         <div>
           <a href='/species/holwaya-mucida/'>
             <div style={{ display: 'flex' }}>
@@ -40,10 +55,15 @@ export default function IndexPage({
       </div>
       <hr />
       <div>
-        <h5>Locations</h5>
+        <h4>Locations</h4>
         <div className='grid'>
-          <div className='grid-item'><a href='/location/indian-cave-state-park/'>Indian Cave State Park</a></div>
-          <div className='grid-item'><a href='/location/indian-cave-state-park/'>TODO Entire State</a></div>
+          <div className='grid-item'>
+            <a href='/location/indian-cave-state-park/'>
+            <img style={{maxWidth: '300px'}} src="https://outdoornebraska.gov/wp-content/uploads/2023/01/EF20220701_283_1440x960.jpg" alt="Indian Cave State Park" />
+              <h5>Indian Cave State Park</h5>
+            </a>
+          </div>
+          {/* <div className='grid-item'><a href='/location/indian-cave-state-park/'>TODO Entire State</a></div> */}
         </div>
       </div>
     </PageLayout>
