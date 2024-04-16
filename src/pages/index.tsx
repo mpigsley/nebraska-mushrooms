@@ -4,74 +4,60 @@ import * as React from 'react';
 
 import LocationSpeciesList, { Tag } from '../components/LocationSpeciesList';
 import Footer from '../components/Footer';
+import PageLayout from '../components/PageLayout';
 
 export default function IndexPage({
   data,
 }: Readonly<PageProps<Queries.LocationIndexQuery>>): JSX.Element {
-  let geolocation: string | undefined;
-  if (data.location?.frontmatter?.geolocation) {
-    const { coordinates } = JSON.parse(
-      data.location.frontmatter.geolocation,
-    ) as { type: 'Point'; coordinates: [number, number] };
-    geolocation = `${coordinates[1]},${coordinates[0]}`;
-  }
+  // let geolocation: string | undefined;
+  // if (data.location?.frontmatter?.geolocation) {
+  //   const { coordinates } = JSON.parse(
+  //     data.location.frontmatter.geolocation,
+  //   ) as { type: 'Point'; coordinates: [number, number] };
+  //   geolocation = `${coordinates[1]},${coordinates[0]}`;
+  // }
 
   return (
-    <>
-      <main className="container page">
-        <h3 className="noMargin" style={{ textAlign: 'center' }}>
-          Mushrooms of Nebraska
-          <hr />
-        </h3>
-        <p>
-          Important! Please read our{' '}
-          <a href="/articles/concerning-wild-mushroom-edibility/">
-            disclaimer on edibility
+    <PageLayout>
+      <div>
+        <p>Welcome adventurer! This website is designed to provide a location to research parks in Nebraska that have been surveyed for fungi, and view lists of those fungi.</p>
+        <hr />
+        <div>
+          <h5>Quick Links</h5>
+          <div className='grid'>
+            <div className='grid-item'><a href='/articles/concerning-wild-mushroom-edibility'>Concerning Wild Mushroom Edibility</a></div>
+            <div className='grid-item'><a href='/articles/manual'>How to use this website</a></div>
+            <div className='grid-item'><a href='/articles/key'>Identification key</a></div>
+          </div>
+        </div>
+        <hr />
+        <h5>Mushroom of the Day</h5>
+        <div>
+          <a href='/species/holwaya-mucida/'>
+            <div style={{ display: 'flex' }}>
+              <img style={{ maxHeight: '10em' }} src='/static/3e634bf11c90136a9910b0d69b8f69f9/a0860/holwaya-mucida1.webp' />
+              <div style={{ marginLeft: '1em' }}>
+                <h5>Tapioca Club</h5>
+                <h6>Holwaya mucida</h6>
+                <p>
+                  This mushroom grows in troops inside of bark grooves on large fallen Linden trees. Generally found in low, open, moist mixed oak/hickory woodland draws. The white surface easily rubs off and is reminiscent of tapioca. Click here to learn more!
+                </p>
+              </div>
+            </div>
           </a>
-          .
-        </p>
-        <a
-          href={`https://www.google.com/maps/place/${geolocation}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h5>{data.location?.frontmatter?.title}</h5>
-        </a>
-        <LocationSpeciesList
-          species={data.species.edges.map((edge) => ({
-            id: edge.node.id,
-            slug: edge.node.fields?.slug ?? undefined,
-            name: edge.node.frontmatter?.name ?? undefined,
-            tags: (edge.node.frontmatter?.tags ?? []) as Tag[],
-            location: edge.node.frontmatter?.location ?? undefined,
-            scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
-            bodyHtml: edge.node.html ?? '',
-            photos:
-              edge.node.frontmatter?.photos?.reduce(
-                (acc: IGatsbyImageData[], photo) => {
-                  if (photo?.childImageSharp) {
-                    const gatsbyImageData = getImage(
-                      photo.childImageSharp.gatsbyImageData,
-                    );
-                    if (gatsbyImageData) {
-                      acc.push(gatsbyImageData);
-                    }
-                  }
-                  return acc;
-                },
-                [],
-              ) ?? [],
-          }))}
-        />
-      </main>
-      <Footer />
-    </>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h5>Locations</h5>
+        <div className='grid'>
+          <div className='grid-item'><a href='/location/indian-cave-state-park/'>Indian Cave State Park</a></div>
+          <div className='grid-item'><a href='/location/indian-cave-state-park/'>TODO Entire State</a></div>
+        </div>
+      </div>
+    </PageLayout>
   );
 }
-
-export const Head: HeadFC<Queries.LocationIndexQuery> = ({ data }) => (
-  <title>{data.location?.frontmatter?.title} | Mushrooms of Nebraska</title>
-);
 
 // add another allMarkdownRemark query
 export const query = graphql`
