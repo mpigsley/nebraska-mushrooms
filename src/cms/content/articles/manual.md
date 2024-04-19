@@ -6,7 +6,7 @@ author: Derek Zeller
 ---
 ##### How to use this website
 
-This website allows you to see lists of mushrooms organized by where they are found in [Nebraska Parks](/location).
+This website allows you to see lists of mushrooms organized by where they are found in [Nebraska Parks](/).
 
 The list interface allows you to filter the results using any custom search words along with **tags**. Tags are a method of grouping species into different buckets like what season they are found in, what they look like, edibility, toxicity, etc.
 
