@@ -16,7 +16,7 @@ Become an educated consumer of wild mushrooms. Lapses in judgement can result in
 
 #### Please take steps to educate yourself:
 
-* When starting out, hunt beginner mushrooms. Start with the "Safe 4".
+* When starting out, hunt beginner mushrooms. Start with the ["Fool Proof 4"](https://www.cabinlife.com/articles/edible-wild-mushrooms)
 * Understand that it takes years to decades to safely identify for more obscure/intermediate mushrooms.
 * Some mushrooms are conditionally poisonous when ingested days before or days after consuming alcohol, as with *Coprinopsis atramentaria*
 
