@@ -1,7 +1,7 @@
 ---
 templateKey: species
-name: Yellow Morel
-scientific_name: Morchella americana (=Morchella esculentoides)
+name: White Morel (~=Yellow Morel)
+scientific_name: Morchella americana (=Morchella esculentoides) (~=Morchella esculenta)
 location: Indian Cave State Park
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
@@ -24,9 +24,18 @@ taxonomy:
   - Agaricales
   - Morchellaceae
   - Morchella americana
-external_links: []
+external_links:
+  - tag: MycoBank
+    link: https://www.mycobank.org/page/Name%20details%20page/481143
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/208896176
+  - tag: Mushroom Expert 
+    link: https://www.mushroomexpert.com/morchella_esculentoides.html
 photos:
   - /img/morchella-americana1.jpeg
+  - /img/morchella-americana2.jpeg
+  - /img/morchella-americana3.jpeg
+  - /img/morchella-americana4.jpeg
 ---
 
 #### Description
@@ -35,7 +44,7 @@ This is a hollow mushroom, 2-4 inches tall. It is bright yellow when young, turn
 
 #### Habitat
 
-Yellow morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species.
+White morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species.
 
 #### Abundance
 
@@ -52,19 +61,20 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 
 #### Similar Species in Nebraska
 
+- Morchella 
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 
 #### Interesting facts
 
-- The common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked. Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
-- Recent DNA studies (Kuo 2012) suggest that mushrooms commonly called "gray morels" probably aren't distinct from this species in North America. The "gray morels" in the study's samples turned out to be younger "yellow morels" according to their genetic code.
-- A morel species in northeastern North America (M. cryptica) can't be distinguished from the "yellow morel" without DNA testing.
+- The Yellow Morel (*Morchella esculena*) is a purely European species. The common name for the most common North American morels are called White Morels.
+- Many Nebraskan's distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are actually less mature White Morels (Kuo 2012).
+- This common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked.
+- Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
+- A morel species in northeastern North America (M. cryptica) can't be distinguished from the White Morel without DNA testing.
 
-#### [Edibility](/articles/concerning-wild-mushroom-edibility/)
+#### [Edibility](/articles/concerning-wild-mushroom-edibility/) and Toxicity
 
-Choice edible, poisonous if eaten raw.
-
-#### Toxicity
+Choice edible, poisonous if eaten raw or undercooked.
 
 Morels **must be thoroughly cooked to be safely eaten**! Poisonings from raw or undercooked morels are serious and have led to death.
