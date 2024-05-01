@@ -1,12 +1,20 @@
-import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
+import { GatsbyImage, IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
 import PageLayout from '../components/PageLayout';
+import { Tag, getTagClass } from '../utils/tag.util';
 
 export default function IndexPage({
   data,
 }: Readonly<PageProps<Queries.LocationIndexQuery>>): JSX.Element {
+  const [rando, setRando] = React.useState<any>(null);
+
+  const generateRando = () => setRando(data.species.edges[Math.floor(Math.random() * data.species.edges.length)].node);
+
+  React.useEffect(() => {
+    generateRando();
+  }, []);
 
   return (
     <PageLayout>
@@ -31,29 +39,54 @@ export default function IndexPage({
               </div>
             </div>
             <div className="qlink-tile qlink-tile-3">
-            <div className="qlink-tile-title">
-            <a href='/articles/key'>
-                <h5>Identification key</h5>
-              </a>
+              <div className="qlink-tile-title">
+                <a href='/articles/key'>
+                  <h5>Identification key</h5>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <hr />
-        <h4>Mushroom of the Day</h4>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <h4>Random Mushroom</h4> <button onClick={generateRando}>Regenerate</button>
+        </div>
+
+
         <div>
-          <a href='/species/holwaya-mucida/'>
-            <div style={{ display: 'flex' }}>
-              <img style={{ maxHeight: '10em' }} src='/static/3e634bf11c90136a9910b0d69b8f69f9/a0860/holwaya-mucida1.webp' />
-              <div style={{ marginLeft: '1em' }}>
-                <h5>Tapioca Club</h5>
-                <h6>Holwaya mucida</h6>
-                <p>
-                  This mushroom grows in troops inside of bark grooves on large fallen Linden trees. Generally found in low, open, moist mixed oak/hickory woodland draws. The white surface easily rubs off and is reminiscent of tapioca. Click here to learn more!
-                </p>
+          {!!rando &&
+            (
+              <div className="qlink-grid">
+                <GatsbyImage
+                  className="randoImage qlink-tile"
+                  key={rando.frontmatter.photos[0]?.childImageSharp?.id}
+                  image={rando.frontmatter.photos[0]?.childImageSharp?.gatsbyImageData}
+                  alt={`${rando.frontmatter.name} (${rando.frontmatter.photos[0]?.scientific_name})`}
+                />
+                <div>
+                  <h5><a href={rando.fields.slug}>{rando?.frontmatter.name}</a></h5>
+                  <h6><a href={rando.fields.slug}>{rando?.frontmatter.scientific_name}</a></h6>
+                  <p>
+                    {rando?.frontmatter.html}
+                  </p>
+                  {!!rando?.frontmatter?.tags?.length && (
+                    <>
+                      <ul>
+                        {[...rando.frontmatter.tags]
+                          .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
+                          .map((item) => (
+                            <li key={item}>
+                              <span className={`${getTagClass(item as Tag)} tag`}>
+                                {item}
+                              </span>
+                            </li>
+                          ))}
+                      </ul>
+                    </>
+                  )}
+                </div>
               </div>
-            </div>
-          </a>
+            )}
         </div>
       </div>
       <hr />
@@ -73,7 +106,6 @@ export default function IndexPage({
   );
 }
 
-// add another allMarkdownRemark query
 export const query = graphql`
   query LocationIndex {
     location: markdownRemark(
@@ -103,8 +135,6 @@ export const query = graphql`
               childImageSharp {
                 id
                 gatsbyImageData(
-                  height: 235
-                  width: 235
                   quality: 90
                   layout: CONSTRAINED
                 )
