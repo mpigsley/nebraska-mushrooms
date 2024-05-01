@@ -63,7 +63,7 @@ export default function SpeciesProfileTemplate({
             />
             {!!data.species?.frontmatter?.references?.length && (
               <>
-                <b>References</b>
+                <h4>References</h4>
                 {[...(data.species?.frontmatter?.references ?? [])]
                   .sort()
                   .map((item) => (

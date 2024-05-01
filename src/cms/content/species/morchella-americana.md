@@ -16,6 +16,11 @@ references:
     Europe and North America: evolutionary relationships inferred from
     multilocus data and a unified taxonomy. Mycologia, 107(2), 359–382.
     https://doi.org/10.3852/14-166'
+  - Kay, S., Sikes, B., & Morse, C. (2022). A New Guide to Kansas Mushrooms.
+    University Press of Kansas.
+  - Demorest, H. (2024). Outbreak Linked to Morel Mushroom Exposure —
+    Montana, 2023. MMWR. Morbidity and Mortality Weekly Report, 73.
+    https://doi.org/10.15585/mmwr.mm7310a1
 tags:
   - edible-with-caution
   - disc
@@ -40,21 +45,22 @@ photos:
 
 #### Description
 
-This is a hollow mushroom, 2-4 inches tall. It is bright yellow when young, turning a dull brown with time. It has a fuzzy cap and the odor of Clorox, which makes it easily identifiable from other mushrooms. It is a mycorrhizal mushroom.
+* Hollow mushroom, with the cap fused to the stem at the cap margin posessing rounded, irregullarly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
+* Cap shape: rounded or oval, cylindrical, or rounded triangular
+* Color: Cap gray with white ridges when young, becoming yellow brown to brown with age. Stem white to light yellow with age.
+* Smell reminiscent of Clorox.
 
 #### Habitat
 
 White morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species.
 
-#### Abundance
+#### Abundance & Fruiting Period
 
-**Indian Cave State Park**: Common and abundant. Especially abundant along Trail 9 near the overlook. ([map](https://www.inaturalist.org/observations?place_id=160642&subview=map&taxon_id=56830))
+**Indian Cave State Park**: Common and abundant. Especially abundant along Trail 9 near the overlook.
 
-**Statewide Range**: Common throughout Nebraska in wooded habitats. ([map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
+**Statewide Range**: Common throughout Nebraska in wooded habitats. ([iNaturalist](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
 
 **North America**: Widespread.
-
-#### Fruiting Period
 
 This spring-time mushroom appears in mid-April through May at Indian Cave. In
 northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
@@ -73,8 +79,8 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 - Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
 - A morel species in northeastern North America (M. cryptica) can't be distinguished from the White Morel without DNA testing.
 
-#### [Edibility](/articles/concerning-wild-mushroom-edibility/) and Toxicity
+#### Edibility and Toxicity
 
-Choice edible, poisonous if eaten raw or undercooked.
+Choice edible (Kay, Sikes, & Morse, 2022).
 
-Morels **must be thoroughly cooked to be safely eaten**! Poisonings from raw or undercooked morels are serious and have led to death.
+Morels **must be thoroughly cooked to be safely eaten**! Poisonings from raw or undercooked morels are serious and have led to death (Demorest, 2024).
