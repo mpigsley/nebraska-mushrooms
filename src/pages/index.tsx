@@ -1,4 +1,4 @@
-import { GatsbyImage, IGatsbyImageData, getImage } from 'gatsby-plugin-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
