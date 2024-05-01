@@ -46,13 +46,14 @@ photos:
 #### Description
 
 * Hollow mushroom, with the cap fused to the stem at the cap margin posessing rounded, irregullarly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
-* Cap shape: rounded or oval, cylindrical, or rounded triangular
+* Cap shape: rounded, oval, or egg-shaped, cylindrical, or rounded triangular
 * Color: Cap gray with white ridges when young, becoming yellow brown to brown with age. Stem white to light yellow with age.
 * Smell reminiscent of Clorox.
+* Usually mycorrhizal (exchanging nutients with plants), but sometimes fully saprobic (decomposing matter in the soil)
 
 #### Habitat
 
-White morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species.
+White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. Generally, if one is found, there are others closeby within eyesight.
 
 #### Abundance & Fruiting Period
 
@@ -62,8 +63,7 @@ White morels occur in sites ranging from deep-shaded forest ravines to open Bur 
 
 **North America**: Widespread.
 
-This spring-time mushroom appears in mid-April through May at Indian Cave. In
-northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
+This spring-time mushroom appears in mid-April through May at Indian Cave. In northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
 
 #### Similar Species in Nebraska
 
