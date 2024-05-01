@@ -61,7 +61,7 @@ northern Nebraska, it can still be found in mid-June. It may not appear in dry y
 
 #### Similar Species in Nebraska
 
-- Morchella 
+- The Half Free Morel (*Morchella punctipes*) fruits at similiar times or soon after the White Morel, but its cap is attached at the top only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 
