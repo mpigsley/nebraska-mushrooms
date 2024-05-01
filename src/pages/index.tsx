@@ -15,24 +15,27 @@ export default function IndexPage({
         <hr />
         <div>
           <h4>Quick Links</h4>
-          <div className='grid'>
-            <div className='grid-item'>
-              <a href='/articles/concerning-wild-mushroom-edibility'>
-              <img src="https://static.inaturalist.org/photos/329308003/small.jpeg" alt="Gilled Mushroom" />
-                <h5>Concerning Wild Mushroom Edibility</h5>
+          <div className="qlink-grid">
+            <div className="qlink-tile qlink-tile-1">
+              <div className="qlink-tile-title">
+                <a href='/articles/concerning-wild-mushroom-edibility'>
+                  <h5>Wild Mushroom Edibility</h5>
                 </a>
               </div>
-            <div className='grid-item'>
-              <a href='/articles/manual'>
-              <img src="https://static.inaturalist.org/photos/298467504/small.jpg" alt="Coral" />
-                <h5>How to use this website</h5>
-              </a>
             </div>
-            <div className='grid-item'>
-              <a href='/articles/key'>
-              <img src="https://static.inaturalist.org/photos/290390330/small.jpeg" alt="Snaketongue Truffleclub" />
+            <div className="qlink-tile qlink-tile-2">
+              <div className="qlink-tile-title">
+                <a href='/articles/manual'>
+                  <h5>How to use this website</h5>
+                </a>
+              </div>
+            </div>
+            <div className="qlink-tile qlink-tile-3">
+            <div className="qlink-tile-title">
+            <a href='/articles/key'>
                 <h5>Identification key</h5>
               </a>
+              </div>
             </div>
           </div>
         </div>
@@ -59,7 +62,7 @@ export default function IndexPage({
         <div className='grid'>
           <div className='grid-item'>
             <a href='/location/indian-cave-state-park/'>
-            <img style={{maxWidth: '300px'}} src="https://outdoornebraska.gov/wp-content/uploads/2023/01/EF20220701_283_1440x960.jpg" alt="Indian Cave State Park" />
+              <img style={{ maxWidth: '300px' }} src="https://outdoornebraska.gov/wp-content/uploads/2023/01/EF20220701_283_1440x960.jpg" alt="Indian Cave State Park" />
               <h5>Indian Cave State Park</h5>
             </a>
           </div>
