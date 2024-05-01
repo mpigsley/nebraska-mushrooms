@@ -19,8 +19,6 @@ export default function IndexPage({
   return (
     <PageLayout>
       <div>
-        <p>Welcome adventurer! This website is designed to provide a location to research parks in Nebraska that have been surveyed for fungi, and view lists of those fungi.</p>
-        <hr />
         <div>
           <h4>Quick Links</h4>
           <div className="qlink-grid">
