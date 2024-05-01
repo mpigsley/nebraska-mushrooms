@@ -45,15 +45,15 @@ photos:
 
 #### Description
 
-* Hollow mushroom, with the cap fused to the stem at the cap margin posessing rounded, irregullarly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
+* Hollow mushroom, with the cap fused to the stem at the cap margin possessing rounded, irregularly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
 * Cap shape: rounded, oval, or egg-shaped, cylindrical, or rounded triangular
-* Color: Cap gray with white ridges when young, becoming yellow brown to brown with age. Stem white to light yellow with age.
-* Smell reminiscent of Clorox.
-* Usually mycorrhizal (exchanging nutients with plants), but sometimes fully saprobic (decomposing matter in the soil)
+* Color: Cap gray with white ridges when young, becoming yellow-brown to brown with age. Stem white to light yellow with age.
+* Smell: reminiscent of Clorox.
+* Usually mycorrhizal (exchanging nutrients with plants), but sometimes fully saprobic (decomposing matter in the soil)
 
 #### Habitat
 
-White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. Generally, if one is found, there are others closeby within eyesight.
+White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. Generally, if one is found, there are others close by within eyesight.
 
 #### Abundance & Fruiting Period
 
@@ -67,14 +67,14 @@ This spring-time mushroom appears in mid-April through May at Indian Cave. In no
 
 #### Similar Species in Nebraska
 
-- The Half Free Morel (*Morchella punctipes*) fruits at similiar times or soon after the White Morel, but its cap is attached at the top only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
+- The Half Free Morel (*Morchella punctipes*) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 
 #### Interesting facts
 
-- The Yellow Morel (*Morchella esculena*) is a purely European species. The common name for the most common North American morels are called White Morels.
-- Many Nebraskan's distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are actually less mature White Morels (Kuo 2012).
+- The Yellow Morel (*Morchella esculena*) is a purely European species.
+- Many Nebraskans distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are White Morels that are less mature (Kuo 2012).
 - This common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked.
 - Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
 - A morel species in northeastern North America (M. cryptica) can't be distinguished from the White Morel without DNA testing.
