@@ -164,7 +164,7 @@ async function processData() {
             records.push({
                 observation,
                 taxonomyRecord: taxon,
-                taxonomy: taxon?.Classification.replace('Fungi, Dikarya, ', '').split(',') ?? [],
+                taxonomy: taxon?.Classification.replace('Fungi, Dikarya, ', '').split(',').map(x => x.trim()) ?? [],
                 season: determineSeason(new Date(observation.observed_on)),
                 photoUrls,
             });
