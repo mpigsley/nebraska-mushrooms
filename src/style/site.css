@@ -259,6 +259,14 @@
   background-image: url('https://static.inaturalist.org/photos/290390330/medium.jpeg');
 }
 
+.qlink-tile-4 {
+  background-image: url('https://inaturalist-open-data.s3.amazonaws.com/photos/288069268/medium.jpeg');
+}
+
+.qlink-tile-5 {
+  background-image: url('https://outdoornebraska.gov/wp-content/uploads/2023/01/EF20220701_283_1440x960.jpg');
+}
+
 .qlink-tile-title {
   background-color: white;
   margin-top: 20%;
@@ -274,4 +282,11 @@
 
 .qlink-tile-title h5 {
   margin-bottom: 0;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: var(--s3);
 }

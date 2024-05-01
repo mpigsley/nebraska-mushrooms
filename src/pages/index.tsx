@@ -45,6 +45,13 @@ export default function IndexPage({
                 </a>
               </div>
             </div>
+            <div className="qlink-tile qlink-tile-4">
+              <div className="qlink-tile-title">
+                <a href='/location/indian-cave-state-park/'>
+                  <h5>Mushroom List</h5>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <hr />
@@ -92,12 +99,13 @@ export default function IndexPage({
       <hr />
       <div>
         <h4>Locations</h4>
-        <div className='grid'>
-          <div className='grid-item'>
-            <a href='/location/indian-cave-state-park/'>
-              <img style={{ maxWidth: '300px' }} src="https://outdoornebraska.gov/wp-content/uploads/2023/01/EF20220701_283_1440x960.jpg" alt="Indian Cave State Park" />
-              <h5>Indian Cave State Park</h5>
-            </a>
+        <div className='location-grid'>
+          <div className='qlink-tile qlink-tile-5'>
+            <div className="qlink-tile-title">
+              <a href='/location/indian-cave-state-park/'>
+                <h5>Indian Cave State Park</h5>
+              </a>
+            </div>
           </div>
           {/* <div className='grid-item'><a href='/location/indian-cave-state-park/'>TODO Entire State</a></div> */}
         </div>
