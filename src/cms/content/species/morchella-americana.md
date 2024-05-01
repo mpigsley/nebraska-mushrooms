@@ -1,7 +1,7 @@
 ---
 templateKey: species
 name: White Morel (~=Yellow Morel)
-scientific_name: Morchella americana (=Morchella esculentoides) (~=Morchella esculenta)
+scientific_name: Morchella americana (=M. esculentoides) (~=M. esculenta)
 location: Indian Cave State Park
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
@@ -25,8 +25,11 @@ tags:
   - edible-with-caution
   - disc
 taxonomy:
-  - Basidiomycota
-  - Agaricales
+  - Ascomycota
+  - Pezizomycotina
+  - Pezizomycetes
+  - Pezizomycetidae
+  - Pezizales
   - Morchellaceae
   - Morchella americana
 external_links:
@@ -53,28 +56,28 @@ photos:
 
 #### Habitat
 
-White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. Generally, if one is found, there are others close by within eyesight.
+White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. If one is found, others may be close by within eyesight.
 
 #### Abundance & Fruiting Period
 
+This spring-time mushroom appears in mid-April through May at Indian Cave. In northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
+
 **Indian Cave State Park**: Common and abundant. Especially abundant along Trail 9 near the overlook.
 
-**Statewide Range**: Common throughout Nebraska in wooded habitats. ([iNaturalist](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=56830))
+**Statewide Range**: Common throughout Nebraska in wooded habitats. ([Distribution Map](https://www.inaturalist.org/observations?place_id=any&project_id=104132&subview=map&taxon_id=462132))
 
-**North America**: Widespread.
-
-This spring-time mushroom appears in mid-April through May at Indian Cave. In northern Nebraska, it can still be found in mid-June. It may not appear in dry years.
+**North America**: Widespread. ([Distribution Map](https://www.inaturalist.org/observations?place_id=97394&subview=map&taxon_id=462132))
 
 #### Similar Species in Nebraska
 
-- The Half Free Morel (*Morchella punctipes*) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
+- The [Half Free Morel (*Morchella punctipes*)](/species/morchella-punctipes/) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 
 #### Interesting facts
 
-- The Yellow Morel (*Morchella esculena*) is a purely European species.
-- Many Nebraskans distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are White Morels that are less mature (Kuo 2012).
+- The name _americana_ describes the region where it can be found and separates it from the European Yellow Morel (_M. esculena_).
+- Many mushroom hunters distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are White Morels that are less mature (Kuo 2012).
 - This common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked.
 - Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
 - A morel species in northeastern North America (M. cryptica) can't be distinguished from the White Morel without DNA testing.
