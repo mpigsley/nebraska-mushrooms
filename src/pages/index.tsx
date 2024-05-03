@@ -10,7 +10,7 @@ export default function IndexPage({
 }: Readonly<PageProps<Queries.LocationIndexQuery>>): JSX.Element {
   const [rando, setRando] = React.useState<any>(null);
 
-  const generateRando = () => setRando(data.species.edges[Math.floor(Math.random() * data.species.edges.length)].node);
+  const generateRando = () => setRando(data.species.edges[Math.floor(Math.random() * (data.species.edges.length - 1))].node);
 
   React.useEffect(() => {
     generateRando();
@@ -32,14 +32,14 @@ export default function IndexPage({
             <div className="qlink-tile qlink-tile-2">
               <div className="qlink-tile-title">
                 <a href='/articles/manual'>
-                  <h5>How to use this website</h5>
+                  <h5>How to Use This Website</h5>
                 </a>
               </div>
             </div>
             <div className="qlink-tile qlink-tile-3">
               <div className="qlink-tile-title">
                 <a href='/articles/key'>
-                  <h5>Identification key</h5>
+                  <h5>Identification Key</h5>
                 </a>
               </div>
             </div>
