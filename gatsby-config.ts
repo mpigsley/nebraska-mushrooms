@@ -57,10 +57,12 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: 'gatsby-plugin-google-fonts-with-attributes',
       options: {
-        google: {
-          families: ['Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600'],
+        fonts: ['Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600'],
+        display: 'swap',
+        attributes: {
+          rel: 'stylesheet preload prefetch',
         },
       },
     },
