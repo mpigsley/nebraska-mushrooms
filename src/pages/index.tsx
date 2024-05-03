@@ -59,7 +59,7 @@ export default function IndexPage({
 
 
         <div>
-          {!!rando &&
+          {!!rando?.frontmatter &&
             (
               <div className="qlink-grid">
                 <GatsbyImage
