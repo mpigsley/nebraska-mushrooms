@@ -10,8 +10,6 @@ import MushrooomList from '../img/mushroom-list.jpeg';
 import { Tag, getTagClass } from '../utils/tag.util';
 import PageLayout from '../components/PageLayout';
 
-console.log(IndianCaveStatePark);
-
 export default function IndexPage({
   data,
 }: Readonly<PageProps<Queries.LocationIndexQuery>>): JSX.Element {
@@ -32,33 +30,36 @@ export default function IndexPage({
     <PageLayout>
       <div>
         <h4>Quick Links</h4>
-        <div className="row mb-4">
-          <div className="six columns relative link-tile content-centered">
+        <div className="row">
+          <div className="six columns relative link-tile content-centered mb-4">
             <img src={WildMushroomEdibility} className="centered-image" />
             <a
-              className="grid-link"
+              className="mx-2 grid-link"
               href="/articles/concerning-wild-mushroom-edibility"
             >
               <h5 className="noMargin">Wild Mushroom Edibility</h5>
             </a>
           </div>
-          <div className="six columns relative link-tile content-centered">
+          <div className="six columns relative link-tile content-centered mb-4">
             <img src={HowToUseThisWebiste} className="centered-image" />
-            <a className="grid-link" href="/articles/nanual">
+            <a className="mx-2 grid-link" href="/articles/nanual">
               <h5 className="noMargin">How to Use This Website</h5>
             </a>
           </div>
         </div>
         <div className="row">
-          <div className="six columns relative link-tile content-centered">
+          <div className="six columns relative link-tile content-centered mb-4">
             <img src={IdentificationKey} className="centered-image" />
-            <a className="grid-link" href="/articles/key">
+            <a className="mx-2 grid-link" href="/articles/key">
               <h5 className="noMargin">Identification Key</h5>
             </a>
           </div>
-          <div className="six columns relative link-tile content-centered">
+          <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
-            <a className="grid-link" href="/location/indian-cave-state-park">
+            <a
+              className="mx-2 grid-link"
+              href="/location/indian-cave-state-park"
+            >
               <h5 className="noMargin">Mushroom List</h5>
             </a>
           </div>
@@ -117,7 +118,10 @@ export default function IndexPage({
         <div className="row">
           <div className="twelve columns relative location-tile content-centered">
             <img src={IndianCaveStatePark} className="centered-image" />
-            <a className="grid-link" href="/location/indian-cave-state-park/">
+            <a
+              className="mx-2 grid-link"
+              href="/location/indian-cave-state-park/"
+            >
               <h5 className="noMargin">Indian Cave State Park</h5>
             </a>
           </div>
