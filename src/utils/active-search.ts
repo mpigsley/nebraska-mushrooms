@@ -4,9 +4,13 @@ import * as React from 'react';
 const Window = typeof window !== 'undefined' ? window : null;
 
 export const useActiveSearch = () => {
-  const [search, setSearch] = React.useState(
-    Window ? new URL(Window?.location?.href).searchParams.get('q') ?? '' : '',
-  );
+  const [search, setSearch] = React.useState('');
+
+  React.useEffect(() => {
+    setSearch(
+      Window ? new URL(Window?.location?.href).searchParams.get('q') ?? '' : '',
+    );
+  }, []);
 
   React.useEffect(() => {
     const url = new URL(window.location.href);
