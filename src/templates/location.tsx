@@ -2,9 +2,9 @@ import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
-import LocationSpeciesList, { Tag } from '../components/LocationSpeciesList';
-import Footer from '../components/Footer';
+import LocationSpeciesList from '../components/LocationSpeciesList';
 import PageLayout from '../components/PageLayout';
+import { type Tag } from '../utils/tag.util';
 
 export default function LocationTemplate({
   data,

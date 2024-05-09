@@ -5,6 +5,7 @@ import * as React from 'react';
 import { Tag, getTagClass } from '../utils/tag.util';
 import { useActiveSearch } from '../utils/active-search';
 import ClearableInput from './ClearableInput';
+import Favicon from '../img/favicon.svg';
 
 type Species = {
   id: string;
@@ -61,8 +62,10 @@ const ImageList = ({
       }: FormattedSpecies) => (
         <a key={id} href={slug} className="grid-item">
           <div>
-            {!!photo && (
+            {!!photo ? (
               <GatsbyImage className="grid-image" image={photo} alt={name} />
+            ) : (
+              <img src={Favicon} className="defaultGridImg" />
             )}
             <h5 className="noMargin small-header my-1">
               {name || scientificName}
@@ -73,7 +76,9 @@ const ImageList = ({
                 <span
                   key={tag}
                   role="button"
-                  className={`${tag} tag tag-list-item clickable-tag`}
+                  className={`${getTagClass(
+                    tag,
+                  )} tag tag-list-item clickable-tag`}
                   onClick={(e) => {
                     e.preventDefault();
                     onChangeTag(tag);
@@ -124,7 +129,13 @@ const TableList = ({
           bodyMatch,
         }: FormattedSpecies) => (
           <tr key={id}>
-            <td>{!!photo && <GatsbyImage image={photo} alt={name} />}</td>
+            <td>
+              {!!photo ? (
+                <GatsbyImage image={photo} alt={name} />
+              ) : (
+                <img src={Favicon} className="defaultTableImg" />
+              )}
+            </td>
             <td>
               <a href={slug}>{name || scientificName}</a>
               {!!name && <div>{scientificName}</div>}

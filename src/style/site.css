@@ -293,3 +293,12 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+.defaultTableImg {
+  width: 50px;
+}
+
+.defaultGridImg {
+  display: block;
+  width: 100%;
+}

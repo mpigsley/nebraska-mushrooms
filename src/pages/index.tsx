@@ -164,6 +164,7 @@ export const query = graphql`
                   height: 300
                   width: 468
                   layout: CONSTRAINED
+                  transformOptions: { cropFocus: CENTER }
                 )
               }
             }
