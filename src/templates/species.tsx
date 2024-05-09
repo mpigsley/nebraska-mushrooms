@@ -12,6 +12,7 @@ export default function SpeciesProfileTemplate({
 
   const commonName = data.species?.frontmatter?.name;
   const scientificName = data.species?.frontmatter?.scientific_name;
+  const numPhotos = data.species?.frontmatter?.photos?.length ?? 0;
 
   return (
     <>
@@ -30,17 +31,19 @@ export default function SpeciesProfileTemplate({
             }
           })}
         </div>
-        <button
-          className="button-more-images"
-          onClick={() => {
-            scrollRef.current?.scrollTo({
-              left: scrollRef.current?.scrollWidth,
-              behavior: 'smooth',
-            });
-          }}
-        >
-          +{data.species?.frontmatter?.photos?.length ?? 0} more photos &gt;
-        </button>
+        {numPhotos > 3 && (
+          <button
+            className="button-more-images"
+            onClick={() => {
+              scrollRef.current?.scrollTo({
+                left: scrollRef.current?.scrollWidth,
+                behavior: 'smooth',
+              });
+            }}
+          >
+            +{numPhotos} more photos &gt;
+          </button>
+        )}
       </div>
       <main className="container page">
         <section className="row">

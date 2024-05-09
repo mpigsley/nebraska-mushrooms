@@ -18,6 +18,7 @@
 
 .horizontalScroll {
   overflow-x: auto;
+  text-align: center;
   white-space: nowrap;
 }
 
