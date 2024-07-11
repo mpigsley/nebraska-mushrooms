@@ -31,6 +31,10 @@ Go into the dist folder and run the generated script
 cd dist
 bash terminalInput.bash
 ```
+or
+```
+cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd ..
+```
 
 Markdown and pictures can be moved to their respective folders.
 

@@ -53,7 +53,14 @@ export default function SpeciesProfileTemplate({
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
-            <i>{data.species?.frontmatter?.taxonomy?.join(' > ')}</i>
+            {data.species?.frontmatter?.taxonomy?.map((val, index: number) => (
+              <i>
+              {index > 0 && (<> &gt; </>)}
+              <a href={`http://www.inaturalist.org/taxa/search?q=${val?.toLowerCase().replaceAll(' ', '+')}`}>
+                {val}
+              </a>
+              </i>
+            ))}
           </p>
           <hr />
         </section>
