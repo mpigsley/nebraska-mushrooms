@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Inky Agaricus
+name: Plate Agaricus
 scientific_name: Agaricus placomyces
 location: Indian Cave State Park
 references:
@@ -29,16 +29,16 @@ external_links:
   - tag: Mushroom Observer Species Description
     link: https://mushroomobserver.org/names/1352
 photos:
+  - /img/agaricus-placomyces-9062-10.jpeg
+  - /img/agaricus-placomyces-9062-7.jpeg
+  - /img/agaricus-placomyces-9062-6.jpeg
+  - /img/agaricus-placomyces-9062-4.jpeg
   - /img/agaricus-placomyces-9062-1.jpeg
   - /img/agaricus-placomyces-9062-2.jpeg
   - /img/agaricus-placomyces-9062-3.jpeg
-  - /img/agaricus-placomyces-9062-4.jpeg
   - /img/agaricus-placomyces-9062-5.jpeg
-  - /img/agaricus-placomyces-9062-6.jpeg
-  - /img/agaricus-placomyces-9062-7.jpeg
   - /img/agaricus-placomyces-9062-8.jpeg
   - /img/agaricus-placomyces-9062-9.jpeg
-  - /img/agaricus-placomyces-9062-10.jpeg
   - /img/agaricus-placomyces-9062-11.jpeg
   - /img/agaricus-placomyces-9062-12.jpeg
   - /img/agaricus-placomyces-9062-13.jpeg
