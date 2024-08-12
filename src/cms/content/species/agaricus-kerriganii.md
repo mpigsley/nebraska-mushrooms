@@ -38,14 +38,12 @@ photos:
 ##### **Key Features**
 - Cap shape evenly rounded to half-sphere, later becoming flat to centrally depressed with age. 1.5-2.5 inches (4-6 cm) wide.
 - Texture smooth and dry. Ornamentation can be silky to scaly. Grayish brown becoming more brown towards the center of the cap.
-- Gill color light pink when young, becoming darker pink, then becoming brown with age. This is due to brown spores maturing on the gill surface over time.
+- The gills are free from the stem. The gill color is light pink when young, becoming darker pink, then becoming brown with age. This is due to brown spores maturing on the gill surface over time.
 - Stem with a membranous skirt on the top half and a bulb on the base. Sometimes curved. 1.2-2 inches (3-5 cm) long.
 - Bruising yellow where handled. Bruising red with age and decomposition.
-
-*Pronunciation*: Kare-Rig-In-E-I
+- Spore print brown.
 
 *Ecology*: A. kerriganii is a decomposer that can be found in soil in oak and pine forests from late summer to early fall. It has been reported along the West Coast, Colorado, and Nebraska.
-
 
 ##### **August 9th, 2023 Field Characteristics**
 
