@@ -43,7 +43,7 @@ photos:
 - Bruising yellow where handled. Bruising red with age and decomposition.
 - Spore print brown.
 
-*Ecology*: A. kerriganii is a decomposer that can be found in soil in oak and pine forests from late summer to early fall. It has been reported along the West Coast, Colorado, and Nebraska.
+*Environment*: A. kerriganii is a decomposer that can be found in soil in oak and pine forests from late summer to early fall. It has been reported along the West Coast, Colorado, and Nebraska.
 
 ##### **August 9th, 2023 Field Characteristics**
 

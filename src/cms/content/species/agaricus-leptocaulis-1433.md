@@ -64,7 +64,7 @@ photos:
 - Odor ranges from indistinct to pleasant to phenolic (like band-aids or glue).
 - Spore print brown.
 
-*Ecology*: A. leptocaulis is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast.
+*Environment*: A. leptocaulis is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast.
 
 ##### **August 9th, 2023 Field Characteristics**
 
