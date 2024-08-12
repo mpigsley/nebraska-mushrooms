@@ -2,10 +2,10 @@
   "name": "heavylifting",
   "version": "1.0.0",
   "scripts": {
-    "addnew": "ts-node ./index.ts",
-    "addnew-clean": "rm data.json && touch data.json && ts-node ./src/index.ts",
-    "dataload": "ts-node ./src/DataLoad.ts",
-    "runscript": "cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd .."
+    "generateMedia": "ts-node ./src/GenerateMedia.ts",
+    "cleanGenerated": "rm ./dist/terminalInput.bash && rm ./dist/pictures/* && rm ./dist/species/*",
+    "runGenerated": "cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd ..",
+    "dataload": "ts-node ./src/DataLoad.ts"
   },
   "keywords": [],
   "author": "",

@@ -30,12 +30,12 @@ function readJsonFile(fileName: string) {
     });
 }
 
-function generateMarkdownPhotos(record: Record): PhotoDto {
+function generateMarkdownPhotos(record: Record, hash: string): PhotoDto {
     const curlCommands = record.photoUrls.map((x, i) => {
-        const path = `./pictures/${record.observation.scientific_name.toLowerCase().replace(' ', '-')}${i + 1}.jpeg`;
+        const path = `./pictures/${record.observation.scientific_name.toLowerCase().replace(' ', '-')}-${hash}-${i + 1}.jpeg`;
         return `[ -f '${path}' ] && echo 'The file exists.' || curl -o ${path} ${x.replace('square', 'large')}`;
     });
-    const markdownLines = record.photoUrls.map((x, i) => `${markdownSpace}- /img/${record.observation.scientific_name.toLowerCase().replace(' ', '-')}${i + 1}.jpeg`);
+    const markdownLines = record.photoUrls.map((x, i) => `${markdownSpace}- /img/${record.observation.scientific_name.toLowerCase().replace(' ', '-')}-${hash}-${i + 1}.jpeg`);
     return {
         curlCommands,
         markdownLines
@@ -52,10 +52,11 @@ function generateOutput() {
     const output = [] as string[];
 
     records.forEach(record => {
+        const hash = Math.floor(1000 + Math.random() * 9000).toString();
         const recordString = `# record ${record.observation.scientific_name}`;
         output.push(recordString);
         console.log(recordString)
-        const photoData = generateMarkdownPhotos(record);
+        const photoData = generateMarkdownPhotos(record, hash);
         const taxa = record.taxonomy.map(x => `${markdownSpace}- ${x.trim()}`).join('\n');
     
         const markdown = `"---
@@ -69,7 +70,7 @@ taxonomy:
 ${taxa}
 external_links:
   - tag: MycoBank
-    link: ${record.taxonomyRecord!.Hyperlink}
+    link: ${record.taxonomyRecord?.Hyperlink}
   - tag: iNaturalist Observation
     link: ${record.observation.url}
 photos:
@@ -79,8 +80,8 @@ ${photoData.markdownLines.join('\n')}
 **Field Characteristics:**
 
 ${record.observation.description}"`;
-    
-        const markdownFilename = `${record.observation.scientific_name.toLowerCase().replace(' ', '-')}.md`;
+
+        const markdownFilename = `${record.observation.scientific_name.toLowerCase().replace(' ', '-')}-${hash}.md`;
         const markdownCommand = `touch ./species/${markdownFilename} && echo -e ${markdown} > ./species/${markdownFilename}`;
         const curlCommands = photoData.curlCommands;
         output.push(`${markdownCommand}\n\n${curlCommands.join('\n')}\n`);
@@ -88,7 +89,7 @@ ${record.observation.description}"`;
 
     const data = output.join('\n');
     
-    writeFile("../dist/terminalInput.bash", data, (err) => {
+    writeFile("./dist/terminalInput.bash", data, (err) => {
         if (err) {
             console.error('An error occurred:', err);
             return;
