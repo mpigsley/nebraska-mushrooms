@@ -8,6 +8,8 @@ references:
  New York State Museum of Natural History. 29:29-82'
 tags:
     - summer
+    - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

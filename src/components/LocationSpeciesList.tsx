@@ -196,7 +196,7 @@ const buildBodyMatch = (
 export default function LocationSpeciesList({
   species,
 }: LocationSpeciesListProps): JSX.Element {
-  const [listType, setListType] = React.useState<'table' | 'image'>('table');
+  const [listType, setListType] = React.useState<'table' | 'image'>('image');
   const { search, setSearch } = useActiveSearch();
 
   const { matchedTag, filteredSearch } = React.useMemo(() => {

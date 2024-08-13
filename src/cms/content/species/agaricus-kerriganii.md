@@ -10,6 +10,7 @@ references:
 tags:
     - summer
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -35,6 +36,8 @@ photos:
   - /img/agaricus-kerriganii-9721-4.jpeg
   - /img/agaricus-kerriganii-9721-5.jpeg
 ---
+Kerrigan's Agaricus is a brown-spored gilled mushroom that grows in soil in wooded habitats. It can be found in late summer to early fall. It has a skirt on the stem without a volva at the stem base. It bruises yellow.
+
 ##### **Key Features**
 - Cap shape evenly rounded to half-sphere, later becoming flat to centrally depressed with age. 1.5-2.5 inches (4-6 cm) wide.
 - Texture smooth and dry. Ornamentation can be silky to scaly. Grayish brown becoming more brown towards the center of the cap.

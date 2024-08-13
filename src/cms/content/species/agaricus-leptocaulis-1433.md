@@ -9,6 +9,7 @@ references:
 tags:
     - summer
     - fall
+    - agaric
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
