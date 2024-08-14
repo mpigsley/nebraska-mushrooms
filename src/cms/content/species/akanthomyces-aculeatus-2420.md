@@ -6,6 +6,7 @@ location: Indian Cave State Park
 references:
   - 'Akanthomyces aculeatus Lebert, Zeitschrift für wissenschaftliche 
  Zoologie 9 449 (1858) [MB#431365]'
+  - 'Kuo, M. (2022, August). Akanthomyces aculeatus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/akanthomyces_aculeatus.html'
 tags:
   - summer
   - entomopathogenic
