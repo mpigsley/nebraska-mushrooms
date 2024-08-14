@@ -7,6 +7,7 @@ tags:
     - summer
     - entomopathogenic
     - substrate-spiders
+    - parasite
 taxonomy:
   - Ascomycota
   - Pezizomycotina
