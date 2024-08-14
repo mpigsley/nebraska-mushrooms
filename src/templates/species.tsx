@@ -129,10 +129,16 @@ export default function SpeciesProfileTemplate({
 }
 
 export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
-  <title>
-    {data.species?.frontmatter?.name} (
-    {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
-  </title>
+  <>
+    <title>
+      {data.species?.frontmatter?.name} (
+      {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
+    </title>
+    <meta property="og:title" content={`${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})`} />
+    <meta property="og:description" content="Mushrooms of Nebraska" />
+    <meta name="description" content="Mushrooms of Nebraska" />
+    <meta property="og:image" content={data.species?.frontmatter?.photos?.[0]?.childImageSharp?.gatsbyImageData?.images?.fallback?.src || ''} />
+  </>
 );
 
 export const pageQuery = graphql`
