@@ -21,6 +21,7 @@ export enum Tag {
   Toothed = 'toothed',
   Nest = 'nest',
   Sequestrate = 'sequestrate',
+  Parasitic = 'parasitic',
   Lichen = 'lichen',
   SlimeMold = 'slime-mold',
   Rust = 'rust',
@@ -66,8 +67,10 @@ export const getTagClass = (tag: Tag) => {
       return 'spiders';
     case Tag.SubstrateDuff:
       return 'duff';
-      case Tag.SubstrateFungi:
-        return 'fungi';
+    case Tag.SubstrateFungi:
+      return 'fungi';
+    case Tag.Parasitic:
+      return 'parasitic';
     default:
       return 'other';
   }

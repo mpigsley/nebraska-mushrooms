@@ -51,7 +51,7 @@ function toProperCase(s: string): string {
 function generateOutput() {
     const output = [] as string[];
 
-    records.forEach(record => {
+    records.filter(x => x.observation.id == '235618096').forEach(record => {
         const hash = Math.floor(1000 + Math.random() * 9000).toString();
         const recordString = `# record ${record.observation.scientific_name}`;
         output.push(recordString);
@@ -65,7 +65,7 @@ name: ${toProperCase(record.observation.common_name)}
 scientific_name: ${record.observation.scientific_name}
 location: Indian Cave State Park
 tags:
-    - ${record.season}
+  - ${record.season}
 taxonomy:
 ${taxa}
 external_links:
@@ -77,7 +77,7 @@ photos:
 ${photoData.markdownLines.join('\n')}
 ---
 
-#### Field Characteristics:
+#### ${record.observation.observed_on_string} Field Characteristics:
 
 ${record.observation.description}"`;
 

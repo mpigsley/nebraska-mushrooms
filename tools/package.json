@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "generateMedia": "ts-node ./src/GenerateMedia.ts",
-    "cleanGenerated": "rm ./dist/terminalInput.bash && rm ./dist/pictures/* && rm ./dist/species/*",
     "runGenerated": "cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd ..",
     "dataload": "ts-node ./src/DataLoad.ts"
   },
