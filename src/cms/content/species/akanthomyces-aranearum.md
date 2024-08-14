@@ -40,6 +40,6 @@ photos:
   - /img/akanthomyces-aranearum17.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #357

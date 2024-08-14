@@ -1,7 +1,7 @@
 ---
 templateKey: species
-name: White Morel (~Yellow Morel)
-scientific_name: Morchella americana (M. esculentoides) (~M. esculenta)
+name: Common Morel
+scientific_name: Morchella americana
 location: Indian Cave State Park
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
@@ -24,6 +24,7 @@ references:
 tags:
   - edible-with-caution
   - disc
+  - substrate-soil
 taxonomy:
   - Ascomycota
   - Pezizomycotina

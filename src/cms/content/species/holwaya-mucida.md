@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - club
+    - substrate-wood
 taxonomy:
   - Ascomycota
   - Pezizomycotina
@@ -35,7 +36,7 @@ photos:
   - /img/holwaya-mucida13.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 484
 

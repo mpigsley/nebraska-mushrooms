@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -34,7 +35,7 @@ photos:
   - /img/flammulina-velutipes11.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 491
 

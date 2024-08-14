@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - crust
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -32,7 +33,7 @@ photos:
   - /img/phlebia-incarnata11.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #234
 

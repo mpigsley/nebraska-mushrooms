@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - toothed
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/hericium-coralloides6.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #437
 

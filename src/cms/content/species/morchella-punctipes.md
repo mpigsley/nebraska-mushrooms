@@ -18,6 +18,7 @@ tags:
   - spring
   - disc
   - edible-with-caution
+  - substrate-soil
 taxonomy:
   - Ascomycota
   - Pezizomycotina

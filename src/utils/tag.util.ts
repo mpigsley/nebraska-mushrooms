@@ -28,7 +28,10 @@ export enum Tag {
   Stinkhorn = 'stinkhorn',
   SubstrateSoil = 'substrate-soil',
   SubstrateWood = 'substrate-wood',
-  SubstrateSpiders = 'substrate-spiders'
+  SubstrateDuff = 'substrate-duff',
+  SubstrateSpiders = 'substrate-spiders',
+  SubstrateInsects = 'substrate-insects',
+  SubstrateFungi = 'substrate-fungi',
 }
 
 export const getTagClass = (tag: Tag) => {
@@ -51,10 +54,20 @@ export const getTagClass = (tag: Tag) => {
       return 'winter';
     case Tag.Agaric:
       return 'agaric';
+    case Tag.Entomopathogenic:
+      return 'entomopathogenic';
     case Tag.SubstrateSoil:
       return 'soil';
     case Tag.SubstrateWood:
       return 'wood';
+    case Tag.SubstrateSpiders:
+      return 'spiders';
+    case Tag.SubstrateSpiders:
+      return 'spiders';
+    case Tag.SubstrateDuff:
+      return 'duff';
+      case Tag.SubstrateFungi:
+        return 'fungi';
     default:
       return 'other';
   }

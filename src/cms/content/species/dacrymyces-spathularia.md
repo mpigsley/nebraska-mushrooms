@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -28,7 +29,7 @@ photos:
   - /img/dacrymyces-spathularia7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #218
 

@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - stinkhorn
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/phallus-hadriani5.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #372
 

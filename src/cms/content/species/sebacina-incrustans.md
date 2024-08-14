@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - jelly
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/sebacina-incrustans5.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #194
 

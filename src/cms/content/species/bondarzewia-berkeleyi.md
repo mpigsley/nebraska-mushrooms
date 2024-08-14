@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -29,7 +30,7 @@ photos:
   - /img/bondarzewia-berkeleyi8.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #273
 

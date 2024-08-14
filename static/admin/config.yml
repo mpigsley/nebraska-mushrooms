@@ -129,7 +129,10 @@ collections:
               'rust',
               'jelly',
               'substrate-soil',
-              'substrate-spiders'
+              'substrate-wood'
+              'substrate-spiders',
+              'substrate-duff',
+              'substrate-fungi',
             ]
 
       - label: Description

@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
   - agaric
   - spring
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricales

@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - spring
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -24,6 +25,6 @@ photos:
   - /img/auricularia-americana2.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 Growing on fallen Shagbark Hickory limb in large oak/hickory woodland draw. Exidia glandulosa growing in close proximity on the same substrate.

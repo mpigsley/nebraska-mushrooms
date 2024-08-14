@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Dryad's Saddle, Pheasant's Back
+name: Dryad's Saddle
 scientific_name: Cerioporus squamosus
 location: Indian Cave State Park
 references:
@@ -10,12 +10,19 @@ references:
 tags:
   - edible
   - polypore
+  - substrate-wood
 taxonomy:
   - Basidiomycota
+  - Agaricomycotina
+  - Agaricomycetes
   - Polyporales
   - Polyporaceae
-  - Cerioporus squamosus
+  - Cerioporus
 external_links:
+  - tag: MycoBank
+    link: https://www.mycobank.org/page/Name%20details%20page/83833
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/183005269
   - link: https://www.inaturalist.org/taxa/940028-Cerioporus-squamosus
     tag: iNaturalist Species Description
   - tag: Index Fungorum
@@ -68,3 +75,12 @@ This is a good edible mushroom when collected young in its small button stage. I
 #### Toxicity
 
 This mushroom is not known to be toxic. However, allergies and sensitivities may affect individuals differently. Please use caution when eating any wild mushrooms.
+
+#### Field Characteristics:
+
+- Growing caespitose on fallen well-rotted (brown) hardwood log in low, moist, mixed oak/hickory woodland.
+- Caps semicircular with a wavy margin, brown squamules radiating outward from  the center.
+- Hymenium with light honeycomb like pores.
+- Stipe black, matte, tough and corklike.
+- Smell: watermelon rind
+- Taste: watermelon rind

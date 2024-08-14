@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - crust
+    - substrate-wood
 taxonomy:
   - Ascomycota
   - Pezizomycotina
@@ -29,7 +30,7 @@ photos:
   - /img/biscogniauxia-atropunctata7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #137
 

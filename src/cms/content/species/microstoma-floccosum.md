@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - spring
     - disc
+    - substrate-wood
+    - substrate-duff    
 taxonomy:
   - Ascomycota
   - Pezizomycotina
@@ -20,13 +22,13 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/166353380
 photos:
+  - /img/microstoma-floccosum3.jpeg
   - /img/microstoma-floccosum1.jpeg
   - /img/microstoma-floccosum2.jpeg
-  - /img/microstoma-floccosum3.jpeg
   - /img/microstoma-floccosum4.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 58
 

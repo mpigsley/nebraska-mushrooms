@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - bolete
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -29,7 +30,7 @@ photos:
   - /img/leccinellum-rugosiceps7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #181
 

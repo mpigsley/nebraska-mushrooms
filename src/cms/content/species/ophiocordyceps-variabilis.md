@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - entomopathogenic
+    - substrate-insects
 taxonomy:
   - Ascomycota
   - Pezizomycotina

@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -26,7 +28,7 @@ photos:
   - /img/meripilus-sumstinei5.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 130
 

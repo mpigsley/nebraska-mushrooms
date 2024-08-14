@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -32,7 +34,7 @@ photos:
   - /img/coprinopsis-variegata9.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #143
 

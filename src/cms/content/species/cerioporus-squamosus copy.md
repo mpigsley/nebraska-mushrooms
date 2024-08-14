@@ -5,6 +5,7 @@ scientific_name: Cerioporus squamosus
 location: Indian Cave State Park
 tags:
     - summer
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -28,7 +29,7 @@ photos:
   - /img/cerioporus-squamosus8.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #382
 

@@ -7,6 +7,7 @@ tags:
     - fall
     - poisonous
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -33,7 +34,7 @@ photos:
   - /img/omphalotus-illudens9.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #439
 

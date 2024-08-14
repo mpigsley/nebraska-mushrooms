@@ -77,7 +77,7 @@ photos:
 ${photoData.markdownLines.join('\n')}
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 ${record.observation.description}"`;
 

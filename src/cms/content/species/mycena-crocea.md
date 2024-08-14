@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-duff
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -30,7 +31,7 @@ photos:
   - /img/mycena-crocea7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #375
 

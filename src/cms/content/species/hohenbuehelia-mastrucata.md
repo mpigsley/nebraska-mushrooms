@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -21,17 +22,17 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188824821
 photos:
+  - /img/hohenbuehelia-mastrucata6.jpeg
   - /img/hohenbuehelia-mastrucata1.jpeg
   - /img/hohenbuehelia-mastrucata2.jpeg
   - /img/hohenbuehelia-mastrucata3.jpeg
   - /img/hohenbuehelia-mastrucata4.jpeg
   - /img/hohenbuehelia-mastrucata5.jpeg
-  - /img/hohenbuehelia-mastrucata6.jpeg
   - /img/hohenbuehelia-mastrucata7.jpeg
   - /img/hohenbuehelia-mastrucata8.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 467
 

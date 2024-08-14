@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-wood
+    - edible
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -30,7 +32,7 @@ photos:
   - /img/desarmillaria-caespitosa7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #365
 

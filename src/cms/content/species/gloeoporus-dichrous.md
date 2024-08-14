@@ -7,6 +7,7 @@ tags:
     - fall
     - polypore
     - cust
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -30,7 +31,7 @@ photos:
   - /img/gloeoporus-dichrous8.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #459
 

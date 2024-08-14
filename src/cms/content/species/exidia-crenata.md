@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/exidia-crenata5.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 494
 

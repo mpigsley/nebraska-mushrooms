@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -35,7 +36,7 @@ photos:
   - /img/cortinarius-hesleri12.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #220
 

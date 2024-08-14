@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -29,7 +30,7 @@ photos:
   - /img/boletinellus-merulioides7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #171
 

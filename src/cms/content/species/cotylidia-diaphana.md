@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/cotylidia-diaphana6.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #200
 

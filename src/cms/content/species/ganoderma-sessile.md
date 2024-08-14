@@ -7,6 +7,8 @@ tags:
     - fall
     - polypore
     - conk
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -29,7 +31,7 @@ photos:
   - /img/ganoderma-sessile7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #462
 

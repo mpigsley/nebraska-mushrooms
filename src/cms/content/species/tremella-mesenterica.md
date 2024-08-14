@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - spring
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -26,7 +27,7 @@ photos:
   - /img/tremella-mesenterica4.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 102
 Growing gregariously down the length of fallen hardwood branch in low oak woodland area near creek.

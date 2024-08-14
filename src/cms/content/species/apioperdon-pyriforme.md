@@ -31,7 +31,7 @@ photos:
   - /img/apioperdon-pyriforme7.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 469
 

@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -33,7 +34,7 @@ photos:
   - /img/mycena-haematopus10.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #371
 

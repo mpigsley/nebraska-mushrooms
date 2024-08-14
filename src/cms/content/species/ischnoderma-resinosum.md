@@ -7,6 +7,7 @@ tags:
     - fall
     - polypore
     - conk
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -30,7 +31,7 @@ photos:
   - /img/ischnoderma-resinosum8.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 472
 

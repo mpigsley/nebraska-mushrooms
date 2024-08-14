@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - edible
     - substrate-wood
     - substrate-soil
 taxonomy:
@@ -38,7 +39,7 @@ photos:
   - /img/armillaria-gallica13.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 468
 

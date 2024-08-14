@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - stinkhorn
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -28,7 +29,7 @@ photos:
   - /img/mutinus-elegans1.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #281
 

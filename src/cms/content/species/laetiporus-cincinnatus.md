@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -22,7 +24,7 @@ photos:
 
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #389
 

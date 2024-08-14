@@ -5,6 +5,7 @@ scientific_name: Sporothrix epigloea
 location: Indian Cave State Park
 tags:
     - summer
+    - substrate-fungi
 taxonomy:
   - Ascomycota
   - Pezizomycotina
@@ -32,10 +33,8 @@ photos:
   - /img/sporothrix-epigloea11.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:**
 
-#272
-
--Growing on Tremella fuciformis fruiting bodies, that are fruiting from fallen Northern Red Oak limb in open mixed oak/hickory woodland.
--Fruiting bodies black and spine-like, some with fine droplet at the tip.
--Some nearby Tremella specimens starting to dissolve.
+- Growing on Tremella fuciformis fruiting bodies, that are fruiting from fallen Northern Red Oak limb in open mixed oak/hickory woodland.
+- Fruiting bodies black and spine-like, some with fine droplet at the tip.
+- Some nearby Tremella specimens starting to dissolve.

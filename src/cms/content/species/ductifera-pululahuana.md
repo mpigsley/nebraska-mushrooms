@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - spring
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -26,7 +27,7 @@ photos:
   - /img/ductifera-pululahuana4.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 39
 

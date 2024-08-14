@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - summer
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -32,7 +33,7 @@ photos:
   - /img/rhodotus-palmatus9.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #250
 

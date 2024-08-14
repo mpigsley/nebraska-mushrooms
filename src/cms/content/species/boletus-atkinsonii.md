@@ -10,6 +10,7 @@ references:
 tags:
   - edible-with-caution
   - bolete
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Boletales

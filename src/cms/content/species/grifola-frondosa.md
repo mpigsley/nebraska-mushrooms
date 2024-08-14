@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - summer
     - polypore
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -24,7 +26,7 @@ photos:
   - /img/grifola-frondosa3.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #413
 

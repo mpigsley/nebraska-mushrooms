@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - spring
     - coral
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

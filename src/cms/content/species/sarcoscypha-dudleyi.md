@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - disc
+    - substrate-wood
 taxonomy:
   - Ascomycota
   - Pezizomycotina
@@ -28,7 +29,7 @@ photos:
   - /img/sarcoscypha-dudleyi6.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 483
 

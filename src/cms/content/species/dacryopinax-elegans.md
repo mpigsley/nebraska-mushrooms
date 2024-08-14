@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - jelly
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -35,7 +36,7 @@ photos:
   - /img/dacryopinax-elegans14.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 489
 

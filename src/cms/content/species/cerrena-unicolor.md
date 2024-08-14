@@ -7,6 +7,7 @@ tags:
     - fall
     - polypore
     - shelf
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -27,7 +28,7 @@ photos:
   - /img/cerrena-unicolor5.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 482
 

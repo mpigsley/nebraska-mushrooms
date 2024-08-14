@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - spring
     - crust
+    - substrate-wood
+
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -24,7 +26,7 @@ photos:
   - /img/xylobolus-frustulatus3.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 50
 

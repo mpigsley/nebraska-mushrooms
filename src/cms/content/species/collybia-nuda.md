@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -28,7 +29,7 @@ photos:
   - /img/collybia-nuda6.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #461
 

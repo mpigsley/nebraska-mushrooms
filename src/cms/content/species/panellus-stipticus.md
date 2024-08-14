@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -29,7 +30,7 @@ photos:
   - /img/panellus-stipticus6.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 #449
 

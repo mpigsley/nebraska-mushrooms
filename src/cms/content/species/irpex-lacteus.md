@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - spring
     - crust
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -25,7 +26,7 @@ photos:
   - /img/irpex-lacteus4.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 52
 

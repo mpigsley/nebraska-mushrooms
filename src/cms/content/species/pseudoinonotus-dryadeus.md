@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - polypore
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -33,7 +34,7 @@ photos:
   - /img/pseudoinonotus-dryadeus12.jpeg
 ---
 
-**Field Characteristics:**
+#### Field Characteristics:
 
 ---------------------------------------------------------
 Nickname: Pseudoinonotus dryadeus 

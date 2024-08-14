@@ -7,6 +7,7 @@ tags:
     - summer
     - polypore
     - toothed
+    - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -32,9 +33,7 @@ photos:
   - /img/steccherinum-subrawakense10.jpeg
 ---
 
-**Field Characteristics:**
-
-#131
+#### Field Characteristics:
 
 Additional photos found a day later in the same area and added to observation.
 
