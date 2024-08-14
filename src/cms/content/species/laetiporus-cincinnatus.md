@@ -21,7 +21,7 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/183135887
 photos:
-
+  - /img/laetiporus-cincinnatus-1.jpeg
 ---
 
 #### Field Characteristics:
