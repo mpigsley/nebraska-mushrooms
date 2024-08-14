@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -21,9 +23,9 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188825159
 photos:
+  - /img/armillaria-gallica3.jpeg
   - /img/armillaria-gallica1.jpeg
   - /img/armillaria-gallica2.jpeg
-  - /img/armillaria-gallica3.jpeg
   - /img/armillaria-gallica4.jpeg
   - /img/armillaria-gallica5.jpeg
   - /img/armillaria-gallica6.jpeg

@@ -7,6 +7,7 @@ tags:
     - summer
     - fall
     - agaric
+    - substrate-soil
 references:
     - 'Tulloss RE. 2024. Amanita amerirubescens. in Tulloss RE, Yang ZL, eds.
  Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+amerirubescens ].

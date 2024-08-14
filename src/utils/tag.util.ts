@@ -26,6 +26,9 @@ export enum Tag {
   Rust = 'rust',
   Jelly = 'jelly',
   Stinkhorn = 'stinkhorn',
+  SubstrateSoil = 'substrate-soil',
+  SubstrateWood = 'substrate-wood',
+  SubstrateSpiders = 'substrate-spiders'
 }
 
 export const getTagClass = (tag: Tag) => {
@@ -46,6 +49,12 @@ export const getTagClass = (tag: Tag) => {
       return 'fall';
     case Tag.Winter:
       return 'winter';
+    case Tag.Agaric:
+      return 'agaric';
+    case Tag.SubstrateSoil:
+      return 'soil';
+    case Tag.SubstrateWood:
+      return 'wood';
     default:
       return 'other';
   }

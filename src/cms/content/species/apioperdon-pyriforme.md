@@ -6,6 +6,8 @@ location: Indian Cave State Park
 tags:
     - fall
     - sequestrate
+    - substrate-wood
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -20,10 +22,10 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188825357
 photos:
+  - /img/apioperdon-pyriforme4.jpeg
   - /img/apioperdon-pyriforme1.jpeg
   - /img/apioperdon-pyriforme2.jpeg
   - /img/apioperdon-pyriforme3.jpeg
-  - /img/apioperdon-pyriforme4.jpeg
   - /img/apioperdon-pyriforme5.jpeg
   - /img/apioperdon-pyriforme6.jpeg
   - /img/apioperdon-pyriforme7.jpeg

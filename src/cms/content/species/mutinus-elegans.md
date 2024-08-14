@@ -20,12 +20,12 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/177571280
 photos:
-  - /img/mutinus-elegans1.jpeg
-  - /img/mutinus-elegans2.jpeg
   - /img/mutinus-elegans3.jpeg
+  - /img/mutinus-elegans2.jpeg
   - /img/mutinus-elegans4.jpeg
   - /img/mutinus-elegans5.jpeg
   - /img/mutinus-elegans6.jpeg
+  - /img/mutinus-elegans1.jpeg
 ---
 
 **Field Characteristics:**

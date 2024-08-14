@@ -20,10 +20,10 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/172423222
 photos:
+  - /img/boletinellus-merulioides4.jpeg
   - /img/boletinellus-merulioides1.jpeg
   - /img/boletinellus-merulioides2.jpeg
   - /img/boletinellus-merulioides3.jpeg
-  - /img/boletinellus-merulioides4.jpeg
   - /img/boletinellus-merulioides5.jpeg
   - /img/boletinellus-merulioides6.jpeg
   - /img/boletinellus-merulioides7.jpeg

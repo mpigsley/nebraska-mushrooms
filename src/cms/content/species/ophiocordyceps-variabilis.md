@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: 
+name: Cheeto Cordyceps
 scientific_name: Ophiocordyceps variabilis
 location: Indian Cave State Park
 tags:
@@ -20,20 +20,16 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/170134828
 photos:
-  - /img/ophiocordyceps-variabilis1.jpeg
+  - /img/ophiocordyceps-variabilis12.jpeg
   - /img/ophiocordyceps-variabilis2.jpeg
   - /img/ophiocordyceps-variabilis3.jpeg
   - /img/ophiocordyceps-variabilis4.jpeg
   - /img/ophiocordyceps-variabilis5.jpeg
   - /img/ophiocordyceps-variabilis6.jpeg
+  - /img/ophiocordyceps-variabilis1.jpeg
 ---
 
-**Field Characteristics:**
+#### June 29th, 2023 Field Characteristics:
 
-#136
-
-Emerging from a large rotting (white rot) basswood log in large, moist woodland draw.
-
-Host: Dipteran fly larvae.
-
-Collected again since there were no secondary parasites.
+- Emerging from a large rotting (white rot) basswood log in a large, moist woodland draw.
+- Host: Dipteran fly larvae.

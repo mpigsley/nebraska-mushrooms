@@ -21,8 +21,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/170023945
 photos:
-  - /img/coprinopsis-variegata1.jpeg
   - /img/coprinopsis-variegata2.jpeg
+  - /img/coprinopsis-variegata1.jpeg
   - /img/coprinopsis-variegata3.jpeg
   - /img/coprinopsis-variegata4.jpeg
   - /img/coprinopsis-variegata5.jpeg

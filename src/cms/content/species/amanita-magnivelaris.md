@@ -7,6 +7,7 @@ tags:
     - summer
     - poisonous
     - agaric
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

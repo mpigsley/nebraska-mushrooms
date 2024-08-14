@@ -6,6 +6,7 @@ location: Indian Cave State Park
 tags:
   - summer
   - agaric
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

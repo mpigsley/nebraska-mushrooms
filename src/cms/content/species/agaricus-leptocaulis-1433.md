@@ -10,6 +10,7 @@ tags:
     - summer
     - fall
     - agaric
+    - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
