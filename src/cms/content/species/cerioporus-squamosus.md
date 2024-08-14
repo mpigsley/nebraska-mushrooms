@@ -11,6 +11,9 @@ tags:
   - edible
   - polypore
   - substrate-wood
+  - spring
+  - summer
+  - fall
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -39,6 +42,13 @@ photos:
   - /img/cerioporus_squamosus5.jpeg
   - /img/cerioporus_squamosus6.jpeg
   - /img/cerioporus_squamosus7.jpeg
+  - /img/cerioporus-squamosus1.jpeg
+  - /img/cerioporus-squamosus2.jpeg
+  - /img/cerioporus-squamosus3.jpeg
+  - /img/cerioporus-squamosus4.jpeg
+  - /img/cerioporus-squamosus5.jpeg
+  - /img/cerioporus-squamosus6.jpeg
+  - /img/cerioporus-squamosus7.jpeg
 ---
 
 #### Description

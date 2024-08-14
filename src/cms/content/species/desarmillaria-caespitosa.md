@@ -23,10 +23,10 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/182885969
 photos:
+  - /img/desarmillaria-caespitosa4.jpeg
   - /img/desarmillaria-caespitosa1.jpeg
   - /img/desarmillaria-caespitosa2.jpeg
   - /img/desarmillaria-caespitosa3.jpeg
-  - /img/desarmillaria-caespitosa4.jpeg
   - /img/desarmillaria-caespitosa5.jpeg
   - /img/desarmillaria-caespitosa6.jpeg
   - /img/desarmillaria-caespitosa7.jpeg

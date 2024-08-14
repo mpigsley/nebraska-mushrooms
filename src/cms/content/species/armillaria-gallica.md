@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Bulbous Honey Fungus
+name: Bulbous Honey Mushroom
 scientific_name: Armillaria gallica
 location: Indian Cave State Park
 tags:
@@ -24,9 +24,9 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188825159
 photos:
+  - /img/armillaria-gallica2.jpeg
   - /img/armillaria-gallica3.jpeg
   - /img/armillaria-gallica1.jpeg
-  - /img/armillaria-gallica2.jpeg
   - /img/armillaria-gallica4.jpeg
   - /img/armillaria-gallica5.jpeg
   - /img/armillaria-gallica6.jpeg
@@ -37,6 +37,12 @@ photos:
   - /img/armillaria-gallica11.jpeg
   - /img/armillaria-gallica12.jpeg
   - /img/armillaria-gallica13.jpeg
+  - /img/armillaria-gallica-6003-1.jpeg
+  - /img/armillaria-gallica-6003-2.jpeg
+  - /img/armillaria-gallica-6003-3.jpeg
+  - /img/armillaria-gallica-6003-4.jpeg
+  - /img/armillaria-gallica-6003-5.jpeg
+  - /img/armillaria-gallica-6003-6.jpeg
 ---
 
 #### Field Characteristics:
