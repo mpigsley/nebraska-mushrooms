@@ -138,6 +138,8 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
     <meta property="og:description" content="Mushrooms of Nebraska" />
     <meta name="description" content="Mushrooms of Nebraska" />
     <meta property="og:image" content={data.species?.frontmatter?.photos?.[0]?.childImageSharp?.gatsbyImageData?.images?.fallback?.src || ''} />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="1000" /> 
   </>
 );
 
