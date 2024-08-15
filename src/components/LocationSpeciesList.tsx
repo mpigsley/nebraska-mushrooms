@@ -1,11 +1,12 @@
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import { Image, Menu } from 'react-feather';
+import { Image, Menu, Minus } from 'react-feather';
 import * as React from 'react';
 
 import { Tag, getTagClass } from '../utils/tag.util';
 import { useActiveSearch } from '../utils/active-search';
 import ClearableInput from './ClearableInput';
 import Favicon from '../img/favicon.svg';
+import { Link } from 'gatsby';
 
 type Species = {
   id: string;
@@ -198,6 +199,7 @@ export default function LocationSpeciesList({
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
   const { search, setSearch } = useActiveSearch();
+  const [showTagMenu, setShowTagMenu] = React.useState(false);
 
   const { matchedTag, filteredSearch } = React.useMemo(() => {
     const matchedTag = TagMatch.find((tag) => search.includes(tag))?.split(
@@ -259,6 +261,8 @@ export default function LocationSpeciesList({
     setSearch(`${filteredSearch} tag:${tag}`.trim());
   };
 
+  const tags: Tag[] = Object.values(Tag);
+
   return (
     <>
       <div className="row">
@@ -275,10 +279,15 @@ export default function LocationSpeciesList({
         </div>
         <div className="six columns content-right">
           <button
+            type='button'
+            className='button mr-2'
+            onClick={() => setShowTagMenu(!showTagMenu)}
+          >Show Search Tags
+          </button>
+          <button
             type="button"
-            className={`button${
-              listType === 'table' ? '-primary' : ''
-            } button-icon`}
+            className={`button${listType === 'table' ? '-primary' : ''
+              } button-icon ml-2`}
             onClick={() => {
               if (listType !== 'table') {
                 setListType('table');
@@ -289,9 +298,8 @@ export default function LocationSpeciesList({
           </button>
           <button
             type="button"
-            className={`button${
-              listType === 'image' ? '-primary' : ''
-            } button-icon ml-2`}
+            className={`button${listType === 'image' ? '-primary' : ''
+              } button-icon ml-2`}
             onClick={() => {
               if (listType !== 'image') {
                 setListType('image');
@@ -301,6 +309,27 @@ export default function LocationSpeciesList({
             <Image size={20} />
           </button>
         </div>
+      </div>
+      <div className='row content-center'>
+        {!!showTagMenu && (
+          <div className="mb-2">
+            {tags.map((tag) => (
+              <span
+                key={tag}
+                role="button"
+                className={`${getTagClass(
+                  tag,
+                )} tag tag-list-item clickable-tag`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  onChangeTag(tag);
+                }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
       <ActiveList species={formattedSpecies} onChangeTag={onChangeTag} />
     </>
