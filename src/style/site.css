@@ -20,12 +20,14 @@
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
+  background-color: black;
 }
 
 .horizontalScrollItem {
   display: inline-block;
   white-space: normal;
   height: 100%;
+  vertical-align: middle;
 }
 
 .relative {

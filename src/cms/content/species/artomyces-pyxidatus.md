@@ -20,6 +20,7 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/166139014
 photos:
+  - /img/artomyces-pyxidatus5.jpeg
   - /img/artomyces-pyxidatus3.jpeg
   - /img/artomyces-pyxidatus1.jpeg
   - /img/artomyces-pyxidatus2.jpeg
