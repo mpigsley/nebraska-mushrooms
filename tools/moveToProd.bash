@@ -10,11 +10,11 @@ fi
 filename=$1
 
 # Move the species file
-mv "./dist/species/${filename}" "../src/cms/content/species"
+mv "./dist/species/${filename}.md" "../src/cms/content/species/"
 
 # Check if any files match the wildcard pattern before moving them
 shopt -s nullglob
-files=(./dist/pictures/${filename}-*)
+files=(./dist/pictures/${filename}-*.jpeg)
 shopt -u nullglob
 
 if [ ${#files[@]} -gt 0 ]; then

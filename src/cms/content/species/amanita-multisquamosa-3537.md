@@ -42,7 +42,7 @@ photos:
   - /img/amanita-multisquamosa-3537-9.jpeg
 ---
 
-This is a mycorrhizal mushroom growing on soil in the spring and fall east of the Great Plains. It can be found in wooded areas associating with Oak and other broadleaf trees.
+This is a mycorrhizal mushroom growing on soil in the spring and fall east of the Great Plains. It can be found in wooded areas associating with Oak and other broadleaf trees. It can sometimes be found in lawns.
 
 It is mostly white, with a yellow or tan cap center. The cap is adorned with white, removable warts. 
 
