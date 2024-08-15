@@ -20,21 +20,16 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/172899235
 photos:
-  - /img/cotylidia-diaphana1.jpeg
-  - /img/cotylidia-diaphana2.jpeg
   - /img/cotylidia-diaphana3.jpeg
+  - /img/cotylidia-diaphana2.jpeg
   - /img/cotylidia-diaphana4.jpeg
   - /img/cotylidia-diaphana5.jpeg
-  - /img/cotylidia-diaphana6.jpeg
+  - /img/cotylidia-diaphana1.jpeg
 ---
 
 #### Field Characteristics:
 
-#200
-
--Growing gregariously on woodland floor in open mixed oak/hickory woodland edge.
-
--Flesh thin and fairly tough.
-
--Smell: not distinctive.
--Taste: mildly bitter.
+- Growing gregariously on woodland floor in open mixed oak/hickory woodland edge.
+- Flesh thin and fairly tough.
+- Smell: not distinctive.
+- Taste: mildly bitter.
