@@ -4,9 +4,11 @@ name: Velvet Foot
 scientific_name: Flammulina velutipes
 location: Indian Cave State Park
 tags:
-    - fall
-    - agaric
-    - substrate-wood
+  - spring
+  - fall
+  - winter
+  - agaric
+  - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

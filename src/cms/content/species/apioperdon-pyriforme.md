@@ -4,6 +4,7 @@ name: Pear-shaped Puffball
 scientific_name: Apioperdon pyriforme
 location: Indian Cave State Park
 tags:
+    - summer
     - fall
     - sequestrate
     - substrate-wood

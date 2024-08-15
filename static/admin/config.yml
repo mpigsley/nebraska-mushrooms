@@ -134,6 +134,7 @@ collections:
               'substrate-spiders',
               'substrate-duff',
               'substrate-fungi',
+              'substrate-moss',
             ]
 
       - label: Description
