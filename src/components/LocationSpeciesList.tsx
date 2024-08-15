@@ -1,12 +1,11 @@
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import { Image, Menu, Minus } from 'react-feather';
+import { Image, Menu } from 'react-feather';
 import * as React from 'react';
 
 import { Tag, getTagClass } from '../utils/tag.util';
 import { useActiveSearch } from '../utils/active-search';
 import ClearableInput from './ClearableInput';
 import Favicon from '../img/favicon.svg';
-import { Link } from 'gatsby';
 
 type Species = {
   id: string;
@@ -261,8 +260,6 @@ export default function LocationSpeciesList({
     setSearch(`${filteredSearch} tag:${tag}`.trim());
   };
 
-  const tags: Tag[] = Object.values(Tag);
-
   return (
     <>
       <div className="row">
@@ -313,7 +310,7 @@ export default function LocationSpeciesList({
       <div className='row content-center'>
         {!!showTagMenu && (
           <div className="mb-2">
-            {tags.map((tag) => (
+            {Object.values(Tag).map((tag) => (
               <span
                 key={tag}
                 role="button"
