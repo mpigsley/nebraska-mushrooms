@@ -28,6 +28,7 @@
   white-space: normal;
   height: 100%;
   vertical-align: middle;
+  -webkit-vertical-align: middle;
 }
 
 .relative {

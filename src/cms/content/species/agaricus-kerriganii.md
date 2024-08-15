@@ -31,10 +31,10 @@ external_links:
   - tag: Mushroom Observer Species Description
     link: https://mushroomobserver.org/names/59958
 photos:
+  - /img/agaricus-kerriganii-9721-4.jpeg
   - /img/agaricus-kerriganii-9721-1.jpeg
   - /img/agaricus-kerriganii-9721-2.jpeg
   - /img/agaricus-kerriganii-9721-3.jpeg
-  - /img/agaricus-kerriganii-9721-4.jpeg
   - /img/agaricus-kerriganii-9721-5.jpeg
 ---
 Kerrigan's Agaricus is a brown-spored gilled mushroom that grows in soil in wooded habitats. It can be found in late summer to early fall. It has a skirt on the stem without a volva at the stem base. It bruises yellow.
