@@ -116,7 +116,7 @@ export default function LocationSpeciesList({
   return (
     <>
       <div className="row">
-        <div className="four columns">
+        <div className="seven columns">
           <ClearableInput
             type="text"
             id="search"
@@ -126,11 +126,9 @@ export default function LocationSpeciesList({
             onChange={(event) => setSearch(event.target.value)}
             onClear={() => setSearch('')}
           />
+          <TagSelect className="u-full-width mb-3" />
         </div>
-        <div className="four columns">
-          <TagSelect />
-        </div>
-        <div className="four columns content-right">
+        <div className="five columns content-right">
           <button
             type="button"
             className={`button${

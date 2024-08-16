@@ -1,17 +1,46 @@
-import Select from 'react-select';
+import Select, { components } from 'react-select';
 import * as React from 'react';
 
 import { Tag, getTagClass } from '../utils/tag.util';
 
-export default function TagSelect() {
+type TagSelectProps = {
+  className?: string;
+};
+
+export default function TagSelect({ className }: TagSelectProps) {
   return (
     <Select
       isMulti
-      options={Object.values(Tag).map((tag) => ({
-        value: tag,
-        label: tag,
-        className: getTagClass(tag),
-      }))}
+      className={className}
+      classNamePrefix="tag-select"
+      placeholder="Filter by tag..."
+      components={{
+        Option: ({ innerProps, ...props }) => (
+          <components.Option
+            {...props}
+            innerProps={{
+              ...innerProps,
+              className: `tag-select__option ${props.data.className}`,
+            }}
+          />
+        ),
+        MultiValueContainer: ({ innerProps, ...props }) => (
+          <components.MultiValueContainer
+            {...props}
+            innerProps={{
+              ...innerProps,
+              className: `${innerProps.className} ${props.data.className}`,
+            }}
+          />
+        ),
+      }}
+      options={Object.values(Tag)
+        .sort()
+        .map((tag) => ({
+          value: tag,
+          label: tag,
+          className: getTagClass(tag),
+        }))}
     />
   );
 }
