@@ -55,10 +55,10 @@ export default function SpeciesProfileTemplate({
           <p>
             {data.species?.frontmatter?.taxonomy?.map((taxa, index: number) => (
               <i>
-              {index > 0 && (<> &gt; </>)}
-              <a href={`http://www.inaturalist.org/taxa/search?q=${taxa?.toLowerCase().replaceAll(' ', '+')}`}>
-                {taxa}
-              </a>
+                {index > 0 && (<> &gt; </>)}
+                <a href={`http://www.inaturalist.org/taxa/search?q=${taxa?.toLowerCase().replaceAll(' ', '+')}`}>
+                  {taxa}
+                </a>
               </i>
             ))}
           </p>
@@ -128,20 +128,23 @@ export default function SpeciesProfileTemplate({
   );
 }
 
-export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => (
-  <>
-    <title>
-      {data.species?.frontmatter?.name} (
-      {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
-    </title>
-    <meta property="og:title" content={`${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})`} />
-    <meta property="og:description" content="Mushrooms of Nebraska" />
-    <meta name="description" content="Mushrooms of Nebraska" />
-    <meta property="og:image" content={data.species?.frontmatter?.photos?.[0]?.childImageSharp?.gatsbyImageData?.images?.fallback?.src || ''} />
-    <meta property="og:image:width" content="1000" />
-    <meta property="og:image:height" content="1000" /> 
-  </>
-);
+export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
+  const prettyName = !!data.species?.frontmatter?.name ? `${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})` : data.species?.frontmatter?.scientific_name;
+  return (
+    <>
+      <title>
+        {data.species?.frontmatter?.name} (
+        {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
+      </title>
+      <meta property="og:title" content={prettyName || ''} />
+      <meta property="og:description" content="Mushrooms of Nebraska" />
+      <meta name="description" content="Mushrooms of Nebraska" />
+      <meta property="og:image" content={data.species?.frontmatter?.photos?.[0]?.childImageSharp?.gatsbyImageData?.images?.fallback?.src || ''} />
+      <meta property="og:image:width" content="1000" />
+      <meta property="og:image:height" content="1000" />
+    </>
+  )
+};
 
 export const pageQuery = graphql`
   query SpeciesProfileTemplate($id: String!, $locationName: String!) {
