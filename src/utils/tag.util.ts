@@ -34,6 +34,7 @@ export enum Tag {
   SubstrateSpiders = 'substrate-spiders',
   SubstrateInsects = 'substrate-insects',
   SubstrateFungi = 'substrate-fungi',
+  SubstrateDung = 'substrate-dung',
 }
 
 export const getTagClass = (tag: Tag) => {
@@ -72,6 +73,8 @@ export const getTagClass = (tag: Tag) => {
       return 'substrate-moss'
     case Tag.SubstrateFungi:
       return 'fungi';
+      case Tag.SubstrateDung:
+        return 'substrate-dung';
     case Tag.Parasitic:
       return 'parasitic';
     default:

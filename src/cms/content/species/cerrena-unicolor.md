@@ -21,8 +21,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/189013747
 photos:
-  - /img/cerrena-unicolor1.jpeg
   - /img/cerrena-unicolor2.jpeg
+  - /img/cerrena-unicolor1.jpeg
   - /img/cerrena-unicolor3.jpeg
   - /img/cerrena-unicolor4.jpeg
   - /img/cerrena-unicolor5.jpeg

@@ -31,6 +31,8 @@ external_links:
     link: https://www.mushroomexpert.com/amanita_multisquamosa.html
   - tag: Mushroom Observer Species Description
     link: https://mushroomobserver.org/names/113519
+  - tag: Amanitaceae.org
+    link: http://amanitaceae.org/?Amanita%20multisquamosa
 photos:
   - /img/amanita-multisquamosa-3537-3.jpeg
   - /img/amanita-multisquamosa-3537-4.jpeg
@@ -42,7 +44,7 @@ photos:
   - /img/amanita-multisquamosa-3537-9.jpeg
 ---
 
-This is a mycorrhizal mushroom growing on soil in the spring and fall east of the Great Plains. It can be found in wooded areas associating with Oak and other broadleaf trees. It can sometimes be found in lawns.
+This is a presumed toxic, mycorrhizal mushroom growing on soil in the spring through fall. It can be found associated with Oak and other broadleaf trees east of the Great Plains.
 
 It is mostly white, with a yellow or tan cap center. The cap is adorned with white, removable warts. 
 

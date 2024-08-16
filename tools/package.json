@@ -5,7 +5,8 @@
     "generateMedia": "ts-node ./src/GenerateMedia.ts",
     "run:Generated": "cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd ..",
     "dataload": "ts-node ./src/DataLoad.ts",
-    "moveToProd": "bash moveToProd.bash"
+    "moveToProd": "bash moveToProd.bash",
+    "movePhotosToProd": "bash movePhotosToProd.bash"
   },
   "keywords": [],
   "author": "",
