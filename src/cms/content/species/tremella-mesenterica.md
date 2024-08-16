@@ -21,8 +21,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/167454281
 photos:
-  - /img/tremella-mesenterica1.jpeg
   - /img/tremella-mesenterica2.jpeg
+  - /img/tremella-mesenterica1.jpeg
   - /img/tremella-mesenterica3.jpeg
   - /img/tremella-mesenterica4.jpeg
 ---

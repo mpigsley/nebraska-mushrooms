@@ -20,12 +20,12 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/185921544
 photos:
-  - /img/hericium-coralloides1.jpeg
   - /img/hericium-coralloides2.jpeg
   - /img/hericium-coralloides3.jpeg
   - /img/hericium-coralloides4.jpeg
   - /img/hericium-coralloides5.jpeg
   - /img/hericium-coralloides6.jpeg
+  - /img/hericium-coralloides1.jpeg
 ---
 
 #### Field Characteristics:

@@ -22,12 +22,12 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/174757328
 photos:
+  - /img/cortinarius-hesleri6.jpeg
+  - /img/cortinarius-hesleri4.jpeg
   - /img/cortinarius-hesleri1.jpeg
   - /img/cortinarius-hesleri2.jpeg
   - /img/cortinarius-hesleri3.jpeg
-  - /img/cortinarius-hesleri4.jpeg
   - /img/cortinarius-hesleri5.jpeg
-  - /img/cortinarius-hesleri6.jpeg
   - /img/cortinarius-hesleri7.jpeg
   - /img/cortinarius-hesleri8.jpeg
   - /img/cortinarius-hesleri9.jpeg

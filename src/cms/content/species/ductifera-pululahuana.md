@@ -21,9 +21,9 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/166139270
 photos:
+  - /img/ductifera-pululahuana3.jpeg
   - /img/ductifera-pululahuana1.jpeg
   - /img/ductifera-pululahuana2.jpeg
-  - /img/ductifera-pululahuana3.jpeg
   - /img/ductifera-pululahuana4.jpeg
 ---
 

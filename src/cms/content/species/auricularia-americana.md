@@ -21,8 +21,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/163683197
 photos:
-  - /img/auricularia-americana1.jpeg
   - /img/auricularia-americana2.jpeg
+  - /img/auricularia-americana1.jpeg
 ---
 
 #### Field Characteristics:

@@ -22,11 +22,10 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/175279109
 photos:
+  - /img/rhodotus-palmatus4.jpeg
   - /img/rhodotus-palmatus1.jpeg
   - /img/rhodotus-palmatus2.jpeg
   - /img/rhodotus-palmatus3.jpeg
-  - /img/rhodotus-palmatus4.jpeg
-  - /img/rhodotus-palmatus5.jpeg
   - /img/rhodotus-palmatus6.jpeg
   - /img/rhodotus-palmatus7.jpeg
   - /img/rhodotus-palmatus8.jpeg
@@ -37,7 +36,7 @@ photos:
 
 #250
 
--Growing solitarily on Hackberry in low Southwest-facing slope in mixed oak/hickory woodland near creek.
+- Growing solitarily on Hackberry in low Southwest-facing slope in mixed oak/hickory woodland near creek.
 - Cap faded pink, wrinkled with a vein-like pattern.
 - Lamellae pale pink with frequent partial gills.
 - Stipe with white basal mycelium.

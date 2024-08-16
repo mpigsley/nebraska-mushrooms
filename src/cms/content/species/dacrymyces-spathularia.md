@@ -20,12 +20,12 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/173675137
 photos:
+  - /img/dacrymyces-spathularia5.jpeg
+  - /img/dacrymyces-spathularia6.jpeg
   - /img/dacrymyces-spathularia1.jpeg
   - /img/dacrymyces-spathularia2.jpeg
   - /img/dacrymyces-spathularia3.jpeg
   - /img/dacrymyces-spathularia4.jpeg
-  - /img/dacrymyces-spathularia5.jpeg
-  - /img/dacrymyces-spathularia6.jpeg
   - /img/dacrymyces-spathularia7.jpeg
 ---
 

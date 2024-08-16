@@ -21,8 +21,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/172868688
 photos:
-  - /img/sebacina-incrustans1.jpeg
   - /img/sebacina-incrustans2.jpeg
+  - /img/sebacina-incrustans1.jpeg
   - /img/sebacina-incrustans3.jpeg
   - /img/sebacina-incrustans4.jpeg
   - /img/sebacina-incrustans5.jpeg

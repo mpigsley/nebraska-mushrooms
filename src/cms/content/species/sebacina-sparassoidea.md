@@ -21,9 +21,9 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/176009695
 photos:
+  - /img/sebacina-sparassoidea3.jpeg
   - /img/sebacina-sparassoidea1.jpeg
   - /img/sebacina-sparassoidea2.jpeg
-  - /img/sebacina-sparassoidea3.jpeg
   - /img/sebacina-sparassoidea4.jpeg
   - /img/sebacina-sparassoidea5.jpeg
   - /img/sebacina-sparassoidea6.jpeg

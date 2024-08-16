@@ -22,8 +22,8 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188260749
 photos:
-  - /img/ganoderma-sessile1.jpeg
   - /img/ganoderma-sessile2.jpeg
+  - /img/ganoderma-sessile1.jpeg
   - /img/ganoderma-sessile3.jpeg
   - /img/ganoderma-sessile4.jpeg
   - /img/ganoderma-sessile5.jpeg

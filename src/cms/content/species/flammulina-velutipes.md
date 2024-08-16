@@ -24,16 +24,14 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/189060111
 photos:
+  - /img/flammulina-velutipes6.jpeg
   - /img/flammulina-velutipes1.jpeg
   - /img/flammulina-velutipes2.jpeg
   - /img/flammulina-velutipes3.jpeg
   - /img/flammulina-velutipes4.jpeg
   - /img/flammulina-velutipes5.jpeg
-  - /img/flammulina-velutipes6.jpeg
   - /img/flammulina-velutipes7.jpeg
   - /img/flammulina-velutipes8.jpeg
-  - /img/flammulina-velutipes9.jpeg
-  - /img/flammulina-velutipes10.jpeg
   - /img/flammulina-velutipes11.jpeg
 ---
 
