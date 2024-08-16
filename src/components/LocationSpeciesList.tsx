@@ -7,6 +7,7 @@ import SpeciesTableList from './SpeciesTableList';
 import { Species } from '../utils/species.util';
 import ClearableInput from './ClearableInput';
 import { Tag } from '../utils/tag.util';
+import TagSelect from './TagSelect';
 
 function stripHtml(html: string) {
   let tmp = document.createElement('div');
@@ -115,7 +116,7 @@ export default function LocationSpeciesList({
   return (
     <>
       <div className="row">
-        <div className="six columns">
+        <div className="four columns">
           <ClearableInput
             type="text"
             id="search"
@@ -126,7 +127,10 @@ export default function LocationSpeciesList({
             onClear={() => setSearch('')}
           />
         </div>
-        <div className="six columns content-right">
+        <div className="four columns">
+          <TagSelect />
+        </div>
+        <div className="four columns content-right">
           <button
             type="button"
             className={`button${
