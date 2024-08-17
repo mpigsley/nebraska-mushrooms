@@ -1,36 +1,12 @@
-import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { Image, Menu } from 'react-feather';
 import * as React from 'react';
 
-import { Tag, getTagClass } from '../utils/tag.util';
 import { useActiveSearch } from '../utils/active-search';
+import SpeciesImageList from './SpeciesImageList';
+import SpeciesTableList from './SpeciesTableList';
+import { Species } from '../utils/species.util';
 import ClearableInput from './ClearableInput';
-import Favicon from '../img/favicon.svg';
-
-type Species = {
-  id: string;
-  slug?: string;
-  name?: string;
-  tags: Tag[];
-  location?: string;
-  bodyHtml: string;
-  scientificName?: string;
-  photos?: IGatsbyImageData[];
-};
-
-type LocationSpeciesListProps = Readonly<{
-  species: Species[];
-}>;
-
-type FormattedSpecies = {
-  id: string;
-  slug: string;
-  name: string;
-  tags: Tag[];
-  scientificName: string;
-  photo?: IGatsbyImageData;
-  bodyMatch?: [string, string, string]; // [pre-text, match, post-text]
-};
+import { Tag } from '../utils/tag.util';
 
 function stripHtml(html: string) {
   let tmp = document.createElement('div');
@@ -41,133 +17,6 @@ function stripHtml(html: string) {
 }
 
 const TagMatch = Object.values(Tag).map((tag) => `tag:${tag}`);
-
-const ImageList = ({
-  species,
-  onChangeTag,
-}: {
-  species: FormattedSpecies[];
-  onChangeTag: (tag: Tag) => void;
-}) => (
-  <div className="grid">
-    {species.map(
-      ({
-        id,
-        slug,
-        name,
-        tags,
-        scientificName,
-        photo,
-        bodyMatch,
-      }: FormattedSpecies) => (
-        <a key={id} href={slug} className="grid-item">
-          <div>
-            {!!photo ? (
-              <GatsbyImage className="grid-image" image={photo} alt={name} />
-            ) : (
-              <img src={Favicon} className="defaultGridImg" />
-            )}
-            <h5 className="noMargin small-header my-1">
-              {name || scientificName}
-            </h5>
-            {!!name && <div className="mb-2">{scientificName}</div>}
-            <div>
-              {tags.map((tag) => (
-                <span
-                  key={tag}
-                  role="button"
-                  className={`${getTagClass(
-                    tag,
-                  )} tag tag-list-item clickable-tag`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onChangeTag(tag);
-                  }}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-            {!!bodyMatch && (
-              <>
-                <i>{bodyMatch[0]}</i>
-                <b>{bodyMatch[1]}</b>
-                <i>{bodyMatch[2]}</i>
-              </>
-            )}
-          </div>
-        </a>
-      ),
-    )}
-  </div>
-);
-
-const TableList = ({
-  species,
-  onChangeTag,
-}: {
-  species: FormattedSpecies[];
-  onChangeTag: (tag: Tag) => void;
-}) => (
-  <table className="u-full-width">
-    <thead>
-      <tr>
-        <th className="photo-table-column">Index</th>
-        <th className="main-table-column">Species Name(s)</th>
-        <th>Tags</th>
-      </tr>
-    </thead>
-    <tbody>
-      {species.map(
-        ({
-          id,
-          slug,
-          name,
-          tags,
-          scientificName,
-          photo,
-          bodyMatch,
-        }: FormattedSpecies) => (
-          <tr key={id}>
-            <td>
-              {!!photo ? (
-                <GatsbyImage image={photo} alt={name} />
-              ) : (
-                <img src={Favicon} className="defaultTableImg" />
-              )}
-            </td>
-            <td>
-              <a href={slug}>{name || scientificName}</a>
-              {!!name && <div>{scientificName}</div>}
-              {!!bodyMatch && (
-                <div>
-                  <i>{bodyMatch[0]}</i>
-                  <b>{bodyMatch[1]}</b>
-                  <i>{bodyMatch[2]}</i>
-                </div>
-              )}
-            </td>
-            <td>
-              <div className="tag-container">
-                {tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className={`${getTagClass(
-                      tag,
-                    )} tag tag-list-item clickable-tag`}
-                    onClick={() => onChangeTag(tag)}
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </td>
-          </tr>
-        ),
-      )}
-    </tbody>
-  </table>
-);
 
 const PRE_POST_PADDING = 20;
 const buildBodyMatch = (
@@ -192,6 +41,10 @@ const buildBodyMatch = (
 
   return [preText, match, postText];
 };
+
+export type LocationSpeciesListProps = Readonly<{
+  species: Species[];
+}>;
 
 export default function LocationSpeciesList({
   species,
@@ -249,7 +102,7 @@ export default function LocationSpeciesList({
     [species, matchedTag, filteredSearch],
   );
 
-  const ActiveList = listType === 'table' ? TableList : ImageList;
+  const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
 
   const onChangeTag = (tag: Tag) => {
     const filteredSearch = search.replace(
