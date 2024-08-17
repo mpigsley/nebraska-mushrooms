@@ -1,6 +1,7 @@
 import { Image, Menu } from 'react-feather';
 import * as React from 'react';
 
+import { useActiveFilters } from '../utils/active-filter';
 import { useActiveSearch } from '../utils/active-search';
 import SpeciesImageList from './SpeciesImageList';
 import SpeciesTableList from './SpeciesTableList';
@@ -16,8 +17,6 @@ function stripHtml(html: string) {
   tmp.remove();
   return result;
 }
-
-const TagMatch = Object.values(Tag).map((tag) => `tag:${tag}`);
 
 const PRE_POST_PADDING = 20;
 const buildBodyMatch = (
@@ -51,18 +50,8 @@ export default function LocationSpeciesList({
   species,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
+  const { filters, setFilters } = useActiveFilters();
   const { search, setSearch } = useActiveSearch();
-
-  const { matchedTag, filteredSearch } = React.useMemo(() => {
-    const matchedTag = TagMatch.find((tag) => search.includes(tag))?.split(
-      ':',
-    )[1] as Tag | undefined;
-    const filteredSearch = search
-      .replace(new RegExp(`tag:(${Object.values(Tag).join('|')}) `, 'g'), '')
-      .replace(new RegExp(`tag:(${Object.values(Tag).join('|')})`, 'g'), '')
-      .trim();
-    return { matchedTag, filteredSearch };
-  }, [search]);
 
   const formattedSpecies = React.useMemo(
     () =>
@@ -71,17 +60,17 @@ export default function LocationSpeciesList({
           [
             edge.name,
             edge.scientificName,
-            filteredSearch.length > 2 ? stripHtml(edge.bodyHtml) : '',
+            search.length > 2 ? stripHtml(edge.bodyHtml) : '',
           ].some((field) => {
             const searchMatch =
-              !!field &&
-              field.toLowerCase().includes(filteredSearch.toLowerCase());
-            const tagMatch = !!matchedTag && edge.tags.includes(matchedTag);
+              !!field && field.toLowerCase().includes(search.toLowerCase());
+            const tagMatch = filters.every((filter) =>
+              edge.tags.includes(filter as Tag),
+            );
 
             return (
-              (!filteredSearch && !matchedTag) ||
-              (searchMatch && !!filteredSearch) ||
-              tagMatch
+              (!search && !filters.length) ||
+              ((!search || searchMatch) && (!filters.length || tagMatch))
             );
           }),
         )
@@ -98,20 +87,20 @@ export default function LocationSpeciesList({
           tags: species.tags,
           scientificName: species.scientificName ?? '',
           photo: species.photos?.[0],
-          bodyMatch: buildBodyMatch(species.bodyHtml, filteredSearch),
+          bodyMatch: buildBodyMatch(species.bodyHtml, search),
         })),
-    [species, matchedTag, filteredSearch],
+    [species, filters, search],
   );
 
   const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
 
-  const onChangeTag = (tag: Tag) => {
-    const filteredSearch = search.replace(
-      new RegExp(`tag:(${Object.values(Tag).join('|')})`, 'g'),
-      '',
-    );
-    setSearch(`${filteredSearch} tag:${tag}`.trim());
-  };
+  const onChangeTag = (tag: Tag) =>
+    setFilters((prev) => {
+      if (prev.includes(tag)) {
+        return prev.filter((t) => t !== tag);
+      }
+      return [...prev, tag];
+    });
 
   return (
     <>
@@ -126,7 +115,11 @@ export default function LocationSpeciesList({
             onChange={(event) => setSearch(event.target.value)}
             onClear={() => setSearch('')}
           />
-          <TagSelect className="u-full-width mb-3" />
+          <TagSelect
+            className="u-full-width mb-3"
+            tags={filters as Tag[]}
+            setTags={(tags) => setFilters(tags)}
+          />
         </div>
         <div className="five columns content-right">
           <button
