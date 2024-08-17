@@ -84,3 +84,19 @@ export type Record = {
     season: string;
     photoUrls: string[];
 }
+
+export type iNaturalistData = {
+    photoUrls: string[];
+    description: string;
+    comments: iNatComment[];
+    parentData: ParentData;
+}
+
+export type iNatComment = {
+    text: string;
+}
+
+export type ParentData = {
+    url: string;
+    text: string;
+}

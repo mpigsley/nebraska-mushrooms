@@ -6,7 +6,8 @@
     "run:Generated": "cd dist && chmod 755 terminalInput.bash && ./terminalInput.bash && cd ..",
     "dataload": "ts-node ./src/DataLoad.ts",
     "moveToProd": "bash moveToProd.bash",
-    "movePhotosToProd": "bash movePhotosToProd.bash"
+    "movePhotosToProd": "bash movePhotosToProd.bash",
+    "iNatGet": "ts-node ./src/Browser.ts"
   },
   "keywords": [],
   "author": "",
