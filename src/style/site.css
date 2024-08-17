@@ -387,3 +387,17 @@ input[type='text'].tag-select__input {
   letter-spacing: 1.4px;
   line-height: 2rem;
 }
+
+.tag-select__control--is-focused,
+.tag-select__control--is-focused:hover {
+  border: 1px solid #33c3f0 !important;
+  box-shadow: none !important;
+}
+
+.tag-select__menu {
+  border: 1px solid #33c3f0 !important;
+  box-shadow: none !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  width: calc(100% - 2px) !important;
+}
