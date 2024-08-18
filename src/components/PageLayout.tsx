@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import Favicon from '../img/favicon.svg';
 import Footer from './Footer';
 
 interface Props {

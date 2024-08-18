@@ -93,8 +93,16 @@
   margin-top: var(--s3);
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-2 {
   margin-bottom: var(--s2);
+}
+
+.mb-3 {
+  margin-bottom: var(--s3);
 }
 
 .mb-4 {
@@ -189,61 +197,61 @@
 }
 
 .edible {
-  background-color: #dcfce7;
+  background-color: #dcfce7 !important;
 }
 .edible-with-caution {
-  background-color: #fef9c3;
+  background-color: #fef9c3 !important;
 }
 .poisonous {
-  background-color: #fee2e2;
+  background-color: #fee2e2 !important;
 }
 .interesting {
-  background-color: #ede9fe;
+  background-color: #ede9fe !important;
 }
 .spring {
-  background-color: #fce7f3;
+  background-color: #fce7f3 !important;
 }
 .summer {
-  background-color: #ecfccb;
+  background-color: #ecfccb !important;
 }
 .fall {
-  background-color: #ffedd5;
+  background-color: #ffedd5 !important;
 }
 .winter {
-  background-color: #cffafe;
+  background-color: #cffafe !important;
 }
 .agaric {
-  background-color: #fedfcf;
+  background-color: #fedfcf !important;
 }
 .entomopathogenic {
-  background-color: #ede9fe;
+  background-color: #ede9fe !important;
 }
 .soil {
-  background-color: #fce7f3;
+  background-color: #fce7f3 !important;
 }
 .wood {
-  background-color: #ecfccb;
+  background-color: #ecfccb !important;
 }
 .duff {
-  background-color: #ecfccb;
+  background-color: #ecfccb !important;
 }
 .spiders {
-  background-color: #ffedd5;
+  background-color: #ffedd5 !important;
 }
 .fungi {
-  background-color: #ffedd5;
+  background-color: #ffedd5 !important;
 }
 .substrate-moss {
-  background-color: #dcffd7;
+  background-color: #dcffd7 !important;
 }
 .substrate-dung {
   background-color: #ffaf752a;
 }
 .parasitic {
-  background-color: #fee2e2;
+  background-color: #fee2e2 !important;
 }
 .other {
-  background-color: #f5f5f4;
+  background-color: #f5f5f4 !important;
 }
 
 .header {
@@ -284,14 +292,18 @@
 .input-clear {
   border: none;
   cursor: pointer;
-  height: 38px;
   margin: 0;
   padding: 7px;
   position: absolute;
   right: 0;
   top: 0;
-  width: 38px;
   transition: color 0.2s;
+  width: 38px;
+}
+
+.input-clear svg {
+  height: 22px;
+  width: 22px;
 }
 
 .input-clear:hover {
@@ -340,4 +352,52 @@
 .defaultGridImg {
   display: block;
   width: 100%;
+}
+
+input[type='text'].tag-select__input {
+  height: fit-content;
+  margin: 0;
+}
+
+.tag-select__indicator {
+  color: #555 !important;
+  cursor: pointer;
+}
+
+.tag-select__indicator:hover {
+  color: gray !important;
+}
+
+.tag-select__multi-value {
+  border-radius: var(--s1);
+  color: #555;
+  font-size: 1.3rem;
+  letter-spacing: 1.4px;
+}
+
+.tag-select__multi-value__remove {
+  cursor: pointer;
+}
+
+.tag-select__option {
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-size: 1.3rem;
+  letter-spacing: 1.4px;
+  line-height: 2rem;
+}
+
+.tag-select__control--is-focused,
+.tag-select__control--is-focused:hover {
+  border: 1px solid #33c3f0 !important;
+  box-shadow: none !important;
+}
+
+.tag-select__menu {
+  border: 1px solid #33c3f0 !important;
+  box-shadow: none !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  width: calc(100% - 2px) !important;
 }

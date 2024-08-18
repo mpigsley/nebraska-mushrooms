@@ -10,7 +10,6 @@ tags:
   - fall
   - crust
   - polypore
-  - crust
   - substrate-wood
 taxonomy:
   - Basidiomycota
@@ -47,6 +46,6 @@ The Smoky Polypore can be distinguished by its gray-to-black pore surface in con
 
 - Effused-reflexed.
 - Nonfertile surface white to buff yellow.
-- Hymenophore grayish. Smell strong and pleasant. “Bringing fond memories of from the pool as a kid”-Chance “It’s not the chlorine, it’s the fresh, “watery” smell” 
+- Hymenophore grayish. Smell strong and pleasant. “Bringing fond memories of from the pool as a kid”-Chance “It’s not the chlorine, it’s the fresh, “watery” smell”
 
 ![Form](/img/bjerkandera-adusta-7299-6.jpeg)
