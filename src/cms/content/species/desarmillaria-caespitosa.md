@@ -7,7 +7,7 @@ tags:
     - summer
     - agaric
     - substrate-wood
-    - edible
+    - edible-with-caution
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

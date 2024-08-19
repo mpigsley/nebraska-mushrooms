@@ -8,7 +8,7 @@ tags:
   - agaric
   - substrate-wood
   - substrate-soil
-  - edible
+  - edible-with-caution
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

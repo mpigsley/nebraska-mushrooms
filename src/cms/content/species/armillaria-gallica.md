@@ -6,7 +6,7 @@ location: Indian Cave State Park
 tags:
     - fall
     - agaric
-    - edible
+    - edible-with-caution
     - substrate-wood
     - substrate-soil
 taxonomy:

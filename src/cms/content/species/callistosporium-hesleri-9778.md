@@ -6,7 +6,9 @@ location: Indian Cave State Park
 references:
   - 'Callistosporium hesleri (H.E. Bigelow) Vizzini, Matheny, Consiglio & M. Marchetti, Fungal Diversity 101: 235 (2020) [MB#831400]'
 tags:
+  - spring
   - summer
+  - fall
   - agaric
   - substrate-wood
   - substrate-soil
@@ -35,7 +37,7 @@ photos:
 
 Callistosporium hesleri is an exceptionally rare mushroom. It was first collected and described in 1983, and wasn't found again until a soil DNA study found the mycelium in a Pine plantation in South Carolina in 2014. As of August 2024, has been found a total of three times on iNaturalist, twice in Indiana and once in Nebraska.
 
-Hesler's Callistosporium grows on soil and decayed wood and can be found spring through late summer. It is a small, agaric with distant, notched, gray-colored gills.
+Hesler's Callistosporium grows on soil and decayed wood and can be found spring through late summer. It is a small, agaric with distant, notched, gray-colored gills. Not much is known about this mushroom due to its rarity.
 
 #### August 17th, 2023 Field Notes
 

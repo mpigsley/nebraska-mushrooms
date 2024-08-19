@@ -8,7 +8,7 @@ references:
     MushroomExpert.Com Web site:
     http://www.mushroomexpert.com/polyporus_squamosus.html'
 tags:
-  - edible
+  - edible-with-caution
   - polypore
   - substrate-wood
   - spring
