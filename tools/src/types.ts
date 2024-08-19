@@ -91,6 +91,7 @@ export type iNaturalistData = {
     sciName: string;
     comments: iNatComment[];
     parentData: ParentData;
+    date: string;
 }
 
 export type iNatComment = {

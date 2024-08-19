@@ -5,7 +5,7 @@ const generateReferences = async (url: string) => {
 
     console.log(`
 references:
-    -  '${mushroomExpertCitation.text}'
+  - '${mushroomExpertCitation.text}'
 `);
     // TODO add mycobank reference
 }

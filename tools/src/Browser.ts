@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
 import { MushroomExpertCitation, ParentData, iNatComment, iNaturalistData } from './types';
+import { formatDate } from './DateUtils';
 
 /// Ohhhmmmm Ctrl+Cmd+Space mmmmm
 
@@ -26,6 +27,9 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     console.log('✅ Aquired photo urls.')
     const description = await page.evaluate(() => document.querySelector('.UserText')?.textContent);
     console.log('✅ Aquired description.')
+    const dateLong = await page.evaluate(() => (document.querySelector('.date_row .date')as HTMLSpanElement)?.title);
+    const date = formatDate(dateLong || '');
+    console.log('✅ Aquired date.')
 
     const comments: iNatComment[] = await page.evaluate(() => {
         const parentDiv = document.querySelector('.activity');
@@ -42,15 +46,12 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     });
     console.log('✅ Added comments.')
 
-    console.log('ℹ️ Getting Parent Data')
-    await page.click('.ObservationTitle');
-    await new Promise(resolve => setTimeout(resolve, 500));
-    await page.waitForSelector('.sciname', { timeout: 5000 });
-    console.log(`ℹ️ Page Loaded`)
-    const text = await page.evaluate(() => document.querySelector('h1')?.textContent)
+    const parentUrl = await page.evaluate(() => (document.querySelector('.ObservationTitle a') as HTMLAnchorElement).href);
+    console.log('✅ Added Parent link.')
+
     const parentData = {
-        url: page.url(),
-        text
+        url: parentUrl,
+        text: sciName
     } as ParentData
 
     console.log('✅ Parent Data Aquired');
@@ -61,6 +62,7 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
         comments,
         parentData,
         sciName: sciName || '',
+        date,
     } as iNaturalistData;
 
     console.log('🧹 Cleaning up')
