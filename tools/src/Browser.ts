@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import { ParentData, iNatComment, iNaturalistData } from './types';
+import { MushroomExpertCitation, ParentData, iNatComment, iNaturalistData } from './types';
 
 /// Ohhhmmmm Ctrl+Cmd+Space mmmmm
 
@@ -16,6 +16,12 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     console.log(`ℹ️ Page Loaded ${iNatUrl}`)
 
     // aquire data
+    const sciName = await page.evaluate(() => document.querySelector('.ObservationTitle .sciname')?.textContent);
+    if (!!sciName) {
+        console.log('✅ Sciname aquired.')
+    } else {
+        console.log('❌ Sciname not found.')
+    }
     const photoUrls = await page.$$eval('div[aria-label="Thumbnail Navigation"] img', elements => elements.map(element => element.src));
     console.log('✅ Aquired photo urls.')
     const description = await page.evaluate(() => document.querySelector('.UserText')?.textContent);
@@ -34,6 +40,7 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
         });
 
     });
+    console.log('✅ Added comments.')
 
     console.log('ℹ️ Getting Parent Data')
     await page.click('.ObservationTitle');
@@ -52,7 +59,8 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
         photoUrls,
         description,
         comments,
-        parentData
+        parentData,
+        sciName: sciName || '',
     } as iNaturalistData;
 
     console.log('🧹 Cleaning up')
@@ -63,4 +71,26 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     console.log({parentData: data.parentData})
     console.log('✅ Complete')
     return data;
+}
+
+export async function getMushroomExpertCitation(url: string): Promise<MushroomExpertCitation> {
+    console.log('🚀 Starting Browser')
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    console.log('ℹ️ New Page')
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    await page.goto(url);
+
+    const citation = await page.evaluate(() => Array.from(document.querySelectorAll('table')).reverse()[0]?.querySelector('font[size="-2"]')?.textContent);
+    console.log('✅ Citation Aquired');
+
+    console.log('🧹 Cleaning up')
+    page.close();
+    browser.close();
+    console.log('✅ Complete')
+
+    return {
+        url,
+        text: citation || ''
+    } as MushroomExpertCitation
 }

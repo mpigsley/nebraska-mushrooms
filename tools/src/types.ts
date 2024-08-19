@@ -88,6 +88,7 @@ export type Record = {
 export type iNaturalistData = {
     photoUrls: string[];
     description: string;
+    sciName: string;
     comments: iNatComment[];
     parentData: ParentData;
 }
@@ -99,4 +100,14 @@ export type iNatComment = {
 export type ParentData = {
     url: string;
     text: string;
+}
+
+export type MycoBankData = {
+    url: string;
+    mainReference: string;
+}
+
+export type MushroomExpertCitation = {
+    text: string;
+    url: string;
 }
