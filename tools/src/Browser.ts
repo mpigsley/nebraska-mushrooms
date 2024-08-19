@@ -3,7 +3,7 @@ import { ParentData, iNatComment, iNaturalistData } from './types';
 
 /// Ohhhmmmm Ctrl+Cmd+Space mmmmm
 
-async function getInaturalistData(iNatUrl: string): Promise<iNaturalistData> {
+export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistData> {
     console.log('🚀 Starting Browser')
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
@@ -64,5 +64,3 @@ async function getInaturalistData(iNatUrl: string): Promise<iNaturalistData> {
     console.log('✅ Complete')
     return data;
 }
-
-getInaturalistData(process.argv[2]);

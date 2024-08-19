@@ -7,7 +7,7 @@
     "dataload": "ts-node ./src/DataLoad.ts",
     "moveToProd": "bash moveToProd.bash",
     "movePhotosToProd": "bash movePhotosToProd.bash",
-    "iNatGet": "ts-node ./src/Browser.ts"
+    "iNatGet": "ts-node ./src/cmd/iNatGet.ts"
   },
   "keywords": [],
   "author": "",
