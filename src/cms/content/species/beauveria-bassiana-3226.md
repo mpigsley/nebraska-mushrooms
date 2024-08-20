@@ -47,7 +47,7 @@ The Icing Sugar Fungus is a widespread insect pathogen that can be found year-ro
 
 ![Joints](/img/beauveria-bassiana-3226-6.jpeg)
 
-In many ascomycetes, species can have multiple life stages. One where they make asexual spores via miosis (anamorphic phase) and a life stage where they make sexual spores via mitosis (teleomorphic phase). Beauveria species are an anamorph for matching Cordyceps teleomorph species. Past convention was to separate these two forms into different species (for example: Beauveria and Cordyceps), and modern convention is to group them into one species. In the future, we may see the genus Beauveria disappear in favor of their respective teleomorphic Cordyceps species.
+In many ascomycetes, species can have multiple life stages. One where they make asexual spores via mitosis (anamorphic phase) and a life stage where they make sexual spores via meiosis (teleomorphic phase). Beauveria species are an anamorph for matching Cordyceps teleomorph species. Past convention was to separate these two forms into different species (for example: Beauveria and Cordyceps), and modern convention is to group them into one species. In the future, we may see the genus Beauveria disappear in favor of their respective teleomorphic Cordyceps species.
 
 #### September 12th, 2023 Field Notes
 
