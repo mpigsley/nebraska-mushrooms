@@ -7,6 +7,7 @@ import { formatDate } from './DateUtils';
 export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistData> {
     console.log('🚀 Starting Browser')
     const browser = await puppeteer.launch();
+    // const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
     console.log('ℹ️ New Page')
     await new Promise(resolve => setTimeout(resolve, 2000));
