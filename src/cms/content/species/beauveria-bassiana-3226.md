@@ -43,11 +43,11 @@ photos:
   - /img/beauveria-bassiana-3226-1.jpeg
 ---
 
-The Icing Sugar Fungus is a widespread insect pathogen that can be found year-round infecting various species of hosts. The fungi erupt out of the joints of the insect exoskeleton as a white, powdery mass full of asexually produced spores. The spores travel to other hosts and substrates via air currents.
-
-In many ascomycetes, species can have multiple life stages. One where they make asexual spores via miosis (anamorphic phase) and a life stage where they make sexual spores via mitosis (teleomorphic phase). Beauvaria species are an anamorph for matching Cordyceps teleomorph species. Past convention was to separate these two forms into different species (for example: Beauvaria and Cordyceps), and modern convention is to group them into one species. In the future, we may see the genus Beauvaria disappear in favor of their respective teleomorphic Cordyceps species.
+The Icing Sugar Fungus is a widespread insect pathogen that can be found year-round infecting various species of hosts. The fungi erupt out of the joints of the insect exoskeleton as a white, powdery mass full of asexually produced spores. The spores travel to other hosts and substrates via air currents. This species isn't host-specific and is so much of a generalist on arthropod species that it has been used as a natural insecticide to combat a wide range of insects.
 
 ![Joints](/img/beauveria-bassiana-3226-6.jpeg)
+
+In many ascomycetes, species can have multiple life stages. One where they make asexual spores via miosis (anamorphic phase) and a life stage where they make sexual spores via mitosis (teleomorphic phase). Beauveria species are an anamorph for matching Cordyceps teleomorph species. Past convention was to separate these two forms into different species (for example: Beauveria and Cordyceps), and modern convention is to group them into one species. In the future, we may see the genus Beauveria disappear in favor of their respective teleomorphic Cordyceps species.
 
 #### September 12th, 2023 Field Notes
 
