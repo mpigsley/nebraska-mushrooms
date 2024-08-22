@@ -10,6 +10,8 @@ tags:
   - spring
   - summer
   - agaric
+  - subsrate-wood
+  - substrate-moss
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
