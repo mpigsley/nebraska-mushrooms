@@ -44,7 +44,7 @@ The Scaly Shield is a decomposer of dead deciduous trees that can be found from 
 
 ![Gills](/img/pluteus-petasatus-4517-4.jpeg)
 
-*Pluteus petasatus* has an evenly rounded to flat cap shape commonly with a small bump in the center (umbo). The gills are free from the stem, generally white later into maturity (as compared to its closely related Pluteus cervinus), which later become pinkish with the development of pinkish brown spores. The stem generally has an enlarged base, without an annulus or volva. The spore print is brownish pink.
+*Pluteus petasatus* has an evenly rounded to flat cap shape commonly with a small bump in the center (umbo). There are generally brown scales in the center of the cap, from which this mushroom gets its common name. The gills are free from the stem, generally white later into maturity (as compared to its closely related Pluteus cervinus), which later become pinkish with the development of pinkish brown spores. The stem generally has an enlarged base, without an annulus or volva. The spore print is brownish pink.
 
 ![Habitat](/img/pluteus-petasatus-4517-1.jpeg)
 
