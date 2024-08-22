@@ -53,7 +53,7 @@ This mushroom is marked poisonous due to the presence of psilocybin, which cause
 
 ![Blue](/img/pluteus-saupei-2033-9.jpeg)
 
-*Pluteus saupei* has a distinctive to-of-cap shape that is oblong/elliptical (but sometimes circular like other Pluteus), with a dark brown center with scales and noticeable grooves (striations) from the margin to the brown center. The side-view shape is evenly rounded to flat. 
+*Pluteus saupei* has a distinctive top-of-cap shape that is oblong/elliptical (but sometimes circular like other Pluteus), with a dark brown center with scales and noticeable grooves (striations) from the margin to the brown center. The side-view shape is evenly rounded to flat. 
 
 ![Cap](/img/pluteus-saupei-2033-6.jpeg)
 
