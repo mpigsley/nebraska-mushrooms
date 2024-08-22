@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Wine-Red Wooly Brittlestem
+name: Wooly Brittlestem
 scientific_name: Psathyrella vinosofulva
 location: Indian Cave State Park
 references:
@@ -42,7 +42,7 @@ photos:
   - /img/psathyrella-vinosofulva-8010-8.jpeg
 ---
 
-The Wine-Red Wooly Brittlestem is an uncommon decomposer of woody debris and can be found in the spring and summer. It enjoys growing on soil amongst well-decomposed wood (especially ash), distributed (but uncommon) across the Northern Hemisphere. These specimens were found in a low, shaded woody area adjacent to a creek.
+The Wooly Brittlestem is an uncommon decomposer of woody debris and can be found in the spring and summer. It enjoys growing on soil amongst well-decomposed wood (especially ash), distributed (but uncommon) across the Northern Hemisphere. These specimens were found in a low, shaded woody area adjacent to a creek.
 
 ![Form](/img/psathyrella-vinosofulva-8010-2.jpeg)
 
