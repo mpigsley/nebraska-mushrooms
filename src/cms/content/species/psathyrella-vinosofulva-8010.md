@@ -1,12 +1,13 @@
 ---
 templateKey: species
-name: Wooly Psathyrella
+name: Wine-Red Wooly Brittlestem
 scientific_name: Psathyrella vinosofulva
 location: Indian Cave State Park
 references:
   - 'Kuo, M. (2011, January). The genus Psathyrella. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/psathyrella.html'
   - 'Psathyrella vinosofulva P.D. Orton, Transactions of the British Mycological Society 43 (2): 378 (1960) [MB#337699]'
 tags:
+  - spring
   - summer
   - agaric
   - substrate-soil
@@ -40,6 +41,14 @@ photos:
   - /img/psathyrella-vinosofulva-8010-7.jpeg
   - /img/psathyrella-vinosofulva-8010-8.jpeg
 ---
+
+The Wine-Red Wooly Brittlestem is an uncommon decomposer of woody debris and can be found in the spring and summer. It enjoys growing on soil amongst well-decomposed wood (especially ash), distributed (but uncommon) across the Northern Hemisphere. These specimens were found in a low, shaded woody area adjacent to a creek.
+
+![Form](/img/psathyrella-vinosofulva-8010-2.jpeg)
+
+_Psathyrella vinosofulva_ resembles the more common [Maroon Brittlestem](/species/psathyrella-bipellis) except for its cap color is brighter reddish to brownish, is more slender, and possesses a great deal more wooly velar tissue on the top of the cap. The cap is shaped evenly rounded, sometimes with a small umbo in the center ornamented with distinctive wool-like groups of fibers that wear off with age. The gills are attached to the stem and not crowded. The stem is exceptionally brittle with no annulus but sometimes wooly velar tissue at the base (similar to that on cap surface). It has a blackish spore print.
+
+![Gills](/img/psathyrella-vinosofulva-8010-7.jpeg)
 
 #### September 13th, 2023 Field Notes - Indian Cave State Park
 
