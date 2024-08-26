@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Dudley's Scarlet Elf Cup
+name: Dudley's Elf Cup
 scientific_name: Sarcoscypha dudleyi
 location: Indian Cave State Park
 references:
@@ -13,6 +13,7 @@ tags:
   - disc
   - substrate-wood
   - substrate-soil
+  - substrate-duff
 taxonomy:
   - Ascomycota
   - Pezizomycotina
