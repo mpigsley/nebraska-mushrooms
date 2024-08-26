@@ -5,3 +5,5 @@ umbo
 Pileipellis
 Pluetus
 decurrent
+hymenium
+zonation
