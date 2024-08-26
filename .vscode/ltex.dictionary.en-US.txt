@@ -4,3 +4,4 @@ Brittlestem
 umbo
 Pileipellis
 Pluetus
+decurrent

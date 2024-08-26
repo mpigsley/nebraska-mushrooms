@@ -8,6 +8,7 @@ references:
   - 'Pleurotus pulmonarius (Fr.) Quél., Mém. Soc. Émul. Montbéliard Ser. 2, 5: 113 (1872) [MB#143543]'
 tags:
   - summer
+  - fall
   - agaric
   - pleurotoid
   - substrate-wood
@@ -43,13 +44,13 @@ photos:
 
 The Pale Oyster is a decomposer of dead deciduous trees and can be found in spring through fall. It is widespread across North America.
 
-The top-of-cap shape depends on whether it is growing along the side of its substrate or the top of it. If growing on the top, it is generally circular. If growing from the side, it is evenly rounded, half-circular, fan-shaped, to "lung-shaped" from which the mushroom gets its name "pulmonarius" (`pulmo` meaning "lung"). All of these shapes can be seen in the pictured specimen. The side-of-cap shape is evenly rounded to flat and commonly with a central depression. As the common name "Pale Oyster" suggests, the color is pale in comparison to other oyster mushrooms and is usually a one to two-toned whitish to cream (or tan to yellow in old specimens).
+The top-of-cap shape depends on whether it is growing along the side of its substrate or the top of it. If growing on the top, it is generally circular. If growing from the side, it is evenly rounded, half-circular, fan-shaped, to "lung-shaped" from which the mushroom gets its name "pulmonarius" (`pulmo` meaning "lung"). All of these shapes can be seen in the pictured specimen. The side-of-cap shape is evenly rounded to flat and commonly with a central depression. As the common name "Pale Oyster" suggests, the color is pale in comparison to other oyster mushrooms and is usually a one to two-toned whitish to cream (or tan to yellow in old specimens). It can sometimes be confused with the closely related [Common Oyster](/species/pleurotus-ostreatus-6937) when the latter expresses a white form.
 
 The gills are attached to and run down the stem (decurrent), are whitish becoming yellow with age. The spore print is white.
 
 ![Gills](/img/pleurotus-pulmonarius-5906-3.jpeg)
 
-The stem is generally quite short or absent. Its attachment to the cap is variable, sometimes central bottom, off to the side on the bottom, or attached to the side of the cap (central, eccentric, or lateral, respectively). The below picture is eccentric, though, the specimen itself presents all three categories and is a great example of morphological variation in an individual specimen.
+The stem is generally quite short or absent, but more often present. Its attachment to the cap is variable, sometimes central bottom, off to the side on the bottom, or attached to the side of the cap (central, eccentric, or lateral, respectively). The below picture is eccentric, though, the specimen itself presents all three categories and is a great example of morphological variation in an individual specimen.
 
 ![Stem attachment](/img/pleurotus-pulmonarius-5906-5.jpeg)
 

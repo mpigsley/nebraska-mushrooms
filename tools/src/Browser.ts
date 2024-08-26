@@ -14,7 +14,7 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     await page.goto(iNatUrl);
 
     // Given: the iNat Title is visible. Throws if taking too long.
-    await page.waitForSelector('.sciname', { timeout: 5000 });
+    await page.waitForSelector('.sciname', { timeout: 10000 });
     console.log(`ℹ️ Page Loaded ${iNatUrl}`)
 
     // aquire data
