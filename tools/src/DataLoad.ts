@@ -33,15 +33,15 @@ function determineSeason(date: Date): string {
     const day = date.getDate();
 
     // Spring
-    if ((month === 2 && day >= 20) || month === 3 || month === 4 || (month === 5 && day <= 20)) {
+    if ((month === 3 && day >= 20) || month === 4 || (month === 5 && day <= 20)) {
         return "spring";
     }
     // Summer
-    else if ((month === 5 && day >= 21) || month === 6 || month === 7 || (month === 8 && day <= 22)) {
+    else if ((month === 6 && day >= 21) || month === 7 || (month === 8 && day <= 22)) {
         return "summer";
     }
     // Fall
-    else if ((month === 8 && day >= 23) || month === 9 || month === 10 || (month === 11 && day <= 20)) {
+    else if ((month === 9 && day >= 23) || month === 10 || (month === 11 && day <= 20)) {
         return "fall";
     }
     // Winter

@@ -110,7 +110,7 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <Link to={`/location/indian-cave-state-park/?q=tag%3A${item}`}>
+                        <Link to={`/location/indian-cave-state-park/?t=${item}`}>
                           <span className={`${getTagClass(item as Tag)} tag`}>
                             {item}
                           </span>
