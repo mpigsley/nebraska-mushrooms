@@ -20,9 +20,9 @@ external_links:
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/174954764
 photos:
+  - /img/phlebia-incarnata3.jpeg
   - /img/phlebia-incarnata1.jpeg
   - /img/phlebia-incarnata2.jpeg
-  - /img/phlebia-incarnata3.jpeg
   - /img/phlebia-incarnata4.jpeg
   - /img/phlebia-incarnata5.jpeg
   - /img/phlebia-incarnata6.jpeg
