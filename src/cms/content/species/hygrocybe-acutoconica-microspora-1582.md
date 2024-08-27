@@ -5,6 +5,7 @@ scientific_name: Hygrocybe acutoconica var. microspora
 location: Indian Cave State Park
 references:
   - 'Kuo, M. (2014, June). Hygrocybe acutoconica. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hygrocybe_acutoconica.html'
+  - 'Kuo, M. (2014, November). Waxy caps: The Hygrophoraceae family, in part. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hygrophoraceae.html'
   - 'Cantrell, S. A., & Lodge, D. J. (2000). Hygrophoraceae of the Greater Antilles: Hygrocybe subgenus Hygrocybe. Mycological Research, 104(7), 873-878. https://www.fpl.fs.usda.gov/documnts/pdf2000/cantr00a.pdf'
 tags:
   - summer
@@ -43,7 +44,7 @@ photos:
 
 The Sunset Waxycap is a mushroom with an undetermined ecological role. It's uncertain if it is a decomposer, mycorrhizal, or some other type of mushroom. This mushroom can be found late sprint through fall under Oak and other deciduous trees. *Hygrocybe acutoconica* is widespread in North America but *H. acutoconica var. microspora* has only been found east of the Rocky Mountains and is differentiated by its more slimy cap surface and smaller spores. *H. acutoconica* was originally described from northeast Nebraska in the early 1900s. 
 
-The cap is conical to umbonate to flat, slimy to tacky, with colors ranging from yellow to orange to red. The gills are free from the stem or narrowly attached to it, are yellowish or orangish, and have a slightly waxy texture. It does not have an annulus nor a volva. The spore print is white.
+The cap is conical to umbonate to flat, slimy to tacky, with colors ranging from yellow to orange to red. It does not bruise black some some other *Hygrocybe sp.*. The gills are free from the stem or narrowly attached to it, are yellowish or orangish, and have a slightly waxy texture. It does not have an annulus nor a volva. The spore print is white.
 
 ![Form](/img/hygrocybe-acutoconica-microspora-1582-6.jpeg)
 
