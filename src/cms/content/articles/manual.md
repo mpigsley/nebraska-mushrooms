@@ -1,34 +1,87 @@
 ---
 templateKey: article
-title: Website Manual
+title: Manual
 date: 2024-04-15
 author: Derek Zeller
 ---
-##### How to use this website
 
-This website allows you to see lists of mushrooms organized by where they are found in [Nebraska Parks](/).
+#### Purpose
 
-The list interface allows you to filter the results using any custom search words along with **tags**. Tags are a method of grouping species into different buckets like what season they are found in, what they look like, edibility, toxicity, etc.
+The goal of the Nebraska Mushrooms project is to document mushrooms found in Nebraska parks and provide tools to easily search our database. This project is an active work in progress and should in no way be considered a complete perspective of the biodiversity of the state, which is much larger commonly suspected.
 
-##### Major Fungi Form  Tags
+The database maybe be searched from [here](/location/indian-cave-state-park).
 
-If you're interested in gilled mushrooms from Indian Cave State Park, simply select the **agaric tag** to see the [list of agarics surveyed](/location/indian-cave-state-park/?q=tag:agaric). See more form tags in the [Key](/articles/key)
+<hr>
 
-##### Season Tags
+#### Tags
 
-| Season   | Start   | End      | Link     |
-| -------- | --------| -------- | -------- |
-| Spring | March 21,22 | June 19, 20 | [Spring Mushroom List](/location/indian-cave-state-park/?q=tag:spring) |
-| Summer | June 20, 21 | September 21, 22 | [Summer Mushroom List](/location/indian-cave-state-park/?q=tag:summer) |
-| Fall | September 22, 23 | December 20, 21 | [Fall Mushroom List](/location/indian-cave-state-park/?q=tag:fall) |
-| Winter | December 21, 22 | March 19, 20 | [Winter Mushroom List](/location/indian-cave-state-park/?q=tag:winter) |
+You can filter the results of the database using **tags**. Tags are a way of grouping species into different buckets. Such as what season they are found in, what they look like, edibility, toxicity, etc. They can be combined to further filter results.
+
+Tags can take the form of:
+- [Season](#season-tags)
+- [Edibility](#edibility-tags)
+- [Form](#form-tags)
+- [Substrate](#substrate-tags)
+
+For example, if you'd like to see the gilled mushrooms that grow in woodland duff in the spring, you could combine the `agaric`, `substrate-duff`, and `spring` tags.
+
+![Example1](/img/ManualExample1.png)
+
+<hr>
+<h5 id="season-tags">Season Tags</h5>
+
+| Season   | Start   | End      |
+| -------- | --------| -------- |
+| [Spring](/location/indian-cave-state-park/?t=spring) | March 21,22 | June 19, 20 |
+| [Summer](/location/indian-cave-state-park/?t=summer) | June 20, 21 | September 21, 22 |
+| [Fall](/location/indian-cave-state-park/?t=fall) | September 22, 23 | December 20, 21 |
+| [Winter](/location/indian-cave-state-park/?t=winter) | December 21, 22 | March 19, 20  |
 
 [Further reading](https://www.weather.gov/cle/Seasons) about seasons.
 
-##### Edibility Tags
+<hr>
+<h5 id="edibility-tags">Edibility Tags</h5>
 
 **Important**: Please read the article [Concerning Edibility](/articles/concerning-wild-mushroom-edibility/) before using this website.
 
-* [Edible](/location/indian-cave-state-park/?q=tag:edible)
-* [Edible with Caution](/location/indian-cave-state-park/?q=tag:edible-with-caution)
-* [Poisonous](/location/indian-cave-state-park/?q=tag:poisonous)
+* [Edible with Caution](/location/indian-cave-state-park/?t=edible-with-caution)
+* [Poisonous](/location/indian-cave-state-park/?t=poisonous)
+
+<hr>
+<h5 id="form-tags">Form Tags</h5>
+
+If you're interested in the gilled mushrooms from Indian Cave State Park, simply select the [agaric tag](/location/indian-cave-state-park/?t=agaric). More details about forms in the [Key](/articles/key).
+
+ - [Agaric](/location/indian-cave-state-park/?t=agaric)
+ - [Bolete](/location/indian-cave-state-park/?t=bolete)
+ - [Disc](/location/indian-cave-state-park/?t=disc)
+ - [Chantrelle](/location/indian-cave-state-park/?t=chantrelle)
+ - [Polypore](/location/indian-cave-state-park/?t=polypore)
+ - [Conk](/location/indian-cave-state-park/?t=conk)
+ - [Shelf](/location/indian-cave-state-park/?t=shelf)
+ - [Crust](/location/indian-cave-state-park/?t=crust)
+ - [Coral](/location/indian-cave-state-park/?t=coral)
+ - [Club](/location/indian-cave-state-park/?t=club)
+ - [Toothed](/location/indian-cave-state-park/?t=toothed)
+ - [Nest](/location/indian-cave-state-park/?t=nest)
+ - [Sequestrate](/location/indian-cave-state-park/?t=sequestrate)
+ - [Parasitic](/location/indian-cave-state-park/?t=parasitic)
+ - [Lichen](/location/indian-cave-state-park/?t=lichen)
+ - [Slime Mold](/location/indian-cave-state-park/?t=slime-mold)
+ - [Rust](/location/indian-cave-state-park/?t=rust)
+ - [Jelly](/location/indian-cave-state-park/?t=jelly)
+ - [Stinkhorn](/location/indian-cave-state-park/?t=stinkhorn)
+
+<hr>
+<h5 id="substrate-tags">Substrate Tags</h5>
+
+Substrate is the fungi's preferred growing medium, food, or what they may commonly be found in. 
+
+ - [Soil](/location/indian-cave-state-park/?t=substrate-soil)
+ - [Wood](/location/indian-cave-state-park/?t=substrate-wood)
+ - [Moss](/location/indian-cave-state-park/?t=substrate-moss)
+ - [Duff](/location/indian-cave-state-park/?t=substrate-duff)
+ - [Spiders](/location/indian-cave-state-park/?t=substrate-spiders)
+ - [Insects](/location/indian-cave-state-park/?t=substrate-insects)
+ - [Fungi](/location/indian-cave-state-park/?t=substrate-fungi)
+ - [Dung](/location/indian-cave-state-park/?t=substrate-dung)

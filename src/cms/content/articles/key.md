@@ -17,7 +17,7 @@ To identify a mushroom, start here. Does your mushroom match the form? If so, cl
 
 #### **Gilled Mushrooms. aka Agarics** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:agaric)
+[List Species](/location/indian-cave-state-park/?t=agaric)
 
 ![Gilled Mushroom](https://static.inaturalist.org/photos/329308003/small.jpeg)
 
@@ -30,7 +30,7 @@ These mushrooms typically have a stem that raises the cap above the substrate. U
 
 #### **Boletes** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:bolete)
+[List Species](/location/indian-cave-state-park/?t=bolete)
 
 ![Bolete](https://static.inaturalist.org/photos/309213288/small.jpg)
 
@@ -44,7 +44,7 @@ These mushrooms have a cap and stem and are generally soft, stout, and fleshy. U
 
 #### **Entomopathogenic** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:entomopathogenic)
+[List Species](/location/indian-cave-state-park/?t=entomopathogenic)
 
 ![Entomopathogenic](https://static.inaturalist.org/photos/295052691/small.jpg)
 
@@ -55,7 +55,7 @@ These species can be found growing on insects, spiders.
 
 #### **Disc** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:disc)
+[List Species](/location/indian-cave-state-park/?t=disc)
 
 ![Disc](https://inaturalist-open-data.s3.amazonaws.com/photos/288069268/small.jpeg)
 
@@ -66,7 +66,7 @@ These mushrooms are generally small and disc to cup shaped.
 
 #### **Chantrelles** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:chantrelle)
+[List Species](/location/indian-cave-state-park/?t=chantrelle)
 
 ![Chantrelles](https://static.inaturalist.org/photos/321718965/small.jpeg)
 
@@ -77,7 +77,7 @@ These are trumpet-shaped mushrooms. Although they appear to have gills at first 
 
 #### **Polypores** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:polypore)
+[List Species](/location/indian-cave-state-park/?t=polypore)
 
 ![Polypore](https://static.inaturalist.org/photos/319194436/small.jpeg)
 
@@ -88,7 +88,7 @@ These mushrooms have pores on the underside of the cap (polypore = "many pores")
 
 #### **Conks** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:conk)
+[List Species](/location/indian-cave-state-park/?t=conk)
 
 ![Conk](https://static.inaturalist.org/photos/43969557/small.jpeg)
 
@@ -99,7 +99,7 @@ Conks usually have a stem, are usually stout, growing on wood, commonly hard per
 
 #### **Shelf** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:shelf)
+[List Species](/location/indian-cave-state-park/?t=shelf)
 
 ![Shelf](https://static.inaturalist.org/photos/164146917/small.jpg)
 
@@ -110,7 +110,7 @@ Shelving fungi commonly grow in large groups, have pores or teeth on the undersi
 
 #### **Crust** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:crust)
+[List Species](/location/indian-cave-state-park/?t=crust)
 
 ![Crust](https://static.inaturalist.org/photos/186312586/small.jpeg)
 
@@ -121,7 +121,7 @@ Crust fungi are found growing flat against a surface, generally a downed tree. P
 
 #### **Coral** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:coral)
+[List Species](/location/indian-cave-state-park/?t=coral)
 
 ![Coral](https://static.inaturalist.org/photos/298467504/small.jpg)
 
@@ -132,7 +132,7 @@ As the name suggests, this form is reminisant of underwater coral structures, ge
 
 #### **Club** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:club)
+[List Species](/location/indian-cave-state-park/?t=club)
 
 ![Club](https://static.inaturalist.org/photos/290390330/small.jpeg)
 
@@ -143,7 +143,7 @@ These mushrooms are club-shaped, are often colorful, generally small.
 
 #### **Toothed** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:toothed)
+[List Species](/location/indian-cave-state-park/?t=toothed)
 
 ![Toothed](https://static.inaturalist.org/photos/324797597/small.jpeg)
 
@@ -154,7 +154,7 @@ These mushrooms have spore bearing surfaces that are a sharp tooth-shape, simila
 
 #### **Nest** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:nest)
+[List Species](/location/indian-cave-state-park/?t=nest)
 
 ![Nest](https://static.inaturalist.org/photos/301289482/small.jpeg)
 
@@ -166,7 +166,7 @@ These interesting fungi develop cups (or "nests") with visible packets of spores
 
 #### **Sequestrate** (Puffballs, Earthballs, Earthstarts, and Truffles)
 
-[List Species](/location/indian-cave-state-park/?q=tag:sequestrate)
+[List Species](/location/indian-cave-state-park/?t=sequestrate)
 
 <div style="display:flex; justify-content: space-around;">
 
@@ -185,7 +185,7 @@ These mushrooms produce spores on the inside of their bodies rather than externa
 
 #### **Jelly** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:jelly)
+[List Species](/location/indian-cave-state-park/?t=jelly)
 
 ![Jelly](https://static.inaturalist.org/photos/213932450/small.jpg)
 
@@ -198,7 +198,7 @@ These fungi have a gelatinous texture and consistency when fresh, becoming ridgi
 
 #### **Lichen** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:lichen)
+[List Species](/location/indian-cave-state-park/?t=lichen)
 
 ![Lichen](https://static.inaturalist.org/photos/327561133/small.jpg)
 
@@ -210,7 +210,7 @@ Lichen are generally found on tree bark, rocks, tombstones, old metal, anywhere 
 
 #### **Slime-mold** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:slime-mold)
+[List Species](/location/indian-cave-state-park/?t=slime-mold)
 
 ![Slime-mold](https://static.inaturalist.org/photos/212158207/small.jpg)
 
@@ -222,7 +222,7 @@ Slime molds are not true fungi, althought they appear so in nature. They are agg
 
 #### **Rust** 
 
-[List Species](/location/indian-cave-state-park/?q=tag:rust)
+[List Species](/location/indian-cave-state-park/?t=rust)
 
 ![Rust](https://static.inaturalist.org/photos/276649393/small.jpg)
 
