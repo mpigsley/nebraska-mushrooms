@@ -36,7 +36,7 @@ photos:
   - /img/inocybe-6887-6.jpeg
 ---
 
-The 2024 DNA results of *Inocybe sp-IN02* represent it as an undescribed species originally found in Indiana.
+2024 DNA results of *Inocybe sp-IN02* represent it as an undescribed species originally found in Indiana.
 
 ![In situ](/img/inocybe-6887-1.jpeg)
 
