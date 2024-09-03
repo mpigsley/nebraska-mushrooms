@@ -18,7 +18,7 @@ export async function getInaturalistData(iNatUrl: string): Promise<iNaturalistDa
     console.log(`ℹ️ Page Loaded ${iNatUrl}`)
 
     // aquire data
-    const sciName = await page.evaluate(() => document.querySelector('.ObservationTitle .sciname')?.textContent);
+    const sciName = await page.evaluate(() => document.querySelector('.ObservationTitle .sciname')?.textContent?.replace('Genus ', ''));
     if (!!sciName) {
         console.log('✅ Sciname aquired.')
     } else {

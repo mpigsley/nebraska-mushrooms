@@ -10,3 +10,4 @@ zonation
 tomentose
 gilled
 adnexed
+undescribed
