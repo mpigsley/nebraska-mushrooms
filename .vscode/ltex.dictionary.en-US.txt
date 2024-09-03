@@ -9,3 +9,4 @@ hymenium
 zonation
 tomentose
 gilled
+adnexed
