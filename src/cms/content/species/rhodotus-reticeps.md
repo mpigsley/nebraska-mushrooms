@@ -1,12 +1,12 @@
 ---
 templateKey: species
 name: Wrinkled Peach
-scientific_name: Rhodotus palmatus
+scientific_name: Rhodotus reticeps
 location: Indian Cave State Park
 tags:
-    - summer
-    - agaric
-    - substrate-wood
+  - summer
+  - agaric
+  - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

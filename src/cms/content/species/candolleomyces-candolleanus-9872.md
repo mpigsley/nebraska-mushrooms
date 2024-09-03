@@ -81,7 +81,7 @@ photos:
   - /img/candolleomyces-candolleanus-9699-6.jpeg
 ---
 
-The Pale Brittlestem is a common decomposer that can be found in the spring through fall. It can be found in lawns, mulch, and forests where it decomposes dead trees and their root systems. Widely distributed.
+The Pale Brittlestem is a decomposer that can be found in the spring through fall. It can be found in lawns, mulch, and forests where it decomposes dead trees and their root systems. Widely distributed and common.
 
 The cap is brittle and is colored yellowish to tan when young, generally becoming lighter and whiter with age. The shape is evenly rounded becoming broadly conical with age, almost like a large umbrella. The gills are slightly attached (adnexed) and are white when young becoming grayish-pink then brownish-black with age. The stem is hollow and brittle. The spores are brownish-black.
 
