@@ -9,13 +9,13 @@ author: Derek Zeller
 
 The goal of the Nebraska Mushrooms project is to document mushrooms found in Nebraska parks and provide tools to easily search our database. This project is an active work in progress and should in no way be considered a complete perspective of the biodiversity of the state, which is much larger commonly suspected.
 
-The database maybe be searched from [here](/location/indian-cave-state-park).
+The database may be searched from [here](/location/indian-cave-state-park).
 
 <hr>
 
 #### Tags
 
-You can filter the results of the database using **tags**. Tags are a way of grouping species into different buckets. Such as what season they are found in, what they look like, edibility, toxicity, etc. They can be combined to further filter results.
+You can filter the results of the database using **tags**. Tags are a way of grouping species into different buckets. Such as what season they are found in, what they look like, edibility, toxicity, etc. Tags can be combined to fine tune results.
 
 Tags can take the form of:
 - [Season](#season-tags)
@@ -50,7 +50,7 @@ For example, if you'd like to see the gilled mushrooms that grow in woodland duf
 <hr>
 <h5 id="form-tags">Form Tags</h5>
 
-If you're interested in the gilled mushrooms from Indian Cave State Park, simply select the [agaric tag](/location/indian-cave-state-park/?t=agaric). More details about forms in the [Key](/articles/key).
+If you're interested in the gilled mushrooms from Indian Cave State Park, simply select the [agaric tag](/location/indian-cave-state-park/?t=agaric). More details about forms in the [Key](/articles/key). Keep in mind that a single mushroom might represent multiple forms.
 
  - [Agaric](/location/indian-cave-state-park/?t=agaric)
  - [Bolete](/location/indian-cave-state-park/?t=bolete)
@@ -65,7 +65,6 @@ If you're interested in the gilled mushrooms from Indian Cave State Park, simply
  - [Toothed](/location/indian-cave-state-park/?t=toothed)
  - [Nest](/location/indian-cave-state-park/?t=nest)
  - [Sequestrate](/location/indian-cave-state-park/?t=sequestrate)
- - [Parasitic](/location/indian-cave-state-park/?t=parasitic)
  - [Lichen](/location/indian-cave-state-park/?t=lichen)
  - [Slime Mold](/location/indian-cave-state-park/?t=slime-mold)
  - [Rust](/location/indian-cave-state-park/?t=rust)
