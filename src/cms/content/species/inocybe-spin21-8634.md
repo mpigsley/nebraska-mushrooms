@@ -37,7 +37,7 @@ photos:
   - /img/inocybe-8634-8.jpeg
 ---
 
-The 2024 DNA results of *Inocybe sp-IN21* represents it as an undescribed species originally found in Indiana.
+The 2024 DNA results of *Inocybe sp-IN21* represent it as an undescribed species originally found in Indiana.
 
 ![Form](/img/inocybe-8634-7.jpeg)
 
