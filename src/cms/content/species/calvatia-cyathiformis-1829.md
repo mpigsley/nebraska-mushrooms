@@ -8,6 +8,7 @@ references:
   - 'Kuo, M. (2016, September). Calvatia cyathiformis. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/calvatia_cyathiformis.html'
 tags:
   - summer
+  - fall
   - substrate-soil
   - sequestrate
 taxonomy:
@@ -40,6 +41,8 @@ photos:
 The Purple-spored Puffball is a grassland decomposer that can be found in summer through fall. It is a common mushroom widely distributed across the globe. It can be found alone, in groups, or in fairy rings.
 
 *Calvatia cyathiformis* is generally pear-shaped to loaf-shaped. The exterior can be colored white to tan to brown and develops a "mud-cracked" pattern after being exposed to the sun. The interior begins white when young, transitioning to a purplish color towards the top and olive at the base when mature.
+
+![Form](/img/calvatia-cyathiformis-1829-5.jpeg)
 
 #### August 4th, 2023 Field Notes - Indian Cave State Park
 
