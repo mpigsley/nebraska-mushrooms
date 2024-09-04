@@ -31,6 +31,8 @@ external_links:
     link: https://mushroomobserver.org/names?pattern=Hydnum+subtilior
   - tag: Mushroom Expert
     link: https://www.google.com/search?q=Hydnum+subtilior+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Hydnum+subtilior
 photos:
   - /img/hydnum-subtilior-7143-5.jpeg
   - /img/hydnum-subtilior-7143-2.jpeg

@@ -2,7 +2,7 @@ import { getInaturalistData } from '../Browser';
 
 const generateLinks = async (iNatUrl: string) => {
     const inatData = await getInaturalistData(iNatUrl);
-    const formattedName = inatData.sciName?.replace(' ', '+');
+    const formattedName = inatData.sciName?.replace(' ', '+')?.replace('Genus ', '');
 
     console.log(`#### ${inatData.date} Field Notes - Indian Cave State Park`)
 
@@ -13,6 +13,8 @@ const generateLinks = async (iNatUrl: string) => {
     link: https://mushroomobserver.org/names?pattern=${formattedName}
   - tag: Mushroom Expert
     link: https://www.google.com/search?q=${formattedName}+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=${formattedName}
     `);
 }
 
