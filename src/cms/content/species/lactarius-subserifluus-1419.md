@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: 
+name: Slender Pink-Staining Lactarius
 scientific_name: Lactarius subserifluus
 location: Indian Cave State Park
 references:
@@ -39,7 +39,9 @@ photos:
   - /img/lactarius-subserifluus-1419-10.jpeg
 ---
 
-*Lactarius subserifluus* is a mycorrhizal mushroom that can be found in the summer. It primarily associates with Oak trees and can be found in woodland settings east of the Rocky Mountains.
+The Slender Pink-Staining Lactarius is a mycorrhizal mushroom that can be found in the summer. It primarily associates with Oak trees and can be found in woodland settings east of the Rocky Mountains.
+
+*Lactarius subserifluus* exudes watery, clear latex when cut. It also bruises pink where handled or cut similar to [*L. subvernalis var. cokeri*](/species/lactarius-subvernalis-var-cokeri-1938/), though the latter is stouter and exudes a white latex that later turns a salmon-tan color.
 
 ![Form](/img/lactarius-subserifluus-1419-9.jpeg)
 
