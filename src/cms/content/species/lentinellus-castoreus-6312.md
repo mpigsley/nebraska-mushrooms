@@ -37,7 +37,7 @@ photos:
   - /img/lentinellus-castoreus-6312-6.jpeg
 ---
 
-The Menthol Lentinellus is a decomposer of dead wood that can be found in the summer and fall. It's an uncommon *Lentinellus sp.* and has a great deal of morphological variability, so it can be difficult to distinguish between the more common [*Lentinellus ursinus*](/species/lentinellus-ursinus-8377).
+The Beaver Lentinellus is a decomposer of dead wood that can be found in the summer and fall. It's an uncommon *Lentinellus sp.* and has a great deal of morphological variability, so it can be difficult to distinguish between the more common [*Lentinellus ursinus*](/species/lentinellus-ursinus-8377).
 
 It is a gilled mushroom without a stem (sessile). The cap can be many colors: white to multi-toned tans, reds, and blacks. The gills are saw-toothed and white to yellowish. The spore print is white. The taste is bitter and menthol-like.
 
