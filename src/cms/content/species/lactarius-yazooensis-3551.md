@@ -45,7 +45,7 @@ photos:
 
 The Yazoo Lactarius is a mycorrhizal mushroom that associates with deciduous trees (especially Oaks) and can be found in the summer and fall. The name *Lactarius yazooensis* represents Yazoo, Mississippi, where it was originally described.
 
-![Stipe](/img/lactarius-maculatipes-3551-5.jpeg)
+![Stipe](/img/lactarius-yazooensis-3551-5.jpeg)
 
 #### July 17th, 2023 Field Notes - Indian Cave State Park
 
