@@ -57,3 +57,5 @@ The Yazoo Lactarius is a mycorrhizal mushroom that associates with deciduous tre
 - Smell: Not distinctive.
 - Taste: Very acrid (spicy).
 - KOH: Orange on trama tissues.
+
+![Observation](/img/lactarius-yazooensis-3551-9.jpeg)
