@@ -46,7 +46,7 @@ photos:
 
 The Stout Pink-Staining Lactarius is a mycorrhizal mushroom that associates with deciduous trees (mostly Oaks) and can be found in summer through fall. It's widely distributed in eastern United States.
 
-*Lactarius subvernalis var. cokeri* exudes white latex when cut that later turns a salmon-tan color. It also bruises pink where handled or cut similar to [*L. subserifluus*](/species/lactarius-subserifluus-1419/), though the latter is slender and exudes watery latex.
+*Lactarius subvernalis var. cokeri* exudes white latex when cut that later turns a salmon-tan color. It also bruises pink where handled or cut similar to [*L. subplinthogalus*](/species/lactarius-subplinthogalus-9606/), though the latter is more slender and has more distant gill spacing.
 
 ![Form](/img/lactarius-subvernalis-cokeri-9138-6.jpeg)
 
