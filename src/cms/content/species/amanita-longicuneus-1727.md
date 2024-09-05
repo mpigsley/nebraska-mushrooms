@@ -5,6 +5,7 @@ scientific_name: Amanita longicuneus
 location: Indian Cave State Park
 references:
   - 'Tulloss RE, Rodríguez Caycedo C. 2024. Amanita longicuneus. in Tulloss RE, Yang ZL, eds. Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+longicuneus ]. accessed September 5, 2024.'
+  - 'Rhode Island Amanita Series. (2021, August 9). Rhode Island Amanita Series: Amanita longicuneus. Retrieved September 5, 2024, from YouTube website: https://www.youtube.com/watch?v=SkI9j2ByRvw'
 tags:
   - spring
   - summers
@@ -46,9 +47,11 @@ The cap is colored brownish with a darker center. The cap has a lined pattern (s
 
 ![Gills](/img/amanita-longicuneus-1727-2.jpeg)
 
-The main distinguishing characteristic is what is called an "internal limb" on its volva. From R. E. Tulloss:
+The main distinguishing characteristic is what is called an "internal limb" (limbus internus) on its volva. From R. E. Tulloss:
 
 > "The distinguishing character of this species (within its known range) is the form of the internal limb of the volva.  When the fruiting body is cut in half lengthwise, the volval sac is seen to have two limbs. The outer limb covered the entire mushroom during its early development.  The inner limb (which also completely encircles the stem), was between the stem and what became the free edges of the gills during development.  In this species, the shape of the cross-sectioned inner limb is that of a very long and narrow wedge." (Tulloss, 2024)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SkI9j2ByRvw?si=bCQlNjwPvSsbcLC7&amp;start=248" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 North American mycology has been working on classifying this mushroom for some time now, and it has also had the provisional names "*Amanita sp. 28*", "*Amanita sp-GSM05*", and "*A. sp-longicuneus01*" in recent years. *Amanita longicuneus* is still a provisional name as the time of this writing and we will most likely see a publication legitimizing it in future years.
 
