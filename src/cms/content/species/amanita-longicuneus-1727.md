@@ -44,6 +44,8 @@ The Long Wedge Ringless Amanita is a mycorrhizal mushroom that can be found in t
 
 The cap is colored brownish with a darker center. The cap has a lined pattern (striations) from the margin to about halfway to the center of the cap. The gills are free from the stem to narrowly attached (acutely adnexed). The stem has no ring (annulus), and has a unique cup (volva).
 
+![Gills](/img/amanita-longicuneus-1727-2.jpeg)
+
 The main distinguishing characteristic is what is called an "internal limb" on its volva. From R. E. Tulloss:
 
 > "The distinguishing character of this species (within its known range) is the form of the internal limb of the volva.  When the fruiting body is cut in half lengthwise, the volval sac is seen to have two limbs. The outer limb covered the entire mushroom during its early development.  The inner limb (which also completely encircles the stem), was between the stem and what became the free edges of the gills during development.  In this species, the shape of the cross-sectioned inner limb is that of a very long and narrow wedge." (Tulloss, 2024)
