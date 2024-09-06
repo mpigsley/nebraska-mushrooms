@@ -21,6 +21,12 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/603803
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/170023539
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/1470128
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Polycephalomyces
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Polycephalomycetaceae
 photos:
   - /img/polycephalomycetaceae-4685-2.jpeg
   - /img/polycephalomycetaceae-4685-1.jpeg
@@ -34,7 +40,7 @@ photos:
   - /img/polycephalomycetaceae-4685-12.jpeg
 ---
 
-This is a parasitic fungus that attacks parasitic fungi. You heard that right. A parasite on top of another parasite. This is a phenomenon known has 'hyperparasitism'. The host of this hyperparasite is [Ophiocordyceps variabilis](/species/ophiocordyceps-variabilis).
+This is a parasitic fungus that attacks parasitic fungi. You heard that right. A parasite on top of another parasite. This is a phenomenon known has 'hyperparasitism'. The host of this hyperparasite is [*Ophiocordyceps variabilis*](/species/ophiocordyceps-variabilis).
 
 ![Measurements](/img/polycephalomycetaceae-4685-9.jpeg)
 
