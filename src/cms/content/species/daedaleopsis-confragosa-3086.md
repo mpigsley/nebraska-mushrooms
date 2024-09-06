@@ -69,6 +69,7 @@ The cap surface color can be tan to brown to white. The cap pattern presents dif
 ![Observation 1](/img/daedaleopsis-confragosa-3086-7.jpeg)
 
 ![KOH](/img/daedaleopsis-confragosa-3086-10.jpeg)
+
 ![Ammonia](/img/daedaleopsis-confragosa-3086-11.jpeg)
 
 #### September 28th, 2023 Field Notes - Indian Cave State Park

@@ -83,7 +83,6 @@ interior: solid
 
 [1] With dirt adhered to pileipellis
 Smell: spermatic
-Taste: spermatic 
 Spore Print: brown
 
 ![Form](/img/inocybe-1066-9.jpeg)
