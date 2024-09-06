@@ -1,16 +1,17 @@
 ---
 templateKey: species
-name: Thin-Stem Agaricus
+name: Slinder-Stemmed Agaricus
 scientific_name: Agaricus leptocaulis
 location: Indian Cave State Park
 references:
   - 'Kerrigan, RW. 2016. Agaricus of North America. Memoirs of the New York
  Botanical Garden. 114:1-570'
+  - 'Kuo, M. (2018, January). Agaricus leptocaulis. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/agaricus_leptocaulis.html'
 tags:
-    - summer
-    - fall
-    - agaric
-    - substrate-soil
+  - summer
+  - fall
+  - agaric
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -54,21 +55,23 @@ photos:
   - /img/agaricus-leptocaulis-1433-20.jpeg
 ---
 
-##### **Key Features**
+*A. leptocaulis* is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast. It can be found growing alone or in small groups. The cap and stem bruise yellow where handled.
 
-- The cap shape is evenly rounded to broadly rounded, becoming flat with age. Sometimes with a slight umbo. Sometimes splitting radially at the margin. (0.8) 2-3.5 inches ((2) 5-8.5 cm) wide.
-- Cap texture smooth and dry. Grayish-brown colored with brown scales that are more densely collected at the center than the margin.
-- Gills are free from the stem. The gill color is light pink when young, becoming darker pink, then becoming brown with age. This is due to brown spores maturing on the gill surface over time.
-- Stem with an elastic pendant-shaped skirt on the top half and a small bulb on the base. Sometimes curved. 1.5-4.5 inches long (3.5-11.5 cm) × 0.3-0.5 inches wide (8-14 mm)
-- Habitually fruiting alone or in small groups
-- Bruising yellow where handled. 
-- Color changes to yellow with KOH
-- Odor ranges from indistinct to pleasant to phenolic (like band-aids or glue).
-- Spore print brown.
+The cap shape is evenly rounded to broadly rounded, becoming flat with age. Sometimes with a slight umbo. Sometimes splitting radially at the margin. The cap texture is smooth and dry. The color is grayish-brown with brown scales that are more densely collected at the center than the margin.
 
-*Environment*: A. leptocaulis is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast.
+![Cap](/img/agaricus-leptocaulis-1433-7.jpeg)
 
-##### **August 9th, 2023 Field Characteristics**
+The gills are free from the stem. The gill color is light pink when young, becoming darker pink, then becoming brown with age. This is due to brown spores maturing on the gill surface over time.
+
+![Gills](/img/agaricus-leptocaulis-1433-9.jpeg)
+
+The stem features an elastic pendant-shaped skirt on the top half and a small bulb on the base. Sometimes curved. 1.5-4.5 inches long (3.5-11.5 cm) × 0.3-0.5 inches wide (8-14 mm).
+
+![Stem](/img/agaricus-leptocaulis-1433-4.jpeg)
+
+The odor ranges from indistinct to pleasant to phenolic (like band-aids or glue). The spore print is brown.
+
+##### August 9th, 2023 Field Notes
 
 Growing gregariously in open mixed oak/hickory woodland edge.
 
@@ -80,3 +83,4 @@ Growing gregariously in open mixed oak/hickory woodland edge.
 - Taste: mild and pleasant 
 - KOH: highlighter yellow on pileipellis.
 
+![Observation](/img/agaricus-leptocaulis-1433-11.jpeg)

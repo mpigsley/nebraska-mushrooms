@@ -7,7 +7,8 @@ tags:
     - summer
     - entomopathogenic
     - substrate-insects
-    - parasite
+    - parasitic
+    - club
 taxonomy:
   - Ascomycota
   - Pezizomycotina

@@ -12,6 +12,7 @@ tags:
   - entomopathogenic
   - substrate-insects
   - parasitic
+  - club
 taxonomy:
   - Ascomycota
   - Pezizomycotina

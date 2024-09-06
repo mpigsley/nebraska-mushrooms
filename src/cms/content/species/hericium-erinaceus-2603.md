@@ -11,7 +11,7 @@ tags:
   - toothed
   - edible-with-caution
   - substrate-wood
-  - parasite
+  - parasitic
 taxonomy:
   - Basidiomycota
   - Agaricomycotina

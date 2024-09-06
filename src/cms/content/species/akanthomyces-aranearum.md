@@ -4,10 +4,11 @@ name:
 scientific_name: Akanthomyces aranearum
 location: Indian Cave State Park
 tags:
-    - summer
-    - entomopathogenic
-    - substrate-spiders
-    - parasite
+  - summer
+  - entomopathogenic
+  - substrate-spiders
+  - parasitic
+  - club
 taxonomy:
   - Ascomycota
   - Pezizomycotina

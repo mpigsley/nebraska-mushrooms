@@ -8,7 +8,8 @@ tags:
   - substrate-fungi
   - substrate-insects
   - entomopathogenic
-  - parasite
+  - parasitic
+  - club
 taxonomy:
   - Ascomycota
   - Pezizomycotina
