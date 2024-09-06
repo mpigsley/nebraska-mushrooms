@@ -6,7 +6,7 @@ location: Indian Cave State Park
 references:
   - 'Peck, C.H. 1878. Report of the Botanist (1875). Annual Report on the 
  New York State Museum of Natural History. 29:29-82'
- - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved September 6, 2024, from Agaric.us website: https://agaric.us/common_names/names.html'
+  - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved September 6, 2024, from Agaric.us website: https://agaric.us/common_names/names.html'
 tags:
     - summer
     - fall
