@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Lepidoptera Cordyceps
+name: Slinder-Footed Cordyceps
 scientific_name: Cordyceps tenuipes
 location: Indian Cave State Park
 references:
