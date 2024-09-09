@@ -50,9 +50,9 @@ photos:
   - /img/akanthomyces-aranearum17.jpeg
 ---
 
-*Akanthomyces aranearum* is an entomopathogenic mushroom that can be found in the summer. Its preferred hosts are spiders and can be found in low, damp riparian areas.
+*Akanthomyces aranearum* is an entomopathogenic mushroom that can be found in the summer. Its preferred hosts are spiders and can be found in riparian areas.
 
-This mushroom is not found often because of its tiny size, making it not well understood. However, as North American mycology matures in the next decades we hope to understand more about this interesting organism. The name "*aranearum*" stands for "of the spiders". It refers to the order of true spiders, [Araneae](https://www.inaturalist.org/taxa/47118-Araneae), which is the host of choice for this fungal parasite.
+This mushroom is not found often because of its tiny size, making it not well understood. However, as North American mycology matures in the next decades we hope to understand more about this interesting organism. The name "*aranearum*" stands for "of the spiders". It refers to the order of true spiders, [*Araneae*](https://www.inaturalist.org/taxa/47118-Araneae), which is the host of choice for this fungal parasite.
 
 #### August 31st, 2023 Field Notes - Indian Cave State Park
 

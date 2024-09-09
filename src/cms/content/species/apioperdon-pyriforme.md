@@ -4,11 +4,11 @@ name: Pear-shaped Puffball
 scientific_name: Apioperdon pyriforme
 location: Indian Cave State Park
 tags:
-    - summer
-    - fall
-    - sequestrate
-    - substrate-wood
-    - substrate-soil
+  - summer
+  - fall
+  - sequestrate
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -22,6 +22,14 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/557986
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188825357
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/972793
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Apioperdon+pyriforme
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Apioperdon+pyriforme+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Apioperdon+pyriforme
 photos:
   - /img/apioperdon-pyriforme4.jpeg
   - /img/apioperdon-pyriforme1.jpeg
@@ -32,19 +40,8 @@ photos:
   - /img/apioperdon-pyriforme7.jpeg
 ---
 
-#### Field Characteristics:
+#### October 24th, 2023 Field Notes - Indian Cave State Park
 
-469
-
-Observed At:
-Tuesday, October 24, 2023 10:46 AM
-Created At:
-Tuesday, October 24, 2023 10:44 AM
-Last Modified At:
-Tuesday, October 24, 2023 10:53 AM
-Location:
-40.25477429194521 -95.55676711387054
-Form Group:
 Burnt rubber smell Taste indistinguishable Form Group: puffball or similar
 Substrate:
 Substrate: lignicolous
