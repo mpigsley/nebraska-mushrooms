@@ -8,10 +8,10 @@ references:
  New York State Museum of Natural History. 29:29-82'
   - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved September 6, 2024, from Agaric.us website: https://agaric.us/common_names/names.html'
 tags:
-    - summer
-    - fall
-    - agaric
-    - substrate-soil
+  - summer
+  - fall
+  - agaric
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -26,12 +26,14 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/758
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/172266632
-  - tag: Mushroom Expert
-    link: https://www.mushroomexpert.com/agaricus_placomyces.html
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/194251-Agaricus-placomyces
   - tag: Mushroom Observer Species Description
     link: https://mushroomobserver.org/names/1352
+  - tag: Mushroom Expert
+    link: https://www.mushroomexpert.com/agaricus_placomyces.html
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Agaricus+placomyces
 photos:
   - /img/agaricus-placomyces-9062-10.jpeg
   - /img/agaricus-placomyces-9062-7.jpeg
