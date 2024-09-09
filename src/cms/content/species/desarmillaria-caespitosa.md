@@ -4,10 +4,10 @@ name: Ringless Honey Mushroom
 scientific_name: Desarmillaria caespitosa
 location: Indian Cave State Park
 tags:
-    - summer
-    - agaric
-    - substrate-wood
-    - edible-with-caution
+  - summer
+  - agaric
+  - substrate-wood
+  - edible-with-caution
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -22,6 +22,14 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/582790
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/182885969
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/1238700
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Desarmillaria+caespitosa
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Desarmillaria+caespitosa+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Desarmillaria+caespitosa
 photos:
   - /img/desarmillaria-caespitosa4.jpeg
   - /img/desarmillaria-caespitosa1.jpeg
@@ -32,9 +40,7 @@ photos:
   - /img/desarmillaria-caespitosa7.jpeg
 ---
 
-#### Field Characteristics:
-
-#365
+#### September 11th, 2023 Field Notes - Indian Cave State Park
 
 -Growing tightly clustered at the base of dead American Hophornbeam tree on West-facing mixed oak/hickory woodland slope.
 

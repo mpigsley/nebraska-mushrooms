@@ -1,14 +1,17 @@
 ---
 templateKey: species
-name: Bulbous Honey Mushroom
+name: White Honey Mushroom
 scientific_name: Armillaria gallica
 location: Indian Cave State Park
+references:
+  - 'Kim, Mee-Sook; Klopfenstein, Ned B. 2011. Molecular identification of Armillaria gallica from the Niobrara Valley Preserve in Nebraska. Journal of Phytopathology. 159: 69-71. https://research.fs.usda.gov/treesearch/38459'
+  - 'Kuo, M. (2017, January). Armillaria gallica. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_gallica.html'
 tags:
-    - fall
-    - agaric
-    - edible-with-caution
-    - substrate-wood
-    - substrate-soil
+  - fall
+  - agaric
+  - edible-with-caution
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -23,6 +26,16 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/138520
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188825159
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/188827148
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/118401
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Armillaria+gallica
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Armillaria+gallica+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Armillaria+gallica
 photos:
   - /img/armillaria-gallica2.jpeg
   - /img/armillaria-gallica3.jpeg
@@ -45,7 +58,7 @@ photos:
   - /img/armillaria-gallica-6003-6.jpeg
 ---
 
-#### Field Characteristics:
+#### October 24th, 2023 Field Notes - Indian Cave State Park
 
 468
 
@@ -83,3 +96,34 @@ Footnotes:
 [1] White to brown scales [2] Curry yellow bruising at the base [3] Turning reddish brown at yellow stem base [4] White to brown scales [5] Curry yellow bruising at the base [6] Turning reddish brown at yellow stem base [7] Sinuate
 
 Spore Print: white
+
+**Field Characteristics:**
+
+480
+
+Observed At:
+Tuesday, October 24, 2023 2:50 PM
+Created At:
+Tuesday, October 24, 2023 2:49 PM
+Last Modified At:
+Tuesday, October 24, 2023 2:54 PM
+Location:
+40.260730859128394 -95.55750996386556
+Form Group:
+Form Group: agaric
+Substrate:
+Substrate: terrestrial
+Growth Habit:
+Growth Habit: connate
+Habitat:
+In low draw adjacent to creek in oak hickory woodland
+Cap:
+Pileus: ( Shape: ( Top view: orbicular; Profile: plane to broadly convex to convex ) )
+Shape:
+Shape: ( Top view: orbicular; Profile: plane to broadly convex to convex )
+Stem:
+Stipe: ( interior: stuffed with pith [1] )
+Annulus:
+Annulus: ( Texture: membranous to fibrillose )
+Footnotes:
+[1] Inner pith as cottony threads.
