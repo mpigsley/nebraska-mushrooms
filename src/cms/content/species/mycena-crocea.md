@@ -37,7 +37,6 @@ photos:
   - /img/mycena-crocea5.jpeg
   - /img/mycena-crocea1.jpeg
   - /img/mycena-crocea2.jpeg
-  - /img/mycena-crocea3.jpeg
   - /img/mycena-crocea6.jpeg
   - /img/mycena-crocea7.jpeg
 ---

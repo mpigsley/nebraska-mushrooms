@@ -12,3 +12,4 @@ gilled
 adnexed
 undescribed
 hymenopore
+deliquescence
