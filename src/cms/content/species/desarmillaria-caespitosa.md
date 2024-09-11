@@ -40,15 +40,17 @@ photos:
   - /img/desarmillaria-caespitosa7.jpeg
 ---
 
+The Ringless Honey Mushroom (*Desarmillaria caespitosa*) is a decomposer and tree parasite that can be found growing in large clusters from buried tree roots in late summer and fall. It may appear to be growing from the soil, but it is actually decomposing roots in the soil. It mostly grows from Oak and Silver Maple and is widely distributed east of the Rocky Mountains in North America.
+
 #### September 11th, 2023 Field Notes - Indian Cave State Park
 
--Growing tightly clustered at the base of dead American Hophornbeam tree on West-facing mixed oak/hickory woodland slope.
+Growing tightly clustered at the base of dead American Hophornbeam tree on West-facing mixed oak/hickory woodland slope.
 
 - Cap honey colored with dark orangish brown hairs towards the center, hygrophanous, and margins wavy and striated.
 - Lamellae light tan, wavy, decurrent, with frequent partial gills.
 - Stipe similar color to gills, fibrulose, slightly darkening where handled.
 
--Additional Info
+Additional Info
 - Smell: not distinctive
 - Taste: not distinctive
 - KOH orangish on pileipellis.
