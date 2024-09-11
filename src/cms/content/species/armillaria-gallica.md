@@ -58,15 +58,21 @@ photos:
   - /img/armillaria-gallica-6003-6.jpeg
 ---
 
-The White Honey Mushroom (*Armillaria gallica*) is a decomposer of wood and can be found in the fall. It has a widespread distribution in Eastern Nebraska from Indian Cave State Park to the Niobrara Valley Preserve.
+The White Honey Mushroom (*Armillaria gallica*) is a decomposer of wood and can be found in the fall. It has a widespread distribution in Eastern Nebraska from Indian Cave State Park to the Niobrara Valley Preserve (Mee-Sook & Klopfenstein, 2011). *A. gallica* can be found in areas of dead trees decomposing wood and buried roots and is common in wooded areas and occasional lawns (decomposing tree roots).
 
-It can be found in areas of dead trees decomposing wood and buried roots.
+The cap is ornamented with distinct scaly hairs that are more abundant toward the center of the stem as the mushroom matures.
 
 ![Apical View Cap](/img/armillaria-gallica11.jpeg)
 
+The gill color is whitish. The gills are attached to the stem and sometimes have a short bit that runs down the stem (decurrent tooth).
+
 ![Gills](/img/armillaria-gallica3.jpeg)
 
+This species has a high degree of color variation. The specimen below has a whiter base color with darker cap scales than the one above.
+
 ![Apical View Form](/img/armillaria-gallica-6003-4.jpeg)
+
+The stem shape has an enlarged base (bulbous). It has a ring (annulus) that is cobwebby to membranous in composition. It does not have a cup at the base (volva). The spore print is white.
 
 ![Basal View Form](/img/armillaria-gallica-6003-5.jpeg)
 
