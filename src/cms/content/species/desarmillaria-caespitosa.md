@@ -3,6 +3,8 @@ templateKey: species
 name: Ringless Honey Mushroom
 scientific_name: Desarmillaria caespitosa
 location: Indian Cave State Park
+references:
+  - 'Kuo, M. (2017, May). Armillaria tabescens. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_tabescens.html'
 tags:
   - summer
   - agaric
@@ -40,7 +42,15 @@ photos:
   - /img/desarmillaria-caespitosa7.jpeg
 ---
 
-The Ringless Honey Mushroom (*Desarmillaria caespitosa*) is a decomposer and tree parasite that can be found growing in large clusters from buried tree roots in late summer and fall. It may appear to be growing from the soil, but it is actually decomposing roots in the soil. It mostly grows from Oak and Silver Maple and is widely distributed east of the Rocky Mountains in North America.
+The Ringless Honey Mushroom (*Desarmillaria caespitosa*) is a decomposer and tree parasite that can be found growing in large clusters from buried tree roots in late summer and fall. It may appear to be growing from the soil, but it is actually decomposing roots in the soil. It mostly grows from Oak (*Quercus sp.*) and Silver Maple (*Acer saccharinum*) and is distributed east of the Rocky Mountains in North America.
+
+The cap color is a range of "honey"-like colors. The cap shape is evenly rounded, becoming flat, then pothole-shaped (depressed) or with a small bump (umbo) with age. The cap surface is ornamented with hair-like scales that are more abundant towards the center and rub off with age.
+
+![Cap](/img/desarmillaria-caespitosa3.jpeg)
+
+The gill color is whitish bruising pinkish. The gill attachment is running down the stem (decurrent) or attached with a small bit running down the stem (decurrent tooth). The stem shape is tapered at the base due to the clustering habit. The spore print is white.
+
+![Gills](/img/desarmillaria-caespitosa5.jpeg)
 
 #### September 11th, 2023 Field Notes - Indian Cave State Park
 
@@ -55,3 +65,4 @@ Additional Info
 - Taste: not distinctive
 - KOH orangish on pileipellis.
 
+![Observation](/img/desarmillaria-caespitosa7.jpeg)
