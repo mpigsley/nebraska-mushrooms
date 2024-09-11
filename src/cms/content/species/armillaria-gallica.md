@@ -37,6 +37,7 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Armillaria+gallica
 photos:
+  - /img/armillaria-gallica-6003-4.jpeg
   - /img/armillaria-gallica2.jpeg
   - /img/armillaria-gallica3.jpeg
   - /img/armillaria-gallica1.jpeg
@@ -53,7 +54,6 @@ photos:
   - /img/armillaria-gallica-6003-1.jpeg
   - /img/armillaria-gallica-6003-2.jpeg
   - /img/armillaria-gallica-6003-3.jpeg
-  - /img/armillaria-gallica-6003-4.jpeg
   - /img/armillaria-gallica-6003-5.jpeg
   - /img/armillaria-gallica-6003-6.jpeg
 ---
@@ -72,7 +72,7 @@ This species has a high degree of color variation. The specimen below has a whit
 
 ![Apical View Form](/img/armillaria-gallica-6003-4.jpeg)
 
-The stem shape has an enlarged base (bulbous). It has a ring (annulus) that is cobwebby to membranous in composition. It does not have a cup at the base (volva). The spore print is white.
+Fruiting bodies grow alone or in small clusters. The stem shape has an enlarged base (bulbous). It has a ring (annulus) that is cobwebby to membranous in composition. It does not have a cup at the base (volva). The spore print is white.
 
 ![Basal View Form](/img/armillaria-gallica-6003-5.jpeg)
 
