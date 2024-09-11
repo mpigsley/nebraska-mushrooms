@@ -39,7 +39,7 @@ photos:
   - /img/mycena-crocea2.jpeg
   - /img/mycena-crocea3.jpeg
   - /img/mycena-crocea6.jpeg
-  - /img/mycena-crocea7.jpegx
+  - /img/mycena-crocea7.jpeg
 ---
 
 The Walnut Mycena (*Mycena crocea*) is a decomposer of Walnut and Hickory shells and can be found from late summer through fall. It is distributed east of the Rocky Mountains in North America and can be found in wooded settings composed of Walnut (*Juglans sp.*) and/or Hickory (*Carya*) trees.
