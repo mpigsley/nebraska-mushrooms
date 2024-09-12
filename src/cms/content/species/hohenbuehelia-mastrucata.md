@@ -3,10 +3,13 @@ templateKey: species
 name: Woolly Oyster
 scientific_name: Hohenbuehelia mastrucata
 location: Indian Cave State Park
+references:
+  - 'Kuo, M. (2007, April). Hohenbuehelia mastrucata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hohenbuehelia_mastrucata.html'
 tags:
-    - fall
-    - agaric
-    - substrate-wood
+  - summer
+  - fall
+  - agaric
+  - substrate-wood
 taxonomy:
   - Basidiomycota
   - Agaricomycotina
@@ -21,6 +24,14 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/12995
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/188824821
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/500043
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Hohenbuehelia+mastrucata
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Hohenbuehelia+mastrucata+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Hohenbuehelia+mastrucata
 photos:
   - /img/hohenbuehelia-mastrucata6.jpeg
   - /img/hohenbuehelia-mastrucata1.jpeg
@@ -32,18 +43,14 @@ photos:
   - /img/hohenbuehelia-mastrucata8.jpeg
 ---
 
-#### Field Characteristics:
+The Woolly Oyster (*Hohenbuehelia mastrucata*) is a rare decomposer of dead wood that can be found in the summer through fall. It can be found growing on Maple (*Acer sp.*) and other broadleaf trees throughout eastern North America. Fruiting bodies are often on bottom of fallen wood, which can create beautiful circular gill patterns. This specimen was growing on fallen Bitternut Hickory (*Carya cordiformis*).
 
-467
+The cap shape is evenly rounded (convex) becoming flat (plane) with age. The cap color can be different shades of gray. The consistency is rubbery and moist to the touch (when fresh). The cap is ornamented with distinctive gelatinous spines. The gills are colored whitish to grayish. The spore print is white.
 
-Observed At:
-Tuesday, October 24, 2023 10:21 AM
-Created At:
-Tuesday, October 24, 2023 10:20 AM
-Last Modified At:
-Tuesday, October 24, 2023 10:28 AM
-Location:
-40.25507351047327 -95.55686817437321
+![Gills](/img/hohenbuehelia-mastrucata4.jpeg)
+
+#### October 24th, 2023 Field Notes - Indian Cave State Park
+
 Form Group:
 Smell: faint, fungoid Taste indistinguishable Form Group: agaric
 Substrate:
@@ -62,3 +69,5 @@ Surface:
 Surface: ( texture: pubescent [2] )
 Footnotes:
 [1] Similar to Rhodotus palmatus net venation [2] Similar to Rhodotus palmatus net venation
+
+![Observation](/img/hohenbuehelia-mastrucata8.jpeg)
