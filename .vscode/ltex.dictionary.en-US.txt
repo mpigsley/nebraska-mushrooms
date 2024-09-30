@@ -13,3 +13,4 @@ adnexed
 undescribed
 hymenopore
 deliquescence
+zonate
