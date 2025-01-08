@@ -124,13 +124,13 @@ collections:
               'toothed',
               'nest',
               'sequestrate',
-              'parasitic'
+              'parasitic',
               'lichen',
               'slime-mold',
               'rust',
               'jelly',
               'substrate-soil',
-              'substrate-wood'
+              'substrate-wood',
               'substrate-spiders',
               'substrate-duff',
               'substrate-fungi',
