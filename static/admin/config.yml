@@ -40,6 +40,10 @@ collections:
         name: body
         widget: markdown
 
+      - label: Hero Image
+        name: heroImage
+        widget: image
+
   - name: 'references'
     label: 'References'
     folder: 'src/cms/content/reference'
