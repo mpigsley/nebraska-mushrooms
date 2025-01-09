@@ -72,7 +72,7 @@ export default function IndexPage({
           </button>
         </div>
 
-        <div className="row">
+        <div className="row random-mushroom-tile">
           {!!rando?.frontmatter && (
             <>
               <GatsbyImage

@@ -327,11 +327,17 @@
   overflow: hidden;
 }
 
+.random-mushroom-tile {
+  height: 300px;
+  overflow: hidden;
+}
+
 .grid-link {
   background-color: white;
   border-radius: 4px;
   border: 1px solid #bbb;
   padding: var(--s3) var(--s4);
+  position: absolute;
   text-align: center;
   text-decoration: none;
   z-index: 1;
