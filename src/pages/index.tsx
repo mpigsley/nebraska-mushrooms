@@ -67,7 +67,9 @@ export default function IndexPage({
         <hr />
         <div className="content-spaced">
           <h4>Random Mushroom</h4>
-          <button onClick={generateRando}>Regenerate</button>
+          <button className="ml-2" onClick={generateRando}>
+            Regenerate
+          </button>
         </div>
 
         <div className="row">
@@ -115,17 +117,27 @@ export default function IndexPage({
       <hr />
       <div>
         <h4>Locations</h4>
-        <div className="row">
-          <div className="twelve columns relative location-tile content-centered">
-            <img src={IndianCaveStatePark} className="centered-image" />
-            <a
-              className="mx-2 grid-link"
-              href="/location/indian-cave-state-park/"
-            >
-              <h5 className="noMargin">Indian Cave State Park</h5>
+        {data.locations.edges.map(({ node }) => (
+          <div className="row mb-4" key={node.id}>
+            <a className="" href={node.fields?.slug!}>
+              <div className="twelve columns relative location-tile content-centered">
+                {!!node.frontmatter?.heroImage?.childImageSharp?.id && (
+                  <GatsbyImage
+                    className="centered-image"
+                    key={node.frontmatter.heroImage.childImageSharp.id}
+                    image={
+                      node.frontmatter.heroImage.childImageSharp.gatsbyImageData
+                    }
+                    alt={node.frontmatter.title!}
+                  />
+                )}
+                <h5 className="noMargin mx-2 grid-link">
+                  {node.frontmatter?.title!}
+                </h5>
+              </div>
             </a>
           </div>
-        </div>
+        ))}
       </div>
     </PageLayout>
   );
@@ -133,16 +145,37 @@ export default function IndexPage({
 
 export const query = graphql`
   query LocationIndex {
-    location: markdownRemark(
-      frontmatter: { title: { eq: "Indian Cave State Park" } }
+    locations: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "location" } } }
+      sort: { frontmatter: { title: ASC } }
     ) {
-      frontmatter {
-        geolocation
-        title
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            geolocation
+            title
+            heroImage {
+              childImageSharp {
+                id
+                gatsbyImageData(
+                  quality: 90
+                  height: 400
+                  width: 960
+                  layout: CONSTRAINED
+                  transformOptions: { cropFocus: CENTER }
+                )
+              }
+            }
+          }
+        }
       }
     }
     species: allMarkdownRemark(
-      filter: { frontmatter: { location: { eq: "Indian Cave State Park" } } }
+      filter: { frontmatter: { templateKey: { eq: "species" } } }
     ) {
       edges {
         node {
