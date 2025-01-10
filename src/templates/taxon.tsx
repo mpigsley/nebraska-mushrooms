@@ -63,7 +63,9 @@ export default function TaxonTemplate({
         {taxaAtLevel.map((taxon) => {
           return (
             <li key={taxon}>
-              {taxon}
+              <Link className="dark-link" to={`/taxa/${taxon.toLowerCase()}`}>
+                {taxon}
+              </Link>
               {buildTaxonomyTree(taxon, level + 1)}
             </li>
           );

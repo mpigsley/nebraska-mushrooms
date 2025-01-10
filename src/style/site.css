@@ -424,3 +424,11 @@ input[type='text'].tag-select__input {
 .taxa-tree li {
   margin-bottom: 0;
 }
+
+.dark-link {
+  color: #333;
+}
+
+.dark-link:hover {
+  color: #555;
+}
