@@ -2,6 +2,7 @@ import { type PageProps, graphql, Link, type HeadFC } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 
+import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import { type Tag, getTagClass } from '../utils/tag.util';
 import Footer from '../components/Footer';
 
@@ -53,14 +54,11 @@ export default function SpeciesProfileTemplate({
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
-            {data.species?.frontmatter?.taxonomy?.map((taxa, index: number) => (
-              <i>
-                {index > 0 && (<> &gt; </>)}
-                <a href={`http://www.inaturalist.org/taxa/search?q=${taxa?.toLowerCase().replaceAll(' ', '+')}`}>
-                  {taxa}
-                </a>
-              </i>
-            ))}
+            {data.species?.frontmatter?.taxonomy && (
+              <TaxonomyBreadcrumbs
+                taxonomy={data.species?.frontmatter?.taxonomy as string[]}
+              />
+            )}
           </p>
           <hr />
         </section>
@@ -110,7 +108,9 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <Link to={`/location/indian-cave-state-park/?t=${item}`}>
+                        <Link
+                          to={`/location/indian-cave-state-park/?t=${item}`}
+                        >
                           <span className={`${getTagClass(item as Tag)} tag`}>
                             {item}
                           </span>
@@ -129,7 +129,9 @@ export default function SpeciesProfileTemplate({
 }
 
 export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
-  const prettyName = !!data.species?.frontmatter?.name ? `${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})` : data.species?.frontmatter?.scientific_name;
+  const prettyName = !!data.species?.frontmatter?.name
+    ? `${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})`
+    : data.species?.frontmatter?.scientific_name;
   return (
     <>
       <title>
@@ -139,11 +141,17 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
       <meta property="og:title" content={prettyName || ''} />
       <meta property="og:description" content="Mushrooms of Nebraska" />
       <meta name="description" content="Mushrooms of Nebraska" />
-      <meta property="og:image" content={data.species?.frontmatter?.photos?.[0]?.childImageSharp?.gatsbyImageData?.images?.fallback?.src || ''} />
+      <meta
+        property="og:image"
+        content={
+          data.species?.frontmatter?.photos?.[0]?.childImageSharp
+            ?.gatsbyImageData?.images?.fallback?.src || ''
+        }
+      />
       <meta property="og:image:width" content="1000" />
       <meta property="og:image:height" content="1000" />
     </>
-  )
+  );
 };
 
 export const pageQuery = graphql`

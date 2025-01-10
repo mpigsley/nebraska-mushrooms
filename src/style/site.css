@@ -5,10 +5,18 @@
   --s4: 4rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
 .page {
   margin-bottom: var(--s4);
   margin-top: var(--s4);
-  min-height: calc(100vh - 20rem);
+  min-height: calc(100vh - 23rem);
   overflow-x: hidden;
 }
 
@@ -406,4 +414,13 @@ input[type='text'].tag-select__input {
   margin-left: 1px !important;
   margin-right: 1px !important;
   width: calc(100% - 2px) !important;
+}
+
+.taxa-tree {
+  font-size: 100%;
+  margin: 0.2rem 0 0.2rem 1.5rem;
+}
+
+.taxa-tree li {
+  margin-bottom: 0;
 }
