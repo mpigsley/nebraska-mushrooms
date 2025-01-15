@@ -3,6 +3,7 @@ import * as React from 'react';
 
 import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import Footer from '../components/Footer';
+import { generateTaxaRank } from '../utils/taxon-service';
 
 interface PageContext {
   taxon: string;
@@ -61,10 +62,11 @@ export default function TaxonTemplate({
       <ul className="taxa-tree">
         {speciesListAtLevel}
         {taxaAtLevel.map((taxon) => {
+          const taxonRank = generateTaxaRank(taxon);
           return (
             <li key={taxon}>
               <Link className="dark-link" to={`/taxa/${taxon.toLowerCase()}`}>
-                {taxon}
+                {taxon} {taxonRank.length > 0 ? `(${taxonRank})` : ''}
               </Link>
               {buildTaxonomyTree(taxon, level + 1)}
             </li>
@@ -73,12 +75,13 @@ export default function TaxonTemplate({
       </ul>
     );
   }
+  const taxonRank = generateTaxaRank(pageContext.taxon);
 
   return (
     <>
       <main className="container page">
         <Link to="/">&lt; Back to Home</Link>
-        <h3 className="noMargin">{pageContext.taxon}</h3>
+        <h3 className="noMargin">{pageContext.taxon} {taxonRank.length > 0 ? `(${taxonRank})` : ''}</h3>
         <h5>
           {data.allMarkdownRemark.edges.length} species found - {iNatLink}
         </h5>
