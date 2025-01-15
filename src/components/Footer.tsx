@@ -2,54 +2,18 @@ import * as React from 'react';
 
 import NebMyco from '../img/nebmyco.png';
 import NebGP from '../img/nebgp.png';
+import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="six columns">
+          <div>
             <p>
-              Developed in collaboration with the Nebraska Game and Parks
-              Commission, Fungi Project, and Nebraska Mycological Society.
+              This website is a result of the collaboration between multiple wildlife and educational organizations to promote the education, recreation, and conservation fungi in the state of Nebraska. <Link to="/articles/about-us">About Us</Link>
             </p>
             © Fungi Project {new Date().getFullYear()}
-          </div>
-          <div className="six columns">
-            <div>
-              <a
-                className="footer-link content-right"
-                href="https://www.nebmyco.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={NebMyco}
-                  alt="Nebraska Mycological Society"
-                  width="50"
-                  height="50"
-                />
-                <span className="footer-link-text">
-                  Nebraska Mycological Society
-                </span>
-              </a>
-              <a
-                className="footer-link content-right"
-                href="https://www.outdoornebraska.gov/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={NebGP}
-                  alt="Nebraska Game and Parks"
-                  width="50"
-                  height="50"
-                />
-                <span className="footer-link-text">
-                  Nebraska Game and Parks
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       </div>
