@@ -12,11 +12,5 @@ const rankSuffixes: { [suffix: string]: string } = {
     "inae": "Subtribe",
 };
 
-export const generateTaxaRank = (taxon: string): string => {
-    for (const suffix in rankSuffixes) {
-        if (taxon.endsWith(suffix)) {
-            return rankSuffixes[suffix];
-        }
-    }
-    return '';
-}
+export const generateTaxaRank = (taxon: string): string =>
+    Object.entries(rankSuffixes).find(([suffix]) => taxon.endsWith(suffix))?.[1] || '';
