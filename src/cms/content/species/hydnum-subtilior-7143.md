@@ -13,6 +13,8 @@ tags:
   - substrate-soil
   - substrate-moss
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

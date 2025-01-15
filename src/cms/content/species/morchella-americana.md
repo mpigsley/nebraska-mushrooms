@@ -26,13 +26,15 @@ tags:
   - disc
   - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Pezizomycetes
   - Pezizomycetidae
   - Pezizales
   - Morchellaceae
-  - Morchella americana
+  - Morchella
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/481143

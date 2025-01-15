@@ -15,6 +15,8 @@ tags:
   - pleurotoid
   - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

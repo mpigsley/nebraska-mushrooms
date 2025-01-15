@@ -13,6 +13,8 @@ references:
  Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+amerirubescens ].
   accessed August 13, 2024.'
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

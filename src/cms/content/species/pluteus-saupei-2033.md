@@ -13,6 +13,8 @@ tags:
   - substrate-wood
   - poisonous
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

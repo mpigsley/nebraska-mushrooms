@@ -15,6 +15,8 @@ tags:
   - summer
   - fall
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

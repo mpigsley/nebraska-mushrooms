@@ -8,6 +8,8 @@ tags:
     - jelly
     - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

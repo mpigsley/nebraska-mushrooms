@@ -8,6 +8,8 @@ tags:
     - stinkhorn
     - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

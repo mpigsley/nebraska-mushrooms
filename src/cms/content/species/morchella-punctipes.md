@@ -20,6 +20,8 @@ tags:
   - edible-with-caution
   - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Pezizomycetes

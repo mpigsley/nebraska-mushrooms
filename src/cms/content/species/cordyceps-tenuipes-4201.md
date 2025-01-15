@@ -14,6 +14,8 @@ tags:
   - substrate-insects
   - parasitic
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Sordariomycetes

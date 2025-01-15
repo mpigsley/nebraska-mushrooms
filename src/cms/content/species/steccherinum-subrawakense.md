@@ -9,6 +9,8 @@ tags:
     - toothed
     - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

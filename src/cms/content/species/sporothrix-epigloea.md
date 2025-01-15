@@ -7,6 +7,8 @@ tags:
     - summer
     - substrate-fungi
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Sordariomycetes

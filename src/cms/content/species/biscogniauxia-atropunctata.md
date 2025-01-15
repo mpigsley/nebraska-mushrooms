@@ -8,6 +8,8 @@ tags:
     - crust
     - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Sordariomycetes

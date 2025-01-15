@@ -13,6 +13,8 @@ tags:
   - subsrate-wood
   - substrate-moss
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

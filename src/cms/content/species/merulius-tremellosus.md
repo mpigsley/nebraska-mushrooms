@@ -8,6 +8,8 @@ tags:
   - polypore
   - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

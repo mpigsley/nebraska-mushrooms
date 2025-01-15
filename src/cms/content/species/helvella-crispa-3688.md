@@ -14,6 +14,8 @@ tags:
   - substrate-wood
   - poisonous
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Pezizomycetes

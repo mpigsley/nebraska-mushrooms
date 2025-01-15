@@ -12,6 +12,8 @@ tags:
   - agaric
   - poisonous
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

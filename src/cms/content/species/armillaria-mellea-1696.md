@@ -12,6 +12,8 @@ tags:
   - substrate-soil
   - edible-with-caution
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

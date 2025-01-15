@@ -8,6 +8,8 @@ tags:
     - polypore
     - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

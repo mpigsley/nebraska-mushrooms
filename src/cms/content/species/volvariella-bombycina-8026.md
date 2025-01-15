@@ -13,6 +13,8 @@ tags:
   - agaric
   - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

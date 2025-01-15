@@ -8,6 +8,8 @@ tags:
   - substrate-soil
   - agaric
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes
@@ -15,6 +17,7 @@ taxonomy:
   - Agaricales
   - Agaricineae
   - Inocybaceae
+  - Inocybe
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/56750

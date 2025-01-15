@@ -14,6 +14,8 @@ tags:
   - substrate-dung
   - substrate-duff
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

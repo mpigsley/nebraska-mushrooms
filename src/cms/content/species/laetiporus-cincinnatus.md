@@ -9,6 +9,8 @@ tags:
     - substrate-wood
     - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

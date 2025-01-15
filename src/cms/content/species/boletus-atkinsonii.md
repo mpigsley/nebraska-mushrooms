@@ -14,10 +14,15 @@ tags:
   - bolete
   - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
+  - Agaricomycotina
+  - Agaricomycetes
+  - Agaricomycetidae
   - Boletales
   - Boletaceae
-  - Boletus atkinsonii
+  - Boletus
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/235603
