@@ -9,6 +9,8 @@ tags:
   - substrate-wood
   - substrate-insects
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Sordariomycetes

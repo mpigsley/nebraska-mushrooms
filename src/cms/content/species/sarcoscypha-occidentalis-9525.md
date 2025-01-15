@@ -11,6 +11,8 @@ tags:
   - substrate-soil
   - substrate-duff
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Pezizomycetes

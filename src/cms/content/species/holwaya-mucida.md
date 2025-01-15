@@ -8,6 +8,8 @@ tags:
     - club
     - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Leotiomycetes

@@ -13,6 +13,8 @@ tags:
   - substrate-wood
   - edible-with-caution
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

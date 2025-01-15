@@ -7,6 +7,8 @@ tags:
     - summer
     - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Leotiomycetes

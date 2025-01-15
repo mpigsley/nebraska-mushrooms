@@ -12,6 +12,8 @@ tags:
   - agaric
   - substrate-dung
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

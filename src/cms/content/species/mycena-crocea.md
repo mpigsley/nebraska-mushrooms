@@ -11,6 +11,8 @@ tags:
   - substrate-duff
   - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

@@ -14,10 +14,16 @@ tags:
   - substrate-wood
   - substrate-duff
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
+  - Agaricomycotina
+  - Agaricomycetes
+  - Agaricomycetidae
   - Agaricales
-  - Psathyrellacyae
-  - Psathyrella bipellis
+  - Agaricineae
+  - Psathyrellaceae
+  - Psathyrella
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/122681

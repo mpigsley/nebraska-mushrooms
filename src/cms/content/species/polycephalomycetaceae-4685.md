@@ -11,6 +11,8 @@ tags:
   - parasitic
   - club
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Sordariomycetes

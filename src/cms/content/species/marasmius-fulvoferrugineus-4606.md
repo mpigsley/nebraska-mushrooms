@@ -12,6 +12,8 @@ tags:
   - agaric
   - substrate-duff
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

@@ -12,6 +12,8 @@ tags:
   - nest
   - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

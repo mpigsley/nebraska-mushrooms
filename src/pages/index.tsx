@@ -58,7 +58,7 @@ export default function IndexPage({
             <img src={MushrooomList} className="centered-image" />
             <a
               className="mx-2 grid-link"
-              href="/location/indian-cave-state-park"
+              href="/taxa/fungi/"
             >
               <h5 className="noMargin">Mushroom List</h5>
             </a>

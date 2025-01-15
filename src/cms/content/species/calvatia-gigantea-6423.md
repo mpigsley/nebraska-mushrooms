@@ -9,6 +9,8 @@ tags:
   - sequestrate
   - substrate-soil
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

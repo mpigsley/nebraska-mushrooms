@@ -14,6 +14,8 @@ tags:
   - substrate-wood
   - substrate-duff
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

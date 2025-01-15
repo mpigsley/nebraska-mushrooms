@@ -12,6 +12,8 @@ tags:
   - substrate-soil
   - agaric
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes

@@ -8,6 +8,8 @@ tags:
     - jelly
     - substrate-wood
 taxonomy:
+  - Life
+  - Fungi
   - Basidiomycota
   - Agaricomycotina
   - Dacrymycetes

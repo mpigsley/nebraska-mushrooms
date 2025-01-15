@@ -9,6 +9,8 @@ tags:
     - substrate-wood
     - substrate-duff    
 taxonomy:
+  - Life
+  - Fungi
   - Ascomycota
   - Pezizomycotina
   - Pezizomycetes
