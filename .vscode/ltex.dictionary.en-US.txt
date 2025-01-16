@@ -14,3 +14,7 @@ undescribed
 hymenopore
 deliquescence
 zonate
+mycological
+stipe
+pileipellis
+Stipe

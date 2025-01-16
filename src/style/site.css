@@ -18,6 +18,7 @@ h5 {
   margin-top: var(--s4);
   min-height: calc(100vh - 23rem);
   overflow-x: hidden;
+  overflow-wrap: break-word; /* For breaking long DNA seqeuences into different lines */
 }
 
 .noMargin {
