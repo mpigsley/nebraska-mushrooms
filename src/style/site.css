@@ -36,8 +36,7 @@ h5 {
   display: inline-block;
   white-space: normal;
   height: 100%;
-  vertical-align: middle;
-  -webkit-vertical-align: middle;
+  vertical-align: middle!important;
 }
 
 .relative {
