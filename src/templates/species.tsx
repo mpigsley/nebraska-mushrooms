@@ -48,8 +48,8 @@ export default function SpeciesProfileTemplate({
       </div>
       <main className="container page">
         <section className="row">
-          <Link to={data.location?.fields?.slug ?? '/'}>
-            &lt; Back to {data.location?.frontmatter?.title ?? 'Home'}
+          <Link to={'/'}>
+            &lt; Back to Home
           </Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
