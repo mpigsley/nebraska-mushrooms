@@ -7,10 +7,12 @@ tags:
   - summer
   - bolete
   - fall
+  - edible-with-caution
 references:
   - 'Kuo, M. (2013, December). Gyroporus castaneus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gyroporus_castaneus.html'
   - 'Zeller, D. (2025, Janurary). Nature Colors. Retried form pre-Alpha site: https://naturecolors.netlify.app/'
   - 'Quélet, Lucien. (1886). Enchiridion fungorum in Europa media et praesertim in Gallia vigentium (p. 161). O. Doin. https://www.biodiversitylibrary.org/page/32653197'
+  - 'Pavelle, S. (2015b, July 24). Gyroporus f/k/a castaneus (“Chestnut Bolete”). The Bolete Filter. https://boletes.wpamushroomclub.org/product/gyroporus-castaneus/'
 taxonomy:
   - Life
   - Fungi
@@ -49,7 +51,7 @@ The Chestnut Bolete (*Gyroporus castaneus*) is a mycorrhizal (and reportably sap
 
 2024 DNA results identified the survey specimen as *Gyroporus "castaneus-IN07"* suggesting it to be a genetically divergent species to *Gyroporus castaneus* in the strict sense. This cryptic name is a placeholder until it can be published formally.
 
-The cap shape is evenly rounded, becoming flat with age. It often splits at the margin at maturity. The cap texture is smooth to slightly velvety. The cap color features chestnut brown, yellowish brown, cinnamon brown to brownish orange. This specimen is of a lighter color compared to others in the species group.
+The cap shape is evenly rounded, becoming flat with age. The flesh consistency is hard and brittle. It often splits at the margin at maturity. The cap texture is smooth to slightly velvety. The cap color features chestnut brown, yellowish brown, cinnamon brown to brownish orange.
 
 ![Cap](/img/gyroporus-castaneus-175281413-5.jpeg)
 
@@ -81,7 +83,7 @@ The pore shape is circular to slightly angular. It is colored white to cream and
 <div style="background-color: rgb(248, 222, 126);" class="color-box"><div>cream color</div><div>#F8DE7E</div></div>
 </div>
 
-The stem is brittle and becomes hollow with age. It is colored similarly to the cap (concolorous), though sometimes paler.
+The stem is brittle and becomes cottony hollow with age. It is colored similarly to the cap (concolorous), though sometimes paler.
 
 ![Stem](/img/gyroporus-castaneus-175281413-6.jpeg)
 
@@ -99,6 +101,7 @@ That description was written in Europe. Our North American species have been fou
 <div style="background-color: #C9AE5D" class="color-box"><div>jonquil [yellow]</div><div>#C9AE5D</div></div>
 </div>
 
+Generally regarded as edible (Pavelle, 2025).
 
 #### July 26th, 2023 Field Notes - Indian Cave State Park:
 
