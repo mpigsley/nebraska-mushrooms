@@ -4,15 +4,14 @@ name: Dirty Bolete
 scientific_name: Cyanoboletus cyaneitinctus
 location: Indian Cave State Park
 references:
-  - 'Pavelle, Scott. “Cyanoboletus Cyaneitinctus.” The Bolete Filter, 23 July 2015, boletes.wpamushroomclub.org/product/boletus-pulverulentus/. Accessed 16 Jan. 2025.'
+  - 'Pavelle, S. (2015, July 23). Cyanoboletus cyaneitinctus. The Bolete Filter. https://boletes.wpamushroomclub.org/product/boletus-pulverulentus/'
   - 'Farid, A; Bessette, AE; Bessette, AR; Bolin, JA; Kudzma, LV; Franck, AR; Garey, JR. 2021. Investigations in the boletes (Boletaceae) of southeastern USA: four novel species and three novel combinations. Mycosphere. 12(1):1038-1076. https://www.mycobank.org/details/19/10098005'
-  - 'Thilini Chethana. “Cyanoboletus Cyaneitinctus - Facesoffungi Number: FoF 10465 - Faces of Fungi.” Faces of Fungi, 25 May 2022, www.facesoffungi.org/cyanoboletus-cyaneitinctus/. Accessed 16 Jan. 2025.'
+  - 'Thilini Chethana. (2022, May 25). Cyanoboletus cyaneitinctus - Facesoffungi number: FoF 10465 - Faces Of Fungi. Faces of Fungi. https://www.facesoffungi.org/cyanoboletus-cyaneitinctus/'
   - 'Kuo, M. (2004, September). Boletus pulverulentus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/boletus_pulverulentus.html'
 tags:
   - summer
   - fall
   - bolete
-  - edible-with-caution
 taxonomy:
   - Life
   - Fungi
@@ -53,7 +52,7 @@ photos:
   - /img/cyanoboletus-cyaneitinctus-175279939-1.jpeg
 ---
 
-The Dirty Bolete (*Cyanoboletus cyaneitinctus*) is a mycorrhizal mushroom that can be found growing in soil and lawns adjacent to Oaks and other symbiotic trees in Eastern North America. It can be found in the summer and fall growing singularly or (rarely) in small groups.
+The Dirty Bolete (*Cyanoboletus cyaneitinctus*) is a mycorrhizal mushroom that can be found growing in woodland soil and lawns adjacent to Oaks and other symbiotic trees in Eastern North America. It can be found in the summer and fall growing singularly or (rarely) in small groups.
 
 The cap shape is cushion-shaped to evenly rounded. The cap color is different hues of brown or maroon. The cap texture is finely powdery when young, turning smooth with age. When wet, it can be slightly tacky, with leaves or other debris commonly adhering to the surface as it dries. It bruises blue quickly and readily when handled.
 
@@ -69,7 +68,7 @@ The inner flesh (context) of the mushroom is generally a similar color to the st
 
 ![When cut](/img/cyanoboletus-cyaneitinctus-175279939-5.jpeg)
 
-Caution should be exercised when eating this mushroom. Although it has been edible for many, it has been determined to be a bio-accumultor of arsenic from the soil (Thilini Chethana).
+Though considered to be edible in the past, it has been determined to be a bio-accumultor of arsenic from the soil (Pavelle, 2015), which makes its edibility iffy.
 
 #### July 26th, 2023 Field Notes - Indian Cave State Park:
 

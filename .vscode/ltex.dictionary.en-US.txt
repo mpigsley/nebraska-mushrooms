@@ -18,3 +18,5 @@ mycological
 stipe
 pileipellis
 Stipe
+reportably
+concolorous
