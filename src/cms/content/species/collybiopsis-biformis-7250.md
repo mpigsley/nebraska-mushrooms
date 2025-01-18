@@ -1,8 +1,9 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Collybiopsis biformis
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Collybiopsis biformis (Peck) R.H. Petersen, Mycotaxon 136 (2): 341 (2021) [MB#556182]'
   - 'Kuo, M. (2013, February). Collybioid mushrooms. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/collybioid.html'
@@ -47,7 +48,7 @@ Collybiopsis biformis is small a decomposer that can be found growing on leaf/fo
 #### June 29th, 2023 Field Notes
 
 - Growing solo on Northern Red Oak acorn shell in low mixed oak/hickory woodland.
-- Compare to Gymnopus. Clitocyboid. Gills close and decurrent.  Line margin. Hairy mycelium at the base of the stipe shortening in length to absent at the cap intersection. Depressed cap. Cap surface smooth with radial streaking. Growing from Northern red oak acorn shell.
-- Smell: faint. 
+- Compare to Gymnopus. Clitocyboid. Gills close and decurrent. Line margin. Hairy mycelium at the base of the stipe shortening in length to absent at the cap intersection. Depressed cap. Cap surface smooth with radial streaking. Growing from Northern red oak acorn shell.
+- Smell: faint.
 - Taste: slightly bitter.
 - KOH: olive on pileipellis.

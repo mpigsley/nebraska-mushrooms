@@ -2,7 +2,8 @@
 templateKey: species
 name: White Saddle
 scientific_name: Helvella crispa
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2022, October). Helvella crispa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/helvella_crispa.html'
   - 'Helvella crispa Bull., Herbier de la France 10 (109-120): t. 465 fig. 1 (1790) [MB#486426]'

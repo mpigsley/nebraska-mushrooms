@@ -2,7 +2,8 @@
 templateKey: species
 name: Atkinson's Bolete
 scientific_name: Boletus atkinsonii
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, May). Boletus atkinsonii. Retrieved from the
     MushroomExpert.Com Web site:
@@ -51,7 +52,6 @@ photos:
 ---
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/DlVc2QfNDHk?si=QWSjm-OVCD2sI8vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 The Atkinson's Bolete is a soft, fleshy mushroom with a separatable pore surface on the underside of its cap. The cap top surface is brownish and the flesh of the cap is white. The pore surface begins white color and later becomes yellow. It has a net-like pattern on its stem, which is indicative of the genus Boletus. It is associated with broadleaf trees east of the Rocky Mountains. Interestingly, it has a pinkish-to-purpleish reaction when ammonia is applied to the cap surface.
 

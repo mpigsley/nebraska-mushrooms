@@ -1,12 +1,13 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Pholiota polychroa
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - agaric
-    - substrate-wood
+  - summer
+  - agaric
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -48,4 +49,3 @@ Growing on fallen American Hophornbeam tree in open mixed oak/hickory woodland e
 
 - smell: faint
 - taste: faint
-

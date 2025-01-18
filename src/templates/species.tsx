@@ -15,6 +15,14 @@ export default function SpeciesProfileTemplate({
   const scientificName = data.species?.frontmatter?.scientific_name;
   const numPhotos = data.species?.frontmatter?.photos?.length ?? 0;
 
+  let locationSlug = '/location/all/';
+  let locationName = 'All Mushrooms';
+  if (data.locations.edges.length === 1) {
+    locationSlug = data.locations.edges[0]?.node.fields?.slug ?? locationSlug;
+    locationName =
+      data.locations.edges[0]?.node.frontmatter?.title ?? locationName;
+  }
+
   return (
     <>
       <div className="u-full-width relative">
@@ -48,9 +56,7 @@ export default function SpeciesProfileTemplate({
       </div>
       <main className="container page">
         <section className="row">
-          <Link to={data.location?.fields?.slug ?? '/'}>
-            &lt; Back to {data.location?.frontmatter?.title ?? 'Home'}
-          </Link>
+          <Link to={locationSlug}>&lt; Back to {locationName}</Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
@@ -82,6 +88,22 @@ export default function SpeciesProfileTemplate({
           </div>
 
           <div className="four columns">
+            {!!data.locations.edges.length && (
+              <>
+                <b>Locations</b>
+                <ul>
+                  {data.locations.edges.map((locationEdge) => (
+                    <li key={locationEdge.node.fields?.slug}>
+                      <a
+                        href={locationEdge.node.fields?.slug ?? '/location/all'}
+                      >
+                        {locationEdge.node.frontmatter?.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
             {!!data.species?.frontmatter?.external_links?.length && (
               <>
                 <b>External Links</b>
@@ -108,9 +130,7 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <Link
-                          to={`/location/indian-cave-state-park/?t=${item}`}
-                        >
+                        <Link to={`${locationSlug}?t=${item}`}>
                           <span className={`${getTagClass(item as Tag)} tag`}>
                             {item}
                           </span>
@@ -155,13 +175,19 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!, $locationName: String!) {
-    location: markdownRemark(frontmatter: { title: { eq: $locationName } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
+  query SpeciesProfileTemplate($id: String!, $locationNames: [String!]) {
+    locations: allMarkdownRemark(
+      filter: { frontmatter: { title: { in: $locationNames } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
     species: markdownRemark(id: { eq: $id }) {

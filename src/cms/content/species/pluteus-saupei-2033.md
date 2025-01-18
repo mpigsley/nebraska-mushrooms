@@ -2,7 +2,8 @@
 templateKey: species
 name: Saupe's Pluetus
 scientific_name: Pluteus saupei
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Pluteus saupei Justo & Minnis, Mycological Progress 10 (4): 475 (2011) [MB#518598] - https://iris.unito.it/bitstream/2318/78430/1/Species%20recognition_4aperto.pdf'
   - 'Kuo, M. (2016, June). Pluteus americanus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_americanus.html'
@@ -55,7 +56,7 @@ This mushroom is marked poisonous due to the presence of psilocybin, which cause
 
 ![Blue](/img/pluteus-saupei-2033-9.jpeg)
 
-*Pluteus saupei* has a distinctive top-of-cap shape that is oblong/elliptical (but sometimes circular like other Pluteus), with a dark brown center with scales and noticeable grooves (striations) from the margin to the brown center. The side-view shape is evenly rounded to flat. 
+_Pluteus saupei_ has a distinctive top-of-cap shape that is oblong/elliptical (but sometimes circular like other Pluteus), with a dark brown center with scales and noticeable grooves (striations) from the margin to the brown center. The side-view shape is evenly rounded to flat.
 
 ![Cap](/img/pluteus-saupei-2033-6.jpeg)
 
@@ -69,5 +70,5 @@ The gills are free from the stem, starting white when young and becoming pink wi
 - Growing gregariously on well decayed hardwood log (potentially Ash) in low moist mixed oak/hickory woodland near small creek.
 - Stipe and hymenium slowly bruising blue 10-15 minutes later after handling.
 - Center of pileipellis adorned with small dark scales. See the photos of the small specimen, which was found a few days later in the same log.
-- Taste slightly phenolic 
-- Smell not distinct to faintly pleasant. 
+- Taste slightly phenolic
+- Smell not distinct to faintly pleasant.

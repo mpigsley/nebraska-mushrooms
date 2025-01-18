@@ -80,12 +80,15 @@ collections:
         name: scientific_name
         widget: string
 
-      - label: Location
-        name: location
-        widget: relation
-        collection: location-profiles
-        search_fields: ['title']
-        value_field: 'title'
+      - label: Locations
+        name: locations
+        widget: list
+        field:
+          widget: relation
+          name: location
+          collection: location-profiles
+          search_fields: ['title']
+          value_field: 'title'
 
       - label: References
         name: references

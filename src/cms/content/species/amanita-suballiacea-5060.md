@@ -2,7 +2,8 @@
 templateKey: species
 name: Garlic-Odored Death Cap
 scientific_name: Amanita suballiacea
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Amanita suballiacea (Murrill) Murrill, Mycologia 33: 448 (1941) [MB#284076]'
   - 'Tulloss RE. 2024. Amanita suballiacea. in Tulloss RE, Yang ZL, eds. Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+suballiacea ]. accessed August 15, 2024.'
@@ -63,7 +64,7 @@ It has free, white gills. The stem has a ring (annulus) near the top and a sack-
 
 - Growing solitarily on open mixed oak/hickory woodland ridge.
 - Nearby Trees: American Hophornbeam, Black Oak, June Berry, Ash, Bur Oak, and Shagbark Hickory.
-- Cap large (14-15cm), white, slightly tacky with a faintly striated margin. 
+- Cap large (14-15cm), white, slightly tacky with a faintly striated margin.
 - Lamellae white, crowded with frequent short gills, slightly serrated and not attached to the stipe.
 - Stipe white, with prominent annulus and enlarged white sack-like volva at the base, hollow or with central pith, and with upward recurved fibers most prominent midway up.
 - Smell: not distinctive.

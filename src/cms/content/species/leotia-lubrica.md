@@ -2,10 +2,11 @@
 templateKey: species
 name: Jelly Babies
 scientific_name: Leotia lubrica
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - substrate-soil
+  - summer
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -33,4 +34,3 @@ photos:
 Also known as Ochre Jelly Club.
 
 This mushroom can be found in soil around broadleaf trees or conifers, but sometimes on decomposing wood. The season ranges from late spring through fall.
-

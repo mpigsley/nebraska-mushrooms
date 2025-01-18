@@ -2,11 +2,12 @@
 templateKey: species
 name: Bleeding Fairy Helmet
 scientific_name: Mycena haematopus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - agaric
-    - substrate-wood
+  - summer
+  - agaric
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -43,8 +44,6 @@ photos:
 -Growing on hardwood log in mixed oak/hickory woodland.
 
 -Caps relatively bell-shaped, wine red with a lighter scalloped margin.
+
 - Lamellae whitish and adnate.
 - Stipe similarly colored to cap, exuding dark red liquid when broken.
-
-
-

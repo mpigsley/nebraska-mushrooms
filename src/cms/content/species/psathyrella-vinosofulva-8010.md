@@ -2,7 +2,8 @@
 templateKey: species
 name: Wooly Brittlestem
 scientific_name: Psathyrella vinosofulva
-location: Indian Cave State Park
+locations: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, January). The genus Psathyrella. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/psathyrella.html'
   - 'Psathyrella vinosofulva P.D. Orton, Transactions of the British Mycological Society 43 (2): 378 (1960) [MB#337699]'

@@ -18,6 +18,7 @@ h5 {
   margin-top: var(--s4);
   min-height: calc(100vh - 23rem);
   overflow-x: hidden;
+  overflow-wrap: break-word; /* For breaking long DNA seqeuences into different lines */
 }
 
 .noMargin {
@@ -35,8 +36,7 @@ h5 {
   display: inline-block;
   white-space: normal;
   height: 100%;
-  vertical-align: middle;
-  -webkit-vertical-align: middle;
+  vertical-align: middle!important;
 }
 
 .relative {
@@ -431,4 +431,29 @@ input[type='text'].tag-select__input {
 
 .dark-link:hover {
   color: #555;
+}
+
+.color-box {
+  color: rgb(255, 255, 255); 
+  padding: 10px; 
+  width: 75px; 
+  height: 75px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 8px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; 
+  text-align: center; 
+  font-size: 14px; 
+  text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 4px;
+}
+
+.color-box-container {
+  display: flex;
+  flex-wrap:
+  wrap; gap: 10px;
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 10px;
 }

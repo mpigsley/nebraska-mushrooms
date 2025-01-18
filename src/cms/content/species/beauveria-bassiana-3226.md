@@ -2,7 +2,8 @@
 templateKey: species
 name: Icing Sugar Fungus
 scientific_name: Beauveria bassiana
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - entomopathogenic
@@ -53,4 +54,4 @@ In many ascomycetes, species can have multiple life stages. One where they make 
 
 #### September 12th, 2023 Field Notes
 
-- Growing on a winged insect on a rotting hardwood log suspended above a small creek in a low oak/hickory woodland area. 
+- Growing on a winged insect on a rotting hardwood log suspended above a small creek in a low oak/hickory woodland area.

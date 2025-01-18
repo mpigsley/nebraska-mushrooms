@@ -2,7 +2,8 @@
 templateKey: species
 name: Collared Earthstar
 scientific_name: Geastrum triplex
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2008, November). Geastrum triplex. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/geastrum_triplex.html'
 tags:
@@ -44,7 +45,7 @@ photos:
   - /img/geastrum-triplex-6040-1.jpeg
 ---
 
-The Collared Earthstar (*Geastrum triplex*) is a decomposer that can be found growing alone or in groups under broadleaf trees in the summer and fall. It is widely distributed in North America and can be found in forest, urban, or suburban settings.
+The Collared Earthstar (_Geastrum triplex_) is a decomposer that can be found growing alone or in groups under broadleaf trees in the summer and fall. It is widely distributed in North America and can be found in forest, urban, or suburban settings.
 
 This mushroom produces spores enclosed within an egg-shaped case (sequestrate) fruiting body. It creates a star shape from an outer casing that splits radially and curls backwards to elevate the inner "egg" off the ground. This species creates a distinct "beak" at the top (apex) made of tiny threads that create a one-way passage for spore dispersal. The spores are brownish.
 

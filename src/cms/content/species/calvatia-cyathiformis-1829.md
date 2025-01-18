@@ -2,7 +2,8 @@
 templateKey: species
 name: Purple-spored Puffball
 scientific_name: Calvatia cyathiformis
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Morales, M.I.; Kimbrough, J.W. 1978. Lycoperdaceae of North Central Florida. I. The genera Calvatia and Disciseda. Revista de Biologia Tropical. 26:227-236'
   - 'Kuo, M. (2016, September). Calvatia cyathiformis. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/calvatia_cyathiformis.html'
@@ -42,7 +43,7 @@ photos:
 
 The Purple-spored Puffball is a grassland decomposer that can be found in summer through fall. It is a common mushroom widely distributed across the globe. It can be found alone, in groups, or in fairy rings.
 
-*Calvatia cyathiformis* is generally pear-shaped to loaf-shaped. The exterior can be colored white to tan to brown and develops a "mud-cracked" pattern after being exposed to the sun. The interior begins white when young, transitioning to a purplish color towards the top and olive at the base when mature.
+_Calvatia cyathiformis_ is generally pear-shaped to loaf-shaped. The exterior can be colored white to tan to brown and develops a "mud-cracked" pattern after being exposed to the sun. The interior begins white when young, transitioning to a purplish color towards the top and olive at the base when mature.
 
 ![Form](/img/calvatia-cyathiformis-1829-5.jpeg)
 

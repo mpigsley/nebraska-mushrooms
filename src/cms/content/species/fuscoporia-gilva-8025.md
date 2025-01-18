@@ -2,7 +2,8 @@
 templateKey: species
 name: Mustard Yellow Polypore
 scientific_name: Fuscoporia gilva
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - fall
@@ -43,7 +44,7 @@ photos:
   - /img/fuscoporia-gilva-8025-8.jpeg
 ---
 
-The Mustard Yellow Polypore (*Fuscoporia gilva*) is a common decomposer of broadleaf wood that can be found year-round, but shows its most vivid colors during wet periods in the summer when it is actively growing. It is widely distributed in North America.
+The Mustard Yellow Polypore (_Fuscoporia gilva_) is a common decomposer of broadleaf wood that can be found year-round, but shows its most vivid colors during wet periods in the summer when it is actively growing. It is widely distributed in North America.
 
 The cap surface color is reddish to yellow-mustard when young, becoming darker, then black with age. The fertile structure (hymenopore) color is similar or darker. The hymenopore consists of tiny pores.
 
@@ -68,7 +69,7 @@ Shelving gregariously on fallen Ash tree in open interface between riparian and 
 
 Additional Info
 
--  KOH blackish on all surfaces. 
+- KOH blackish on all surfaces.
 - Ammonia dark on all surfaces.
 
 ![Observation](/img/fuscoporia-gilva-8025-2.jpeg)

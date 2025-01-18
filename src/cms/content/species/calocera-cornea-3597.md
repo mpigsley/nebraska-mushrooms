@@ -2,7 +2,8 @@
 templateKey: species
 name: Club-like Tuning Fork
 scientific_name: Calocera cornea
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - fall
@@ -47,4 +48,4 @@ Calocera furcata is similar, but fruits on conifer wood.
 - Growing in large numbers from lateral cracks on a charred Black Oak trunk in open mixed oak woodland.
 - Fruiting bodies are orange, gelatinous but fairly tough, spire-like with a fork near the tip.
 - Smell: not distinctive
-- Taste: not distinctive 
+- Taste: not distinctive

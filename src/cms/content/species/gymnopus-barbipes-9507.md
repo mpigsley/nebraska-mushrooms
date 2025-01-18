@@ -2,7 +2,8 @@
 templateKey: species
 name: Beard Stem Gymnopus
 scientific_name: Gymnopus barbipes
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Gymnopus barbipes R.H. Petersen & K.W. Hughes, North American Fungi 9: 2 (2014) [MB#808041]'
 tags:
@@ -76,4 +77,3 @@ The entire fruiting body is elastic and tough, which is distinctive of other [Gy
 - Basal mycelium white, clinging to nearby duff.
 - Smell: foul, like smelly rubber boots.
 - Taste: also foul, enough to make breath smell.
-

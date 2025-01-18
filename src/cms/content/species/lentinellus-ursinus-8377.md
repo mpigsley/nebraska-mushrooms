@@ -2,7 +2,8 @@
 templateKey: species
 name: Bear Lentinus
 scientific_name: Lentinellus ursinus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - fall
   - agaric
@@ -45,7 +46,7 @@ It is a gilled mushroom without a stem (sessile). The gills are saw-toothed and 
 
 #### October 11th, 2023 Field Notes - Indian Cave State Park
 
-- Growing on fallen Bitternut Hickory in mixed oak/hickory woodland. 
+- Growing on fallen Bitternut Hickory in mixed oak/hickory woodland.
 - Caps semicircular, reddish-brown.
 - Lamellae light yellowish-orange, close to crowded and eccentric.
 - Stipe absent

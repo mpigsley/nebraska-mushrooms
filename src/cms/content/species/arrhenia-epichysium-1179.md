@@ -2,7 +2,8 @@
 templateKey: species
 name: Brown Goblet
 scientific_name: Arrhenia epichysium
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Arrhenia epichysium (Pers.) Redhead, Lutzoni, Moncalvo & Vilgalys, Mycotaxon 83: 47 (2002) [MB#374149]'
   - 'Kuo, M. (2005, March). Omphalina epichysium. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/omphalina_epichysium.html'
@@ -42,7 +43,7 @@ photos:
 
 The Brown Goblet is a gilled mushroom that can be found on dead logs with moss spring through fall. It has a "belly-button" shaped cap that starts blackish or gray-brown and fades with age and is 0.5-2 inches (1.5-5 cm) wide. Its gills run down the stem (decurrent) and are light-colored. It has white spores.
 
-#### August 8th, 2023 Field Characteristics:**
+#### August 8th, 2023 Field Characteristics:\*\*
 
 - Growing gregariously on American Basswood log in a low moist woodland draw.
 - Cap grayish with a central depression and dark margin.

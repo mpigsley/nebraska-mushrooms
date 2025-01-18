@@ -2,7 +2,8 @@
 templateKey: species
 name: Woolly Oyster
 scientific_name: Hohenbuehelia mastrucata
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2007, April). Hohenbuehelia mastrucata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hohenbuehelia_mastrucata.html'
 tags:
@@ -45,7 +46,7 @@ photos:
   - /img/hohenbuehelia-mastrucata8.jpeg
 ---
 
-The Woolly Oyster (*Hohenbuehelia mastrucata*) is a rare decomposer of dead wood that can be found in the summer through fall. It can be found growing on Maple (*Acer sp.*) and other broadleaf trees throughout eastern North America. Fruiting bodies are often on bottom of fallen wood, which can create beautiful circular gill patterns. This specimen was growing on fallen Bitternut Hickory (*Carya cordiformis*).
+The Woolly Oyster (_Hohenbuehelia mastrucata_) is a rare decomposer of dead wood that can be found in the summer through fall. It can be found growing on Maple (_Acer sp._) and other broadleaf trees throughout eastern North America. Fruiting bodies are often on bottom of fallen wood, which can create beautiful circular gill patterns. This specimen was growing on fallen Bitternut Hickory (_Carya cordiformis_).
 
 The cap shape is evenly rounded (convex) becoming flat (plane) with age. The cap color can be different shades of gray. The consistency is rubbery and moist to the touch (when fresh). The cap is ornamented with distinctive gelatinous spines. The gills are colored whitish to grayish. The spore print is white.
 

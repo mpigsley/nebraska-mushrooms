@@ -2,11 +2,12 @@
 templateKey: species
 name: Fan-shaped Jelly Fungus
 scientific_name: Dacrymyces spathularia
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - jelly
-    - substrate-wood
+  - summer
+  - jelly
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi

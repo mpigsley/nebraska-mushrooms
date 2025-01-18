@@ -2,7 +2,8 @@
 templateKey: species
 name: Green-spored Parasol
 scientific_name: Chlorophyllum molybdites
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - fall
@@ -51,7 +52,6 @@ The Green-spored Parasol is a widespread, common mushroom that can be found in l
 The main separating features of this species are free gills and an olive-green spore print. The gills will be greenish at maturity, as seen in the specimen on the left in the following photo.
 
 ![Gills](/img/chlorophyllum-molybdites-9765-8.jpeg)
-
 
 #### August 14th, 2023 Field Notes
 

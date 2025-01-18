@@ -2,7 +2,8 @@
 templateKey: species
 name: Milky Conecap
 scientific_name: Conocybe apala
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Conocybe apala (Fr.) Arnolds, Persoonia 18 (2): 225 (2003) [MB#223710]'
   - 'Kuo, M. (2022, November). Conocybe apala. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/conocybe_apala.html'
@@ -59,4 +60,3 @@ Conocybe can be distinguished by a cone-shaped cap, brown spores, and shallow gi
 - Gills appear to be attached at the apex of the stipe, brown with darker speckling.
 - Stipe long thin and fibrulose.
 - Smell: not distinctive.
-

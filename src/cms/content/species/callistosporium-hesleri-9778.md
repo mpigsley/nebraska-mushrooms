@@ -1,10 +1,12 @@
 ---
 templateKey: species
-name: Hesler's Callistosporium
+name: Hesler's Lute
 scientific_name: Callistosporium hesleri
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Callistosporium hesleri (H.E. Bigelow) Vizzini, Matheny, Consiglio & M. Marchetti, Fungal Diversity 101: 235 (2020) [MB#831400]'
+  - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved January 17, 2025, from Agaric.us website: https://agaric.us/common_names/names.html'
 tags:
   - spring
   - summer

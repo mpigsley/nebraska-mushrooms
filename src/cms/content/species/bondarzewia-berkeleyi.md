@@ -2,7 +2,8 @@
 templateKey: species
 name: Berkeley's Polypore
 scientific_name: Bondarzewia berkeleyi
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - polypore

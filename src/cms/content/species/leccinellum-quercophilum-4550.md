@@ -2,7 +2,8 @@
 templateKey: species
 name: Blue-Staining Oak Leccinellum
 scientific_name: Leccinellum quercophilum
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Leccinellum quercophilum M. Kuo, Mycotaxon 124: 327 (2013) [MB#802407]'
   - 'Kuo, M. (2020, January). Leccinum quercophilum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/leccinum_quercophilum.html'
@@ -68,7 +69,7 @@ The stipe is covered in blackish scales (scabers).
 - Cap light brown fading to pale tan at thin sterile margin and adorned with winkled pits.
 - Hymenium tan turning lighter towards margin, bruising grayish-purple. Infected with hypomyces.
 - Trama layer bruising grayish-purple when cut, thin compared to tube layer.
-- Stipe thick, peeling frequently, with blackish-brown scabers that darken when handled. 
+- Stipe thick, peeling frequently, with blackish-brown scabers that darken when handled.
 - Smell: not distinctive.
 - Taste: pleasant
 - KOH: olive-yellow on pileipellis, light olive-yellow on hymenium, and darkening stipe.

@@ -2,7 +2,8 @@
 templateKey: species
 name: Common Morel
 scientific_name: Morchella americana
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
     MushroomExpert.Com Web site:
@@ -40,7 +41,7 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/481143
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/208896176
-  - tag: Mushroom Expert 
+  - tag: Mushroom Expert
     link: https://www.mushroomexpert.com/morchella_esculentoides.html
 photos:
   - /img/morchella-americana1.jpeg
@@ -51,11 +52,11 @@ photos:
 
 #### Description
 
-* Hollow mushroom, with the cap fused to the stem at the cap margin possessing rounded, irregularly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
-* Cap shape: rounded, oval, or egg-shaped, cylindrical, or rounded triangular
-* Color: Cap gray with white ridges when young, becoming yellow-brown to brown with age. Stem white to light yellow with age.
-* Smell: reminiscent of Clorox.
-* Usually mycorrhizal (exchanging nutrients with plants), but sometimes fully saprobic (decomposing matter in the soil)
+- Hollow mushroom, with the cap fused to the stem at the cap margin possessing rounded, irregularly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
+- Cap shape: rounded, oval, or egg-shaped, cylindrical, or rounded triangular
+- Color: Cap gray with white ridges when young, becoming yellow-brown to brown with age. Stem white to light yellow with age.
+- Smell: reminiscent of Clorox.
+- Usually mycorrhizal (exchanging nutrients with plants), but sometimes fully saprobic (decomposing matter in the soil)
 
 #### Habitat
 
@@ -73,7 +74,7 @@ This spring-time mushroom appears in mid-April through May at Indian Cave. In no
 
 #### Similar Species in Nebraska
 
-- The [Half Free Morel (*Morchella punctipes*)](/species/morchella-punctipes/) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
+- The [Half Free Morel (_Morchella punctipes_)](/species/morchella-punctipes/) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 

@@ -2,7 +2,8 @@
 templateKey: species
 name: Scaly Ink Cap
 scientific_name: Coprinopsis variegata
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2024, June). Coprinopsis variegata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/coprinopsis_variegata.html'
 tags:
@@ -54,7 +55,7 @@ photos:
   - /img/coprinopsis-variegata-6645-1.jpeg
 ---
 
-The Scaly Ink Cap (*Coprinopsis variegata*) is a decomposer that can be found in the spring and fall (occasionally in the summer). It is widely distributed and common in North America and can fruit in substantial numbers. It grows on wood and can appear like it is growing from the soil, though it is actually originating roots underground.
+The Scaly Ink Cap (_Coprinopsis variegata_) is a decomposer that can be found in the spring and fall (occasionally in the summer). It is widely distributed and common in North America and can fruit in substantial numbers. It grows on wood and can appear like it is growing from the soil, though it is actually originating roots underground.
 
 The mushroom originates from an egg-shaped button stage. As it grows, it splits the veil open leaving bits of split tissue on the cap surface and remnants of the veil on the stem near the base.
 

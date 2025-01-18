@@ -2,12 +2,13 @@
 templateKey: species
 name: Eastern American Jack-o'-lantern
 scientific_name: Omphalotus illudens
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - fall
-    - poisonous
-    - agaric
-    - substrate-wood
+  - fall
+  - poisonous
+  - agaric
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -44,8 +45,9 @@ photos:
 
 - Caps yellowish-orange, planoconvex to depressed with wavy margin at maturity.
 - Lamellae similarly colored as cap, close-crowded and decurrent.
-- Stipe more dull colored compared to other portions, sturdy and not tapering much. 
+- Stipe more dull colored compared to other portions, sturdy and not tapering much.
 
 Additional Details
+
 - KOH: greenish on pileipellis and stipe.
 - Spore Print: white - copious amounts of spores deposited.

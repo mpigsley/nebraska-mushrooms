@@ -2,7 +2,8 @@
 templateKey: species
 name: Trooping Crumble Cap
 scientific_name: Coprinellus disseminatus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Coprinellus disseminatus (Pers.) J.E. Lange, Dansk Bot. Ark. 9 (6): 93 (1938) [MB#107842]'
   - 'Kuo, M. (2008, February). Coprinellus disseminatus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/coprinellus_disseminatus.html'

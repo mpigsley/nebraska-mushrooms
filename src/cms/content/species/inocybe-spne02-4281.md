@@ -2,7 +2,8 @@
 templateKey: species
 name:
 scientific_name: Inocybe sp-NE02
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - substrate-soil
@@ -33,7 +34,7 @@ photos:
   - /img/inocybe-sp-NE02.jpeg
 ---
 
-2024 DNA results of *Inocybe sp-NE02* represent it as a new, undescribed species from Nebraska Oak/Hickory forests.
+2024 DNA results of _Inocybe sp-NE02_ represent it as a new, undescribed species from Nebraska Oak/Hickory forests.
 
 #### August 17th, 2023 Field Notes - Indian Cave State Park
 
