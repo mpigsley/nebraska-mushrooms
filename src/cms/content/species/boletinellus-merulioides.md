@@ -2,11 +2,12 @@
 templateKey: species
 name: Ash-tree Bolete
 scientific_name: Boletinellus merulioides
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-soil
+  - summer
+  - polypore
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -38,7 +39,7 @@ photos:
 
 -Growing gregariously from soil in open mixed oak woodland with a few Ash trees in close proximity.
 
--Hymenium and inner flesh instantly bruising blue, later fading back close to original color. 
+-Hymenium and inner flesh instantly bruising blue, later fading back close to original color.
 
 -Younger caps with tomentose pileipellis while older specimens matte to shiny.
 

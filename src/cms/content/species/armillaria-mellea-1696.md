@@ -2,7 +2,8 @@
 templateKey: species
 name: Yellow Honey Mushroom
 scientific_name: Armillaria mellea
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, May). Armillaria mellea. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_mellea.html'
 tags:
@@ -62,7 +63,7 @@ photos:
   - /img/armillaria-mellea-1696-7.jpeg
 ---
 
-The Yellow Honey Mushroom (*Armillaria mellea*) is a decomposer and tree parasite that can be found growing in large clusters in wooded areas at the base of trees and fallen logs in the fall. It is widely distributed in the Northern Hemisphere.
+The Yellow Honey Mushroom (_Armillaria mellea_) is a decomposer and tree parasite that can be found growing in large clusters in wooded areas at the base of trees and fallen logs in the fall. It is widely distributed in the Northern Hemisphere.
 
 This mushroom grows in large clusters at the base of trees and fallen wood. The cap shape is evenly rounded becoming flat with age. The cap is ornamented with brownish scales that are especially abundant towards the center. The scales can wear off with age.
 
@@ -76,7 +77,7 @@ The stem color starts out a golden yellowish when young generally turning whitis
 
 ![Form](/img/armillaria-mellea-135691571-4.jpeg)
 
-In addition to the mushroom, *Armillaria mellea* grows a network black rope-like structures of mycelium (rhizomorphs) that spread through the forest and are parasitic on trees. 
+In addition to the mushroom, _Armillaria mellea_ grows a network black rope-like structures of mycelium (rhizomorphs) that spread through the forest and are parasitic on trees.
 
 #### September 19th, 2022 Field Notes - Indian Cave State Park
 

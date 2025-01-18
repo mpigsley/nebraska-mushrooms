@@ -2,7 +2,8 @@
 templateKey: species
 name: Scaly Shield
 scientific_name: Pluteus petasatus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2018, March). Pluteus petasatus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_petasatus.html'
   - 'Pluteus petasatus (Fr.) Gillet, Les Hyménomycètes ou Description de tous les Champignons qui Croissent en France: 395 (1876) [MB#144854]'
@@ -42,11 +43,11 @@ photos:
   - /img/pluteus-petasatus-4517-1.jpeg
 ---
 
-The Scaly Shield is a decomposer of dead deciduous trees that can be found from spring through fall. It can sometimes be found growing from soil attached to buried wood or growing from wood chips or stumps in urban areas. It is widespread throughout North America growing alone or in small groups. This specimen was found growing from dead American Linden. 
+The Scaly Shield is a decomposer of dead deciduous trees that can be found from spring through fall. It can sometimes be found growing from soil attached to buried wood or growing from wood chips or stumps in urban areas. It is widespread throughout North America growing alone or in small groups. This specimen was found growing from dead American Linden.
 
 ![Gills](/img/pluteus-petasatus-4517-4.jpeg)
 
-*Pluteus petasatus* has an evenly rounded to flat cap shape commonly with a small bump in the center (umbo). There are generally brown scales in the center of the cap, from which this mushroom gets its common name. The gills are free from the stem, generally white later into maturity (as compared to its closely related Pluteus cervinus), which later become pinkish with the development of pinkish brown spores. The stem generally has an enlarged base, without an annulus or volva. The spore print is brownish pink.
+_Pluteus petasatus_ has an evenly rounded to flat cap shape commonly with a small bump in the center (umbo). There are generally brown scales in the center of the cap, from which this mushroom gets its common name. The gills are free from the stem, generally white later into maturity (as compared to its closely related Pluteus cervinus), which later become pinkish with the development of pinkish brown spores. The stem generally has an enlarged base, without an annulus or volva. The spore print is brownish pink.
 
 ![Habitat](/img/pluteus-petasatus-4517-1.jpeg)
 

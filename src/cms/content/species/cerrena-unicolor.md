@@ -2,12 +2,13 @@
 templateKey: species
 name: Mossy Maze Polypore
 scientific_name: Cerrena unicolor
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - fall
-    - polypore
-    - shelf
-    - substrate-wood
+  - fall
+  - polypore
+  - shelf
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -37,21 +38,23 @@ photos:
 **Nickname:** Cerena unicolor  
 **Sequence Number:** #0482  
 **Observed At:** Thursday, October 26, 2023 10:11 AM  
-**Location**: [40.26033670408027, -95.56689605061773](http://www.google.com/maps/place/40.26033670408027,-95.56689605061773)  
+**Location**: [40.26033670408027, -95.56689605061773](http://www.google.com/maps/place/40.26033670408027,-95.56689605061773)
 
 **Form Group:** Polypore [1]
 
 ###### Habitat:
-- *Growth Habit:* Single
-- *Substrate:* Lignicolous
-- *Tree:* [2]
+
+- _Growth Habit:_ Single
+- _Substrate:_ Lignicolous
+- _Tree:_ [2]
 
 **Attachment:** Sessile
 
 ###### Pileus:
+
 - Surface:
-  - *Texture:* Hirsute
+  - _Texture:_ Hirsute
 
-[1] Smell pleasant 
+[1] Smell pleasant
 
-[2] Growing from the base of Elm 
+[2] Growing from the base of Elm

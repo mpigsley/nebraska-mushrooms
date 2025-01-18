@@ -2,11 +2,12 @@
 templateKey: species
 name: White Coral Jelly Fungus
 scientific_name: Sebacina sparassoidea
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - jelly
-    - substrate-soil
+  - summer
+  - jelly
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -40,7 +41,7 @@ photos:
 -Growing solitarily in open mixed oak/hickory woodland.
 -Nearby Trees: Black Oak, Bur Oak, Ash, Shagbark Hickory, American Hophornbeam, and Elm.
 
--Fruiting body composed of flexible lobes appearing to be hollowed, viscid and subtransparent. 
+-Fruiting body composed of flexible lobes appearing to be hollowed, viscid and subtransparent.
 -Tapered pseudostem underneath attached to soil.
 
 -Smell: reminiscent of pine trees.

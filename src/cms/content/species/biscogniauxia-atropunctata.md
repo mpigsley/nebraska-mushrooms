@@ -2,11 +2,12 @@
 templateKey: species
 name: Hypoxylon Canker
 scientific_name: Biscogniauxia atropunctata
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - crust
-    - substrate-wood
+  - summer
+  - crust
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi

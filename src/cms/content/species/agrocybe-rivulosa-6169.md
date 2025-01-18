@@ -2,7 +2,8 @@
 templateKey: species
 name: Wrinkled Fieldcap
 scientific_name: Agrocybe rivulosa
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Agrocybe rivulosa Nauta, Persoonia 18 (2): 272 (2003) [MB#488330]'
   - 'Kuo, M. (2021, December). Agrocybe and Cyclocybe. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/agrocybe.html'
@@ -45,7 +46,7 @@ photos:
   - /img/agrocybe-rivulosa-6169-2.jpeg
 ---
 
-Agrocybe rivulosa is a brown-spored, gilled decomposer that grows in soil and has been reported east of the Rocky Mountains, Europe, South America, Africa, and Australia. 
+Agrocybe rivulosa is a brown-spored, gilled decomposer that grows in soil and has been reported east of the Rocky Mountains, Europe, South America, Africa, and Australia.
 
 It has a wrinkled cap top surface that is mostly white becoming tan towards the center.
 
@@ -58,4 +59,3 @@ The stem is relatively long, has a ring (annulus), and has an abrupt bulb at the
 The gills are slightly attached to the stem and begin light-colored and turn more brown with maturity.
 
 ![Gills](/img/agrocybe-rivulosa-6169-6.jpeg)
-

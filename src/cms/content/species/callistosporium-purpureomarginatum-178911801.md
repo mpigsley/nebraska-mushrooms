@@ -2,7 +2,8 @@
 templateKey: species
 name: Purple-edged Lute
 scientific_name: Callistosporium purpureomarginatum
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Fatto RM, Bessette AE. (1996). "A new species of Callistosporium". Mycotaxon. 60: 125–8. Retried from http://www.cybertruffle.org.uk/cyberliber/59575/0060/0125.htm'
   - 'Kuo, M. (2019, September). Callistosporium purpureomarginatum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/callistosporium_purpureomarginatum.html'
@@ -47,7 +48,7 @@ photos:
   - /img/callistosporium-purpureomarginatum-178911801-10.jpeg
 ---
 
-The Purple-edged Lute (*Callistosporium purpureomarginatum*) is a decomposer of fallen Oak wood and can be found widespread in eastern North America from mid-July to mid-September.
+The Purple-edged Lute (_Callistosporium purpureomarginatum_) is a decomposer of fallen Oak wood and can be found widespread in eastern North America from mid-July to mid-September.
 
 ![Cap](/img/callistosporium-purpureomarginatum-178911801-1.jpeg)
 

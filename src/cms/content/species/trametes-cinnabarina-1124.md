@@ -2,7 +2,8 @@
 templateKey: species
 name: Northern Cinnabar Polypore
 scientific_name: Trametes cinnabarina
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Justo, A., & Hibbett, D. S. (2011). Phylogenetic classification of Trametes (Basidiomycota, Polyporales) based on a five–marker dataset. Taxon, 60(6), 1567-1583. https://www2.clarku.edu/faculty/dhibbett/Reprints%20PDFs/Justo-Hibbett-2011-Phylogen-Classfx-Trametes-Taxon60.pdf'
   - 'Kuo, M. (2010, February). Pycnoporus cinnabarinus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pycnoporus_cinnabarinus.html'
@@ -55,22 +56,22 @@ photos:
 
 The Northern Cinnabar Polypore is a decomposer of dead deciduous trees (usually Oak) and can be found spring through fall. It is widely distributed.
 
-The top-view of the cap is kidney-shaped to half-circular. The side-view of the cap evenly rounded to flat with age, and measures 3/4 to 6 inches (2-13 cm) in width. The color is bright orangish to reddish. The pore surface a similar color to the cap and the pores are rounded to slightly angular. It does not have a stem (sessile). It is sometimes confused with *Trametes sanguinea*, but the latter is found in more tropical climates.
+The top-view of the cap is kidney-shaped to half-circular. The side-view of the cap evenly rounded to flat with age, and measures 3/4 to 6 inches (2-13 cm) in width. The color is bright orangish to reddish. The pore surface a similar color to the cap and the pores are rounded to slightly angular. It does not have a stem (sessile). It is sometimes confused with _Trametes sanguinea_, but the latter is found in more tropical climates.
 
 ![Pores](/img/trametes-cinnabarina-1124-3.jpeg)
 
 #### September 28th, 2023 Field Notes - Indian Cave State Park
 
 habitat: Lignicolous (on wood)
- [1]
+[1]
 growth habit: Gregarious (growing as a group)
 
-Cap: 
-shape: convex (evenly rounded) to plane (flat) to dimidiate (half-circle) to flabelliform (fan-shaped) [2]; 
-texture: smooth to glabrous (bald) to zonate; 
+Cap:
+shape: convex (evenly rounded) to plane (flat) to dimidiate (half-circle) to flabelliform (fan-shaped) [2];
+texture: smooth to glabrous (bald) to zonate;
 surface moisture texture: dry - dull
 
-Stem: 
+Stem:
 location: sessile (missing)
 
 [1] Growing on downed hardwood branch in open, west facing slope in Oak/hickory woodland.

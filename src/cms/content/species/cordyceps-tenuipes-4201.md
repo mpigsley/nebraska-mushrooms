@@ -2,7 +2,8 @@
 templateKey: species
 name: Slinder-Footed Cordyceps
 scientific_name: Cordyceps tenuipes
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Zha, L. S., Wen, T. C., Huang, S. K., Boonmee, S., & Eungwanichayapant, P. D. (2019). Taxonomy and biology of Cordyceps qingchengensis sp. nov. and its allies. Phytotaxa, 416(1), 14-24. https://phytotaxa.mapress.com/pt/article/view/35913/30762'
   - 'Lee, K. M., Hong, I. P., Nam, S. H., Sung, G. B., & Bae, Y. H. (2008). The cultural characteristics and antibacterial activities of Cordyceps militaris and Paecilomyces tenuipes. Korean journal of applied entomology, 47(4), 479-486. https://koreascience.kr/article/JAKO200805441023179.pdf'
@@ -51,7 +52,7 @@ photos:
 
 <hr>
 
-*Cordyceps tenuipes* is an entomopathogenic mushroom that commonly grows on cocooned month and butterfly pupae in the order Lepidoptera. The fruiting bodies grow in damp, shady wooded areas in the summer. It can be found eastern North America and can also be found in Mexico, China, and Australia.
+_Cordyceps tenuipes_ is an entomopathogenic mushroom that commonly grows on cocooned month and butterfly pupae in the order Lepidoptera. The fruiting bodies grow in damp, shady wooded areas in the summer. It can be found eastern North America and can also be found in Mexico, China, and Australia.
 
 The host is sometimes rolled up in a leaf on the forest floor to pupate. The fungus infects the pupa, consumes its body, then grows spore-producing structures (stroma) with white powdery tips out of the leaf "burrito". These fruiting bodies offer a noticeable neon-yellow white color contrast amidst the dark leaf duff for keen-eyed mushroom hunters.
 

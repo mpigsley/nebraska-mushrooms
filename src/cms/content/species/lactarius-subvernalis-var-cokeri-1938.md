@@ -2,7 +2,8 @@
 templateKey: species
 name: Stout Pink-Staining Lactarius
 scientific_name: Lactarius subvernalis var. cokeri
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius subvernalis var. cokeri. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_subvernalis_cokeri.html'
   - '"North American species of Lactarius / L. R. Hesler, Alexander H. Smith." In the digital collection University of Michigan Herbarium Fungus Monographs. https://name.umdl.umich.edu/aac3719.0001.001. University of Michigan Library Digital Collections. Accessed September 4, 2024. https://quod.lib.umich.edu/f/fung1tc/aac3719.0001.001/156'
@@ -48,7 +49,7 @@ photos:
 
 The Stout Pink-Staining Lactarius is a mycorrhizal mushroom that associates with deciduous trees (mostly Oaks) and can be found in summer through fall. It's widely distributed in eastern United States.
 
-*Lactarius subvernalis var. cokeri* exudes white latex when cut that later turns a salmon-tan color. It also bruises pink where handled or cut similar to [*L. subplinthogalus*](/species/lactarius-subplinthogalus-9606/), though the latter is more slender and has more distant gill spacing.
+_Lactarius subvernalis var. cokeri_ exudes white latex when cut that later turns a salmon-tan color. It also bruises pink where handled or cut similar to [_L. subplinthogalus_](/species/lactarius-subplinthogalus-9606/), though the latter is more slender and has more distant gill spacing.
 
 ![Form](/img/lactarius-subvernalis-cokeri-9138-6.jpeg)
 

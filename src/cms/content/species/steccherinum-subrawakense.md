@@ -1,13 +1,14 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Steccherinum subrawakense
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - toothed
-    - substrate-wood
+  - summer
+  - polypore
+  - toothed
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -43,4 +44,4 @@ Growing gregariously in clustered on a rotting hardwood log in low mixed oak/hic
 
 Smell: Faintly pleasant. Mealy, like oatmeal.
 
-KOH: Organish-brown on cap surface and slightly yellow on hymenium. 
+KOH: Organish-brown on cap surface and slightly yellow on hymenium.

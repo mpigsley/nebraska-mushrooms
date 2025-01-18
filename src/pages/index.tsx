@@ -4,7 +4,6 @@ import * as React from 'react';
 
 import WildMushroomEdibility from '../img/wild-mushroom-edibility.jpeg';
 import HowToUseThisWebiste from '../img/how-to-use-this-website.jpeg';
-import IndianCaveStatePark from '../img/indian-cave-state-park.jpeg';
 import IdentificationKey from '../img/identification-key.jpeg';
 import MushrooomList from '../img/mushroom-list.jpeg';
 import { Tag, getTagClass } from '../utils/tag.util';
@@ -56,10 +55,7 @@ export default function IndexPage({
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
-            <a
-              className="mx-2 grid-link"
-              href="/taxa/fungi/"
-            >
+            <a className="mx-2 grid-link" href="/taxa/fungi/">
               <h5 className="noMargin">Mushroom List</h5>
             </a>
           </div>
@@ -186,7 +182,6 @@ export const query = graphql`
           }
           frontmatter {
             name
-            location
             scientific_name
             tags
             photos {

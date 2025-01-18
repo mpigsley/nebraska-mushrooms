@@ -2,7 +2,8 @@
 templateKey: species
 name: Pantropic Panaeolus
 scientific_name: Panaeolus pantropicalis
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Panaeolus pantropicalis Voto, Angelini & Barrett, Mycol. Observ. 9: 10 (2024) [MB#853142] https://www.mycolobs-journal.org/Volumi/MycolObs09p01-32.pdf'
 tags:

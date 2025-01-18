@@ -2,7 +2,8 @@
 templateKey: species
 name: Chestnut Bolete
 scientific_name: Gyroporus castaneus-IN07
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - summer
   - bolete
@@ -49,9 +50,9 @@ photos:
   - /img/gyroporus-castaneus-175281413-8.jpeg
 ---
 
-The Chestnut Bolete (*Gyroporus castaneus*) is a mycorrhizal (and reportably saprobic) bolete that can be found in woodland soil and disturbed areas. Although boletes generally associate with a mycorrhizal host tree, this mushrooms has reportably been found in areas without a visible mycorrhizal symbiont. Otherwise, it has been associated with Oaks, other broadleaf trees, and conifers. It can be found growing alone or in small groups in July, August, and September in eastern North America.
+The Chestnut Bolete (_Gyroporus castaneus_) is a mycorrhizal (and reportably saprobic) bolete that can be found in woodland soil and disturbed areas. Although boletes generally associate with a mycorrhizal host tree, this mushrooms has reportably been found in areas without a visible mycorrhizal symbiont. Otherwise, it has been associated with Oaks, other broadleaf trees, and conifers. It can be found growing alone or in small groups in July, August, and September in eastern North America.
 
-2024 DNA results identified the survey specimen as *Gyroporus "castaneus-IN07"* suggesting it to be a genetically divergent species to *Gyroporus castaneus* in the strict sense. This cryptic name is a placeholder until it can be published formally.
+2024 DNA results identified the survey specimen as _Gyroporus "castaneus-IN07"_ suggesting it to be a genetically divergent species to _Gyroporus castaneus_ in the strict sense. This cryptic name is a placeholder until it can be published formally.
 
 The cap shape is evenly rounded, becoming flat with age. The flesh consistency is hard and brittle. It often splits at the margin at maturity. The cap texture is smooth to slightly velvety. The cap color features chestnut brown, yellowish brown, cinnamon brown to brownish orange.
 

@@ -2,11 +2,12 @@
 templateKey: species
 name: Chicken Of The Woods
 scientific_name: Laetiporus sulphureus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-wood
+  - summer
+  - polypore
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -37,4 +38,3 @@ photos:
 - Caps fleshy, orange with lighter yellow margins on top.
 
 - Hymenium brilliant sulfur-yellow color laden with tiny pores.
-

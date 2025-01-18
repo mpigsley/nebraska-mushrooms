@@ -2,7 +2,8 @@
 templateKey: species
 name: Viscid Bolbitius
 scientific_name: Bolbitius viscosus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2023, November). The genus Bolbitius. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/bolbitius.html'
   - 'Bolbitius viscosus Watling, Notes from the Royal Botanical Garden Edinburgh 34 (2): 242 (1975) [MB#309616]'
@@ -60,7 +61,6 @@ photos:
   - /img/bolbitius-viscosus-8359-7.jpeg
   - /img/bolbitius-viscosus-8359-8.jpeg
   - /img/bolbitius-viscosus-8359-9.jpeg
-
 ---
 
 The Viscid Bolbitius is a small mushroom that grows on dead broadleaf trees. It can be found in spring through fall. Its cap width is generally no larger than 3/4 inch (2 cm). Cap surface colors range from gray-olive, to red, orange, and brown.
@@ -75,7 +75,7 @@ Its gills are attached to or pulling away from the stem.
 
 ![Gills](/img/bolbitius-viscosus-8359-5.jpeg)
 
-*B. viscosus* has a cinnamon-brown spore print. The below image shows a cap with a spore print on it from another that grew above it.
+_B. viscosus_ has a cinnamon-brown spore print. The below image shows a cap with a spore print on it from another that grew above it.
 
 ![Spore Print](/img/bolbitius-viscosus-8359-3.jpeg)
 
@@ -85,11 +85,11 @@ It can be found east of the Rocky Mountains.
 
 #### July 6th, 2023 Field Notes
 
-* Growing on a fallen small diameter elm tree in an open mixed oak woodland area. 
-* Pileipellis is viscid (but not tacky) with a lined margin (striated margin) extending more than halfway to the center of the cap.
-* Stipe iridescent and fibrulose. Small hairs matted by touch.
-* KOH: Blackening pileipellis.
-* Additional comments: Younger gills tan pink becoming duff brown when mature.
+- Growing on a fallen small diameter elm tree in an open mixed oak woodland area.
+- Pileipellis is viscid (but not tacky) with a lined margin (striated margin) extending more than halfway to the center of the cap.
+- Stipe iridescent and fibrulose. Small hairs matted by touch.
+- KOH: Blackening pileipellis.
+- Additional comments: Younger gills tan pink becoming duff brown when mature.
 
 #### August 18th, 2023 Field Notes
 
@@ -101,6 +101,6 @@ It can be found east of the Rocky Mountains.
 
 - Growing gregariously on well-rotted American Hackberry log in shady, dense mixed oak/hickory woodland above a creek.
 - Cap wet to slightly tacky, reddish-brown in the center transitioning to orange-brown near the margin, with radial striations 3/4 from the margin to the center.
-- Lamellae light rust brown, adnexed and unequal. 
+- Lamellae light rust brown, adnexed and unequal.
 - Stipe hollow, fibrulose, iridescent. Basal mycelium white.
 - Spore Print: rusty brown.

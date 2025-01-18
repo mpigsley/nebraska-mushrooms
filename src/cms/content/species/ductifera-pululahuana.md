@@ -2,11 +2,12 @@
 templateKey: species
 name: White Jelly Fungus
 scientific_name: Ductifera pululahuana
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - spring
-    - jelly
-    - substrate-wood
+  - spring
+  - jelly
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi

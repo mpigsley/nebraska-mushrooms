@@ -2,7 +2,8 @@
 templateKey: species
 name: Dirty Bolete
 scientific_name: Cyanoboletus cyaneitinctus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Pavelle, S. (2015, July 23). Cyanoboletus cyaneitinctus. The Bolete Filter. https://boletes.wpamushroomclub.org/product/boletus-pulverulentus/'
   - 'Farid, A; Bessette, AE; Bessette, AR; Bolin, JA; Kudzma, LV; Franck, AR; Garey, JR. 2021. Investigations in the boletes (Boletaceae) of southeastern USA: four novel species and three novel combinations. Mycosphere. 12(1):1038-1076. https://www.mycobank.org/details/19/10098005'
@@ -53,7 +54,7 @@ photos:
   - /img/cyanoboletus-cyaneitinctus-175279939-1.jpeg
 ---
 
-The Dirty Bolete (*Cyanoboletus cyaneitinctus*) is a mycorrhizal mushroom that can be found growing in woodland soil and lawns adjacent to Oaks and other symbiotic trees in Eastern North America. It can be found in the summer and fall growing singularly or (rarely) in small groups.
+The Dirty Bolete (_Cyanoboletus cyaneitinctus_) is a mycorrhizal mushroom that can be found growing in woodland soil and lawns adjacent to Oaks and other symbiotic trees in Eastern North America. It can be found in the summer and fall growing singularly or (rarely) in small groups.
 
 The cap shape is cushion-shaped to evenly rounded. The cap color is different hues of brown or maroon. The cap texture is finely powdery when young, turning smooth with age. When wet, it can be slightly tacky, with leaves or other debris commonly adhering to the surface as it dries. It bruises blue quickly and readily when handled.
 

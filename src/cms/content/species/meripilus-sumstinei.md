@@ -2,12 +2,13 @@
 templateKey: species
 name: Black-staining Polypore
 scientific_name: Meripilus sumstinei
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-wood
-    - substrate-soil
+  - summer
+  - polypore
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -34,4 +35,4 @@ photos:
 
 130
 
-3 rosettes growing at/near the base of a large standing, dead, charred, Northern Red Oak on north facing Oak woodland slope. Outer margins darken to black. Flesh white and fibrous. 
+3 rosettes growing at/near the base of a large standing, dead, charred, Northern Red Oak on north facing Oak woodland slope. Outer margins darken to black. Flesh white and fibrous.

@@ -2,12 +2,13 @@
 templateKey: species
 name: White-pored Chicken Of The Woods
 scientific_name: Laetiporus cincinnatus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-wood
-    - substrate-soil
+  - summer
+  - polypore
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -32,6 +33,5 @@ photos:
 
 -Growing at the base of a Northern Red Oak in clearing on North-facing slope in large mixed oak/hickory draw.
 
-- Caps overlapping in slight rosette fashion. 
+- Caps overlapping in slight rosette fashion.
 - Hymenium white and laden with tiny pores.
-

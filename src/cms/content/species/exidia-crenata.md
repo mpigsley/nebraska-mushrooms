@@ -2,7 +2,8 @@
 templateKey: species
 name: American Amber Jelly Fungus
 scientific_name: Exidia crenata
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
   - fall
   - jelly
@@ -37,7 +38,7 @@ photos:
   - /img/exidia-crenata5.jpeg
 ---
 
-The American Amber Jelly Fungus (*Exidia crenata*) is a decomposer of dead wood and can be found in the spring and fall. It is widespread east of the Rocky Mountains in North America.
+The American Amber Jelly Fungus (_Exidia crenata_) is a decomposer of dead wood and can be found in the spring and fall. It is widespread east of the Rocky Mountains in North America.
 
 The color is dark maroon to black. The consistency is elastic and jelly-like. It has a habit of growing in clusters. The spore print is white.
 

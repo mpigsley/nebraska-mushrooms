@@ -2,11 +2,12 @@
 templateKey: species
 name: Enveloping Crust
 scientific_name: Sebacina incrustans
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - summer
-    - jelly
-    - substrate-soil
+  - summer
+  - jelly
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi

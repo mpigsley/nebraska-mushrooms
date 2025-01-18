@@ -1,8 +1,9 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Boletus vermiculosoides
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 references:
   - 'Boletus vermiculosoides A.H. Sm. & Thiers, The Boletes of Michigan: 337 (1971) [MB#309822]'
   - 'Kuo, M. (2013, December). Boletus vermiculosoides. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/boletus_vermiculosoides.html'
@@ -46,7 +47,7 @@ photos:
   - /img/boletus-vermiculosoides-4571-14.jpeg
 ---
 
-*Boletus vermiculosoides* is a mycorrhizal mushroom that is distributed east of the Rocky Mountains and associated with broadleaf trees. This mushroom bruises blue where handled.
+_Boletus vermiculosoides_ is a mycorrhizal mushroom that is distributed east of the Rocky Mountains and associated with broadleaf trees. This mushroom bruises blue where handled.
 
 ![Blue](/img/boletus-vermiculosoides-4571-6.jpeg)
 
@@ -58,7 +59,7 @@ Its pore color starts a dark red when young, transitioning into an orange to yel
 
 ![Pores](/img/boletus-vermiculosoides-4571-3.jpeg)
 
-*B. vermiculosoides* promptly turns blue where cut, later transitioning to blackish.
+_B. vermiculosoides_ promptly turns blue where cut, later transitioning to blackish.
 
 ![Cut Blue](/img/boletus-vermiculosoides-4571-4.jpeg)
 
@@ -80,4 +81,3 @@ This species taxonomically should be considered the "Boletus vermiculosoides gro
 - Ammonia yellowish-green on pileipellis, pale orange on context, yellowish on the tube layer and stipe flesh.
 - FeSO4 dark gray on pileipellis.
 - Spore Print: light olive brown.
-

@@ -2,11 +2,12 @@
 templateKey: species
 name: Milk-white Toothed Polypore
 scientific_name: Irpex lacteus
-location: Indian Cave State Park
+locations:
+  - Indian Cave State Park
 tags:
-    - spring
-    - crust
-    - substrate-wood
+  - spring
+  - crust
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -31,4 +32,3 @@ photos:
 #### Field Characteristics:
 
 52
-
