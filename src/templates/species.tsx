@@ -88,6 +88,22 @@ export default function SpeciesProfileTemplate({
           </div>
 
           <div className="four columns">
+            {!!data.locations.edges.length && (
+              <>
+                <b>Locations</b>
+                <ul>
+                  {data.locations.edges.map((locationEdge) => (
+                    <li key={locationEdge.node.fields?.slug}>
+                      <a
+                        href={locationEdge.node.fields?.slug ?? '/location/all'}
+                      >
+                        {locationEdge.node.frontmatter?.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
             {!!data.species?.frontmatter?.external_links?.length && (
               <>
                 <b>External Links</b>
