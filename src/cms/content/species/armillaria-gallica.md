@@ -2,7 +2,7 @@
 templateKey: species
 name: White Honey Mushroom
 scientific_name: Armillaria gallica
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kim, Mee-Sook; Klopfenstein, Ned B. 2011. Molecular identification of Armillaria gallica from the Niobrara Valley Preserve in Nebraska. Journal of Phytopathology. 159: 69-71. https://research.fs.usda.gov/treesearch/38459'
@@ -61,7 +61,7 @@ photos:
   - /img/armillaria-gallica-6003-6.jpeg
 ---
 
-The White Honey Mushroom (*Armillaria gallica*) is a decomposer of wood and can be found in the fall. It has a widespread distribution in Eastern Nebraska from Indian Cave State Park to the Niobrara Valley Preserve (Mee-Sook & Klopfenstein, 2011). *A. gallica* can be found in areas of dead trees decomposing wood and buried roots and is common in wooded areas and occasional lawns (decomposing tree roots).
+The White Honey Mushroom (_Armillaria gallica_) is a decomposer of wood and can be found in the fall. It has a widespread distribution in Eastern Nebraska from Indian Cave State Park to the Niobrara Valley Preserve (Mee-Sook & Klopfenstein, 2011). _A. gallica_ can be found in areas of dead trees decomposing wood and buried roots and is common in wooded areas and occasional lawns (decomposing tree roots).
 
 The cap is ornamented with distinct scaly hairs that are more abundant toward the center of the stem as the mushroom matures.
 
@@ -89,7 +89,7 @@ Created At:
 Tuesday, October 24, 2023 10:31 AM
 Last Modified At:
 Tuesday, October 24, 2023 11:07 AM
-Location:
+locations:
 40.254601173049124 -95.55665001723096
 Form Group:
 Smell: pencil eraser Form Group: agaric
@@ -130,7 +130,7 @@ Created At:
 Tuesday, October 24, 2023 2:49 PM
 Last Modified At:
 Tuesday, October 24, 2023 2:54 PM
-Location:
+locations:
 40.260730859128394 -95.55750996386556
 Form Group:
 Form Group: agaric

@@ -2,7 +2,7 @@
 templateKey: species
 name: Coral Tooth Fungus
 scientific_name: Hericium coralloides
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2020, October). Hericium coralloides. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hericium_coralloides.html'
@@ -47,7 +47,7 @@ The Coral Tooth Fungus functions as a parasite of living trees and a decomposer 
 
 The color of the mushroom is white becoming yellow with age. It forms from a collection branches that possess short spines. The spines are generally no more than 1/3 inch (1 cm) long. It has a white spore print.
 
-[Other *Hericium species*](/location/indian-cave-state-park/?q=Hericium)
+[Other _Hericium species_](/location/indian-cave-state-park/?q=Hericium)
 
 #### September 30th, 2023 Field Notes - Indian Cave State Park
 

@@ -15,6 +15,8 @@ export default function SpeciesProfileTemplate({
   const scientificName = data.species?.frontmatter?.scientific_name;
   const numPhotos = data.species?.frontmatter?.photos?.length ?? 0;
 
+  const firstLocation = data.locations.edges[0]?.node;
+
   return (
     <>
       <div className="u-full-width relative">
@@ -48,9 +50,7 @@ export default function SpeciesProfileTemplate({
       </div>
       <main className="container page">
         <section className="row">
-          <Link to={'/'}>
-            &lt; Back to Home
-          </Link>
+          <Link to={'/'}>&lt; Back to Home</Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
@@ -100,7 +100,7 @@ export default function SpeciesProfileTemplate({
                 </ul>
               </>
             )}
-            {!!data.species?.frontmatter?.tags?.length && (
+            {!!data.species?.frontmatter?.tags?.length && !!firstLocation && (
               <>
                 <b>Tags</b>
                 <ul>
@@ -108,9 +108,7 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <Link
-                          to={`/location/indian-cave-state-park/?t=${item}`}
-                        >
+                        <Link to={`${firstLocation.fields?.slug}?t=${item}`}>
                           <span className={`${getTagClass(item as Tag)} tag`}>
                             {item}
                           </span>
@@ -155,13 +153,19 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!, $locationName: String!) {
-    location: markdownRemark(frontmatter: { title: { eq: $locationName } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
+  query SpeciesProfileTemplate($id: String!, $locationNames: [String!]) {
+    locations: allMarkdownRemark(
+      filter: { frontmatter: { title: { in: $locationNames } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
     species: markdownRemark(id: { eq: $id }) {

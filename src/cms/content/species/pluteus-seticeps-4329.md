@@ -2,7 +2,7 @@
 templateKey: species
 name: Wine Velvet Shield
 scientific_name: Pluteus seticeps
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Pluteus seticeps (G.F. Atk.) Singer, Lloydia 21: 272 (1959) [MB#304047]'
@@ -48,6 +48,6 @@ The cap is a wine-color to orangish-brown with a velvety texture. The cap width 
 
 #### June 14th, 2023 Field Notes - Indian Cave State Park
 
-- LBM on hardwood log in low woodland area near creek. 
+- LBM on hardwood log in low woodland area near creek.
 - Pileipellis velvety.
 - Gills: Free from stipe, white when young, then turning to salmon-colored with age.

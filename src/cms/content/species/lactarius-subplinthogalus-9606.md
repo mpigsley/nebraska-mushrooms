@@ -2,7 +2,7 @@
 templateKey: species
 name:
 scientific_name: Lactarius subplinthogalus
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -41,9 +41,9 @@ photos:
   - /img/lactarius-subplinthogalus-9606-9.jpeg
 ---
 
-*Lactarius subplinthogalus* is a mycorrhizal mushroom that generally associates with Oaks and can be found in the summer and fall. It is widely distributed east of the Rocky Mountains and common in southern states.
+_Lactarius subplinthogalus_ is a mycorrhizal mushroom that generally associates with Oaks and can be found in the summer and fall. It is widely distributed east of the Rocky Mountains and common in southern states.
 
-*Lactarius subplinthogalus* exudes a white latex that later turns a salmon-tan color. The gills are noticeably distant. The spore print is cream to buff colored. It also bruises pink where handled or cut similar to [*L. subvernalis var. cokeri*](/species/lactarius-subvernalis-var-cokeri-1938/), though the latter is stouter with closer gill spacing.
+_Lactarius subplinthogalus_ exudes a white latex that later turns a salmon-tan color. The gills are noticeably distant. The spore print is cream to buff colored. It also bruises pink where handled or cut similar to [_L. subvernalis var. cokeri_](/species/lactarius-subvernalis-var-cokeri-1938/), though the latter is stouter with closer gill spacing.
 
 ![KOH](/img/lactarius-subplinthogalus-9606-6.jpeg)
 

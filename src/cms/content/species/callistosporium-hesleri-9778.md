@@ -2,7 +2,7 @@
 templateKey: species
 name: Hesler's Lute
 scientific_name: Callistosporium hesleri
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Callistosporium hesleri (H.E. Bigelow) Vizzini, Matheny, Consiglio & M. Marchetti, Fungal Diversity 101: 235 (2020) [MB#831400]'

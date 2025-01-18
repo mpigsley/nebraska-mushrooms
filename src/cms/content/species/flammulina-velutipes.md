@@ -2,7 +2,7 @@
 templateKey: species
 name: Velvet Foot
 scientific_name: Flammulina velutipes
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - spring
@@ -45,14 +45,16 @@ photos:
 **Nickname:** Flammulina nigrapes  
 **Sequence Number:** #0491  
 **Observed At:** Thursday, October 26, 2023 2:34 PM  
-**Location**: [40.245976872668614, -95.53594591526966](http://www.google.com/maps/place/40.245976872668614,-95.53594591526966)  
+**Location**: [40.245976872668614, -95.53594591526966](http://www.google.com/maps/place/40.245976872668614,-95.53594591526966)
 
 **Form Group:** Agaric
 
 ###### Habitat:
-- *Growth Habit:* Connate to Single to Gregarious
-- *Substrate:* Lignicolous
-- *Tree:* Desciduous
+
+- _Growth Habit:_ Connate to Single to Gregarious
+- _Substrate:_ Lignicolous
+- _Tree:_ Desciduous
 
 ###### Spores:
-- *Print color:* white
+
+- _Print color:_ white

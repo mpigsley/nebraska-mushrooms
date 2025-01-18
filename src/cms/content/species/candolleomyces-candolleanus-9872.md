@@ -2,7 +2,7 @@
 templateKey: species
 name: Pale Brittlestem
 scientific_name: Candolleomyces candolleanus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, January). Psathyrella candolleana. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/psathyrella_candolleana.html'
@@ -106,7 +106,7 @@ Ammonia: faintly pink of pileipellis.
 Smell indistinctive.
 Taste pleasant to indistinctive.
 
-Additional specimen in last photo was found later and added to collection 
+Additional specimen in last photo was found later and added to collection
 
 ![Form2](/img/candolleomyces-candolleanus-3454-3.jpeg)
 

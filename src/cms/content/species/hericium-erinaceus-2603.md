@@ -2,7 +2,7 @@
 templateKey: species
 name: Lion's Mane Mushroom
 scientific_name: Hericium erinaceus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2022, July). Hericium erinaceus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hericium_erinaceus.html'
@@ -47,7 +47,7 @@ photos:
 
 The Lion's Mane Mushroom functions as a parasite of living trees and a decomposer of deadwood and fruits in the summer and fall. It is widespread across North America and grows on deciduous wood (especially Oak).
 
-The color of the mushroom is white becoming yellow with age. It forms as collection of spines all coming out of a single obscured ball growing out of the wood substrate, as opposed to [other *Hericium species*](/location/indian-cave-state-park/?q=Hericium) that grow in a branching pattern. They may be difficult to tell apart when the mushroom is young. It has a white spore print.
+The color of the mushroom is white becoming yellow with age. It forms as collection of spines all coming out of a single obscured ball growing out of the wood substrate, as opposed to [other _Hericium species_](/location/indian-cave-state-park/?q=Hericium) that grow in a branching pattern. They may be difficult to tell apart when the mushroom is young. It has a white spore print.
 
 ![Cross section](/img/hericium-erinaceus-2603-7.jpeg)
 

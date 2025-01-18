@@ -22,7 +22,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
               slug
             }
             frontmatter {
-              location
+              locations
               taxonomy
               templateKey
               title
@@ -49,7 +49,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
           frontmatter: {
             taxonomy: string[];
             templateKey: string;
-            location?: string;
+            locations: string[];
             title?: string;
           };
         };
@@ -57,7 +57,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
     };
   };
 
-  const allTaxa = data.allMarkdownRemark.edges
+  data.allMarkdownRemark.edges
     .filter((edge) => edge.node.frontmatter.taxonomy)
     .reduce((uniqSet, edge) => {
       edge.node.frontmatter.taxonomy.forEach((t) => uniqSet.add(t));
@@ -74,16 +74,18 @@ export const createPages: GatsbyNode['createPages'] = async ({
   data.allMarkdownRemark.edges.forEach((edge) => {
     const id = edge.node.id;
 
-    let locationName =
+    let locationNames =
       edge.node.frontmatter.templateKey === 'location'
-        ? edge.node.frontmatter.title
+        ? [edge.node.frontmatter.title!]
         : undefined;
 
-    if (!locationName && edge.node.frontmatter.location) {
-      const locationNode = data.allMarkdownRemark.edges.find(
-        (e) => e.node.frontmatter.title === edge.node.frontmatter.location,
+    if (!locationNames && edge.node.frontmatter.locations) {
+      const locationNodes = data.allMarkdownRemark.edges.filter((e) =>
+        edge.node.frontmatter.locations.includes(e.node.frontmatter.title!),
       );
-      locationName = locationNode?.node.frontmatter.title;
+      locationNames = locationNodes?.map(
+        (locNode) => locNode.node.frontmatter.title!,
+      );
     }
 
     createPage({
@@ -91,7 +93,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
       component: path.resolve(
         `src/templates/${String(edge.node.frontmatter.templateKey)}.tsx`,
       ),
-      context: { id, locationName },
+      context: { id, locationNames },
     });
   });
 };

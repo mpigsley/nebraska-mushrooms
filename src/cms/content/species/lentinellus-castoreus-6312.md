@@ -2,7 +2,7 @@
 templateKey: species
 name: Beaver Lentinellus
 scientific_name: Lentinellus castoreus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Lee, H., Park, M. S., Park, J. H., Cho, H. J., Park, K. H., Yoo, S., ... & Lim, Y. W. (2020). Seventeen Unrecorded Species from Gayasan National Park in Korea. Mycobiology, 48(3), 184-194. https://www.tandfonline.com/doi/pdf/10.1080/12298093.2020.1765719'
@@ -40,7 +40,7 @@ photos:
   - /img/lentinellus-castoreus-6312-6.jpeg
 ---
 
-The Beaver Lentinellus is a decomposer of dead wood that can be found in the summer and fall. It's an uncommon *Lentinellus sp.* and has a great deal of morphological variability, so it can be difficult to distinguish between the more common [*Lentinellus ursinus*](/species/lentinellus-ursinus-8377).
+The Beaver Lentinellus is a decomposer of dead wood that can be found in the summer and fall. It's an uncommon _Lentinellus sp._ and has a great deal of morphological variability, so it can be difficult to distinguish between the more common [_Lentinellus ursinus_](/species/lentinellus-ursinus-8377).
 
 It is a gilled mushroom without a stem (sessile). The cap can be many colors: white to multi-toned tans, reds, and blacks. The gills are saw-toothed and white to yellowish. The spore print is white. The taste is bitter and menthol-like.
 

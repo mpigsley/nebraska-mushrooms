@@ -2,7 +2,7 @@
 templateKey: species
 name: Crowded Parchment
 scientific_name: Stereum complicatum
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2008, December). Stereum complicatum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/stereum_complicatum.html'

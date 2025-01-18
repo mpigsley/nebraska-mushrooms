@@ -2,7 +2,7 @@
 templateKey: species
 name:
 scientific_name: Lactarius subserifluus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius subserifluus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_subserifluus.html'
@@ -42,7 +42,7 @@ photos:
   - /img/lactarius-subserifluus-1419-10.jpeg
 ---
 
-*Lactarius subserifluus* is a mycorrhizal mushroom that can be found in the summer. It primarily associates with Oak trees and can be found in woodland settings east of the Rocky Mountains in North America.
+_Lactarius subserifluus_ is a mycorrhizal mushroom that can be found in the summer. It primarily associates with Oak trees and can be found in woodland settings east of the Rocky Mountains in North America.
 
 It exudes watery, clear latex when cut. The stem is firm and thin which separates it from other Lactarius stems which are more stout, soft, and chambered. The cap shape has a sharp umbo within a shallow depression. The smell and taste are pleasant to fruity.
 
@@ -52,7 +52,7 @@ It exudes watery, clear latex when cut. The stem is firm and thin which separate
 
 - Growing gregariously open, west-facing mixed oak woodland slope.
 - Nearby Trees: Northern Red Oak, Ash, Bur Oak, Black Walnut, Elm, and Chinkapin Oak.
-- Cap bald with central umbo on the majority of specimens, some with wavy margin. 
+- Cap bald with central umbo on the majority of specimens, some with wavy margin.
 - Gills attached, slightly running down stipe, bruising reddish brown where damaged.
 - Stipe smooth, light tan at apex, becoming dark towards the base. Basal mycelium white and hairy.
 - Flesh exuding clearish liquid when cut.

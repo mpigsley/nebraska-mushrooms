@@ -2,7 +2,7 @@
 templateKey: species
 name: Rusty Pinwheel
 scientific_name: Marasmius fulvoferrugineus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2012, December). Marasmius siccus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/marasmius_siccus.html'
@@ -43,7 +43,7 @@ photos:
   - /img/marasmius-fulvoferrugineus-4606-1.jpeg
 ---
 
-The Rusty Pinwheel is a small decomposer that can be found in duff and leaf litter from summer through fall east of the Rocky Mountains. Macroscopically, it seems indistinguishable from [*Marasmius siccus*](https://www.mushroomexpert.com/marasmius_siccus.html) and microscopic analysis is needed to separate the species.
+The Rusty Pinwheel is a small decomposer that can be found in duff and leaf litter from summer through fall east of the Rocky Mountains. Macroscopically, it seems indistinguishable from [_Marasmius siccus_](https://www.mushroomexpert.com/marasmius_siccus.html) and microscopic analysis is needed to separate the species.
 
 The cap is pleated and shaped like a pinwheel.
 
@@ -64,4 +64,3 @@ Growing gregariously (abundant) among oak woodland duff in a low riparian woodla
 - Smell: faintly foul
 - KOH: pileipellis: dull yellow (spicy or dijon mustard yellow) white mycelium; stipe: darkens black, whitens the orange.
 - Taste: mushroomy phenolic aging into the sensation of back pepper.
-

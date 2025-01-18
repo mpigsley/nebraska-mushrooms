@@ -2,7 +2,7 @@
 templateKey: species
 name: Pale Oyster
 scientific_name: Pleurotus pulmonarius
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, December). Pleurotus pulmonarius. Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/pleurotus_pulmonarius.html'

@@ -2,13 +2,13 @@
 templateKey: species
 name: Bicoloured Bracket
 scientific_name: Gloeoporus dichrous
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - polypore
-    - cust
-    - substrate-wood
+  - fall
+  - polypore
+  - cust
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -45,4 +45,5 @@ photos:
 - Stipe absent
 
 Additional Details
+
 - Spore Print: white

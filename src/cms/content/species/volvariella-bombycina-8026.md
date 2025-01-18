@@ -2,7 +2,7 @@
 templateKey: species
 name: Silky Rosegill
 scientific_name: Volvariella bombycina
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2020, September). Volvariella bombycina. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/volvariella_bombycina.html'

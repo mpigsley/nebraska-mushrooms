@@ -2,7 +2,7 @@
 templateKey: species
 name: Walnut Mycena
 scientific_name: Mycena crocea
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2010, December). Mycena luteopallens. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/mycena_luteopallens.html'
@@ -44,9 +44,9 @@ photos:
   - /img/mycena-crocea7.jpeg
 ---
 
-The Walnut Mycena (*Mycena crocea*) is a decomposer of Walnut and Hickory shells and can be found from late summer through fall. It is distributed east of the Rocky Mountains in North America and can be found in wooded settings composed of Walnut (*Juglans sp.*) and/or Hickory (*Carya*) trees.
+The Walnut Mycena (_Mycena crocea_) is a decomposer of Walnut and Hickory shells and can be found from late summer through fall. It is distributed east of the Rocky Mountains in North America and can be found in wooded settings composed of Walnut (_Juglans sp._) and/or Hickory (_Carya_) trees.
 
-*M. crocea* is colored distinctly orange to yellow. It is easily distinguished by its color and habit of growing on buried nut shells. The gills are color whitish to yellowish. The gill attachment is attached to the stem or creating an "S"-like loop on attachment to the stem (sinuate). The stem is much longer than the width of the cap with white basal mycelium. The spore print is white.
+_M. crocea_ is colored distinctly orange to yellow. It is easily distinguished by its color and habit of growing on buried nut shells. The gills are color whitish to yellowish. The gill attachment is attached to the stem or creating an "S"-like loop on attachment to the stem (sinuate). The stem is much longer than the width of the cap with white basal mycelium. The spore print is white.
 
 ![Gills](/img/mycena-crocea1.jpeg)
 

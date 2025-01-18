@@ -2,7 +2,7 @@
 templateKey: species
 name: Wrinkled Peach
 scientific_name: Rhodotus reticeps
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -45,6 +45,7 @@ photos:
 - Stipe with white basal mycelium.
 
 -Additional Info
+
 - Smell: pleasant, fragrant
 - Taste: slight acrid sensation
 - KOH orange on pileipellis and hymenium.

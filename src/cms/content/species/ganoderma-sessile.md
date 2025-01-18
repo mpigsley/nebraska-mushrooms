@@ -1,15 +1,15 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Ganoderma sessile
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - polypore
-    - conk
-    - substrate-wood
-    - substrate-soil
+  - fall
+  - polypore
+  - conk
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -45,5 +45,6 @@ photos:
 - Stipe absent.
 
 Additional Details
+
 - KOH black on non lacquered areas.
 - Spore deposits on cap brown.

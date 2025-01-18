@@ -1,13 +1,13 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Cortinarius hesleri
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - summer
-    - agaric
-    - substrate-soil
+  - summer
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -48,7 +48,7 @@ photos:
 -Nearby Trees: Red Mulberry, Ash, Bur Oak, Northern Red Oak, Bitternut Hickory, Eastern Red Cedar, and American Linden.
 
 -Cap deep orange with orange cortina remnants attached to margin.
--Lamellae depressed at apex of stipe, short gills frequent. 
+-Lamellae depressed at apex of stipe, short gills frequent.
 -Stipe different shades of orange, fibrous, bruising darker where handled.
 
 -Smell: Not distinctive.

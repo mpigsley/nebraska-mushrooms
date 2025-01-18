@@ -2,13 +2,13 @@
 templateKey: species
 name: Great Felt Skirt Destroying Angel
 scientific_name: Amanita magnivelaris
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - summer
-    - poisonous
-    - agaric
-    - substrate-soil
+  - summer
+  - poisonous
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -59,7 +59,7 @@ The Great Felt Skirt Destroying Angel is a mycorrhizal mushroom that grows in so
 - All portions are white.
 - Cap bald, slightly tacky.
 - Lamellae free from stipe.
-- Stipe with prominent annulus 1/4 down the stem and a large bulbous, sack-like volva at the base. 
+- Stipe with prominent annulus 1/4 down the stem and a large bulbous, sack-like volva at the base.
 - Smell: Not distinctive.
 - Taste: Not distinctive.
 - KOH: Negative on cap (atypical of species) and slightly darkening stipe.

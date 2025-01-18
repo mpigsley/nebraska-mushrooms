@@ -7,7 +7,7 @@ export type Species = {
   slug?: string;
   name?: string;
   tags: Tag[];
-  location?: string;
+  locations: string[];
   bodyHtml: string;
   scientificName?: string;
   photos?: IGatsbyImageData[];

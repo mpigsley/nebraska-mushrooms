@@ -2,7 +2,7 @@
 templateKey: species
 name: Trembling Crust
 scientific_name: Merulius tremellosus
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - fall

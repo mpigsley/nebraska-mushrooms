@@ -2,13 +2,13 @@
 templateKey: species
 name: Hen Of The Woods
 scientific_name: Grifola frondosa
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-wood
-    - substrate-soil
+  - summer
+  - polypore
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi

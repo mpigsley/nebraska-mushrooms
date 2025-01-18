@@ -2,7 +2,7 @@
 templateKey: species
 name: Murrill's Slender Caesar
 scientific_name: Amanita murrilliana
-location: 
+locations: 
   - Indian Cave State Park
 references:
   - 'Amanita murrilliana Singer, Lilloa 22: 385 (1951) [MB#292455]'

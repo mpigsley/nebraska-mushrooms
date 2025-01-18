@@ -1,8 +1,8 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Coltricia sp-IN01
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Gray,  Samuel Frederick, Gray,  John Edward, & Shury,  James. (1821). A natural arrangement of British plants : according to their relations to each other as pointed out by Jussieu, De Candolle, Brown, &c (Vol. 1, p. 644). Baldwin, Cradock, and Joy. https://www.biodiversitylibrary.org/page/30087346'
@@ -41,7 +41,7 @@ photos:
   - /img/coltricia-178911683-6.jpeg
 ---
 
-*Coltricia* species can be found in forested soil along woodland trails during the summer. The species collected for this study is an undescribed North American species going under the cryptic name *Coltricia sp-IN01*. It has a circular shape in outline (from the top down) and is navel-shaped, sunken in the center, or somewhat funnel shaped. The flesh is quite thin and flexible. The tooth-shaped reproductive surface on the bottom of the cap provide a unique distinguishing feature along with its central stem and terrestrial habit.
+_Coltricia_ species can be found in forested soil along woodland trails during the summer. The species collected for this study is an undescribed North American species going under the cryptic name _Coltricia sp-IN01_. It has a circular shape in outline (from the top down) and is navel-shaped, sunken in the center, or somewhat funnel shaped. The flesh is quite thin and flexible. The tooth-shaped reproductive surface on the bottom of the cap provide a unique distinguishing feature along with its central stem and terrestrial habit.
 
 Stay tuned for more details once it gets described.
 
@@ -53,7 +53,7 @@ Growing gregariously on soil in open (but well shaded) mixed oak/hickory woodlan
 
 - Pileipellis: iridescent, hirsute at center, enrolled margin which is violet
 - Hyminum: irregular pores with diff growing through; bruising dark red
-- Stipe: subtomentose. 
+- Stipe: subtomentose.
 - Smell: strong
 
 ![Observation](/img/coltricia-178911683-2.jpeg)

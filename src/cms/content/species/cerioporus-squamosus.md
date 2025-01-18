@@ -2,7 +2,7 @@
 templateKey: species
 name: Dryad's Saddle
 scientific_name: Cerioporus squamosus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2015, April). Polyporus squamosus. Retrieved from the
@@ -92,7 +92,7 @@ This mushroom is not known to be toxic. However, allergies and sensitivities may
 #### Field Characteristics:
 
 - Growing caespitose on fallen well-rotted (brown) hardwood log in low, moist, mixed oak/hickory woodland.
-- Caps semicircular with a wavy margin, brown squamules radiating outward from  the center.
+- Caps semicircular with a wavy margin, brown squamules radiating outward from the center.
 - Hymenium with light honeycomb like pores.
 - Stipe black, matte, tough and corklike.
 - Smell: watermelon rind

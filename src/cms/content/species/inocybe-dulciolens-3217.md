@@ -2,7 +2,7 @@
 templateKey: species
 name: Sweet-Smelling Inocybe
 scientific_name: Inocybe dulciolens
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Matheny, P. B., & Kudzma, L. V. (2019). New species of Inocybe (Inocybaceae) from eastern North America1. The Journal of the Torrey Botanical Society, 146(3), 213-235. http://www.inocybaceae.org/PDF/Matheny_Kudzma_NewInocybe_EasternNA.2019.pdf'
@@ -42,13 +42,13 @@ photos:
 
 The Sweet-Smelling Inocybe is a mycorrhizal mushroom that can be found from summer through fall. It is distributed east of the Rocky Mountains and generally associates with deciduous trees in soils that are high in calcium carbonate. Occasionally fruiting in large numbers.
 
-The species name *dulciolens* means "sweet-smelling" representing its sweet and spicy smell.
+The species name _dulciolens_ means "sweet-smelling" representing its sweet and spicy smell.
 
 ![Form](/img/inocybe-dulciolens-3217-3.jpeg)
 
 #### August 17th, 2023 Field Notes - Indian Cave State Park
 
-Growing on a ridgetop in mixed oak/hickory woodland. 
+Growing on a ridgetop in mixed oak/hickory woodland.
 
 Nearby trees: Chikapin oak, northern red oak, shagbark hickory, elm, black oak, red mulberry, ironwood.
 

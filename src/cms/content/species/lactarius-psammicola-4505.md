@@ -2,7 +2,7 @@
 templateKey: species
 name: Acrid Lactarius
 scientific_name: Lactarius psammicola
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius psammicola. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_psammicola.html'
@@ -63,7 +63,7 @@ This gilled mushroom exudes white latex when cut. The taste is exceptionally spi
 
 - Growing gregariously in open mixed oak/hickory woodland edge.
 - Nearby Trees: Bur Oak, Chinkapin Oak, Shagbark Hickory, Black Oak, and distant Northern Red Oak.
-- Cap funnel-shaped, tacky (adhering to duff), with orange concentric ring zones and an inrolled margin. 
+- Cap funnel-shaped, tacky (adhering to duff), with orange concentric ring zones and an inrolled margin.
 - Lamellae exuding white latex when cut.
 - Smell: faintly of burnt rubber.
 - Taste: very acrid (spicy).

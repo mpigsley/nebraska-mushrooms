@@ -2,13 +2,13 @@
 templateKey: species
 name: Yellow Patches
 scientific_name: Amanita flavoconia-03
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - spring
-    - summer
-    - agaric
-    - substrate-soil
+  - spring
+  - summer
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi

@@ -2,7 +2,7 @@
 templateKey: species
 name: Common Oyster
 scientific_name: Pleurotus ostreatus
-location: 
+locations: 
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, December). Pleurotus ostreatus. Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/pleurotus_ostreatus.html'

@@ -2,7 +2,7 @@
 templateKey: species
 name: Half-Free Morel
 scientific_name: Morchella punctipes (M. semilibera)
-location: 
+locations:
   - Indian Cave State Park
 references:
   - Kay, S., Sikes, B., & Morse, C. (2022). A New Guide to Kansas Mushrooms.
@@ -51,13 +51,13 @@ photos:
 
 #### Description
 
-* This mushroom is hollow on the inside, brittle, and thin-fleshed. The inside texture is roughened.
-* The cap is skirt-like, meaning that the bottom margin is halfway free from the stem and fused to the stem for the upper half. This feature separates it from other Morels in Nebraska.
-* The cap shape is conic (cone-shaped), round, or oval when young, becoming mostly conic with age.
-* The stem has an obvious rough, granular texture that rubs off and the color is white to light yellow
-* When young, the mushroom's cap is generally taller than the stem. With age, the stem becomes significantly taller than the cap.
-* The cap is composed of pits and ridges mostly tan colored when young. In mature specimens, the pits are yellowish-brown to brown to gray-brown and the ridges are darker than the pits. The ridges turn black with age. The ridges are mostly vertically oriented with occasional horizontal ribs.
-* This mushroom is saprobic and mycorrhizal.
+- This mushroom is hollow on the inside, brittle, and thin-fleshed. The inside texture is roughened.
+- The cap is skirt-like, meaning that the bottom margin is halfway free from the stem and fused to the stem for the upper half. This feature separates it from other Morels in Nebraska.
+- The cap shape is conic (cone-shaped), round, or oval when young, becoming mostly conic with age.
+- The stem has an obvious rough, granular texture that rubs off and the color is white to light yellow
+- When young, the mushroom's cap is generally taller than the stem. With age, the stem becomes significantly taller than the cap.
+- The cap is composed of pits and ridges mostly tan colored when young. In mature specimens, the pits are yellowish-brown to brown to gray-brown and the ridges are darker than the pits. The ridges turn black with age. The ridges are mostly vertically oriented with occasional horizontal ribs.
+- This mushroom is saprobic and mycorrhizal.
 
 #### Habitat
 
@@ -75,12 +75,12 @@ This spring-time mushroom appears in mid-April through May at Indian Cave. In no
 
 #### Similar Species in Nebraska
 
-* The [White Morel](/species/morchella-americana/) is the most common morel in Nebraska.
+- The [White Morel](/species/morchella-americana/) is the most common morel in Nebraska.
 
 #### Interesting facts
 
-* _punct-ipes_ means "spotted stem".
-* This mushroom was once called *M. semilibera* in North America as the European version until DNA testing showed that the North American version was a distinct species. 
+- _punct-ipes_ means "spotted stem".
+- This mushroom was once called _M. semilibera_ in North America as the European version until DNA testing showed that the North American version was a distinct species.
 
 #### Edibility and Toxicity
 

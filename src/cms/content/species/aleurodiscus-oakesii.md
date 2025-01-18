@@ -2,12 +2,12 @@
 templateKey: species
 name: Smooth Patch Disease
 scientific_name: Aleurodiscus oakesii
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - disc
-    - substrate-wood
+  - fall
+  - disc
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi

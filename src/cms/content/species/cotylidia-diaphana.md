@@ -1,13 +1,13 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Cotylidia diaphana
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - summer
-    - polypore
-    - substrate-soil
+  - summer
+  - polypore
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi

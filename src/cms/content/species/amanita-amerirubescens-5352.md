@@ -2,7 +2,7 @@
 templateKey: species
 name: American Blusher
 scientific_name: Amanita amerirubescens
-location: 
+locations: 
   - Indian Cave State Park
 tags:
     - summer
@@ -45,6 +45,7 @@ photos:
   - /img/amanita-amerirubescens-5352-7.jpeg
   - /img/amanita-amerirubescens-5352-9.jpeg
 ---
+
 The American Blusher is a mycorrhizal mushroom that can be found in Oak and Pine-dominated woods mostly during the summer but also into early fall. It is a gilled mushroom that can be found in the soil, has large membranous skirt, and has a bulbous base without a volva. It stains red.
 
 This species hasn't been described formally in North America yet, and is under the provisional name Amanita "rubescens-02".

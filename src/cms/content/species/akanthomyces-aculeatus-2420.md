@@ -2,7 +2,7 @@
 templateKey: species
 name:
 scientific_name: Akanthomyces aculeatus
-location: 
+locations: 
   - Indian Cave State Park
 references:
   - 'Akanthomyces aculeatus Lebert, Zeitschrift für wissenschaftliche 
@@ -47,6 +47,6 @@ This fungi parasitizes adult moths and is mostly found east of the Rockies. The 
 
 ![Side View](/img/akanthomyces-aculeatus-2420-7.jpeg)
 
-Spear-shaped spikes protrude outward and produce spores to carry it into its next fungal phase. 
+Spear-shaped spikes protrude outward and produce spores to carry it into its next fungal phase.
 
 ![Measurements](/img/akanthomyces-aculeatus-2420-4.jpeg)

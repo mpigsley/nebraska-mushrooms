@@ -2,7 +2,7 @@
 templateKey: species
 name: Zoned Gymnopus
 scientific_name: Gymnopus earleae-OH01
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Gymnopus earleae Murrill, North American Flora 9 (5): 364 (1916) [MB#228079]'
@@ -43,9 +43,10 @@ photos:
   - /img/gymnopus-earleae-9505-5.jpeg
 ---
 
-The Zoned Gymnopus is a widely distributed gilled mushroom that can be found in the springtime in soil and well decomposed wood. 
+The Zoned Gymnopus is a widely distributed gilled mushroom that can be found in the springtime in soil and well decomposed wood.
 
 It's closely related to the [Oak-Loving Gymnopus](/species/gymnopus-dryophilus-9827/), and can be separated by a few field characteristics:
+
 - Its growth habit on soil or wood rather than leaf litter.
 - Yellow gills rather than white.
 - Occasonal color zonation on the cap (as compared to solid chestnut color in the Oak-Loving Gymnopus).

@@ -2,7 +2,7 @@
 templateKey: species
 name: White Panther
 scientific_name: Amanita multisquamosa-01
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2013, April). Amanita multisquamosa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/amanita_multisquamosa.html'
@@ -49,7 +49,7 @@ photos:
 
 This is a presumed toxic, mycorrhizal mushroom growing on soil in the spring through fall. It can be found associated with Oak and other broadleaf trees east of the Great Plains.
 
-It is mostly white, with a yellow or tan cap center. The cap is adorned with white, removable warts. 
+It is mostly white, with a yellow or tan cap center. The cap is adorned with white, removable warts.
 
 ![Cap surface](/img/amanita-multisquamosa-3537-4.jpeg)
 

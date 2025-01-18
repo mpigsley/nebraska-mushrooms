@@ -2,7 +2,7 @@
 templateKey: species
 name: Giant Puffball
 scientific_name: Calvatia gigantea
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer

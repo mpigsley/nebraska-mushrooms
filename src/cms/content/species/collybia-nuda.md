@@ -2,12 +2,12 @@
 templateKey: species
 name: Blewit
 scientific_name: Collybia nuda
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - agaric
-    - substrate-soil
+  - fall
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -37,6 +37,7 @@ photos:
 #461
 
 -Growing among leaf duff in low mixed oak/hickory woodland above creek.
+
 - Cap lightly colored with pale bright lilac color turning tannish.
-- Lamellae  whitish with a light purplish hue, adnexed, close with frequent partial gills.
+- Lamellae whitish with a light purplish hue, adnexed, close with frequent partial gills.
 - Stipe whitish, with fine interwoven fiber texture.

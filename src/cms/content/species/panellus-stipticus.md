@@ -2,12 +2,12 @@
 templateKey: species
 name: Luminescent Panellus
 scientific_name: Panellus stipticus
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - agaric
-    - substrate-wood
+  - fall
+  - agaric
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -42,4 +42,3 @@ photos:
 - Caps semicircular, pale buff color with dense matted hairs on pileipellis.
 - Lamellae similarly colored as cap with frequent partial gills.
 - Stipe attached off center, covered in short dense hairs.
-

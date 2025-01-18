@@ -2,12 +2,12 @@
 templateKey: species
 name: Oak Bracket
 scientific_name: Pseudoinonotus dryadeus
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - polypore
-    - substrate-wood
+  - fall
+  - polypore
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -39,23 +39,23 @@ photos:
 
 #### Field Characteristics:
 
----------------------------------------------------------
-Nickname: Pseudoinonotus dryadeus 
+---
+
+Nickname: Pseudoinonotus dryadeus
 Alternate ID: 429
-Location: 40.219732, -95.3921555
+locations: 40.219732, -95.3921555
 Observed at: 2023-09-28T19:09:33.006Z
----------------------------------------------------------
+
+---
 
 habitat: Lignicolous (on wood)
 
 growth habit: Gregarious (growing as a group)
 
-Cap: 
+Cap:
 surface moisture texture: dry - dull Ä1Ñ
 
-Stem: 
-location: sessile (missing)
-
-
+Stem:
+locations: sessile (missing)
 
 Ä1Ñ With potholes fill amber guttation

@@ -2,7 +2,7 @@
 templateKey: species
 name: Slinder-Stemmed Agaricus
 scientific_name: Agaricus leptocaulis
-location: 
+locations: 
   - Indian Cave State Park
 references:
   - 'Kerrigan, RW. 2016. Agaricus of North America. Memoirs of the New York
@@ -58,7 +58,7 @@ photos:
   - /img/agaricus-leptocaulis-1433-20.jpeg
 ---
 
-*A. leptocaulis* is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast. It can be found growing alone or in small groups. The cap and stem bruise yellow where handled.
+_A. leptocaulis_ is a decomposer that can be found in soil in mixed woods from late summer to early fall. It has been reported in the Midwest to the East Coast. It can be found growing alone or in small groups. The cap and stem bruise yellow where handled.
 
 The cap shape is evenly rounded to broadly rounded, becoming flat with age. Sometimes with a slight umbo. Sometimes splitting radially at the margin. The cap texture is smooth and dry. The color is grayish-brown with brown scales that are more densely collected at the center than the margin.
 
@@ -82,8 +82,8 @@ Growing gregariously in open mixed oak/hickory woodland edge.
 - Lamellae pink, crowded, frequent partial gills, and broadly free from the stipe.
 - stipe pinkish at apex, turning white below, fibrilose, with a prominent partial veil, and a swollen base that slowly bruises slightly yellow.
 - partial veil membranous, delicate, and with an eight entire margin with slight striations from gills.
-- Smell: faintly pleasant 
-- Taste: mild and pleasant 
+- Smell: faintly pleasant
+- Taste: mild and pleasant
 - KOH: highlighter yellow on pileipellis.
 
 ![Observation](/img/agaricus-leptocaulis-1433-11.jpeg)

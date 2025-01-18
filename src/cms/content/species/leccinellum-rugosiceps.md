@@ -2,12 +2,12 @@
 templateKey: species
 name: Wrinkled Bolete
 scientific_name: Leccinellum rugosiceps
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - summer
-    - bolete
-    - substrate-soil
+  - summer
+  - bolete
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi

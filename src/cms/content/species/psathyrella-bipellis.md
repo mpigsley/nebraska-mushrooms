@@ -2,7 +2,7 @@
 templateKey: species
 name: Maroon Brittlestem
 scientific_name: Psathyrella bipellis
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, January). Psathyrella bipellis. Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/psathyrella_bipellis.html'

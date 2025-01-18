@@ -1,13 +1,13 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Dacryopinax elegans
-location: 
+locations:
   - Indian Cave State Park
 tags:
-    - fall
-    - jelly
-    - substrate-wood
+  - fall
+  - jelly
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
@@ -46,16 +46,18 @@ photos:
 **Nickname:** Dacrypinax elegans  
 **Sequence Number:** #0489  
 **Observed At:** Thursday, October 26, 2023 1:48 PM  
-**Location**: [40.245803401857664, -95.53598855134709](http://www.google.com/maps/place/40.245803401857664,-95.53598855134709)  
+**Location**: [40.245803401857664, -95.53598855134709](http://www.google.com/maps/place/40.245803401857664,-95.53598855134709)
 
 **Form Group:** Dacrymycetales
 
 ###### Habitat:
-- *Growth Habit:* Gregarious
-- *Substrate:* Lignicolous
-- *Tree:* Desciduous
+
+- _Growth Habit:_ Gregarious
+- _Substrate:_ Lignicolous
+- _Tree:_ Desciduous
 
 ###### Spores:
-- *Print color:* [1]
+
+- _Print color:_ [1]
 
 [1] Light yellow

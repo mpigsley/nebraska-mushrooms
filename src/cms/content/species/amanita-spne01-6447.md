@@ -2,7 +2,7 @@
 templateKey: species
 name:
 scientific_name: Amanita sp-NE01
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - spring
@@ -42,7 +42,7 @@ photos:
   - /img/amanita-spne01-6447-3.jpeg
 ---
 
-*Amanita sp-NE01* is a mycorrhizal mushroom that can be found in the spring to summer. It can be found in Oak/Hickory forests. Not much is known about this mushroom because it is recently new to science in 2024 DNA studies. This group of mushrooms (the Amanitas) should not be collected for the table by beginner mushroom hunters as there are deadly poisonous members of the group. See a list of poisonous Amanitas known to Nebraska [here](/location/indian-cave-state-park/?q=Amanita&t=poisonous).
+_Amanita sp-NE01_ is a mycorrhizal mushroom that can be found in the spring to summer. It can be found in Oak/Hickory forests. Not much is known about this mushroom because it is recently new to science in 2024 DNA studies. This group of mushrooms (the Amanitas) should not be collected for the table by beginner mushroom hunters as there are deadly poisonous members of the group. See a list of poisonous Amanitas known to Nebraska [here](/location/indian-cave-state-park/?q=Amanita&t=poisonous).
 
 The cap is colored light tan. The pattern on the cap are lines (striations) that go from the cap margin to 1/2 to the center of the cap. The gills are free from the stem to narrowly attached to it (acutely adnexed). The stem does not have a ring (annulus) and it has a cup at the base (volva). The volva looks like a sheath or a loose membranous sock on the base of the stem.
 
@@ -53,7 +53,7 @@ The cap is colored light tan. The pattern on the cap are lines (striations) that
 Growing from moss pad on open east-facing mixed oak/hickory woodland slope.
 
 - Nearby trees: Northern Red Oak, Shagbark Hickory, Ash, and Bur Oak.
-- Taste mild to nutty; pleasant. 
+- Taste mild to nutty; pleasant.
 - Sheathing volva.
 - No annulus present.
 

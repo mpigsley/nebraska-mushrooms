@@ -2,7 +2,7 @@
 templateKey: species
 name: American Tree Ear
 scientific_name: Auricularia americana
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2018, May). Auricularia "americana." Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/auricularia_americana.html'
@@ -47,8 +47,8 @@ A good time to search for this mushroom are after a period of consistent, heavy 
 
 #### May 16th, 2023 Field Notes - Indian Cave State Park
 
-Growing on fallen Shagbark Hickory limb in large oak/hickory woodland draw. 
+Growing on fallen Shagbark Hickory limb in large oak/hickory woodland draw.
 
-* Exidia glandulosa growing in close proximity on the same substrate.
+- Exidia glandulosa growing in close proximity on the same substrate.
 
 ![Observation](/img/auricularia-americana1.jpeg)

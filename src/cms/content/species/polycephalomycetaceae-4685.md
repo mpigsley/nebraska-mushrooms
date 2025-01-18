@@ -2,7 +2,7 @@
 templateKey: species
 name: Hypercheeto
 scientific_name: Polycephalomycetaceae
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -43,7 +43,7 @@ photos:
   - /img/polycephalomycetaceae-4685-12.jpeg
 ---
 
-This is a parasitic fungus that attacks parasitic fungi. You heard that right. A parasite on top of another parasite. This is a phenomenon known has 'hyperparasitism'. The host of this hyperparasite is [*Ophiocordyceps variabilis*](/species/ophiocordyceps-variabilis).
+This is a parasitic fungus that attacks parasitic fungi. You heard that right. A parasite on top of another parasite. This is a phenomenon known has 'hyperparasitism'. The host of this hyperparasite is [_Ophiocordyceps variabilis_](/species/ophiocordyceps-variabilis).
 
 ![Measurements](/img/polycephalomycetaceae-4685-9.jpeg)
 

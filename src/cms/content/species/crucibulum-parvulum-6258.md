@@ -2,7 +2,7 @@
 templateKey: species
 name: Discrete Birds Nest
 scientific_name: Crucibulum parvulum
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Crucibulum parvulum H.J. Brodie, Canadian Journal of Botany 48 (5): 848 (1970) [MB#312321]'
@@ -46,7 +46,7 @@ Crucibulum parvulum can be found growing on twigs, woodchips, and roots east of 
 
 ![Form](/img/crucibulum-parvulum-6258-2.jpeg)
 
-The Discrete Birds Nest is considered a smaller version of the Common Birds Nest (*Crucibulum laeve*). The former is described with a nest 1.5-3mm wide and the latter 4-10mm wide. Interestingly enough, this specimen seems to be bigger than described but the DNA results matched *Crucibulum parvulum*... It seems that DNA testing might be necessary to accurately separate the two species.
+The Discrete Birds Nest is considered a smaller version of the Common Birds Nest (_Crucibulum laeve_). The former is described with a nest 1.5-3mm wide and the latter 4-10mm wide. Interestingly enough, this specimen seems to be bigger than described but the DNA results matched _Crucibulum parvulum_... It seems that DNA testing might be necessary to accurately separate the two species.
 
 #### July 27th, 2023 Field Notes
 

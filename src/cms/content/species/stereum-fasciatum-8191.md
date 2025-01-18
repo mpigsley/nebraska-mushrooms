@@ -2,7 +2,7 @@
 templateKey: species
 name: Fasciating Stereum
 scientific_name: Stereum fasciatum
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'DeLong-Duhon, S. (2022). Rediscovering a Common Mushroom with Molecular Techniques: Elucidating Stereum Taxonomy and Evolutionary History. The University of Iowa. https://iro.uiowa.edu/esploro/outputs/graduate/Rediscovering-a-common-mushroom-with-molecular/9984271054202771'
@@ -48,9 +48,9 @@ photos:
 
 The Fasciating Stereum is a decomposer of deciduous wood and can be found year-round, but grows in the spring and summer in heavy rains. Widely distributed.
 
-*Stereum fasciatum* can be distinguished by its coarse hairs in thin zones (before rubbing off with age), not bruising on the bottom surface, and thin zonation (if at all).  Widely variable in color based on age and hydration level.
+_Stereum fasciatum_ can be distinguished by its coarse hairs in thin zones (before rubbing off with age), not bruising on the bottom surface, and thin zonation (if at all). Widely variable in color based on age and hydration level.
 
-Compare to [*Stereum lobatum*](/species/stereum-lobatum-6734). Historically placed in the possibly deprecated "*Stereum ostrea complex*" or "False Turkey Tail". Commonly mixed up with Turkey Tail (*Trametes versicolor*), which has visible pores on the bottom to the naked eye, whereas this species is smooth.
+Compare to [_Stereum lobatum_](/species/stereum-lobatum-6734). Historically placed in the possibly deprecated "_Stereum ostrea complex_" or "False Turkey Tail". Commonly mixed up with Turkey Tail (_Trametes versicolor_), which has visible pores on the bottom to the naked eye, whereas this species is smooth.
 
 ![Form](/img/stereum-fasciatum-9267-3.jpeg)
 

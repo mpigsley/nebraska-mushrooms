@@ -2,7 +2,7 @@
 templateKey: species
 name: Thin-Walled Maze Polypore
 scientific_name: Daedaleopsis confragosa
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2005, March). Daedaleopsis confragosa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/daedaleopsis_confragosa.html'
@@ -61,7 +61,7 @@ photos:
   - /img/daedaleopsis-confragosa-6963-7.jpeg
 ---
 
-The Thin-Walled Maze Polypore is a decomposer of dead wood that can be found year-round, though mostly fruiting in the warm months. Widely distributed. It grows on deciduous wood and rarely coniferous wood. It grows on Oak less often than *Daedalea quercina*, which generally has thicker "maze" walls.
+The Thin-Walled Maze Polypore is a decomposer of dead wood that can be found year-round, though mostly fruiting in the warm months. Widely distributed. It grows on deciduous wood and rarely coniferous wood. It grows on Oak less often than _Daedalea quercina_, which generally has thicker "maze" walls.
 
 The cap surface color can be tan to brown to white. The cap pattern presents different zones of color in a "ripple" effect from the center outward (concentrically zoned). The pore surface has a great deal of morphological variation which can present pores, gill-like elongated pores, or (most commonly) maze-like structures. When fresh, it bruises salmon-pink to brownish where handled. KOH darkens surface colors, and ammonia changes surface colors pinkish, at least in fresh samples.
 
@@ -77,25 +77,25 @@ The cap surface color can be tan to brown to white. The cap pattern presents dif
 
 #### September 28th, 2023 Field Notes - Indian Cave State Park
 
-habitat: Lignicolous (on wood) 
+habitat: Lignicolous (on wood)
 
 growth habit: Gregarious (growing as a group)
 
-Cap: 
-shape: flabelliform (fan-shaped) [1]; 
-texture: zonate to velvety, velutinous (short, soft) to pubescent (finely fuzzy) to smooth to uneven (bumpy); 
-surface moisture texture: dry - dull; 
-margin shape: straight; 
+Cap:
+shape: flabelliform (fan-shaped) [1];
+texture: zonate to velvety, velutinous (short, soft) to pubescent (finely fuzzy) to smooth to uneven (bumpy);
+surface moisture texture: dry - dull;
+margin shape: straight;
 margin: undulating (wavy) to entire, even, regular
 
-Gills: 
-thickness: tapering; 
-spacing: crowded to close; 
-edges: eroded (gnawed) to crisped (crinkled); 
+Gills:
+thickness: tapering;
+spacing: crowded to close;
+edges: eroded (gnawed) to crisped (crinkled);
 misc features: arid (dry)
 
-Stem: 
-location: eccentric (off-center) to sessile (missing)
+Stem:
+locations: eccentric (off-center) to sessile (missing)
 
 [1] KOH dark gray
 Ammonia red

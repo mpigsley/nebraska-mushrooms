@@ -2,7 +2,7 @@
 templateKey: species
 name: Resinous Polypore
 scientific_name: Ischnoderma resinosum
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2019, December). Ischnoderma benzoinum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/ischnoderma_benzoinum.html'
@@ -49,7 +49,7 @@ photos:
   - /img/ischnoderma-resinosum-244065733-3.jpeg
 ---
 
-The Resinous Polypore (*Ischnoderma resinosum*) is a decomposer of dead deciduous trees and can be found in the fall. It is widespread in North America with its greatest occurrence rate west of the Rocky Mountains.
+The Resinous Polypore (_Ischnoderma resinosum_) is a decomposer of dead deciduous trees and can be found in the fall. It is widespread in North America with its greatest occurrence rate west of the Rocky Mountains.
 
 The top-of-cap shape ranges from fan-shaped to kidney-shaped to semicircular. The cap texture is velvety. The cap color has a "ripple effect" (zonate) and ranges between reddish and darker brownish colors, with the youngest growth whitish toward the margin. The consistency is soft and spongy and can be easily sliced when young. As it ages, it becomes harder and more leathery.
 

@@ -2,7 +2,7 @@
 templateKey: species
 name: Pear-shaped Puffball
 scientific_name: Apioperdon pyriforme
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -58,4 +58,3 @@ Decay Type:
 Decay Type: ( White Rot )
 Footnotes:
 [1] Rhizomorphs present.
-

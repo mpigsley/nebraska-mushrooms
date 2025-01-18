@@ -2,7 +2,7 @@
 templateKey: species
 name: Hairy-Stalked Gymnopus
 scientific_name: Gymnopus spongiosus
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -46,7 +46,7 @@ photos:
   - /img/gymnopus-spongiosus-3452-5.jpeg
 ---
 
-The Hairy-Stalked Gymnopus is a decomposer of woodland duff that can be found from late summer through fall. It can be found east of the Rocky Mountains in woodland areas. As is true with many other species of Gymnopus, this species has an elastic consistency throughout, has shallow gills with occasional cross veins (see below), and grows on woodland duff. 
+The Hairy-Stalked Gymnopus is a decomposer of woodland duff that can be found from late summer through fall. It can be found east of the Rocky Mountains in woodland areas. As is true with many other species of Gymnopus, this species has an elastic consistency throughout, has shallow gills with occasional cross veins (see below), and grows on woodland duff.
 
 ![Gills](/img/gymnopus-spongiosus-4377-9.jpeg)
 
@@ -66,4 +66,4 @@ The main distinctive characteristic of _G. spongiosus_ is the dense reddish-brow
 - Growing scattered on woodland duff in mixed oak woodland edge.
 - Caps light brown with a darker center.
 - Lamellae adnexed, light tan, forking or with crossveins.
--  Stipe colored similarly to lamellae at apex, transitioning to a reddish brown base covered in light brown wooly mycelium. 
+- Stipe colored similarly to lamellae at apex, transitioning to a reddish brown base covered in light brown wooly mycelium.

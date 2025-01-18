@@ -2,7 +2,7 @@
 templateKey: species
 name: Pleated Pluteus
 scientific_name: Pluteus longistriatus
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'Kuo, M. (2004, December). Pluteus longistriatus. Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_longistriatus.html'

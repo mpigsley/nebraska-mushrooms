@@ -9,18 +9,23 @@ import { type Tag } from '../utils/tag.util';
 export default function LocationTemplate({
   data,
 }: Readonly<PageProps<Queries.LocationTemplateQuery>>): JSX.Element {
+  const firstLocation = data.locations.edges[0].node;
+
   let geolocation: string | undefined;
-  if (data.location?.frontmatter?.geolocation) {
+  if (firstLocation?.frontmatter?.geolocation) {
     const { coordinates } = JSON.parse(
-      data.location.frontmatter.geolocation,
-    ) as { type: 'Point'; coordinates: [number, number] };
+      firstLocation.frontmatter.geolocation,
+    ) as {
+      type: 'Point';
+      coordinates: [number, number];
+    };
     geolocation = `${coordinates[1]},${coordinates[0]}`;
   }
 
   return (
     <PageLayout>
       <h3>
-        {data.location?.frontmatter?.title}
+        {firstLocation?.frontmatter?.title}
         <a
           className="maps-link"
           href={`https://www.google.com/maps/place/${geolocation}`}
@@ -36,7 +41,7 @@ export default function LocationTemplate({
           slug: edge.node.fields?.slug ?? undefined,
           name: edge.node.frontmatter?.name ?? undefined,
           tags: (edge.node.frontmatter?.tags ?? []) as Tag[],
-          location: edge.node.frontmatter?.location ?? undefined,
+          locations: (edge.node.frontmatter?.locations as string[]) ?? [],
           scientificName: edge.node.frontmatter?.scientific_name ?? undefined,
           bodyHtml: edge.node.html ?? '',
           photos:
@@ -61,22 +66,30 @@ export default function LocationTemplate({
 }
 
 export const Head: HeadFC<Queries.LocationTemplateQuery> = ({ data }) => (
-  <title>{data.location?.frontmatter?.title} | Mushrooms of Nebraska</title>
+  <title>
+    {data.locations.edges[0].node?.frontmatter?.title} | Mushrooms of Nebraska
+  </title>
 );
 
 export const pageQuery = graphql`
-  query LocationTemplate($locationName: String!) {
-    location: markdownRemark(frontmatter: { title: { eq: $locationName } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        geolocation
-        title
+  query LocationTemplate($locationNames: [String!]) {
+    locations: allMarkdownRemark(
+      filter: { frontmatter: { title: { in: $locationNames } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            geolocation
+            title
+          }
+        }
       }
     }
     species: allMarkdownRemark(
-      filter: { frontmatter: { location: { eq: $locationName } } }
+      filter: { frontmatter: { locations: { in: $locationNames } } }
     ) {
       edges {
         node {
@@ -87,7 +100,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             name
-            location
+            locations
             scientific_name
             tags
             photos {

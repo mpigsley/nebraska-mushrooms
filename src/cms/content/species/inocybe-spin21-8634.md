@@ -1,8 +1,8 @@
 ---
 templateKey: species
-name: 
+name:
 scientific_name: Inocybe sp-IN21
-location: 
+locations:
   - Indian Cave State Park
 tags:
   - summer
@@ -41,7 +41,7 @@ photos:
   - /img/inocybe-8634-8.jpeg
 ---
 
-2024 DNA results of *Inocybe sp-IN21* represent it as an undescribed species originally found in Indiana.
+2024 DNA results of _Inocybe sp-IN21_ represent it as an undescribed species originally found in Indiana.
 
 ![Form](/img/inocybe-8634-7.jpeg)
 

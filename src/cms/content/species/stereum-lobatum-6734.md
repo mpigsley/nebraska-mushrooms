@@ -2,7 +2,7 @@
 templateKey: species
 name: Lobed Stereum
 scientific_name: Stereum lobatum
-location: 
+locations:
   - Indian Cave State Park
 references:
   - 'DeLong-Duhon, S. (2022). Rediscovering a Common Mushroom with Molecular Techniques: Elucidating Stereum Taxonomy and Evolutionary History. The University of Iowa. https://iro.uiowa.edu/esploro/outputs/graduate/Rediscovering-a-common-mushroom-with-molecular/9984271054202771'
@@ -46,8 +46,8 @@ photos:
 
 The Lobed Stereum is a decomposer of deciduous wood and can be found year-round, but grows in the spring and summer in heavy rains. Widely distributed.
 
-*Stereum lobatum* can be distinguished by its thick zonation, bruising yellow on the bottom surface, and thin matting of hairs on the top of the cap (when fresh, the hairs rub off with age to create a smooth surface). Widely variable in color based on age and hydration level.
+_Stereum lobatum_ can be distinguished by its thick zonation, bruising yellow on the bottom surface, and thin matting of hairs on the top of the cap (when fresh, the hairs rub off with age to create a smooth surface). Widely variable in color based on age and hydration level.
 
-Compare to [*Stereum fasciatum*](/species/stereum-fasciatum-8191). Historically placed in the possibly deprecated "*Stereum ostrea complex*" or "False Turkey Tail". Commonly mixed up with Turkey Tail (*Trametes versicolor*), which has visible pores on the bottom to the naked eye, whereas this species is smooth.
+Compare to [_Stereum fasciatum_](/species/stereum-fasciatum-8191). Historically placed in the possibly deprecated "_Stereum ostrea complex_" or "False Turkey Tail". Commonly mixed up with Turkey Tail (_Trametes versicolor_), which has visible pores on the bottom to the naked eye, whereas this species is smooth.
 
 ![Form](/img/stereum-lobatum-6734-4.jpeg)

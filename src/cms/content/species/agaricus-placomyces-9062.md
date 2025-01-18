@@ -2,7 +2,7 @@
 templateKey: species
 name: Flat-Top Agaricus
 scientific_name: Agaricus placomyces
-location: 
+locations: 
   - Indian Cave State Park
 references:
   - 'Peck, C.H. 1878. Report of the Botanist (1875). Annual Report on the 
@@ -52,13 +52,14 @@ photos:
   - /img/agaricus-placomyces-9062-12.jpeg
   - /img/agaricus-placomyces-9062-13.jpeg
 ---
+
 #### Key Features
 
 A. placomyces is a decomposer that can be found in soil from summer through fall. It can be found in mixed woods.
 
 #### July 10th, 2023 Field Characteristics:
 
-- Growing gregariously (locally abundant) among woodland duff in well shaded oak woodland edge with dense understory of brush (Rough Leaf Dogwood, and Autumn Olive). 
+- Growing gregariously (locally abundant) among woodland duff in well shaded oak woodland edge with dense understory of brush (Rough Leaf Dogwood, and Autumn Olive).
 - All exterior flesh, but hymenium, bruising yellow where handled. Bruises later turning dark brown, especially on stipe.
 - Gills free from stipe, crowded, and pink when young, turning dark brown at maturity.
 - Stipe collapsible, either hollow or with central pith.
