@@ -10,7 +10,7 @@ tags:
   - edible-with-caution
 references:
   - 'Kuo, M. (2013, December). Gyroporus castaneus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gyroporus_castaneus.html'
-  - 'Zeller, D. (2025, Janurary). Nature Colors. Retrieved from beta site: https://naturecolors.netlify.app/'
+  - 'Zeller, D. (2025, January). Nature Colors. Retrieved from beta site: https://naturecolors.netlify.app/'
   - 'Quélet, Lucien. (1886). Enchiridion fungorum in Europa media et praesertim in Gallia vigentium (p. 161). O. Doin. https://www.biodiversitylibrary.org/page/32653197'
   - 'Pavelle, S. (2015b, July 24). Gyroporus f/k/a castaneus (“Chestnut Bolete”). The Bolete Filter. https://boletes.wpamushroomclub.org/product/gyroporus-castaneus/'
   - 'Halling, R. E. (2024). Taxon Details: Gyroporus castaneus (Bull.:Fr.) Quél. The New York Botanical Garden. https://sweetgum.nybg.org/science/projects/boletineae/taxon-details/?irn=254298'

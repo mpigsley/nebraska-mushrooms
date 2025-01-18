@@ -6,7 +6,8 @@ location: Indian Cave State Park
 references:
   - 'Fatto RM, Bessette AE. (1996). "A new species of Callistosporium". Mycotaxon. 60: 125–8. Retried from http://www.cybertruffle.org.uk/cyberliber/59575/0060/0125.htm'
   - 'Kuo, M. (2019, September). Callistosporium purpureomarginatum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/callistosporium_purpureomarginatum.html'
-  - 'Zeller, D. (2025, Janurary). Nature Colors. Retrieved from beta site: https://naturecolors.netlify.app/'
+  - 'Zeller, D. (2025, January). Nature Colors. Retrieved from beta site: https://naturecolors.netlify.app/'
+  - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved January 17, 2025, from Agaric.us website: https://agaric.us/common_names/names.html'
 tags:
   - summer
   - agaric
