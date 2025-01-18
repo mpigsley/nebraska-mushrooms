@@ -2,7 +2,8 @@
 templateKey: species
 name: Ash-tree Bolete
 scientific_name: Boletinellus merulioides
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - polypore

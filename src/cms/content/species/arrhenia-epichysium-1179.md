@@ -2,7 +2,8 @@
 templateKey: species
 name: Brown Goblet
 scientific_name: Arrhenia epichysium
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Arrhenia epichysium (Pers.) Redhead, Lutzoni, Moncalvo & Vilgalys, Mycotaxon 83: 47 (2002) [MB#374149]'
   - 'Kuo, M. (2005, March). Omphalina epichysium. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/omphalina_epichysium.html'

@@ -2,7 +2,8 @@
 templateKey: species
 name: Common Morel
 scientific_name: Morchella americana
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
     MushroomExpert.Com Web site:

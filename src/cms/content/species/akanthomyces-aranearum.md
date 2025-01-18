@@ -2,7 +2,8 @@
 templateKey: species
 name: Spider Akanthomyces
 scientific_name: Akanthomyces aranearum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - entomopathogenic

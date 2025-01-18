@@ -2,7 +2,8 @@
 templateKey: species
 name: Acrid Lactarius
 scientific_name: Lactarius psammicola
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius psammicola. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_psammicola.html'
 tags:

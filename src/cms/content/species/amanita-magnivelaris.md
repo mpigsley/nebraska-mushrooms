@@ -2,7 +2,8 @@
 templateKey: species
 name: Great Felt Skirt Destroying Angel
 scientific_name: Amanita magnivelaris
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - poisonous

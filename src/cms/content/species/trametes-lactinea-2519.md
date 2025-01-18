@@ -2,7 +2,8 @@
 templateKey: species
 name: Latte Bracket
 scientific_name: Trametes lactinea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Vlasák, J., & Kout, J. (2011). Tropical Trametes lactinea is widely distributed in the eastern USA. Mycotaxon, 115(1), 271-279. https://www.ingentaconnect.com/content/mtax/mt/2011/00000115/00000001/art00032?crawler=true&mimetype=application/pdf'
 tags:

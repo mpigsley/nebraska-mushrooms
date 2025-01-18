@@ -2,7 +2,8 @@
 templateKey: species
 name: Chestnut Bolete
 scientific_name: Gyroporus castaneus-IN07
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - bolete

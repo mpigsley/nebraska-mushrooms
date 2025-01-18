@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Sporothrix epigloea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - substrate-fungi

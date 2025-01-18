@@ -2,7 +2,8 @@
 templateKey: species
 name:
 scientific_name: Akanthomyces aculeatus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Akanthomyces aculeatus Lebert, Zeitschrift für wissenschaftliche 
  Zoologie 9 449 (1858) [MB#431365]'

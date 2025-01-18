@@ -2,7 +2,8 @@
 templateKey: species
 name: White Honey Mushroom
 scientific_name: Armillaria gallica
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kim, Mee-Sook; Klopfenstein, Ned B. 2011. Molecular identification of Armillaria gallica from the Niobrara Valley Preserve in Nebraska. Journal of Phytopathology. 159: 69-71. https://research.fs.usda.gov/treesearch/38459'
   - 'Kuo, M. (2017, January). Armillaria gallica. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_gallica.html'

@@ -2,7 +2,8 @@
 templateKey: species
 name: Slinder-Footed Cordyceps
 scientific_name: Cordyceps tenuipes
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Zha, L. S., Wen, T. C., Huang, S. K., Boonmee, S., & Eungwanichayapant, P. D. (2019). Taxonomy and biology of Cordyceps qingchengensis sp. nov. and its allies. Phytotaxa, 416(1), 14-24. https://phytotaxa.mapress.com/pt/article/view/35913/30762'
   - 'Lee, K. M., Hong, I. P., Nam, S. H., Sung, G. B., & Bae, Y. H. (2008). The cultural characteristics and antibacterial activities of Cordyceps militaris and Paecilomyces tenuipes. Korean journal of applied entomology, 47(4), 479-486. https://koreascience.kr/article/JAKO200805441023179.pdf'

@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Dacryopinax elegans
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - jelly

@@ -2,7 +2,8 @@
 templateKey: species
 name: Smoky Polypore
 scientific_name: Bjerkandera adusta
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2010, February). Bjerkandera adusta. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/bjerkandera_adusta.html'
   - 'Bjerkandera adusta (Willd.) P. Karst., Meddelanden af Societas pro Fauna et Flora Fennica 5: 38 (1879) [MB#100902]'

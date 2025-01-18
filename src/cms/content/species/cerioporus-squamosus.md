@@ -2,7 +2,8 @@
 templateKey: species
 name: Dryad's Saddle
 scientific_name: Cerioporus squamosus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2015, April). Polyporus squamosus. Retrieved from the
     MushroomExpert.Com Web site:

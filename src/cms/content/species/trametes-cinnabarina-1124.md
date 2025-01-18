@@ -2,7 +2,8 @@
 templateKey: species
 name: Northern Cinnabar Polypore
 scientific_name: Trametes cinnabarina
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Justo, A., & Hibbett, D. S. (2011). Phylogenetic classification of Trametes (Basidiomycota, Polyporales) based on a five–marker dataset. Taxon, 60(6), 1567-1583. https://www2.clarku.edu/faculty/dhibbett/Reprints%20PDFs/Justo-Hibbett-2011-Phylogen-Classfx-Trametes-Taxon60.pdf'
   - 'Kuo, M. (2010, February). Pycnoporus cinnabarinus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pycnoporus_cinnabarinus.html'

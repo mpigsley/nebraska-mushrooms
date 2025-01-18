@@ -2,7 +2,8 @@
 templateKey: species
 name: Rusty Pinwheel
 scientific_name: Marasmius fulvoferrugineus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2012, December). Marasmius siccus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/marasmius_siccus.html'
   - 'Marasmius fulvoferrugineus Gilliam, Mycotaxon 4 (1): 82 (1976) [MB#317296]'

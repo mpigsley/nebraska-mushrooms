@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Steccherinum subrawakense
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - polypore

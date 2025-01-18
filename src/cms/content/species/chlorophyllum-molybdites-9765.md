@@ -2,7 +2,8 @@
 templateKey: species
 name: Green-spored Parasol
 scientific_name: Chlorophyllum molybdites
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - fall

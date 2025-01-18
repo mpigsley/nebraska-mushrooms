@@ -2,7 +2,8 @@
 templateKey: species
 name: Half-Free Morel
 scientific_name: Morchella punctipes (M. semilibera)
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - Kay, S., Sikes, B., & Morse, C. (2022). A New Guide to Kansas Mushrooms.
     University Press of Kansas.

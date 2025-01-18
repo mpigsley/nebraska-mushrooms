@@ -2,7 +2,8 @@
 templateKey: species
 name: Oak-Loving Gymnopus
 scientific_name: Gymnopus dryophilus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2013, January). Gymnopus dryophilus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gymnopus_dryophilus.html'
   - 'Gymnopus dryophilus (Bull.) Murrill, North American Flora 9 (5): 362 (1916) [MB#438406]'

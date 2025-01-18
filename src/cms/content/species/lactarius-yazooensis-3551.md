@@ -2,7 +2,8 @@
 templateKey: species
 name: Yazoo Lactarius
 scientific_name: Lactarius yazooensis-IN01
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - '"North American species of Lactarius / L. R. Hesler, Alexander H. Smith." In the digital collection University of Michigan Herbarium Fungus Monographs. https://name.umdl.umich.edu/aac3719.0001.001. University of Michigan Library Digital Collections. Accessed September 4, 2024. p. 276 https://quod.lib.umich.edu/f/fung1tc/aac3719.0001.001/276'
 tags:

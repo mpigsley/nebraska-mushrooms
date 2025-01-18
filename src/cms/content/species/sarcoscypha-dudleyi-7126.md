@@ -2,7 +2,8 @@
 templateKey: species
 name: Dudley's Elf Cup
 scientific_name: Sarcoscypha dudleyi
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2012, April). Sarcoscypha dudleyi. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/sarcoscypha_dudleyi.html'
   - 'Kuo, M. (2012, April). The genus Sarcoscypha. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/sarcoscypha.html'

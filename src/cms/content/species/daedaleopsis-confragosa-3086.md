@@ -2,7 +2,8 @@
 templateKey: species
 name: Thin-Walled Maze Polypore
 scientific_name: Daedaleopsis confragosa
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2005, March). Daedaleopsis confragosa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/daedaleopsis_confragosa.html'
 tags:

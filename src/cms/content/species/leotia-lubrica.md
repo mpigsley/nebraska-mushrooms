@@ -2,7 +2,8 @@
 templateKey: species
 name: Jelly Babies
 scientific_name: Leotia lubrica
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - substrate-soil

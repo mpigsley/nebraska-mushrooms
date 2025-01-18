@@ -2,7 +2,8 @@
 templateKey: species
 name: Scaly Ink Cap
 scientific_name: Coprinopsis variegata
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2024, June). Coprinopsis variegata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/coprinopsis_variegata.html'
 tags:

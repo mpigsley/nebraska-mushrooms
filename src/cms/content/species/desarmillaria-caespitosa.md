@@ -2,7 +2,8 @@
 templateKey: species
 name: Ringless Honey Mushroom
 scientific_name: Desarmillaria caespitosa
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, May). Armillaria tabescens. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_tabescens.html'
 tags:

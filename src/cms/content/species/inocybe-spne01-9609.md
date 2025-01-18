@@ -2,7 +2,8 @@
 templateKey: species
 name:
 scientific_name: Inocybe sp-NE01
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - substrate-soil

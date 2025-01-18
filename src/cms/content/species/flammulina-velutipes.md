@@ -2,7 +2,8 @@
 templateKey: species
 name: Velvet Foot
 scientific_name: Flammulina velutipes
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - spring
   - fall

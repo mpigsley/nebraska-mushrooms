@@ -2,7 +2,8 @@
 templateKey: species
 name: Black-staining Polypore
 scientific_name: Meripilus sumstinei
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - polypore

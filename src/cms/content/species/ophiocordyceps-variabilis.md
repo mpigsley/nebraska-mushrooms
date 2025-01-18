@@ -2,7 +2,8 @@
 templateKey: species
 name: Cheeto Cordyceps
 scientific_name: Ophiocordyceps variabilis
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - entomopathogenic

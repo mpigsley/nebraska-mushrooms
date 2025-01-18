@@ -2,7 +2,8 @@
 templateKey: species
 name: Yellow Honey Mushroom
 scientific_name: Armillaria mellea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2017, May). Armillaria mellea. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/armillaria_mellea.html'
 tags:

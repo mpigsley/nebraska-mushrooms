@@ -2,7 +2,8 @@
 templateKey: species
 name: Club-like Tuning Fork
 scientific_name: Calocera cornea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - fall

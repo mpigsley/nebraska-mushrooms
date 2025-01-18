@@ -2,7 +2,8 @@
 templateKey: species
 name: Coral Tooth Fungus
 scientific_name: Hericium coralloides
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2020, October). Hericium coralloides. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hericium_coralloides.html'
 tags:

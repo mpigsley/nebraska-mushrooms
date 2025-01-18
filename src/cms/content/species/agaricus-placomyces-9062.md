@@ -2,7 +2,8 @@
 templateKey: species
 name: Flat-Top Agaricus
 scientific_name: Agaricus placomyces
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Peck, C.H. 1878. Report of the Botanist (1875). Annual Report on the 
  New York State Museum of Natural History. 29:29-82'

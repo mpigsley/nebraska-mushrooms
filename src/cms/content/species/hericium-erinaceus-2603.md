@@ -2,7 +2,8 @@
 templateKey: species
 name: Lion's Mane Mushroom
 scientific_name: Hericium erinaceus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2022, July). Hericium erinaceus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hericium_erinaceus.html'
 tags:

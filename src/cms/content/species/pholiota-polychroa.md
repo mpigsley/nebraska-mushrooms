@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Pholiota polychroa
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - agaric

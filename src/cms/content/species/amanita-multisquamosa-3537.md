@@ -2,7 +2,8 @@
 templateKey: species
 name: White Panther
 scientific_name: Amanita multisquamosa-01
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2013, April). Amanita multisquamosa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/amanita_multisquamosa.html'
 tags:

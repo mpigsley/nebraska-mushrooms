@@ -2,7 +2,8 @@
 templateKey: species
 name: Eastern American Jack-o'-lantern
 scientific_name: Omphalotus illudens
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - poisonous

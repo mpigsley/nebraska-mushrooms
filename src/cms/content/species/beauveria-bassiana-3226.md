@@ -2,7 +2,8 @@
 templateKey: species
 name: Icing Sugar Fungus
 scientific_name: Beauveria bassiana
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - entomopathogenic

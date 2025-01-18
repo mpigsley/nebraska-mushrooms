@@ -2,7 +2,8 @@
 templateKey: species
 name: Crown-tipped Coral Fungus
 scientific_name: Artomyces pyxidatus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - spring
     - coral

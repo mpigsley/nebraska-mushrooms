@@ -2,7 +2,8 @@
 templateKey: species
 name: Pink Fringed Faery Cup
 scientific_name: Microstoma floccosum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - spring
     - disc

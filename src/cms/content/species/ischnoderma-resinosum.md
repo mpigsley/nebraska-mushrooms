@@ -2,7 +2,8 @@
 templateKey: species
 name: Resinous Polypore
 scientific_name: Ischnoderma resinosum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2019, December). Ischnoderma benzoinum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/ischnoderma_benzoinum.html'
   - 'Kuo, M. (2019, December). Ischnoderma resinosum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/ischnoderma_resinosum.html'

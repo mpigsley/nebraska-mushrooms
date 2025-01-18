@@ -2,7 +2,8 @@
 templateKey: species
 name: Blewit
 scientific_name: Collybia nuda
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - agaric

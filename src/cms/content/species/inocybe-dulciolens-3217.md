@@ -2,7 +2,8 @@
 templateKey: species
 name: Sweet-Smelling Inocybe
 scientific_name: Inocybe dulciolens
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Matheny, P. B., & Kudzma, L. V. (2019). New species of Inocybe (Inocybaceae) from eastern North America1. The Journal of the Torrey Botanical Society, 146(3), 213-235. http://www.inocybaceae.org/PDF/Matheny_Kudzma_NewInocybe_EasternNA.2019.pdf'
 tags:

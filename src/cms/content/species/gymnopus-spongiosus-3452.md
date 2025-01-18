@@ -2,7 +2,8 @@
 templateKey: species
 name: Hairy-Stalked Gymnopus
 scientific_name: Gymnopus spongiosus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - fall

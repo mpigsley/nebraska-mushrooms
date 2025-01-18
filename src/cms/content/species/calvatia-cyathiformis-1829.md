@@ -2,7 +2,8 @@
 templateKey: species
 name: Purple-spored Puffball
 scientific_name: Calvatia cyathiformis
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Morales, M.I.; Kimbrough, J.W. 1978. Lycoperdaceae of North Central Florida. I. The genera Calvatia and Disciseda. Revista de Biologia Tropical. 26:227-236'
   - 'Kuo, M. (2016, September). Calvatia cyathiformis. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/calvatia_cyathiformis.html'

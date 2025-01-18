@@ -2,7 +2,8 @@
 templateKey: species
 name: Long Wedge Ringless Amanita
 scientific_name: Amanita longicuneus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Tulloss RE, Rodríguez Caycedo C. 2024. Amanita longicuneus. in Tulloss RE, Yang ZL, eds. Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+longicuneus ]. accessed September 5, 2024.'
   - 'Rhode Island Amanita Series. (2021, August 9). Rhode Island Amanita Series: Amanita longicuneus. Retrieved September 5, 2024, from YouTube website: https://www.youtube.com/watch?v=SkI9j2ByRvw'

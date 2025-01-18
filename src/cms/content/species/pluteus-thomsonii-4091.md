@@ -2,7 +2,8 @@
 templateKey: species
 name: Veined Shield
 scientific_name: Pluteus thomsonii-IN03
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Pluteus thomsonii (Berk. & Broome) Dennis, Transactions of the British Mycological Society 31 (3-4): 206 (1948) [MB#344243] https://doi.org/10.1016/S0007-1536(48)80002-1'
   - 'Kuo, M. (2015, June). Pluteus thomsonii. Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_thomsonii.html'

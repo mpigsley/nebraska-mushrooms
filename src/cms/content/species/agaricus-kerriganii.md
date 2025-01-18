@@ -2,7 +2,8 @@
 templateKey: species
 name: Kerrigan's Agaricus
 scientific_name: Agaricus kerriganii
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references: 
  - 'Muñoz, Guillermo & Palazón, Antonio. (2019). Ten rare or little-known
  species collected in the Iberian Peninsula.

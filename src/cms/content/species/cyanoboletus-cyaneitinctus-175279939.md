@@ -2,7 +2,8 @@
 templateKey: species
 name: Dirty Bolete
 scientific_name: Cyanoboletus cyaneitinctus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Pavelle, S. (2015, July 23). Cyanoboletus cyaneitinctus. The Bolete Filter. https://boletes.wpamushroomclub.org/product/boletus-pulverulentus/'
   - 'Farid, A; Bessette, AE; Bessette, AR; Bolin, JA; Kudzma, LV; Franck, AR; Garey, JR. 2021. Investigations in the boletes (Boletaceae) of southeastern USA: four novel species and three novel combinations. Mycosphere. 12(1):1038-1076. https://www.mycobank.org/details/19/10098005'

@@ -2,7 +2,8 @@
 templateKey: species
 name: Beard Stem Gymnopus
 scientific_name: Gymnopus barbipes
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Gymnopus barbipes R.H. Petersen & K.W. Hughes, North American Fungi 9: 2 (2014) [MB#808041]'
 tags:

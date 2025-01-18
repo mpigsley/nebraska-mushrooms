@@ -2,7 +2,8 @@
 templateKey: species
 name: Stout Pink-Staining Lactarius
 scientific_name: Lactarius subvernalis var. cokeri
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius subvernalis var. cokeri. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_subvernalis_cokeri.html'
   - '"North American species of Lactarius / L. R. Hesler, Alexander H. Smith." In the digital collection University of Michigan Herbarium Fungus Monographs. https://name.umdl.umich.edu/aac3719.0001.001. University of Michigan Library Digital Collections. Accessed September 4, 2024. https://quod.lib.umich.edu/f/fung1tc/aac3719.0001.001/156'

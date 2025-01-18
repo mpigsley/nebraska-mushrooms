@@ -2,7 +2,8 @@
 templateKey: species
 name:
 scientific_name: Lactarius subserifluus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2011, March). Lactarius subserifluus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lactarius_subserifluus.html'
 tags:

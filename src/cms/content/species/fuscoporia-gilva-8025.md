@@ -2,7 +2,8 @@
 templateKey: species
 name: Mustard Yellow Polypore
 scientific_name: Fuscoporia gilva
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - fall

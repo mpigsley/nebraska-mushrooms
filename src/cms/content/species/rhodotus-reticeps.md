@@ -2,7 +2,8 @@
 templateKey: species
 name: Wrinkled Peach
 scientific_name: Rhodotus reticeps
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - agaric

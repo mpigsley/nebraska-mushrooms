@@ -2,7 +2,8 @@
 templateKey: species
 name: Zoned Gymnopus
 scientific_name: Gymnopus earleae-OH01
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Gymnopus earleae Murrill, North American Flora 9 (5): 364 (1916) [MB#228079]'
   - 'Kuo, M. (2013, January). Gymnopus earleae. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gymnopus_earleae.html'

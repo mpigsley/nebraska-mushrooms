@@ -2,7 +2,8 @@
 templateKey: species
 name: Witch's Butter
 scientific_name: Tremella mesenterica
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - spring
     - jelly

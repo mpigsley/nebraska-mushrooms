@@ -2,7 +2,8 @@
 templateKey: species
 name: Garlic-Odored Death Cap
 scientific_name: Amanita suballiacea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Amanita suballiacea (Murrill) Murrill, Mycologia 33: 448 (1941) [MB#284076]'
   - 'Tulloss RE. 2024. Amanita suballiacea. in Tulloss RE, Yang ZL, eds. Amanitaceae studies. [ http://www.amanitaceae.org?Amanita+suballiacea ]. accessed August 15, 2024.'

@@ -2,7 +2,8 @@
 templateKey: species
 name: Sunset Waxycap
 scientific_name: Hygrocybe acutoconica var. microspora
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2014, June). Hygrocybe acutoconica. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hygrocybe_acutoconica.html'
   - 'Kuo, M. (2014, November). Waxy caps: The Hygrophoraceae family, in part. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hygrophoraceae.html'

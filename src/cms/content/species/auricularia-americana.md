@@ -2,7 +2,8 @@
 templateKey: species
 name: American Tree Ear
 scientific_name: Auricularia americana
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2018, May). Auricularia "americana." Retrieved from the  MushroomExpert.Com Web site: http://www.mushroomexpert.com/auricularia_americana.html'
 tags:

@@ -2,7 +2,8 @@
 templateKey: species
 name: Slender Hedgehog
 scientific_name: Hydnum subtilior
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Swenie, R. A., Baroni, T. J., & Matheny, P. B. (2018). Six new species and reports of Hydnum (Cantharellales) from eastern North America. MycoKeys, (42), 35. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6286385/pdf/mycokeys-42-035.pdf'
   - 'Kuo, M. (2020, September). Hydnum subtilior. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hydnum_subtilior.html'

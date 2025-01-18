@@ -2,7 +2,8 @@
 templateKey: species
 name: Mossy Maze Polypore
 scientific_name: Cerrena unicolor
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - polypore

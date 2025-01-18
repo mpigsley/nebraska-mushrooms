@@ -2,7 +2,8 @@
 templateKey: species
 name: Yellow American Blusher
 scientific_name: Amanita flavorubens
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - agaric

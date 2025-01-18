@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Ganoderma sessile
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - polypore

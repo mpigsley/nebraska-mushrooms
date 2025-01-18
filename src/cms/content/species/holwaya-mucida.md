@@ -2,7 +2,8 @@
 templateKey: species
 name: Tapioca Club
 scientific_name: Holwaya mucida
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - club

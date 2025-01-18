@@ -2,7 +2,8 @@
 templateKey: species
 name: White Coral Jelly Fungus
 scientific_name: Sebacina sparassoidea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - jelly

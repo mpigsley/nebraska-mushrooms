@@ -2,7 +2,8 @@
 templateKey: species
 name: Scaber Stem Agrocybe
 scientific_name: Agrocybe firma
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2020, September). Agrocybe firma. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/agrocybe_firma.html'
   - 'Agrocybe firma (Peck) Singer, Revue de Mycologie (Paris) 5: 11 (1940) [MB#292336]'

@@ -2,7 +2,8 @@
 templateKey: species
 name: American Blusher
 scientific_name: Amanita amerirubescens
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - fall

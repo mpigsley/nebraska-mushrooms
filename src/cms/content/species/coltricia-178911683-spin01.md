@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Coltricia sp-IN01
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Gray,  Samuel Frederick, Gray,  John Edward, & Shury,  James. (1821). A natural arrangement of British plants : according to their relations to each other as pointed out by Jussieu, De Candolle, Brown, &c (Vol. 1, p. 644). Baldwin, Cradock, and Joy. https://www.biodiversitylibrary.org/page/30087346'
   - 'Snell, W. H., & Dick, E. A. (1971). A Glossary of Mycology. Harvard University Press.'

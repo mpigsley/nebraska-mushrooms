@@ -2,7 +2,8 @@
 templateKey: species
 name: Dung-Loving Bolbitius
 scientific_name: Bolbitius coprophilus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Bolbitius coprophilus (Peck) Hongo, Memoirs of the Faculty of Education, Shiga University, Natural Science: 82 (1959) [MB#327016]'
   - 'Kuo, M. (2023, October). Bolbitius coprophilus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/bolbitius_coprophilus.html'

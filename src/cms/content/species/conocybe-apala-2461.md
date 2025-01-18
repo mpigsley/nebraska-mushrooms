@@ -2,7 +2,8 @@
 templateKey: species
 name: Milky Conecap
 scientific_name: Conocybe apala
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Conocybe apala (Fr.) Arnolds, Persoonia 18 (2): 225 (2003) [MB#223710]'
   - 'Kuo, M. (2022, November). Conocybe apala. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/conocybe_apala.html'

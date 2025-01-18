@@ -2,7 +2,8 @@
 templateKey: species
 name:
 scientific_name: Inocybe velicopia
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Matheny, P. B., Corrales, A., Graddy, M. G., Halling, R. E., Kalichman, J., Kudzma, L. V., ... & Walker, N. C. (2022). A revision of the Inocybe grammata group in North America including four new taxa. Brittonia, 74(4), 436-464. https://par.nsf.gov/servlets/purl/10418330'
 tags:

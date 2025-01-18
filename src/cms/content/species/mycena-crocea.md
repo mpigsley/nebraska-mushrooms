@@ -2,7 +2,8 @@
 templateKey: species
 name: Walnut Mycena
 scientific_name: Mycena crocea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2010, December). Mycena luteopallens. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/mycena_luteopallens.html'
 tags:

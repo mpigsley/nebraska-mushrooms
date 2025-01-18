@@ -2,7 +2,8 @@
 templateKey: species
 name: Dune Stinkhorn
 scientific_name: Phallus hadriani
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - stinkhorn

@@ -2,7 +2,8 @@
 templateKey: species
 name: Wine Velvet Shield
 scientific_name: Pluteus seticeps
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Pluteus seticeps (G.F. Atk.) Singer, Lloydia 21: 272 (1959) [MB#304047]'
   - 'Ševčíková H, Malysheva EF, Antonín V, Borovička J, Dovana F, Ferisin G, Eyssartier G, Grootmyers D, Heilmann-Clausen J, Kalichman J, et al. Holarctic Species in the Pluteus podospileus Clade: Description of Six New Species and Reassessment of Old Names. Journal of Fungi. 2023; 9(9):898. https://doi.org/10.3390/jof9090898'

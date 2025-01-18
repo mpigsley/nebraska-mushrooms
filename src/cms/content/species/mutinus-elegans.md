@@ -2,7 +2,8 @@
 templateKey: species
 name: Devil's Dipstick
 scientific_name: Mutinus elegans
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - stinkhorn

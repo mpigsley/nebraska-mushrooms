@@ -2,7 +2,8 @@
 templateKey: species
 name: Bitter Waxcap
 scientific_name: Hygrocybe mucronella
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2014, November). Waxy caps: The Hygrophoraceae family, in part. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hygrophoraceae.html'
   - 'Fuljer, F., Zajac, M., Boertmann, D., Strašiftáková, D., Larsson, E., & Kautmanová, I. (2023). Contribution to European representatives of the genus Hygrocybe: Two new species and neotypification of Hygrocybe mucronella. Fungal Systematics and Evolution. - https://www.ingentaconnect.com/contentone/wfbi/fuse/pre-prints/content-f1_fuse_vol14_art18?crawler=true&mimetype=application/pdf'

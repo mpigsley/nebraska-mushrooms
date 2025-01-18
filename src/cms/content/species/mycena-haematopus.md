@@ -2,7 +2,8 @@
 templateKey: species
 name: Bleeding Fairy Helmet
 scientific_name: Mycena haematopus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - agaric

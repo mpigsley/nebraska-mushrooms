@@ -2,7 +2,8 @@
 templateKey: species
 name: Viscid Bolbitius
 scientific_name: Bolbitius viscosus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2023, November). The genus Bolbitius. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/bolbitius.html'
   - 'Bolbitius viscosus Watling, Notes from the Royal Botanical Garden Edinburgh 34 (2): 242 (1975) [MB#309616]'

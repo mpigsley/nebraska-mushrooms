@@ -2,7 +2,8 @@
 templateKey: species
 name: Wrinkled Fieldcap
 scientific_name: Agrocybe rivulosa
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Agrocybe rivulosa Nauta, Persoonia 18 (2): 272 (2003) [MB#488330]'
   - 'Kuo, M. (2021, December). Agrocybe and Cyclocybe. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/agrocybe.html'

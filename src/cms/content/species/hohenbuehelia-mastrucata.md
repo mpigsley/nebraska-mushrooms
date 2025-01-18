@@ -2,7 +2,8 @@
 templateKey: species
 name: Woolly Oyster
 scientific_name: Hohenbuehelia mastrucata
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2007, April). Hohenbuehelia mastrucata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/hohenbuehelia_mastrucata.html'
 tags:

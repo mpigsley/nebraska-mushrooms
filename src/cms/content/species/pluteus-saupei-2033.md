@@ -2,7 +2,8 @@
 templateKey: species
 name: Saupe's Pluetus
 scientific_name: Pluteus saupei
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Pluteus saupei Justo & Minnis, Mycological Progress 10 (4): 475 (2011) [MB#518598] - https://iris.unito.it/bitstream/2318/78430/1/Species%20recognition_4aperto.pdf'
   - 'Kuo, M. (2016, June). Pluteus americanus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_americanus.html'

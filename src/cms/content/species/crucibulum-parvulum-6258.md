@@ -2,7 +2,8 @@
 templateKey: species
 name: Discrete Birds Nest
 scientific_name: Crucibulum parvulum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Crucibulum parvulum H.J. Brodie, Canadian Journal of Botany 48 (5): 848 (1970) [MB#312321]'
   - 'Kuo, M. (2014, February). Crucibulum laeve. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/crucibulum_laeve.html'

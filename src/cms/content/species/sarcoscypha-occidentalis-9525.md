@@ -2,7 +2,8 @@
 templateKey: species
 name: Stalked Elf Cup
 scientific_name: Sarcoscypha occidentalis-IN03
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - spring
   - summer

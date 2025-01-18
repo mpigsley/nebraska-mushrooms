@@ -2,7 +2,8 @@
 templateKey: species
 name: Fasciating Stereum
 scientific_name: Stereum fasciatum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'DeLong-Duhon, S. (2022). Rediscovering a Common Mushroom with Molecular Techniques: Elucidating Stereum Taxonomy and Evolutionary History. The University of Iowa. https://iro.uiowa.edu/esploro/outputs/graduate/Rediscovering-a-common-mushroom-with-molecular/9984271054202771'
   - 'Stereum fasciatum (Schwein.) Fr., Epicrisis Systematis Mycologici: 546 (1838) [MB#180650]'

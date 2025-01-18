@@ -2,7 +2,8 @@
 templateKey: species
 name: Luminescent Panellus
 scientific_name: Panellus stipticus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - fall
     - agaric

@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Boletus vermiculosoides
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Boletus vermiculosoides A.H. Sm. & Thiers, The Boletes of Michigan: 337 (1971) [MB#309822]'
   - 'Kuo, M. (2013, December). Boletus vermiculosoides. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/boletus_vermiculosoides.html'

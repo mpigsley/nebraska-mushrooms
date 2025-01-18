@@ -2,7 +2,8 @@
 templateKey: species
 name: Beaver Lentinellus
 scientific_name: Lentinellus castoreus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Lee, H., Park, M. S., Park, J. H., Cho, H. J., Park, K. H., Yoo, S., ... & Lim, Y. W. (2020). Seventeen Unrecorded Species from Gayasan National Park in Korea. Mycobiology, 48(3), 184-194. https://www.tandfonline.com/doi/pdf/10.1080/12298093.2020.1765719'
 tags:

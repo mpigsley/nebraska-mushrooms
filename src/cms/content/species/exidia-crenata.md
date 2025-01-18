@@ -2,7 +2,8 @@
 templateKey: species
 name: American Amber Jelly Fungus
 scientific_name: Exidia crenata
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - fall
   - jelly

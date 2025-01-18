@@ -2,7 +2,8 @@
 templateKey: species
 name: Purple-and-white Deceiver
 scientific_name: Laccaria ochropurpurea
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - agaric

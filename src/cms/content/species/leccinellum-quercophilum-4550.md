@@ -2,7 +2,8 @@
 templateKey: species
 name: Blue-Staining Oak Leccinellum
 scientific_name: Leccinellum quercophilum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Leccinellum quercophilum M. Kuo, Mycotaxon 124: 327 (2013) [MB#802407]'
   - 'Kuo, M. (2020, January). Leccinum quercophilum. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/leccinum_quercophilum.html'

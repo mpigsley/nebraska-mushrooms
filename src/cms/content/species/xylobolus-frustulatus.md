@@ -2,7 +2,8 @@
 templateKey: species
 name: Ceramic Parchment
 scientific_name: Xylobolus frustulatus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - spring
     - crust

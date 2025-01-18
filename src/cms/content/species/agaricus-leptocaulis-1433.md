@@ -2,7 +2,8 @@
 templateKey: species
 name: Slinder-Stemmed Agaricus
 scientific_name: Agaricus leptocaulis
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kerrigan, RW. 2016. Agaricus of North America. Memoirs of the New York
  Botanical Garden. 114:1-570'

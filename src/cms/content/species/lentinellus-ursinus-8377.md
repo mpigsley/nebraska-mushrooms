@@ -2,7 +2,8 @@
 templateKey: species
 name: Bear Lentinus
 scientific_name: Lentinellus ursinus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - fall
   - agaric

@@ -2,7 +2,8 @@
 templateKey: species
 name: Collared Earthstar
 scientific_name: Geastrum triplex
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2008, November). Geastrum triplex. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/geastrum_triplex.html'
 tags:

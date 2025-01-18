@@ -2,7 +2,8 @@
 templateKey: species
 name: Scaly Shield
 scientific_name: Pluteus petasatus
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Kuo, M. (2018, March). Pluteus petasatus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/pluteus_petasatus.html'
   - 'Pluteus petasatus (Fr.) Gillet, Les Hyménomycètes ou Description de tous les Champignons qui Croissent en France: 395 (1876) [MB#144854]'

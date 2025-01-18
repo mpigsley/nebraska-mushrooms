@@ -2,7 +2,8 @@
 templateKey: species
 name: Hypercheeto
 scientific_name: Polycephalomycetaceae
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
   - summer
   - substrate-fungi

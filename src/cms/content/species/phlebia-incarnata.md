@@ -2,7 +2,8 @@
 templateKey: species
 name: Coral-pink Merulius
 scientific_name: Phlebia incarnata
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 tags:
     - summer
     - crust

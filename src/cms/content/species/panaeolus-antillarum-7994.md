@@ -2,7 +2,8 @@
 templateKey: species
 name: Antilles Panaeolus
 scientific_name: Panaeolus antillarum
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Hallock, R. M. (2019). A Mushroom Word Guide. Independently Published.'
   - 'Kuo, M. (2007, December). The genus Panaeolus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/panaeolus.html'

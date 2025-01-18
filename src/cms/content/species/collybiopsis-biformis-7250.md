@@ -2,7 +2,8 @@
 templateKey: species
 name: 
 scientific_name: Collybiopsis biformis
-location: Indian Cave State Park
+location: 
+  - Indian Cave State Park
 references:
   - 'Collybiopsis biformis (Peck) R.H. Petersen, Mycotaxon 136 (2): 341 (2021) [MB#556182]'
   - 'Kuo, M. (2013, February). Collybioid mushrooms. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/collybioid.html'
