@@ -15,7 +15,13 @@ export default function SpeciesProfileTemplate({
   const scientificName = data.species?.frontmatter?.scientific_name;
   const numPhotos = data.species?.frontmatter?.photos?.length ?? 0;
 
-  const firstLocation = data.locations.edges[0]?.node;
+  let locationSlug = '/location/all/';
+  let locationName = 'All Mushrooms';
+  if (data.locations.edges.length === 1) {
+    locationSlug = data.locations.edges[0]?.node.fields?.slug ?? locationSlug;
+    locationName =
+      data.locations.edges[0]?.node.frontmatter?.title ?? locationName;
+  }
 
   return (
     <>
@@ -50,7 +56,7 @@ export default function SpeciesProfileTemplate({
       </div>
       <main className="container page">
         <section className="row">
-          <Link to={'/'}>&lt; Back to Home</Link>
+          <Link to={locationSlug}>&lt; Back to {locationName}</Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
@@ -100,7 +106,7 @@ export default function SpeciesProfileTemplate({
                 </ul>
               </>
             )}
-            {!!data.species?.frontmatter?.tags?.length && !!firstLocation && (
+            {!!data.species?.frontmatter?.tags?.length && (
               <>
                 <b>Tags</b>
                 <ul>
@@ -108,7 +114,7 @@ export default function SpeciesProfileTemplate({
                     .sort((a, b) => (a && b ? a.localeCompare(b) : 0))
                     .map((item) => (
                       <li key={item}>
-                        <Link to={`${firstLocation.fields?.slug}?t=${item}`}>
+                        <Link to={`${locationSlug}?t=${item}`}>
                           <span className={`${getTagClass(item as Tag)} tag`}>
                             {item}
                           </span>
