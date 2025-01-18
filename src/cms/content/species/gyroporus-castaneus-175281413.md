@@ -8,6 +8,7 @@ tags:
   - bolete
   - fall
   - edible-with-caution
+  - substrate-wood
 references:
   - 'Kuo, M. (2013, December). Gyroporus castaneus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gyroporus_castaneus.html'
   - 'Zeller, D. (2025, January). Nature Colors. Retrieved from beta site: https://naturecolors.netlify.app/'

@@ -12,6 +12,7 @@ tags:
   - summer
   - fall
   - bolete
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi

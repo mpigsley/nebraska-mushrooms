@@ -11,6 +11,7 @@ references:
 tags:
   - summer
   - agaric
+  - substrate-wood
 taxonomy:
   - Life
   - Fungi
