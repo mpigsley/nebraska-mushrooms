@@ -2,30 +2,13 @@ import { IGatsbyImageData, getImage } from 'gatsby-plugin-image';
 import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
-import LocationPage from '../components/LocationPage';
-import { type Species } from '../utils/species.util';
-import { type Tag } from '../utils/tag.util';
+import LocationPage from '../../components/LocationPage';
+import { type Species } from '../../utils/species.util';
+import { type Tag } from '../../utils/tag.util';
 
-export default function LocationTemplate({
+export default function AllLocations({
   data,
-}: Readonly<PageProps<Queries.LocationTemplateQuery>>): JSX.Element | null {
-  const firstLocation = data.locations.edges[0].node;
-  const locationTitle = firstLocation?.frontmatter?.title;
-  if (!locationTitle) {
-    return null;
-  }
-
-  let geolocation: string | undefined;
-  if (firstLocation?.frontmatter?.geolocation) {
-    const { coordinates } = JSON.parse(
-      firstLocation.frontmatter.geolocation,
-    ) as {
-      type: 'Point';
-      coordinates: [number, number];
-    };
-    geolocation = `${coordinates[1]},${coordinates[0]}`;
-  }
-
+}: Readonly<PageProps<Queries.AllLocationsQuery>>): JSX.Element | null {
   const species: Species[] = data.species.edges.map((edge) => ({
     id: edge.node.id,
     slug: edge.node.fields?.slug ?? undefined,
@@ -51,40 +34,17 @@ export default function LocationTemplate({
       ) ?? [],
   }));
 
-  return (
-    <LocationPage
-      title={locationTitle}
-      geolocation={geolocation}
-      species={species}
-    />
-  );
+  return <LocationPage title="All Mushrooms of Nebraska" species={species} />;
 }
 
-export const Head: HeadFC<Queries.LocationTemplateQuery> = ({ data }) => (
-  <title>
-    {data.locations.edges[0].node?.frontmatter?.title} | Mushrooms of Nebraska
-  </title>
+export const Head: HeadFC<Queries.AllLocationsQuery> = () => (
+  <title>All Mushrooms of Nebraska</title>
 );
 
 export const pageQuery = graphql`
-  query LocationTemplate($locationNames: [String!]) {
-    locations: allMarkdownRemark(
-      filter: { frontmatter: { title: { in: $locationNames } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            geolocation
-            title
-          }
-        }
-      }
-    }
+  query AllLocations {
     species: allMarkdownRemark(
-      filter: { frontmatter: { locations: { in: $locationNames } } }
+      filter: { frontmatter: { templateKey: { eq: "species" } } }
     ) {
       edges {
         node {
