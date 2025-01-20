@@ -6,11 +6,13 @@ locations:
   - Indian Cave State Park
 references:
   - 'Matheny, P. B., & Kudzma, L. V. (2019). New species of Inocybe (Inocybaceae) from eastern North America1. The Journal of the Torrey Botanical Society, 146(3), 213-235. http://www.inocybaceae.org/PDF/Matheny_Kudzma_NewInocybe_EasternNA.2019.pdf'
+  - 'Beug, M. (2024, April 23). Mushroom Poisoning Syndromes - North American Mycological Association. North American Mycological Association. https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/#muscarine'
 tags:
   - summer
   - fall
   - substrate-soil
   - agaric
+  - poisonous
 taxonomy:
   - Life
   - Fungi
