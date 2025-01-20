@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Fool's Funnel
+name: Fool's Funnel / Sweating Descender
 scientific_name: Collibia 'rivulosa PNW07'
 locations:
   - Indian Cave State Park

@@ -34,6 +34,14 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Coltricia
 photos:
+  - /img/coltricia-178749045-3.jpeg
+  - /img/coltricia-178749045-6.jpeg
+  - /img/coltricia-178749045-1.jpeg
+  - /img/coltricia-178749045-2.jpeg
+  - /img/coltricia-178749045-4.jpeg
+  - /img/coltricia-178749045-5.jpeg
+  - /img/coltricia-178749045-7.jpeg
+  - /img/coltricia-178749045-8.jpeg
   - /img/coltricia-178911683-1.jpeg
   - /img/coltricia-178911683-3.jpeg
   - /img/coltricia-178911683-4.jpeg
@@ -41,11 +49,28 @@ photos:
   - /img/coltricia-178911683-6.jpeg
 ---
 
-_Coltricia_ species can be found in forested soil along woodland trails during the summer. The species collected for this study is an undescribed North American species going under the cryptic name _Coltricia sp-IN01_. It has a circular shape in outline (from the top down) and is navel-shaped, sunken in the center, or somewhat funnel shaped. The flesh is quite thin and flexible. The tooth-shaped reproductive surface on the bottom of the cap provide a unique distinguishing feature along with its central stem and terrestrial habit.
+_Coltricia_ species can be found in forested soil along woodland trails during the summer. The species collected for this study is an undescribed North American species going under the cryptic name _Coltricia sp-IN01_. It has a circular shape in outline (from the top down) and is navel-shaped, sunken in the center, or somewhat funnel shaped. The flesh is quite thin and flexible. The pore-shaped to tooth-shaped reproductive surface on the bottom of the cap provide a unique distinguishing feature along with its central stem and terrestrial habit.
 
 Stay tuned for more details once it gets described.
 
-![Form](/img/coltricia-178911683-4.jpeg)
+![Form](/img/coltricia-178749045-5.jpeg)
+
+#### August 15th, 2023 Field Notes - Indian Cave State Park:
+
+Growing gregariously from soil in open mixed oak/hickory woodland.
+
+Nearby Trees: American Hophornbeam, Northern Red Oak, Bitternut Hickory, Bur Oak, Shagbark Hickory, and Black Walnut.
+
+- Caps orange, fibrous, iridescent with concentric light bands, with a slight central depression and a fringed margin.
+- Hymenium consisting of dark brown, irregular-shaped pores and a darker sterile margin.
+- Stipe dark brown, subtomentose and tapering to a slightly bulbus base.
+
+Additional Info
+- Smell: not distinctive
+- Taste: not distinctive
+- KOH instantly black on all surfaces but stipe which turned a darker shade of brown.
+
+![Observation1](/img/coltricia-178749045-9.jpeg)
 
 #### August 16th, 2023 Field Notes - Indian Cave State Park:
 
@@ -56,4 +81,4 @@ Growing gregariously on soil in open (but well shaded) mixed oak/hickory woodlan
 - Stipe: subtomentose.
 - Smell: strong
 
-![Observation](/img/coltricia-178911683-2.jpeg)
+![Observation2](/img/coltricia-178911683-2.jpeg)
