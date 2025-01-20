@@ -23,7 +23,7 @@ export default function SpeciesProfileTemplate({
       data.locations.edges[0]?.node.frontmatter?.title ?? locationName;
   }
 
-  const getScrollLeft = (): number => {
+  const getSlideshowScroll = (): number => {
     const increment = scrollRef.current?.clientWidth || 0;
     const totalSpace = scrollRef.current?.scrollWidth || 0;
     const currentPosition = scrollRef.current?.scrollLeft || 0;
@@ -53,7 +53,7 @@ export default function SpeciesProfileTemplate({
             className="button-more-images"
             onClick={() => {
               scrollRef.current?.scrollTo({
-                left: getScrollLeft(),
+                left: getSlideshowScroll(),
                 behavior: 'smooth',
               });
             }}
