@@ -27,8 +27,8 @@ export default function SpeciesProfileTemplate({
     const increment = scrollRef.current?.clientWidth || 0;
     const totalSpace = scrollRef.current?.scrollWidth || 0;
     const currentPosition = scrollRef.current?.scrollLeft || 0;
-    const updatedPosition = increment + currentPosition;
-    return updatedPosition >= totalSpace ? totalSpace : updatedPosition;
+    const nextPostion = increment + currentPosition;
+    return nextPostion >= totalSpace ? 0 : nextPostion;
   }
 
   return (
