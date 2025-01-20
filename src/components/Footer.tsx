@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="row">
           <div>
             <p>
-            NebraskaMushrooms.org is a product of the collaboration between multiple wildlife and educational organizations with a mission to promote the education, recreation, and conservation of fungi in the state of Nebraska. <Link to="/articles/about-us">About Us</Link>
+            NebraskaMushrooms.org is a product of the collaboration between multiple wildlife and educational organizations with a mission to promote the education, recreation, and conservation of fungi in the state of Nebraska. <Link to="/about">About Us</Link>
             </p>
             © Fungi Project {new Date().getFullYear()}
           </div>
