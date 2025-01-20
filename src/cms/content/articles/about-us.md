@@ -5,13 +5,13 @@ date: 2025-01-15T13:21:28.615Z
 author: Derek Zeller
 ---
 
-This website is a result of the collaboration between multiple wildlife and educational organizations to promote the education, recreation, and conservation fungi in the state of Nebraska. It is the product of fungal surveys by talented field mycologists, literature research originally authored by mycological greats, software development by code wizards, DNA sequencing by devoted scientists through Mycota Lab and Bellevue University, and conservation efforts by altruistic legends in the Game and Parks Commission.
+NebraskaMushrooms.org is a product of the collaboration between multiple wildlife and educational organizations with a mission to promote the education, recreation, and conservation of fungi in the state of Nebraska. It is the result of fungal surveys by talented field mycologists, literature research originally authored by mycological greats, software development by code wizards, DNA sequencing by devoted scientists through Mycota Lab and Bellevue University Lab, and conservation efforts by altruistic legends in the Game and Parks Commission.
 
-Funding for this project has been provided through the Nebraska Game and Parks Commission and the Nebraska Wildlife Conservation Fund. For whom, we are honored to have been selected by and to partner with.
+Funding for this project has been provided through the Nebraska Game and Parks Commission and the Nebraska Wildlife Conservation Fund. For whom, we are honored to partner with.
 
-As this project active research, this website will always be a work in progress. Our goal is to provide a Nebraska-specific field guide free of charge as an educational tool for mycologists of all ages and skill levels for decades and centuries to come. 
+As this project active research, this website will always be a work in progress. Our goal is to provide a Nebraska-specific field guide free of charge as an educational tool for mycologists of all ages and skill levels for decades (and further) to come.
 
-We would like to share our thanks to everyone who has been a part of this project have contributed to its continued success, through which we all benefit. We value the power of collaboration over competition while we navigate the overwhelming truth that we have barely scratched the surface in what we know about fungi on our wonderful planet.
+We would like to share our thanks to all who have been a part of this project through the years and have contributed to its continued success, through which we all benefit. We value the power of collaboration over competition in a new age of technology as radical scientists devoted to the path of truth-finding. Together we must navigate the overwhelming reality that we have barely scratched the surface in what we know about fungi on our wonderful planet.
 
 ##### Our Partners
 

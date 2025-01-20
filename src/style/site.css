@@ -457,3 +457,16 @@ input[type='text'].tag-select__input {
   align-items: center; 
   padding: 10px;
 }
+
+.about-us-partner-item {
+  display: block;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.about-us-partner-item a {
+  display: block;
+}
