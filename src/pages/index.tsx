@@ -28,7 +28,6 @@ export default function IndexPage({
   return (
     <PageLayout>
       <div>
-        <h4>Quick Links</h4>
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={WildMushroomEdibility} className="centered-image" />
