@@ -16,11 +16,8 @@ export default function SpeciesProfileTemplate({
   const numPhotos = data.species?.frontmatter?.photos?.length ?? 0;
 
   let locationSlug = '/location/all/';
-  let locationName = 'All Mushrooms';
   if (data.locations.edges.length === 1) {
     locationSlug = data.locations.edges[0]?.node.fields?.slug ?? locationSlug;
-    locationName =
-      data.locations.edges[0]?.node.frontmatter?.title ?? locationName;
   }
 
   const getSlideshowScroll = (): number => {
@@ -64,7 +61,9 @@ export default function SpeciesProfileTemplate({
       </div>
       <main className="container page">
         <section className="row">
-          <Link to={locationSlug}>&lt; Back to {locationName}</Link>
+          <Link to={'/'}>
+            &lt; Back to Home
+          </Link>
           <h3 className="noMargin">{commonName || scientificName}</h3>
           {commonName && <h5>{scientificName}</h5>}
           <p>
