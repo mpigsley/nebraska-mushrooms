@@ -64,8 +64,8 @@ export default function SpeciesProfileTemplate({
           <Link to={'/'}>
             &lt; Back to Home
           </Link>
-          <h3 className="noMargin">{commonName || scientificName}</h3>
-          {commonName && <h5>{scientificName}</h5>}
+          <h3 className={`noMargin ${!!!commonName && 'italic-text'}`}>{commonName || scientificName}</h3>
+          {commonName && <h5 className='italic-text'>{scientificName}</h5>}
           <p>
             {data.species?.frontmatter?.taxonomy && (
               <TaxonomyBreadcrumbs

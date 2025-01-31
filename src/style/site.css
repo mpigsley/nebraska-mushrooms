@@ -457,3 +457,7 @@ input[type='text'].tag-select__input {
   align-items: center; 
   padding: 10px;
 }
+
+.italic-text {
+  font-style: italic;
+}
