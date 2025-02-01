@@ -9,7 +9,7 @@ export const useActiveFilters = () => {
 
   React.useEffect(() => {
     const param = Window
-      ? new URL(Window?.location?.href).searchParams.get(PARAM_NAME) ?? ''
+      ? (new URL(Window?.location?.href).searchParams.get(PARAM_NAME) ?? '')
       : '';
     setFilters(param.split(',').filter(Boolean));
   }, []);
@@ -25,7 +25,7 @@ export const useActiveFilters = () => {
     } else {
       url.searchParams.set(PARAM_NAME, filters.join(','));
     }
-    window.history.pushState({}, '', url.toString());
+    window.history.replaceState({}, '', url.toString());
   }, [filters]);
 
   return { filters, setFilters };
