@@ -100,6 +100,10 @@ h5 {
   justify-content: flex-end;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .mt-2 {
   margin-top: var(--s2);
 }
@@ -137,6 +141,10 @@ h5 {
 
 .ml-2 {
   margin-left: var(--s2);
+}
+
+.mr-3 {
+  margin-right: var(--s3);
 }
 
 .grid {
@@ -379,6 +387,11 @@ h5 {
 .defaultGridImg {
   display: block;
   width: 100%;
+}
+
+.logo {
+  display: block;
+  height: 50px;
 }
 
 input[type='text'].tag-select__input {
