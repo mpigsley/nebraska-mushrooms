@@ -1,4 +1,5 @@
 import { Download, Image, Map, Menu } from 'react-feather';
+import { PDFDownloadLink } from '@react-pdf/renderer';
 import * as React from 'react';
 
 import { useActiveFilters } from '../utils/active-filter';
@@ -7,6 +8,7 @@ import SpeciesImageList from './SpeciesImageList';
 import SpeciesTableList from './SpeciesTableList';
 import { Species } from '../utils/species.util';
 import ClearableInput from './ClearableInput';
+import SpeciesListPDF from './SpeciesListPDF';
 import { Tag } from '../utils/tag.util';
 import TagSelect from './TagSelect';
 
@@ -57,7 +59,7 @@ export default function LocationSpeciesList({
   const { filters, setFilters } = useActiveFilters();
   const { search, setSearch } = useActiveSearch();
 
-  const formattedSpecies = React.useMemo(
+  const filteredSortedSpecies = React.useMemo(
     () =>
       species
         .filter((edge) =>
@@ -83,17 +85,22 @@ export default function LocationSpeciesList({
             return a.scientificName.localeCompare(b.scientificName);
           }
           return 0;
-        })
-        .map((species) => ({
-          id: species.id,
-          slug: species.slug ?? '',
-          name: species.name ?? '',
-          tags: species.tags,
-          scientificName: species.scientificName ?? '',
-          photo: species.photos?.[0],
-          bodyMatch: buildBodyMatch(species.bodyHtml, search),
-        })),
+        }),
     [species, filters, search],
+  );
+
+  const formattedSpecies = React.useMemo(
+    () =>
+      filteredSortedSpecies.map((species) => ({
+        id: species.id,
+        slug: species.slug ?? '',
+        name: species.name ?? '',
+        tags: species.tags,
+        scientificName: species.scientificName ?? '',
+        photo: species.photos?.[0],
+        bodyMatch: buildBodyMatch(species.bodyHtml, search),
+      })),
+    [filteredSortedSpecies, search],
   );
 
   const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
@@ -123,12 +130,17 @@ export default function LocationSpeciesList({
               </button>
             </a>
           )}
-          {/* <button
-            className="button button-icon mb-0 action-button"
-            title="Download PDF"
+          <PDFDownloadLink
+            document={<SpeciesListPDF species={filteredSortedSpecies} />}
+            fileName="species-list.pdf"
           >
-            <Download size={20} />
-          </button> */}
+            <button
+              className="button button-icon mb-0 action-button"
+              title="Download PDF"
+            >
+              <Download size={20} />
+            </button>
+          </PDFDownloadLink>
           <div className="toggle-buttons">
             <button
               type="button"
