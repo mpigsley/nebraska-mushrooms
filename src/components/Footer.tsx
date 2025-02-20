@@ -2,54 +2,24 @@ import * as React from 'react';
 
 import NebMyco from '../img/nebmyco.png';
 import NebGP from '../img/nebgp.png';
+import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="six columns">
+          <div>
             <p>
-              Developed in collaboration with the Nebraska Game and Parks
-              Commission, Fungi Project, and Nebraska Mycological Society.
+              <b>Nebraska Mushrooms</b> is a collaboration of wildlife and educational groups promoting fungal education, recreation, and conservation in Nebraska.
+            </p>
+            <p>
+              <ul>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdZGuo3D7oGBCX9NQ_Hc9BjMkqByTOQlolRZs9cjVS-Peld9w/viewform">Contact</Link></li>
+              </ul>
             </p>
             © Fungi Project {new Date().getFullYear()}
-          </div>
-          <div className="six columns">
-            <div>
-              <a
-                className="footer-link content-right"
-                href="https://www.nebmyco.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={NebMyco}
-                  alt="Nebraska Mycological Society"
-                  width="50"
-                  height="50"
-                />
-                <span className="footer-link-text">
-                  Nebraska Mycological Society
-                </span>
-              </a>
-              <a
-                className="footer-link content-right"
-                href="https://www.outdoornebraska.gov/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={NebGP}
-                  alt="Nebraska Game and Parks"
-                  width="50"
-                  height="50"
-                />
-                <span className="footer-link-text">
-                  Nebraska Game and Parks
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       </div>
