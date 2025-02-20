@@ -82,11 +82,11 @@ export default function IndexPage({
                 <h5 className="noMargin">
                   <a href={rando.fields.slug}>
                     {rando?.frontmatter.name ??
-                      rando?.frontmatter.scientific_name}
+                      (<span className='italic-text'>{rando?.frontmatter.scientific_name}</span>)}
                   </a>
                 </h5>
                 {!!rando?.frontmatter.name && (
-                  <h6>{rando?.frontmatter.scientific_name}</h6>
+                  <h6><span className='italic-text'>{rando?.frontmatter.scientific_name}</span></h6>
                 )}
                 <p>{rando?.frontmatter.html}</p>
                 {!!rando?.frontmatter?.tags?.length && (
