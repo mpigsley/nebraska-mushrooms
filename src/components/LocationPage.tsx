@@ -17,20 +17,11 @@ export default function LocationPage({
 }: LocationPageProps) {
   return (
     <PageLayout>
-      <h3>
-        {title}
-        {!!geolocation && (
-          <a
-            className="maps-link"
-            href={`https://www.google.com/maps/place/${geolocation}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Map
-          </a>
-        )}
-      </h3>
-      <LocationSpeciesList species={species} />
+      <LocationSpeciesList
+        species={species}
+        title={title}
+        geolocation={geolocation}
+      />
     </PageLayout>
   );
 }

@@ -52,8 +52,7 @@ export default function TaxonTemplate({
       .map((species) => (
         <li key={species.node.frontmatter!.scientific_name}>
           <Link to={species.node.fields!.slug!}>
-            {species.node.frontmatter!.name} (
-            {species.node.frontmatter!.scientific_name})
+            {species.node.frontmatter!.name} <span className='italic-text'>{!!species.node.frontmatter!.name ? `(${species.node.frontmatter!.scientific_name})` : species.node.frontmatter!.scientific_name}</span>
           </Link>
         </li>
       ));
@@ -66,7 +65,7 @@ export default function TaxonTemplate({
           return (
             <li key={taxon}>
               <Link className="dark-link" to={`/taxa/${taxon.toLowerCase()}`}>
-                {taxon} {taxonRank.length > 0 ? `(${taxonRank})` : ''}
+                <span className='italic-text'>{taxon}</span> {taxonRank.length > 0 ? `(${taxonRank})` : ''}
               </Link>
               {buildTaxonomyTree(taxon, level + 1)}
             </li>
@@ -81,7 +80,7 @@ export default function TaxonTemplate({
     <>
       <main className="container page">
         <Link to="/">&lt; Back to Home</Link>
-        <h3 className="noMargin">{pageContext.taxon} {taxonRank.length > 0 ? `(${taxonRank})` : ''}</h3>
+        <h3 className="noMargin"><span className='italic-text'>{pageContext.taxon}</span> {taxonRank.length > 0 ? `(${taxonRank})` : ''}</h3>
         <h5>
           {data.allMarkdownRemark.edges.length} species found - {iNatLink}
         </h5>

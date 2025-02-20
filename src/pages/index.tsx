@@ -1,4 +1,4 @@
-import { GatsbyImage } from 'gatsby-plugin-image';
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import { graphql, PageProps } from 'gatsby';
 import * as React from 'react';
 
@@ -28,7 +28,6 @@ export default function IndexPage({
   return (
     <PageLayout>
       <div>
-        <h4>Quick Links</h4>
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={WildMushroomEdibility} className="centered-image" />
@@ -134,6 +133,20 @@ export default function IndexPage({
             </a>
           </div>
         ))}
+        <div className="row mb-4">
+          <a className="" href='location/all'>
+            <div className="twelve columns relative location-tile content-centered">
+              <StaticImage
+                src="../img/nebraska.jpg"
+                alt="All Nebraska Mushrooms"
+                className='centered-image'
+              />
+              <h5 className="noMargin mx-2 grid-link">
+                All Nebraska Mushrooms
+              </h5>
+            </div>
+          </a>
+        </div>
       </div>
     </PageLayout>
   );

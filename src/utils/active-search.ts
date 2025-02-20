@@ -8,7 +8,9 @@ export const useActiveSearch = () => {
 
   React.useEffect(() => {
     setSearch(
-      Window ? new URL(Window?.location?.href).searchParams.get('q') ?? '' : '',
+      Window
+        ? (new URL(Window?.location?.href).searchParams.get('q') ?? '')
+        : '',
     );
   }, []);
 
@@ -23,7 +25,7 @@ export const useActiveSearch = () => {
     } else {
       url.searchParams.set('q', search);
     }
-    window.history.pushState({}, '', url.toString());
+    window.history.replaceState({}, '', url.toString());
   }, [search]);
 
   return { search, setSearch };
