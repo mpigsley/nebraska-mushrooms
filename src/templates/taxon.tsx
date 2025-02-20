@@ -52,7 +52,7 @@ export default function TaxonTemplate({
       .map((species) => (
         <li key={species.node.frontmatter!.scientific_name}>
           <Link to={species.node.fields!.slug!}>
-            {species.node.frontmatter!.name} <span className='italic-text'>{!!species.node.frontmatter!.name ? `(${species.node.frontmatter!.scientific_name})` : species.node.frontmatter!.scientific_name}</span>
+            <span className='italic-text'>{species.node.frontmatter!.scientific_name}</span> {!!species.node.frontmatter!.name && (<>({species.node.frontmatter!.name})</>)}
           </Link>
         </li>
       ));
