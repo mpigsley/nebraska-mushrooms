@@ -11,7 +11,13 @@ export default function Footer() {
         <div className="row">
           <div>
             <p>
-            NebraskaMushrooms.org is a product of the collaboration between multiple wildlife and educational organizations with a mission to promote the education, recreation, and conservation of fungi in the state of Nebraska. <Link to="/about">About Us</Link>
+              <b>Nebraska Mushrooms</b> is a collaboration of wildlife and educational groups promoting fungal education, recreation, and conservation in Nebraska.
+            </p>
+            <p>
+              <ul>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdZGuo3D7oGBCX9NQ_Hc9BjMkqByTOQlolRZs9cjVS-Peld9w/viewform">Contact</Link></li>
+              </ul>
             </p>
             © Fungi Project {new Date().getFullYear()}
           </div>
