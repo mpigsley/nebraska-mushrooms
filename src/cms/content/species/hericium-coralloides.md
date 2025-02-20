@@ -47,7 +47,7 @@ The Coral Tooth Fungus functions as a parasite of living trees and a decomposer 
 
 The color of the mushroom is white becoming yellow with age. It forms from a collection branches that possess short spines. The spines are generally no more than 1/3 inch (1 cm) long. It has a white spore print.
 
-[Other _Hericium species_](/location/indian-cave-state-park/?q=Hericium)
+[Other _Hericium species_](/location/all/?q=Hericium)
 
 #### September 30th, 2023 Field Notes - Indian Cave State Park
 

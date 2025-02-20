@@ -55,7 +55,7 @@ The gills are white and shallow. They are attached to the stem or pulling away f
 
 ![Gills](/img/gymnopus-barbipes-9528-4.jpeg)
 
-The entire fruiting body is elastic and tough, which is distinctive of other [Gymnopus](/location/indian-cave-state-park/?q=gymnopus) as well.
+The entire fruiting body is elastic and tough, which is distinctive of other [Gymnopus](/location/all/?q=gymnopus) as well.
 
 ![Gills](/img/gymnopus-barbipes-9528-2.jpeg)
 
