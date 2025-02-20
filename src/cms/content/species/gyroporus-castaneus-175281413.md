@@ -90,20 +90,6 @@ The stem is brittle and becomes cottony hollow with age. It is colored similarly
 
 ![Stem](/img/gyroporus-castaneus-175281413-6.jpeg)
 
-An interesting difference between North American and European species in this group can be found in the original protolog, which simply states:
-
-> "Firm; with a velvety cap and stem, cinnamon-colored; with white tubes and flesh, becoming jonquil-yellow to the touch. (Quélet, 1886)"
-
-That description was written in Europe. Our North American species have been found genetically different, and it'll be interesting to see the descriptions in the future our current cryptic species names. Ours being "Gyroporus castaneus-IN07" as of now. For completeness, below is a list of the colors described by Quélet to describe when the European species bruises to the touch. It seems that our North American species don't bruise in the same way.
-
-<div class="color-box-container">
-<div style="background-color: #FBC97F" class="color-box"><div>jonquil [yellow]</div><div>#FBC97F</div></div>
-<div style="background-color: #E3A857" class="color-box"><div>jonquil [yellow]</div><div>#E3A857</div></div>
-<div style="background-color: #FAD6A5" class="color-box"><div>jonquil [yellow]</div><div>#FAD6A5</div></div>
-<div style="background-color: #F8DE7E" class="color-box"><div>jonquil [yellow]</div><div>#F8DE7E</div></div>
-<div style="background-color: #C9AE5D" class="color-box"><div>jonquil [yellow]</div><div>#C9AE5D</div></div>
-</div>
-
 Generally regarded as edible (Pavelle, 2025).
 
 #### July 26th, 2023 Field Notes - Indian Cave State Park:

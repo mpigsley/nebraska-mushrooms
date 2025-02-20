@@ -1,4 +1,4 @@
-import { Image, Menu } from 'react-feather';
+import { Download, Image, Map, Menu } from 'react-feather';
 import * as React from 'react';
 
 import { useActiveFilters } from '../utils/active-filter';
@@ -44,10 +44,14 @@ const buildBodyMatch = (
 
 export type LocationSpeciesListProps = Readonly<{
   species: Species[];
+  title: string;
+  geolocation?: string;
 }>;
 
 export default function LocationSpeciesList({
   species,
+  title,
+  geolocation,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
   const { filters, setFilters } = useActiveFilters();
@@ -104,8 +108,61 @@ export default function LocationSpeciesList({
 
   return (
     <>
+      <div className="species-title content-spaced mb-3 items-centered">
+        <h3 className="mb-0">{title}</h3>
+        <div className="flex">
+          {!!geolocation && (
+            <a
+              className="action-button"
+              href={`https://www.google.com/maps/place/${geolocation}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button button-icon mb-0" title="View on map">
+                <Map size={20} />
+              </button>
+            </a>
+          )}
+          {/* <button
+            className="button button-icon mb-0 action-button"
+            title="Download PDF"
+          >
+            <Download size={20} />
+          </button> */}
+          <div className="toggle-buttons">
+            <button
+              type="button"
+              title="Table view"
+              className={`button${
+                listType === 'table' ? '-primary' : ''
+              } button-icon toggle-button-left mb-0`}
+              onClick={() => {
+                if (listType !== 'table') {
+                  setListType('table');
+                }
+              }}
+            >
+              <Menu size={20} />
+            </button>
+            <button
+              type="button"
+              title="Image view"
+              className={`button${
+                listType === 'image' ? '-primary' : ''
+              } button-icon toggle-button-right mb-0`}
+              onClick={() => {
+                if (listType !== 'image') {
+                  setListType('image');
+                }
+              }}
+            >
+              <Image size={20} />
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="row">
-        <div className="seven columns">
+        <div className="six columns">
           <ClearableInput
             type="text"
             id="search"
@@ -115,39 +172,13 @@ export default function LocationSpeciesList({
             onChange={(event) => setSearch(event.target.value)}
             onClear={() => setSearch('')}
           />
+        </div>
+        <div className="six columns">
           <TagSelect
             className="u-full-width mb-3"
             tags={filters as Tag[]}
             setTags={(tags) => setFilters(tags)}
           />
-        </div>
-        <div className="five columns content-right">
-          <button
-            type="button"
-            className={`button${
-              listType === 'table' ? '-primary' : ''
-            } button-icon`}
-            onClick={() => {
-              if (listType !== 'table') {
-                setListType('table');
-              }
-            }}
-          >
-            <Menu size={20} />
-          </button>
-          <button
-            type="button"
-            className={`button${
-              listType === 'image' ? '-primary' : ''
-            } button-icon ml-2`}
-            onClick={() => {
-              if (listType !== 'image') {
-                setListType('image');
-              }
-            }}
-          >
-            <Image size={20} />
-          </button>
         </div>
       </div>
       <ActiveList species={formattedSpecies} onChangeTag={onChangeTag} />
