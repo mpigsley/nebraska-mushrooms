@@ -130,7 +130,7 @@ const About: React.FC<PageProps> = () => {
 
                             <p>Mycologists: Chance Brueggemann, Derek Zeller, and Gerry Steinauer as <a href="https://www.inaturalist.org/observations?iconic_taxa=Fungi&subview=map&user_id=thefungiproject">thefungiproject</a></p>
 
-                            <p>Articles: Derek Zeller</p>
+                            <p>Articles: Derek Zeller, Chance Brueggemann</p>
                         </div>
                         <hr />
                         <h2>Our Partners</h2>
