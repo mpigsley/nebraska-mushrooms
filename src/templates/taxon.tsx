@@ -4,6 +4,7 @@ import * as React from 'react';
 import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import Footer from '../components/Footer';
 import { generateTaxaRank } from '../utils/taxon-service';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 interface PageContext {
   taxon: string;
@@ -13,7 +14,7 @@ export default function TaxonTemplate({
   data,
   pageContext,
 }: Readonly<PageProps<Queries.TaxonTemplateQuery, PageContext>>): JSX.Element {
-  const firstItemsTaxonomy = (data.allMarkdownRemark.edges[0].node.frontmatter
+  const firstItemsTaxonomy = (data.taxa.edges[0].node.frontmatter
     ?.taxonomy || []) as string[];
   const indexOfTaxon = firstItemsTaxonomy.indexOf(pageContext.taxon) + 1;
   const preTaxonomy = firstItemsTaxonomy.slice(0, indexOfTaxon);
@@ -26,9 +27,32 @@ export default function TaxonTemplate({
     </a>
   );
 
+  const topSpeciesPhotos = data.taxa.edges
+    // .filter((edge) => {
+    //   const { taxonomy } = edge.node.frontmatter!;
+    //   if (!taxonomy) return false;
+    //   return taxonomy[taxonomy.length - 1] === pageContext.taxon;
+    // })
+    // .slice(0, 6)
+    .map((edge) => {
+      const firstImage = edge.node.frontmatter?.photos?.[0]!;
+      return (
+        <div className="taxon-card">
+          <Link to={edge.node.fields!.slug!}>
+            <GatsbyImage
+              key={firstImage.childImageSharp?.id}
+              image={firstImage.childImageSharp?.gatsbyImageData!}
+              alt={`${edge.node?.frontmatter?.scientific_name}`}
+            />
+            <div style={{color: 'black'}}><span className='italic-text'>{edge.node.frontmatter!.scientific_name}</span> {!!edge.node.frontmatter!.name && (<>({edge.node.frontmatter!.name})</>)}</div>
+          </Link>
+        </div>
+      )
+    })
+
   function buildTaxonomyTree(parentTaxa: string, level: number): JSX.Element {
     const taxaAtLevel = Array.from(
-      data.allMarkdownRemark.edges
+      data.taxa.edges
         .filter((edge) => {
           const { taxonomy } = edge.node.frontmatter!;
           if (!taxonomy) return false;
@@ -43,7 +67,7 @@ export default function TaxonTemplate({
         }, new Set<string>()),
     ).sort();
 
-    const speciesListAtLevel = data.allMarkdownRemark.edges
+    const speciesListAtLevel = data.taxa.edges
       .filter((edge) => {
         const { taxonomy } = edge.node.frontmatter!;
         if (!taxonomy) return false;
@@ -82,11 +106,22 @@ export default function TaxonTemplate({
         <Link to="/">&lt; Back to Home</Link>
         <h3 className="noMargin"><span className='italic-text'>{pageContext.taxon}</span> {taxonRank.length > 0 ? `(${taxonRank})` : ''}</h3>
         <h5>
-          {data.allMarkdownRemark.edges.length} species found - {iNatLink}
+          {data.taxa.edges.length} species found - {iNatLink}
         </h5>
         <TaxonomyBreadcrumbs taxonomy={preTaxonomy} noLastLink />
         <hr />
         {buildTaxonomyTree(pageContext.taxon, indexOfTaxon)}
+        {!!data.taxon?.html && (
+          <div
+            style={{ marginTop: '2em' }}
+            dangerouslySetInnerHTML={{
+              __html: data.taxon?.html ?? '',
+            }}
+          />
+        )}
+        {!!topSpeciesPhotos && (
+          <div style={{ marginTop: '2em', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>{topSpeciesPhotos}</div>
+        )}
       </main>
       <Footer />
     </>
@@ -99,7 +134,7 @@ export const Head: HeadFC<Queries.TaxonTemplateQuery, PageContext> = ({
 
 export const pageQuery = graphql`
   query TaxonTemplate($taxon: String!) {
-    allMarkdownRemark(filter: { frontmatter: { taxonomy: { eq: $taxon } } }) {
+    taxa: allMarkdownRemark(filter: { frontmatter: { taxonomy: { eq: $taxon } } }) {
       edges {
         node {
           fields {
@@ -109,8 +144,21 @@ export const pageQuery = graphql`
             name
             scientific_name
             taxonomy
+            photos {
+              childImageSharp {
+                id
+                gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
+              }
+            }
           }
         }
+      }
+    }
+    taxon: markdownRemark(frontmatter: { taxon: { eq: $taxon } }) {
+      html
+      frontmatter {
+        taxon
+        rank
       }
     }
   }

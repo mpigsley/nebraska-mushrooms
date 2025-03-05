@@ -235,3 +235,23 @@ collections:
       - label: Body
         name: body
         widget: markdown
+
+
+  - name: 'taxon'
+    label: 'Taxon'
+    folder: 'src/cms/content/taxon'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: article
+
+      - label: Taxon
+        name: taxon
+        widget: string
+
+      - label: Rank
+        name: rank
+        widget: string
