@@ -5,6 +5,8 @@ scientific_name: Perenniporia fraxinophila
 locations: 
   - Niobrara Valley Preserve
   - Indian Cave State Park
+references:
+  - 'Kuo, M. (2010, March). Perenniporia fraxinophila. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/perenniporia_fraxinophila.html'
 tags:
   - spring
   - conk
@@ -40,6 +42,6 @@ photos:
 
 The Ash Conk (_Perenniporia fraxinophila_) is parasitic on Ash trees (_Fraxinus sp._). These conks can be found year-round and appear slightly emerging from the wood. Many times it may go unnoticed as it blends in to the shape of the Ash bark.
 
-The fertile surface is whitish and composed of small pores that are rounded or oblonged in shape; 2-3 pores per mm. The top if the cap is colored dark green to blackish.
+The fertile surface is whitish and composed of small pores that are rounded or oblonged in shape; 3-5 pores per mm. The top if the cap is colored dark green to blackish.
 
 ![Pores](/img/perenniporia-fraxinophila-223890671-3.jpeg)

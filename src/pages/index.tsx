@@ -55,7 +55,7 @@ export default function IndexPage({
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
             <a className="mx-2 grid-link" href="/taxa/life/">
-              <h5 className="noMargin">Mushroom List</h5>
+              <h5 className="noMargin">Species List</h5>
             </a>
           </div>
         </div>
@@ -112,6 +112,20 @@ export default function IndexPage({
       <hr />
       <div>
         <h4>Locations</h4>
+        <div className="row mb-4">
+          <a className="" href='location/all'>
+            <div className="twelve columns relative location-tile content-centered">
+              <StaticImage
+                src="../img/nebraska.jpg"
+                alt="All Nebraska Mushrooms"
+                className='centered-image'
+              />
+              <h5 className="noMargin mx-2 grid-link">
+                All Nebraska Mushrooms
+              </h5>
+            </div>
+          </a>
+        </div>
         {data.locations.edges.map(({ node }) => (
           <div className="row mb-4" key={node.id}>
             <a className="" href={node.fields?.slug!}>
@@ -133,20 +147,6 @@ export default function IndexPage({
             </a>
           </div>
         ))}
-        <div className="row mb-4">
-          <a className="" href='location/all'>
-            <div className="twelve columns relative location-tile content-centered">
-              <StaticImage
-                src="../img/nebraska.jpg"
-                alt="All Nebraska Mushrooms"
-                className='centered-image'
-              />
-              <h5 className="noMargin mx-2 grid-link">
-                All Nebraska Mushrooms
-              </h5>
-            </div>
-          </a>
-        </div>
       </div>
     </PageLayout>
   );
