@@ -23,6 +23,7 @@ taxonomy:
   - Agaricales
   - Marasmiineae
   - Omphalotaceae
+  - Gymnopus
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/351206
