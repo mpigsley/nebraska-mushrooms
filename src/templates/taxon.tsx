@@ -34,8 +34,8 @@ export default function TaxonTemplate({
         <div className="taxon-card">
           <Link to={edge.node.fields!.slug!}>
             <GatsbyImage
-              key={firstImage.childImageSharp?.id}
-              image={firstImage.childImageSharp?.gatsbyImageData!}
+              key={firstImage?.childImageSharp?.id}
+              image={firstImage?.childImageSharp?.gatsbyImageData!}
               alt={`${edge.node?.frontmatter?.scientific_name}`}
             />
             <div style={{color: 'black'}}><span className='italic-text'>{edge.node.frontmatter!.scientific_name}</span> {!!edge.node.frontmatter!.name && (<>({edge.node.frontmatter!.name})</>)}</div>
