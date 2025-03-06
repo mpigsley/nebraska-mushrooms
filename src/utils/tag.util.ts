@@ -1,15 +1,18 @@
-export enum Tag {
+export enum EdibilityTags {
   Poisonous = 'poisonous',
   EdibleWithCaution = 'edible-with-caution',
-  Edible = 'edible',
-  Interesting = 'interesting',
+}
+
+export enum SeasonTags {
   Spring = 'spring',
   Summer = 'summer',
   Fall = 'fall',
   Winter = 'winter',
+}
+
+export enum FormTags {
   Agaric = 'agaric',
   Bolete = 'bolete',
-  Entomopathogenic = 'entomopathogenic',
   Disc = 'disc',
   Chantrelle = 'chantrelle',
   Polypore = 'polypore',
@@ -21,12 +24,19 @@ export enum Tag {
   Toothed = 'toothed',
   Nest = 'nest',
   Sequestrate = 'sequestrate',
-  Parasitic = 'parasitic',
   Lichen = 'lichen',
   SlimeMold = 'slime-mold',
   Rust = 'rust',
   Jelly = 'jelly',
   Stinkhorn = 'stinkhorn',
+}
+
+export enum FunctionTags {
+  Entomopathogenic = 'entomopathogenic',
+  Parasitic = 'parasitic',
+}
+
+export enum SubstrateTags {
   SubstrateSoil = 'substrate-soil',
   SubstrateWood = 'substrate-wood',
   SubstrateMoss = 'substrate-moss',
@@ -37,47 +47,124 @@ export enum Tag {
   SubstrateDung = 'substrate-dung',
 }
 
+export enum Tag {
+  EdibilityPoisonous = EdibilityTags.Poisonous,
+  EdibilityEdibleWithCaution = EdibilityTags.EdibleWithCaution,
+
+  SeasonSpring = SeasonTags.Spring,
+  SeasonSummer = SeasonTags.Summer,
+  SeasonFall = SeasonTags.Fall,
+  SeasonWinter = SeasonTags.Winter,
+
+  FormAgaric = FormTags.Agaric,
+  FormBolete = FormTags.Bolete,
+  FormDisc = FormTags.Disc,
+  FormChantrelle = FormTags.Chantrelle,
+  FormPolypore = FormTags.Polypore,
+  FormConk = FormTags.Conk,
+  FormShelf = FormTags.Shelf,
+  FormCrust = FormTags.Crust,
+  FormCoral = FormTags.Coral,
+  FormClub = FormTags.Club,
+  FormToothed = FormTags.Toothed,
+  FormNest = FormTags.Nest,
+  FormSequestrate = FormTags.Sequestrate,
+  FormLichen = FormTags.Lichen,
+  FormSlimeMold = FormTags.SlimeMold,
+  FormRust = FormTags.Rust,
+  FormJelly = FormTags.Jelly,
+  FormStinkhorn = FormTags.Stinkhorn,
+
+  FunctionEntomopathogenic = FunctionTags.Entomopathogenic,
+  FunctionParasitic = FunctionTags.Parasitic,
+
+  SubstrateSoil = SubstrateTags.SubstrateSoil,
+  SubstrateWood = SubstrateTags.SubstrateWood,
+  SubstrateMoss = SubstrateTags.SubstrateMoss,
+  SubstrateDuff = SubstrateTags.SubstrateDuff,
+  SubstrateSpiders = SubstrateTags.SubstrateSpiders,
+  SubstrateInsects = SubstrateTags.SubstrateInsects,
+  SubstrateFungi = SubstrateTags.SubstrateFungi,
+  SubstrateDung = SubstrateTags.SubstrateDung,
+}
+
 export const getTagClass = (tag: Tag) => {
   switch (tag) {
-    case Tag.Poisonous:
-      return 'poisonous';
-    case Tag.EdibleWithCaution:
-      return 'edible-with-caution';
-    case Tag.Edible:
-      return 'edible';
-    case Tag.Interesting:
-      return 'interesting';
-    case Tag.Spring:
-      return 'spring';
-    case Tag.Summer:
-      return 'summer';
-    case Tag.Fall:
-      return 'fall';
-    case Tag.Winter:
-      return 'winter';
-    case Tag.Agaric:
-      return 'agaric';
-    case Tag.Entomopathogenic:
-      return 'entomopathogenic';
+    case Tag.EdibilityPoisonous:
+      return 'tag-red';
+    case Tag.EdibilityEdibleWithCaution:
+      return 'tag-yellow';
+
+    case Tag.SeasonSpring:
+      return 'tag-blue';
+    case Tag.SeasonSummer:
+      return 'tag-green';
+    case Tag.SeasonFall:
+      return 'tag-amber';
+    case Tag.SeasonWinter:
+      return 'tag-light-sky';
+
+    case Tag.FormAgaric:
+      return 'tag-peach';
+    case Tag.FormBolete:
+      return 'tag-brown';
+    case Tag.FormDisc:
+      return 'tag-pink';
+    case Tag.FormChantrelle:
+      return 'tag-mauve';
+    case Tag.FormPolypore:
+      return 'tag-amber';
+    case Tag.FormConk:
+      return 'tag-gold';
+    case Tag.FormShelf:
+      return 'tag-forest-green';
+    case Tag.FormCrust:
+      return 'tag-sand';
+    case Tag.FormCoral:
+      return 'tag-dusty-rose';
+    case Tag.FormClub:
+      return 'tag-watermelon';
+    case Tag.FormToothed:
+      return 'tag-indigo';
+    case Tag.FormNest:
+      return 'tag-periwinkle';
+    case Tag.FormSequestrate:
+      return 'tag-aqua';
+    case Tag.FormLichen:
+      return 'tag-mint';
+    case Tag.FormSlimeMold:
+      return 'tag-lemon';
+    case Tag.FormRust:
+      return 'tag-burnt-orange';
+    case Tag.FormJelly:
+      return 'tag-cloud-blue';
+    case Tag.FormStinkhorn:
+      return 'tag-rose';
+
+    case Tag.FunctionEntomopathogenic:
+      return 'tag-lavender';
+    case Tag.FunctionParasitic:
+      return 'tag-red';
+
     case Tag.SubstrateSoil:
-      return 'soil';
+      return 'tag-sand';
     case Tag.SubstrateWood:
-      return 'wood';
-    case Tag.SubstrateSpiders:
-      return 'spiders';
-    case Tag.SubstrateInsects:
-      return 'insects';
-    case Tag.SubstrateDuff:
-      return 'duff';
+      return 'tag-brown';
     case Tag.SubstrateMoss:
-      return 'substrate-moss'
+      return 'tag-mint';
+    case Tag.SubstrateDuff:
+      return 'tag-olive';
+    case Tag.SubstrateSpiders:
+      return 'tag-plum';
+    case Tag.SubstrateInsects:
+      return 'tag-blush';
     case Tag.SubstrateFungi:
-      return 'fungi';
-      case Tag.SubstrateDung:
-        return 'substrate-dung';
-    case Tag.Parasitic:
-      return 'parasitic';
+      return 'tag-pastel-green';
+    case Tag.SubstrateDung:
+      return 'tag-burnt-orange';
+
     default:
-      return 'other';
+      return 'tag-other';
   }
 };
+

@@ -225,63 +225,47 @@ h5 {
   font-size: 1.8rem;
 }
 
-.edible {
-  background-color: #dcfce7 !important;
-}
-.edible-with-caution {
-  background-color: #fef9c3 !important;
-}
-.poisonous {
-  background-color: #fee2e2 !important;
-}
-.interesting {
-  background-color: #ede9fe !important;
-}
-.spring {
-  background-color: #fce7f3 !important;
-}
-.summer {
-  background-color: #ecfccb !important;
-}
-.fall {
-  background-color: #ffedd5 !important;
-}
-.winter {
-  background-color: #cffafe !important;
-}
-.agaric {
-  background-color: #fedfcf !important;
-}
-.entomopathogenic {
-  background-color: #ede9fe !important;
-}
-.soil {
-  background-color: #fce7f3 !important;
-}
-.wood {
-  background-color: #ecfccb !important;
-}
-.duff {
-  background-color: #ecfccb !important;
-}
-.spiders {
-  background-color: #ffedd5 !important;
-}
-.fungi {
-  background-color: #ffedd5 !important;
-}
-.substrate-moss {
-  background-color: #dcffd7 !important;
-}
-.substrate-dung {
-  background-color: #ffaf752a;
-}
-.parasitic {
-  background-color: #fee2e2 !important;
-}
-.other {
-  background-color: #f5f5f4 !important;
-}
+.tag-red { background-color: #f8d7da !important; } 
+.tag-yellow { background-color: #fff3cd !important; } 
+.tag-green { background-color: #d4edda !important; } 
+.tag-blue { background-color: #d1ecf1 !important; } 
+.tag-beige { background-color: #fde2c6 !important; } 
+.tag-lavender { background-color: #e6e0f8 !important; } 
+.tag-peach { background-color: #fce5d1 !important; } 
+.tag-brown { background-color: #e8c8a0 !important; } 
+.tag-gray-blue { background-color: #d6ddeb !important; } 
+.tag-pink { background-color: #f4d7e3 !important; } 
+.tag-lime { background-color: #e2f2ce !important; } 
+.tag-teal { background-color: #cce5ff !important; } 
+.tag-rose { background-color: #f9dada !important; } 
+.tag-mint { background-color: #d6f8e3 !important; } 
+.tag-amber { background-color: #fdeac2 !important; } 
+.tag-gold { background-color: #f7e3a6 !important; } 
+.tag-pastel-green { background-color: #d6f3da !important; } 
+.tag-mauve { background-color: #e6d4ed !important; } 
+.tag-indigo { background-color: #cfd4f5 !important; } 
+.tag-light-sky { background-color: #e3f2ff !important; } 
+.tag-buttercream { background-color: #faf1cf !important; } 
+.tag-lilac { background-color: #e8dbfc !important; } 
+.tag-aqua { background-color: #d9f2f0 !important; } 
+.tag-coral { background-color: #f7c4be !important; } 
+.tag-lavender-gray { background-color: #ddd5e9 !important; } 
+.tag-blush { background-color: #f5d3dd !important; } 
+.tag-sand { background-color: #f0e1cd !important; } 
+.tag-sky-blue { background-color: #cbe8ff !important; } 
+.tag-plum { background-color: #d9c4eb !important; } 
+.tag-forest-green { background-color: #d8f0d4 !important; } 
+.tag-heather-purple { background-color: #dfd3ef !important; } 
+.tag-watermelon { background-color: #f9c2c2 !important; } 
+.tag-dusty-rose { background-color: #eac0cf !important; } 
+.tag-olive { background-color: #e5e8cf !important; } 
+.tag-burnt-orange { background-color: #f4d0b1 !important; } 
+.tag-cloud-blue { background-color: #cde1f8 !important; } 
+.tag-powder-pink { background-color: #f6d3e6 !important; } 
+.tag-lemon { background-color: #f8e9a8 !important; } 
+.tag-periwinkle { background-color: #d9d8fa !important; } 
+.tag-sage-green { background-color: #e0f2de !important; } 
+.tag-other { background-color: #f5f5f4 !important; }
 
 .header {
   background-color: #fafaf9;
