@@ -38,6 +38,10 @@ photos:
   - /img/amanita-flavorubens11.jpeg
 ---
 
+![Form](/img/amanita-flavorubens7.jpeg)
+
+![Form2](/img/amanita-flavorubens9.jpeg)
+
 #### July 18th, 2023 Field Characteristics:
 
 - Growing gregariously in well-shaded, mixed oak/hickory woodland edge.
@@ -50,3 +54,5 @@ photos:
 - Taste: Not distinctive
 - KOH: Negative
 - Ammonia: Negative
+
+![Observation](/img/amanita-flavorubens10.jpeg)

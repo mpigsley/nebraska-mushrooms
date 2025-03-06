@@ -54,7 +54,7 @@ export default function IndexPage({
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
-            <a className="mx-2 grid-link" href="/taxa/fungi/">
+            <a className="mx-2 grid-link" href="/taxa/life/">
               <h5 className="noMargin">Mushroom List</h5>
             </a>
           </div>
