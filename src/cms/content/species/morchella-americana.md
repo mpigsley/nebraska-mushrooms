@@ -50,6 +50,8 @@ photos:
   - /img/morchella-americana4.jpeg
 ---
 
+Also known as the White Morel.
+
 #### Description
 
 - Hollow mushroom, with the cap fused to the stem at the cap margin possessing rounded, irregularly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
@@ -60,7 +62,7 @@ photos:
 
 #### Habitat
 
-White Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. If one is found, others may be close by within eyesight.
+Common Morels occur in sites ranging from deep-shaded forest ravines to open Bur Oak hilltop prairies to floodplain Cottonwood forests. It commonly grows near recently dead Elms and Cottonwoods, feeding on the recently deceased roots, but is found near many other tree species. It can be found growing alone or scattered. If one is found, others may be close by within eyesight.
 
 #### Abundance & Fruiting Period
 
@@ -74,17 +76,17 @@ This spring-time mushroom appears in mid-April through May at Indian Cave. In no
 
 #### Similar Species in Nebraska
 
-- The [Half Free Morel (_Morchella punctipes_)](/species/morchella-punctipes/) fruits at similar times or soon after the White Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
+- The [Half Free Morel (_Morchella punctipes_)](/species/morchella-punctipes/) fruits at similar times or soon after the Common Morel, but its cap is attached at the top and only extends halfway down the stem like a skirt if the mushroom is sliced lengthwise.
 - The giant morel is a later-fruiting and less common species that grows up to 8 inches tall and is a duller yellow color.
 - There are undoubtedly more species of Morels in the state that are less common.
 
 #### Interesting facts
 
 - The name _americana_ describes the region where it can be found and separates it from the European Yellow Morel (_M. esculena_).
-- Many mushroom hunters distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are White Morels that are less mature (Kuo 2012).
+- Many mushroom hunters distinguish smaller, gray-colored morels as a separate species with the common name "Gray Morel". However, these individuals are Common Morels that are less mature (Kuo 2012).
 - This common morel is among our most delicious edible mushrooms and is pursued by many Nebraskans. It can be cooked in numerous ways. People have gotten sick from eating this species undercooked.
 - Native Americans used this species as a medical mushroom to treat whooping cough. Today, a compound from the mushroom is used to treat foot odor.
-- A morel species in northeastern North America (M. cryptica) can't be distinguished from the White Morel without DNA testing.
+- A morel species in northeastern North America (M. cryptica) can't be distinguished from the Common Morel without DNA testing.
 
 #### Edibility and Toxicity
 

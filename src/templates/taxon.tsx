@@ -28,12 +28,6 @@ export default function TaxonTemplate({
   );
 
   const topSpeciesPhotos = data.taxa.edges
-    // .filter((edge) => {
-    //   const { taxonomy } = edge.node.frontmatter!;
-    //   if (!taxonomy) return false;
-    //   return taxonomy[taxonomy.length - 1] === pageContext.taxon;
-    // })
-    // .slice(0, 6)
     .map((edge) => {
       const firstImage = edge.node.frontmatter?.photos?.[0]!;
       return (
@@ -110,7 +104,6 @@ export default function TaxonTemplate({
         </h5>
         <TaxonomyBreadcrumbs taxonomy={preTaxonomy} noLastLink />
         <hr />
-        {buildTaxonomyTree(pageContext.taxon, indexOfTaxon)}
         {!!data.taxon?.html && (
           <div
             style={{ marginTop: '2em' }}
@@ -119,6 +112,7 @@ export default function TaxonTemplate({
             }}
           />
         )}
+        {buildTaxonomyTree(pageContext.taxon, indexOfTaxon)}
         {!!topSpeciesPhotos && (
           <div style={{ marginTop: '2em', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>{topSpeciesPhotos}</div>
         )}

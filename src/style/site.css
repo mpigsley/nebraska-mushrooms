@@ -524,9 +524,12 @@ input[type='text'].tag-select__input {
 }
 
 .taxon-card {
-    flex: 1 1 calc(50% - 10px);
-    box-sizing: border-box;
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
+  flex: 1 1 calc(50% - 10px);
+  box-sizing: border-box;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
