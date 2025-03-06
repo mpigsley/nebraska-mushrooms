@@ -46,4 +46,6 @@ photos:
 
 The Splitgill Mushroom (_Schizophyllum commune_) is a decomposer of wood that is possibly the most common mushroom on the world. It can be found in more areas than most other mushrooms possibly due to the species having around 23,000 mating types (genders), which presumably increases its success of finding a mate.
 
+In the correct conditions, the gills will open up or "split" to increase exposed area. Hence, the name "Split Gill". The specimen collected here is not split open at the moment.
+
 ![Form](/img/schizophyllum-commune-223372052-4.jpeg)
