@@ -11,3 +11,4 @@ _Gymnopus_ are common in spring-summer and quite diverse. Generally found in the
 
 White spore print.
 Generally elastic or rubbery in consistency.
+Gills shallow.

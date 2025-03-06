@@ -26,6 +26,14 @@ external_links:
     link: https://www.mycobank.org/page/Name%20details%20page/35858
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/223890671
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/228375412
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/223886273
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/223609233
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/166139314
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/351710
   - tag: Mushroom Observer Species Description

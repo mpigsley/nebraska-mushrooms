@@ -34,3 +34,5 @@ Peridium
 Gleba
 gleba
 peridium
+Fontenelle
+Hymenophore
