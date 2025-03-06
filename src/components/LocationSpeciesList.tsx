@@ -46,12 +46,14 @@ export type LocationSpeciesListProps = Readonly<{
   species: Species[];
   title: string;
   geolocation?: string;
+  description?: string;
 }>;
 
 export default function LocationSpeciesList({
   species,
   title,
   geolocation,
+  description,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
   const { filters, setFilters } = useActiveFilters();
@@ -114,7 +116,7 @@ export default function LocationSpeciesList({
           {!!geolocation && (
             <a
               className="action-button"
-              href={`https://www.google.com/maps/place/${geolocation}`}
+              href={geolocation}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -161,6 +163,12 @@ export default function LocationSpeciesList({
           </div>
         </div>
       </div>
+      {!!description && (
+        <div className="row">
+          <p>{description}</p>
+        </div>
+        )
+      }
       <div className="row">
         <div className="six columns">
           <ClearableInput

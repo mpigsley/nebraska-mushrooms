@@ -15,17 +15,6 @@ export default function LocationTemplate({
     return null;
   }
 
-  let geolocation: string | undefined;
-  if (firstLocation?.frontmatter?.geolocation) {
-    const { coordinates } = JSON.parse(
-      firstLocation.frontmatter.geolocation,
-    ) as {
-      type: 'Point';
-      coordinates: [number, number];
-    };
-    geolocation = `${coordinates[1]},${coordinates[0]}`;
-  }
-
   const species: Species[] = data.species.edges.map((edge) => ({
     id: edge.node.id,
     slug: edge.node.fields?.slug ?? undefined,
@@ -54,8 +43,9 @@ export default function LocationTemplate({
   return (
     <LocationPage
       title={locationTitle}
-      geolocation={geolocation}
+      geolocation={firstLocation?.frontmatter?.geolocation || undefined}
       species={species}
+      description={firstLocation?.frontmatter?.description || undefined}
     />
   );
 }
@@ -79,6 +69,7 @@ export const pageQuery = graphql`
           frontmatter {
             geolocation
             title
+            description
           }
         }
       }
