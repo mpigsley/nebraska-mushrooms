@@ -7,7 +7,7 @@ references:
   - 'Wu, G., Zhao, K., Li, Y. C., Zeng, N. K., Feng, B., Halling, R. E., & Yang, Z. L. (2016). Four new genera of the fungal family Boletaceae. Fungal Diversity, 81, 1-24. https://doi.org/10.1007/s13225-015-0322-0'
 ---
 
-_Lanmaoa_ is a genus of boletes characterized by a thin pore height `Hpo.Y` to cap context height `Pct.Y` ratio in comparison to other bolete genera. This is when measured from the halfway point from the cap center to cap margin. The resulting ratio appears to be between 1/3 - 1/5 (Wu et al., 2016).
+_Lanmaoa_ is a genus of boletes characterized by a thin pore height `HpoY` to cap context height `PctY` ratio in comparison to other bolete genera. This is when measured from the halfway point from the cap center to cap margin. The resulting ratio appears to be between 1/3 - 1/5 (Wu et al., 2016).
 
 ![Equation](/img/lanmaoa.png)
 
