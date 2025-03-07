@@ -9,7 +9,7 @@ references:
   - 'Rhode Island Amanita Series. (2021, August 9). Rhode Island Amanita Series: Amanita longicuneus. Retrieved September 5, 2024, from YouTube website: https://www.youtube.com/watch?v=SkI9j2ByRvw'
 tags:
   - spring
-  - summers
+  - summer
   - substrate-soil
   - agaric
 taxonomy:

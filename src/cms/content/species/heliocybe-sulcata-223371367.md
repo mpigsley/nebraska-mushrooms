@@ -18,8 +18,8 @@ taxonomy:
   - Basidiomycota
   - Agaricomycotina
   - Agaricomycetes
-  - Polyporales
-  - Polyporaceae
+  - Gloeophyllales
+  - Gloeophyllaceae
   - Heliocybe
 external_links:
   - tag: MycoBank

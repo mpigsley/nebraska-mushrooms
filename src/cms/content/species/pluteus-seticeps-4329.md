@@ -11,7 +11,7 @@ tags:
   - spring
   - summer
   - agaric
-  - subsrate-wood
+  - substrate-wood
   - substrate-moss
 taxonomy:
   - Life

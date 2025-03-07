@@ -48,14 +48,14 @@ export default function IndexPage({
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={IdentificationKey} className="centered-image" />
-            <a className="mx-2 grid-link" href="/articles/key">
+            <a className="mx-2 grid-link" href="/key">
               <h5 className="noMargin">Identification Key</h5>
             </a>
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
-            <a className="mx-2 grid-link" href="/taxa/fungi/">
-              <h5 className="noMargin">Mushroom List</h5>
+            <a className="mx-2 grid-link" href="/taxa/life/">
+              <h5 className="noMargin">Structured Species List</h5>
             </a>
           </div>
         </div>
@@ -82,11 +82,11 @@ export default function IndexPage({
                 <h5 className="noMargin">
                   <a href={rando.fields.slug}>
                     {rando?.frontmatter.name ??
-                      rando?.frontmatter.scientific_name}
+                      (<span className='italic-text'>{rando?.frontmatter.scientific_name}</span>)}
                   </a>
                 </h5>
                 {!!rando?.frontmatter.name && (
-                  <h6>{rando?.frontmatter.scientific_name}</h6>
+                  <h6><span className='italic-text'>{rando?.frontmatter.scientific_name}</span></h6>
                 )}
                 <p>{rando?.frontmatter.html}</p>
                 {!!rando?.frontmatter?.tags?.length && (
@@ -112,6 +112,21 @@ export default function IndexPage({
       <hr />
       <div>
         <h4>Locations</h4>
+        <p>Select a location below to search for fungi surveyed at each park.</p>
+        <div className="row mb-4">
+          <a className="" href='location/all'>
+            <div className="twelve columns relative location-tile content-centered">
+              <StaticImage
+                src="../img/nebraska.jpg"
+                alt="All Nebraska Parks"
+                className='centered-image'
+              />
+              <h5 className="noMargin mx-2 grid-link">
+                All Nebraska Parks
+              </h5>
+            </div>
+          </a>
+        </div>
         {data.locations.edges.map(({ node }) => (
           <div className="row mb-4" key={node.id}>
             <a className="" href={node.fields?.slug!}>
@@ -133,20 +148,6 @@ export default function IndexPage({
             </a>
           </div>
         ))}
-        <div className="row mb-4">
-          <a className="" href='location/all'>
-            <div className="twelve columns relative location-tile content-centered">
-              <StaticImage
-                src="../img/nebraska.jpg"
-                alt="All Nebraska Mushrooms"
-                className='centered-image'
-              />
-              <h5 className="noMargin mx-2 grid-link">
-                All Nebraska Mushrooms
-              </h5>
-            </div>
-          </a>
-        </div>
       </div>
     </PageLayout>
   );

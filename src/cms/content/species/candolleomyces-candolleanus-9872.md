@@ -4,6 +4,7 @@ name: Pale Brittlestem
 scientific_name: Candolleomyces candolleanus
 locations:
   - Indian Cave State Park
+  - Niobrara Valley Preserve
 references:
   - 'Kuo, M. (2011, January). Psathyrella candolleana. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/psathyrella_candolleana.html'
 tags:
@@ -44,6 +45,8 @@ external_links:
     link: https://www.inaturalist.org/observations/179066406
   - tag: iNaturalist Observation
     link: https://www.inaturalist.org/observations/179066744
+  - tag: iNaturalist Observation
+    link: https://www.inaturalist.org/observations/223887233
 photos:
   - /img/candolleomyces-candolleanus-9872-1.jpeg
   - /img/candolleomyces-candolleanus-9872-2.jpeg

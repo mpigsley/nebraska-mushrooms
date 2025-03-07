@@ -75,7 +75,7 @@ This spring-time mushroom appears in mid-April through May at Indian Cave. In no
 
 #### Similar Species in Nebraska
 
-- The [White Morel](/species/morchella-americana/) is the most common morel in Nebraska.
+- The [Common Morel](/species/morchella-americana/) is the most common morel in Nebraska.
 
 #### Interesting facts
 

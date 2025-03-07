@@ -8,12 +8,14 @@ interface LocationPageProps {
   title: string;
   geolocation?: string;
   species: Species[];
+  description?: string;
 }
 
 export default function LocationPage({
   title,
   geolocation,
   species,
+  description,
 }: LocationPageProps) {
   return (
     <PageLayout>
@@ -21,6 +23,7 @@ export default function LocationPage({
         species={species}
         title={title}
         geolocation={geolocation}
+        description={description}
       />
     </PageLayout>
   );

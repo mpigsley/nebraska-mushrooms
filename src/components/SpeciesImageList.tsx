@@ -31,9 +31,9 @@ export default function ImageList({ species, onChangeTag }: ImageListProps) {
                 <img src={Favicon} className="defaultGridImg" />
               )}
               <h5 className="noMargin small-header my-1">
-                {name || scientificName}
+                {name || (<span className="italic-text">{scientificName}</span>)}
               </h5>
-              {!!name && <div className="mb-2">{scientificName}</div>}
+              {!!name && <div className="mb-2"><span className="italic-text">{scientificName}</span></div>}
               <div>
                 {tags.map((tag) => (
                   <span
