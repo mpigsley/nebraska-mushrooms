@@ -517,3 +517,29 @@ input[type='text'].tag-select__input {
   align-items: center;
   justify-content: center;
 }
+
+.key-form-tile-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-form-tile-image {
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 480px;
+}
+
+@media (max-width: 768px) {
+  .key-form-tile-image {
+    width: 100%;
+  }
+}

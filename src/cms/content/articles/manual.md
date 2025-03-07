@@ -50,7 +50,7 @@ For example, if you'd like to see the gilled mushrooms that grow in woodland duf
 <hr>
 <h5 id="form-tags">Form Tags</h5>
 
-If you're interested in the gilled mushrooms from Indian Cave State Park, simply select the [agaric tag](/location/indian-cave-state-park/?t=agaric). More details about forms in the [Key](/articles/key). Keep in mind that a single mushroom might represent multiple forms.
+If you're interested in the gilled mushrooms from Indian Cave State Park, simply select the [agaric tag](/location/indian-cave-state-park/?t=agaric). More details about forms in the [Key](/key). Keep in mind that a single mushroom might represent multiple forms.
 
  - [Agaric](/location/all/?t=agaric)
  - [Bolete](/location/all/?t=bolete)

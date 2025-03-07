@@ -48,14 +48,14 @@ export default function IndexPage({
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={IdentificationKey} className="centered-image" />
-            <a className="mx-2 grid-link" href="/articles/key">
+            <a className="mx-2 grid-link" href="/key">
               <h5 className="noMargin">Identification Key</h5>
             </a>
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={MushrooomList} className="centered-image" />
             <a className="mx-2 grid-link" href="/taxa/life/">
-              <h5 className="noMargin">Species List</h5>
+              <h5 className="noMargin">Structured Species List</h5>
             </a>
           </div>
         </div>
@@ -112,16 +112,17 @@ export default function IndexPage({
       <hr />
       <div>
         <h4>Locations</h4>
+        <p>Select a location below to search for fungi surveyed at each park.</p>
         <div className="row mb-4">
           <a className="" href='location/all'>
             <div className="twelve columns relative location-tile content-centered">
               <StaticImage
                 src="../img/nebraska.jpg"
-                alt="All Nebraska Mushrooms"
+                alt="All Nebraska Parks"
                 className='centered-image'
               />
               <h5 className="noMargin mx-2 grid-link">
-                All Nebraska Mushrooms
+                All Nebraska Parks
               </h5>
             </div>
           </a>
