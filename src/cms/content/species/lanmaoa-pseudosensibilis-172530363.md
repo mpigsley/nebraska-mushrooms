@@ -15,6 +15,7 @@ tags:
   - bolete
   - substrate-soil
   - mycorrhizal
+  - edible-with-caution
 taxonomy:
   - Life
   - Fungi
@@ -60,7 +61,9 @@ photos:
   - /img/lanmaoa-pseudosensibilis-172250265-10.jpeg
 ---
 
-_Lanmaoa pseudosensibilis_ is a mycorrhizal bolete that can be found in forests (especially Oak forests) from July-September and is known to the eastern US. When sliced in half, the yellowish contents turn blue. It has a shallow pore surface which is characteristic of [_Lanmaoa_](/taxa/lanmaoa). The pore surface turns from yellow then bruised blue then brownish with age. 
+_Lanmaoa pseudosensibilis_ is a mycorrhizal bolete that can be found in forests (especially Oak forests) from July-September. Known to the eastern US. When sliced in half, the yellowish contents turn blue. It has a shallow pore surface which is characteristic of [_Lanmaoa_](/taxa/lanmaoa). The pore surface turns from yellow then bruised blue then brownish with age.
+
+The Bolete Filter considers this mushroom edible (Pavelle, 2015). Please take great care to get a solid identification to distinguish it from other toxic boletes.
 
 #### July 9th, 2023 Field Notes - Indian Cave State Park:
 
@@ -86,7 +89,7 @@ Nearby Trees: Northern Red Oak, Bur Oak, Chinkapin Oak, Black Oak, and Ash.
 
 - All surfaces bruising a light faded blue, later to brown.
 - Pileipellis subtomentose, ranging from dull brick red in young specimens to a lighter shade when mature. Many specimens with a yellowish margin, enrolled on younger caps.
-- Interior flesh turning blue from upper half of stipe to the cap while lover half turning red where insects damaged flesh.
+- Interior flesh turning blue from upper half of stipe to the cap while the other half turning red where insects damaged flesh.
 - Smell: not distinctive
 - Taste: not distinctive
 - KOH: mustard yellow at apex of stipe and darer orange near the base. Orange on pileipellis with darkened brown margin around area of contact.
