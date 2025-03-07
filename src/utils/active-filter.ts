@@ -1,17 +1,18 @@
 import * as React from 'react';
+import { Tag } from './tag.util';
 
 // window may not be defined in server-side rendering... so we need to check
 const Window = typeof window !== 'undefined' ? window : null;
 const PARAM_NAME = 't';
 
 export const useActiveFilters = () => {
-  const [filters, setFilters] = React.useState<string[]>([]);
+  const [filters, setFilters] = React.useState<Tag[]>([]);
 
   React.useEffect(() => {
     const param = Window
       ? (new URL(Window?.location?.href).searchParams.get(PARAM_NAME) ?? '')
       : '';
-    setFilters(param.split(',').filter(Boolean));
+    setFilters(param.split(',').filter(Boolean) as Tag[]);
   }, []);
 
   React.useEffect(() => {

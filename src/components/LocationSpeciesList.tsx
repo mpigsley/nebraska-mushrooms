@@ -1,14 +1,10 @@
-import { Download, Image, Map, Menu } from 'react-feather';
-import { PDFDownloadLink } from '@react-pdf/renderer';
+import { Image, Map, Menu, Printer } from 'react-feather';
 import * as React from 'react';
 
-import { useActiveFilters } from '../utils/active-filter';
-import { useActiveSearch } from '../utils/active-search';
 import SpeciesImageList from './SpeciesImageList';
 import SpeciesTableList from './SpeciesTableList';
 import { Species } from '../utils/species.util';
 import ClearableInput from './ClearableInput';
-import SpeciesListPDF from './SpeciesListPDF';
 import { Tag } from '../utils/tag.util';
 import TagSelect from './TagSelect';
 
@@ -49,6 +45,11 @@ export type LocationSpeciesListProps = Readonly<{
   title: string;
   geolocation?: string;
   description?: string;
+  onChangeTag: (tag: Tag) => void;
+  filters: Tag[];
+  setFilters: (tags: Tag[]) => void;
+  search: string;
+  setSearch: (search: string) => void;
 }>;
 
 export default function LocationSpeciesList({
@@ -56,44 +57,18 @@ export default function LocationSpeciesList({
   title,
   geolocation,
   description,
+  onChangeTag,
+  filters,
+  setFilters,
+  search,
+  setSearch,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
-  const { filters, setFilters } = useActiveFilters();
-  const { search, setSearch } = useActiveSearch();
-
-  const filteredSortedSpecies = React.useMemo(
-    () =>
-      species
-        .filter((edge) =>
-          [
-            edge.name,
-            edge.scientificName,
-            search.length > 2 ? stripHtml(edge.bodyHtml) : '',
-          ].some((field) => {
-            const searchMatch =
-              !!field && field.toLowerCase().includes(search.toLowerCase());
-            const tagMatch = filters.every((filter) =>
-              edge.tags.includes(filter as Tag),
-            );
-
-            return (
-              (!search && !filters.length) ||
-              ((!search || searchMatch) && (!filters.length || tagMatch))
-            );
-          }),
-        )
-        .sort((a, b) => {
-          if (a.scientificName && b.scientificName) {
-            return a.scientificName.localeCompare(b.scientificName);
-          }
-          return 0;
-        }),
-    [species, filters, search],
-  );
+  const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
 
   const formattedSpecies = React.useMemo(
     () =>
-      filteredSortedSpecies.map((species) => ({
+      species.map((species) => ({
         id: species.id,
         slug: species.slug ?? '',
         name: species.name ?? '',
@@ -102,18 +77,8 @@ export default function LocationSpeciesList({
         photo: species.photos?.[0],
         bodyMatch: buildBodyMatch(species.bodyHtml, search),
       })),
-    [filteredSortedSpecies, search],
+    [species, search],
   );
-
-  const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
-
-  const onChangeTag = (tag: Tag) =>
-    setFilters((prev) => {
-      if (prev.includes(tag)) {
-        return prev.filter((t) => t !== tag);
-      }
-      return [...prev, tag];
-    });
 
   return (
     <>
@@ -132,17 +97,13 @@ export default function LocationSpeciesList({
               </button>
             </a>
           )}
-          <PDFDownloadLink
-            document={<SpeciesListPDF species={filteredSortedSpecies} />}
-            fileName="species-list.pdf"
+          <button
+            className="button button-icon mb-0 action-button"
+            title="Print PDF"
+            onClick={() => window.print()}
           >
-            <button
-              className="button button-icon mb-0 action-button"
-              title="Download PDF"
-            >
-              <Download size={20} />
-            </button>
-          </PDFDownloadLink>
+            <Printer size={20} />
+          </button>
           <div className="toggle-buttons">
             <button
               type="button"
@@ -179,8 +140,7 @@ export default function LocationSpeciesList({
         <div className="row">
           <p>{description}</p>
         </div>
-        )
-      }
+      )}
       <div className="row">
         <div className="six columns">
           <ClearableInput
@@ -196,7 +156,7 @@ export default function LocationSpeciesList({
         <div className="six columns">
           <TagSelect
             className="u-full-width mb-3"
-            tags={filters as Tag[]}
+            tags={filters}
             setTags={(tags) => setFilters(tags)}
           />
         </div>
