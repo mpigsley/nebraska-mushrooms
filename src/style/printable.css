@@ -9,3 +9,10 @@
     display: block;
   }
 }
+
+.species {
+  column-count: 2;
+  column-gap: 1em;
+  column-fill: balance;
+  page-break-after: always;
+}

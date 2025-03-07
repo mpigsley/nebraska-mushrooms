@@ -53,25 +53,25 @@ export default function LocationTemplate({
 export const Head: HeadFC<Queries.LocationTemplateQuery> = ({ data }) => {
   const firstLocation = data.locations.edges[0].node;
   const title = firstLocation?.frontmatter?.title || 'Nebraska';
-  const description = `${title} Surveyed Mushroom List`
+  const description = `${title} Surveyed Mushroom List`;
 
-  return (<>
-    <title>
-      {title} | Mushrooms of Nebraska
-    </title>
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta name="description" content={description} />
-    <meta
-      property="og:image"
-      content={
-        firstLocation.frontmatter?.heroImage?.childImageSharp
-          ?.gatsbyImageData?.images?.fallback?.src || ''
-      }
-    />
-    <meta property="og:image:width" content="1000" />
-    <meta property="og:image:height" content="1000" />
-  </>)
+  return (
+    <>
+      <title>{title} | Mushrooms of Nebraska</title>
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta name="description" content={description} />
+      <meta
+        property="og:image"
+        content={
+          firstLocation.frontmatter?.heroImage?.childImageSharp?.gatsbyImageData
+            ?.images?.fallback?.src || ''
+        }
+      />
+      <meta property="og:image:width" content="1000" />
+      <meta property="og:image:height" content="1000" />
+    </>
+  );
 };
 
 export const pageQuery = graphql`
