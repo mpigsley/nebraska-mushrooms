@@ -112,30 +112,26 @@ const About: React.FC<PageProps> = () => {
         <PageLayout>
             <div className="container">
                 <div className="row">
-                    <div className="ten columns">
-                        <a href="/">&lt; Back to Home</a>
-                        <h2 className="noMargin">About</h2>
-                        <hr />
-                        <div>
-                            <p><b>Nebraska Mushrooms</b> emerged from a joint effort by conservation and educational 
-                            groups, aiming to advance knowledge, enjoyment, and preservation of fungi throughout the state. 
-                            This project stems from years of field surveys, mycological literature research, software development, DNA 
+                    <a href="/">&lt; Back to Home</a>
+                    <h2 className="noMargin">About</h2>
+                    <hr />
+                    <div>
+                        <p><b>Nebraska Mushrooms</b> emerged from a joint effort by conservation and educational
+                            groups, aiming to advance knowledge, enjoyment, and preservation of fungi throughout the state.
+                            This project stems from years of field surveys, mycological literature research, software development, DNA
                             sequencing and conservation efforts led by dedicated individuals at the Nebraska Game and Parks Commission.</p>
 
-                            <p>This initiative is proudly funded by the <b>Nebraska Game and Parks Commission</b> and the <b>Nebraska Wildlife Conservation Fund</b>, whose partnerships we are honored to share.</p>
+                        <p>This initiative is proudly funded by the <b>Nebraska Game and Parks Commission</b> and the <b>Nebraska Wildlife Conservation Fund</b>, whose partnerships we are honored to share.</p>
 
-                            <p>As an active research project, this website will always be a work in progress. Our goal is to offer a free, Nebraska-specific field guide as an educational resource for mycologists of all ages and experience levels—now and for generations to come.</p>
+                        <p>As an active research project, this website will always be a work in progress. Our goal is to offer a free, Nebraska-specific field guide as an educational resource for mycologists of all ages and experience levels—now and for generations to come.</p>
 
-                            <p>We extend our heartfelt thanks to everyone who has contributed to this project over the years. Your support has driven its success, benefiting us all. We believe in the power of collaboration over competition in this new age of biotechnology as radical scientists dedicated to the pursuit of truth. Together, we face the humbling reality that we have only just begun to understand the incredible diversity of fungi on our planet.</p>
+                        <p>We extend our heartfelt thanks to everyone who has contributed to this project over the years. Your support has driven its success, benefiting us all. We believe in the power of collaboration over competition in this new age of biotechnology as radical scientists dedicated to the pursuit of truth. Together, we face the humbling reality that we have only just begun to understand the incredible diversity of fungi on our planet.</p>
 
-                            <p>Mycologists: Chance Brueggemann, Derek Zeller, and Gerry Steinauer as <a href="https://www.inaturalist.org/observations?iconic_taxa=Fungi&subview=map&user_id=thefungiproject">thefungiproject</a></p>
-
-                            <p>Articles: Derek Zeller, Chance Brueggemann</p>
-                        </div>
-                        <hr />
-                        <h2>Our Partners</h2>
-                        {partnerList.map(x => (<PartnerCard key={x.name} partner={x} />))}
+                        <p>Mycologists: Chance Brueggemann, Derek Zeller, and Gerry Steinauer as <a href="https://www.inaturalist.org/observations?iconic_taxa=Fungi&subview=map&user_id=thefungiproject">thefungiproject</a></p>
                     </div>
+                    <hr />
+                    <h2>Our Partners</h2>
+                    {partnerList.map(x => (<PartnerCard key={x.name} partner={x} />))}
                 </div>
             </div>
         </PageLayout>

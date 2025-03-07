@@ -9,9 +9,13 @@ references:
   - 'Kuo, M. (2010, March). Perenniporia fraxinophila. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/perenniporia_fraxinophila.html'
 tags:
   - spring
+  - summer
+  - fall
+  - winter
   - conk
+  - polypore
   - substrate-wood
-  - parasite
+  - parasitic
 taxonomy:
   - Life
   - Fungi

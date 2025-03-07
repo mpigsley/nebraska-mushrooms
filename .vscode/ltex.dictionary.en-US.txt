@@ -36,3 +36,5 @@ gleba
 peridium
 Fontenelle
 Hymenophore
+Polypores
+polypore

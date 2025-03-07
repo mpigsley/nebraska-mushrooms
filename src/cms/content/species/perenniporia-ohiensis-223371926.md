@@ -15,6 +15,7 @@ tags:
   - winter
   - substrate-wood
   - conk
+  - polypore
 taxonomy:
   - Life
   - Fungi

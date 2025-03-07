@@ -34,11 +34,11 @@ export default function AllLocations({
       ) ?? [],
   }));
 
-  return <LocationPage title="All Mushrooms of Nebraska" species={species} />;
+  return <LocationPage title="All Nebraska Parks" species={species} />;
 }
 
 export const Head: HeadFC<Queries.AllLocationsQuery> = () => (
-  <title>All Mushrooms of Nebraska</title>
+  <title>All Nebraska Parks</title>
 );
 
 export const pageQuery = graphql`
