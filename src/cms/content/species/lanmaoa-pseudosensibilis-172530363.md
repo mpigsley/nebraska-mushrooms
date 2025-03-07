@@ -7,8 +7,11 @@ locations:
 references:
   - 'Kuo, M. (2015, January). Boletus pseudosensibilis. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/boletus_pseudosensibilis.html'
   - 'Wu, G., Zhao, K., Li, Y. C., Zeng, N. K., Feng, B., Halling, R. E., & Yang, Z. L. (2016). Four new genera of the fungal family Boletaceae. Fungal Diversity, 81, 1-24. https://doi.org/10.1007/s13225-015-0322-0'
+  - 'Gaswick, W. (2025). Key to Boletes of the Chicago Area. Nirmi.org. https://www.nirmi.org/keys/boletes/key.html'
+  - 'Pavelle, S. (2015, July 23). Lanmaoa pseudosensibilis. The Bolete Filter. https://boletes.wpamushroomclub.org/product/boletus-pseudosensibilis/'
 tags:
-  - winter
+  - summer
+  - fall
   - bolete
   - substrate-soil
   - mycorrhizal
@@ -56,6 +59,8 @@ photos:
   - /img/lanmaoa-pseudosensibilis-172250265-9.jpeg
   - /img/lanmaoa-pseudosensibilis-172250265-10.jpeg
 ---
+
+_Lanmaoa pseudosensibilis_ is a mycorrhizal bolete that can be found in forests (especially Oak forests) from July-September and is known to the eastern US. When sliced in half, the yellowish contents turn blue. It has a shallow pore surface which is characteristic of [_Lanmaoa_](/taxa/lanmaoa). The pore surface turns from yellow then bruised blue then brownish with age. 
 
 #### July 9th, 2023 Field Notes - Indian Cave State Park:
 
