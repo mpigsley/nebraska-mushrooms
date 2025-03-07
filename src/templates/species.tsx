@@ -5,6 +5,7 @@ import * as React from 'react';
 import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import { type Tag, getTagClass } from '../utils/tag.util';
 import Footer from '../components/Footer';
+import References from '../components/References';
 
 export default function SpeciesProfileTemplate({
   data,
@@ -82,15 +83,8 @@ export default function SpeciesProfileTemplate({
                 __html: data.species?.html ?? '',
               }}
             />
-            {!!data.species?.frontmatter?.references?.length && (
-              <>
-                <h4>References</h4>
-                {[...(data.species?.frontmatter?.references ?? [])]
-                  .sort()
-                  .map((item) => (
-                    <p key={item}>{item}</p>
-                  ))}
-              </>
+            {!!data.species?.frontmatter?.references?.length 
+              && (<References references={data.species?.frontmatter?.references as string[]} />
             )}
           </div>
 

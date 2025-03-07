@@ -5,6 +5,7 @@ import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import Footer from '../components/Footer';
 import { generateTaxaRank } from '../utils/taxon-service';
 import { GatsbyImage } from 'gatsby-plugin-image';
+import References from '../components/References';
 
 interface PageContext {
   taxon: string;
@@ -116,6 +117,12 @@ export default function TaxonTemplate({
         {!!topSpeciesPhotos && (
           <div style={{ marginTop: '2em', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>{topSpeciesPhotos}</div>
         )}
+        {!!data.taxon?.frontmatter?.references?.length
+          && (
+          <div style={{marginTop: '2em'}}>
+            <References references={data.taxon?.frontmatter?.references as string[]} />
+          </div>
+        )}
       </main>
       <Footer />
     </>
@@ -153,6 +160,7 @@ export const pageQuery = graphql`
       frontmatter {
         taxon
         rank
+        references
       }
     }
   }

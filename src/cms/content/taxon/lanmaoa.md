@@ -2,7 +2,7 @@
 templateKey: taxon
 taxon: Lanmaoa
 rank: genus
-latex: \begin{array}{rcl} Hpo.Y & = & Hymenophore.height \\ Pct.Y & = & Pileus.context.height \\  \end{array} \\ \\  \frac{1}{5} \lt \frac{Hpo.Y}{Pct.Y} \lt \frac{1}{3}
+latex: \begin{array}{rcl} H.Y & = & Hymenophore\ height\\ PctY & = & Pileus\ context\ height \\  \end{array} \\ \\  \frac{1}{5} \lt \frac{H.Y}{PctY} \lt \frac{1}{3}
 references:
   - 'Wu, G., Zhao, K., Li, Y. C., Zeng, N. K., Feng, B., Halling, R. E., & Yang, Z. L. (2016). Four new genera of the fungal family Boletaceae. Fungal Diversity, 81, 1-24. https://doi.org/10.1007/s13225-015-0322-0'
 ---

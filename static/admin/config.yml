@@ -255,3 +255,13 @@ collections:
       - label: Rank
         name: rank
         widget: string
+      
+      - label: References
+        name: references
+        widget: list
+        field:
+          widget: relation
+          name: reference
+          collection: references
+          search_fields: ['title']
+          value_field: 'title'
