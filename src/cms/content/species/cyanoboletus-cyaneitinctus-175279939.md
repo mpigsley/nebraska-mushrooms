@@ -13,7 +13,8 @@ tags:
   - summer
   - fall
   - bolete
-  - substrate-wood
+  - substrate-soil
+  - mycorrhizal
 taxonomy:
   - Life
   - Fungi

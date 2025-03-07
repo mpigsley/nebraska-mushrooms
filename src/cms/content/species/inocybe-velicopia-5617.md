@@ -13,6 +13,7 @@ tags:
   - agaric
   - substrate-soil
   - poisonous
+  - mycorrhizal
 taxonomy:
   - Life
   - Fungi
@@ -60,7 +61,7 @@ _Inocybe velicopia_ is a mycorrhizal mushroom that associates with Oak, Hickory,
 
 Members of these genus are known to be toxic. The toxin in question called **muscarine**. Please review the list of symptoms below.
 
-> The symptoms usually occur within 15-30 minutes of ingestion, and are focused on the involuntary nervous system. They include excessive salivation, sweating, tears, lactation (in pregnant women), plus severe vomiting and diarrhea. These symptoms may be accompanied by visual disturbances, irregular pulse, decreased blood pressure, and difficulty breathing. Victims normally recover within 24 hours, but severe cases may result in death due to respiratory failure. Atropine is a specific antidote, but must be administered by a physician. Dogs are particularly susceptible to the toxin muscarine. [(Michael, 2024)](https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/#muscarine)
+> The symptoms usually occur within 15-30 minutes of ingestion, and are focused on the involuntary nervous system. They include excessive salivation, sweating, tears, lactation (in pregnant women), plus severe vomiting and diarrhea. These symptoms may be accompanied by visual disturbances, irregular pulse, decreased blood pressure, and difficulty breathing. Victims normally recover within 24 hours, but severe cases may result in death due to respiratory failure. Atropine is a specific antidote, but must be administered by a physician. Dogs are particularly susceptible to the toxin muscarine. [(Beug, 2024)](https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/#muscarine)
 
 If you or someone you know has been poisoned by consuming wild mushrooms, call 9-1-1 and get the individual medical attention IMMEDIATELY. Afterwards, please [report poisonings](https://namyco.org/interests/toxicology/report-a-poisoning/) to the North American Mycological Association to contribute to our understanding of wild mushroom safety.
 

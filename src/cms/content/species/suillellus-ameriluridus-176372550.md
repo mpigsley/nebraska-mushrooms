@@ -14,6 +14,7 @@ tags:
   - fall
   - bolete
   - substrate-soil
+  - mycorrhizal
 taxonomy:
   - Life
   - Fungi

@@ -48,3 +48,4 @@ boletes
 bolete
 hymenophore
 Lanmaoa
+Bolete

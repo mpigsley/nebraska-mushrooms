@@ -13,6 +13,7 @@ tags:
   - substrate-soil
   - agaric
   - poisonous
+  - mycorrhizal
 taxonomy:
   - Life
   - Fungi

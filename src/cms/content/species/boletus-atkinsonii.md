@@ -14,6 +14,7 @@ tags:
   - summer
   - bolete
   - substrate-soil
+  - mycorrhizal
 taxonomy:
   - Life
   - Fungi
