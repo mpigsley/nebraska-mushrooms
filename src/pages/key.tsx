@@ -197,7 +197,7 @@ const Key: React.FC<PageProps> = () => {
                     </div>
                     <div>
                         <h3>Key to Major Forms</h3>
-                        <p>A form is a unique shape that any given mushroom can feature. Below are common forms. To identify a mushroom, start here. Does your mushroom match the form? If so, the name. If it doesn't match, continue on down the list. Keep in mind that fungi forms often overlap and commonly fit into multiple categories.</p>
+                        <p>A form is a unique shape that any given mushroom can feature. Below are common forms. To identify a mushroom, start here. Does your mushroom match the form? If so, click the name. If it doesn't match, continue on down the list. Keep in mind that fungi forms often overlap and commonly fit into multiple categories.</p>
                         {FormList.map(x => (<FormCard key={x.name} form={x} />))}
                     </div>
                 </div>
