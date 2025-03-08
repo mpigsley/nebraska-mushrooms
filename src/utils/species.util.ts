@@ -11,6 +11,7 @@ export type Species = {
   bodyHtml: string;
   scientificName?: string;
   photos?: IGatsbyImageData[];
+  printablePhotos?: IGatsbyImageData[];
 };
 
 export type FormattedSpecies = {

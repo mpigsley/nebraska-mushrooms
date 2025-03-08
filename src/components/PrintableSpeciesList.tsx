@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import { Species } from '../utils/species.util';
 
@@ -11,13 +12,63 @@ export default function PrintableSpeciesList({
 }: PrintableSpeciesListProps): JSX.Element {
   return (
     <div id="printable">
-      {species.map((species) => (
-        <div key={species.id} className="species">
-          <h2>{species.name}</h2>
-          <p>{species.scientificName}</p>
-          <div dangerouslySetInnerHTML={{ __html: species.bodyHtml }} />
-        </div>
-      ))}
+      {species.map((species) => {
+        const [firstImage, secondImage, thirdImage] =
+          species.printablePhotos ?? [];
+        const imageWidths = ['31%', '31%', '31%'];
+        if (!secondImage) {
+          imageWidths[0] = '50%';
+        } else if (!thirdImage) {
+          const total = firstImage.width + secondImage.width;
+          imageWidths[0] = `${(firstImage.width / total) * 100 - 1}%`;
+          imageWidths[1] = `${(secondImage.width / total) * 100 - 1}%`;
+        } else if (firstImage) {
+          const total = firstImage.width + secondImage.width + thirdImage.width;
+          imageWidths[0] = `${(firstImage.width / total) * 100 - 1}%`;
+          imageWidths[1] = `${(secondImage.width / total) * 100 - 1}%`;
+          imageWidths[2] = `${(thirdImage.width / total) * 100 - 1}%`;
+        }
+        return (
+          <div key={species.id} className="printable_species">
+            <div className="printable_group">
+              <div className="printable_images">
+                {firstImage && (
+                  <GatsbyImage
+                    image={firstImage}
+                    style={{ width: imageWidths[0], height: 400 }}
+                    alt={species.name || species.scientificName || ''}
+                  />
+                )}
+                {secondImage && (
+                  <GatsbyImage
+                    image={secondImage}
+                    style={{ width: imageWidths[1], height: 400 }}
+                    alt={species.name || species.scientificName || ''}
+                  />
+                )}
+                {thirdImage && (
+                  <GatsbyImage
+                    image={thirdImage}
+                    style={{ width: imageWidths[2], height: 400 }}
+                    alt={species.name || species.scientificName || ''}
+                  />
+                )}
+              </div>
+              <div className="printable_content">
+                <h3 className="printable_name">
+                  {species.name || species.scientificName}
+                </h3>
+                {!!species.name && (
+                  <p className="printable_scientificName">
+                    {species.scientificName}
+                  </p>
+                )}
+                <div dangerouslySetInnerHTML={{ __html: species.bodyHtml }} />
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

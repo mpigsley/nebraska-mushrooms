@@ -27,9 +27,20 @@ export default function LocationTemplate({
       edge.node.frontmatter?.photos?.reduce(
         (acc: IGatsbyImageData[], photo) => {
           if (photo?.childImageSharp) {
-            const gatsbyImageData = getImage(
-              photo.childImageSharp.gatsbyImageData,
-            );
+            const gatsbyImageData = getImage(photo.childImageSharp.smallImage);
+            if (gatsbyImageData) {
+              acc.push(gatsbyImageData);
+            }
+          }
+          return acc;
+        },
+        [],
+      ) ?? [],
+    printablePhotos:
+      edge.node.frontmatter?.photos?.reduce(
+        (acc: IGatsbyImageData[], photo) => {
+          if (photo?.childImageSharp) {
+            const gatsbyImageData = getImage(photo.childImageSharp.largeImage);
             if (gatsbyImageData) {
               acc.push(gatsbyImageData);
             }
@@ -121,10 +132,15 @@ export const pageQuery = graphql`
             photos {
               childImageSharp {
                 id
-                gatsbyImageData(
+                smallImage: gatsbyImageData(
                   height: 235
                   width: 235
                   quality: 90
+                  layout: CONSTRAINED
+                )
+                largeImage: gatsbyImageData(
+                  height: 400
+                  quality: 100
                   layout: CONSTRAINED
                 )
               }
