@@ -63,5 +63,5 @@
 
 #printable iframe,
 #printable .gatsby-resp-image-wrapper {
-  display: none;
+  display: none !important;
 }
