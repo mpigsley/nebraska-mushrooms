@@ -51,7 +51,7 @@
   font-style: italic;
 }
 
-#printable .printable_content .gatsby-resp-image-wrapper,
+/* #printable .printable_content .gatsby-resp-image-wrapper,
 #printable .printable_content .gatsby-resp-image-link {
   max-height: 400px;
 }
@@ -59,8 +59,9 @@
 #printable .printable_content .gatsby-resp-image-image {
   max-height: 400px;
   object-fit: contain;
-}
+} */
 
-#printable iframe {
+#printable iframe,
+#printable .gatsby-resp-image-wrapper {
   display: none;
 }
