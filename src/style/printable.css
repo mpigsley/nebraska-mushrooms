@@ -27,6 +27,13 @@
   page-break-after: avoid;
 }
 
+.printable_image {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
 .printable_content {
   column-count: 2;
   column-gap: 1em;

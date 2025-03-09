@@ -28,30 +28,38 @@ export default function PrintableSpeciesList({
           imageWidths[1] = `${(secondImage.width / total) * 100 - 1}%`;
           imageWidths[2] = `${(thirdImage.width / total) * 100 - 1}%`;
         }
+        console.log(species.printablePhotos);
+
         return (
           <div key={species.id} className="printable_species">
             <div className="printable_group">
               <div className="printable_images">
                 {firstImage && (
-                  <GatsbyImage
-                    image={firstImage}
-                    style={{ width: imageWidths[0], height: 400 }}
-                    alt={species.name || species.scientificName || ''}
-                  />
+                  <div style={{ width: imageWidths[0], height: 400 }}>
+                    <img
+                      className="printable_image"
+                      src={firstImage.data}
+                      alt={species.name || species.scientificName || ''}
+                    />
+                  </div>
                 )}
                 {secondImage && (
-                  <GatsbyImage
-                    image={secondImage}
-                    style={{ width: imageWidths[1], height: 400 }}
-                    alt={species.name || species.scientificName || ''}
-                  />
+                  <div style={{ width: imageWidths[1], height: 400 }}>
+                    <img
+                      className="printable_image"
+                      src={secondImage.data}
+                      alt={species.name || species.scientificName || ''}
+                    />
+                  </div>
                 )}
                 {thirdImage && (
-                  <GatsbyImage
-                    image={thirdImage}
-                    style={{ width: imageWidths[2], height: 400 }}
-                    alt={species.name || species.scientificName || ''}
-                  />
+                  <div style={{ width: imageWidths[2], height: 400 }}>
+                    <img
+                      className="printable_image"
+                      src={thirdImage.data}
+                      alt={species.name || species.scientificName || ''}
+                    />
+                  </div>
                 )}
               </div>
               <div className="printable_content">

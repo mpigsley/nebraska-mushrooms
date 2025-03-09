@@ -49,7 +49,7 @@ const config: GatsbyConfig = {
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
-            options: { maxWidth: 2048 },
+            options: { maxWidth: 630, loading: 'eager' },
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',

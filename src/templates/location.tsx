@@ -37,18 +37,21 @@ export default function LocationTemplate({
         [],
       ) ?? [],
     printablePhotos:
-      edge.node.frontmatter?.photos?.reduce(
-        (acc: IGatsbyImageData[], photo) => {
+      edge.node.frontmatter?.photos
+        ?.slice(0, 3)
+        .reduce((acc: { data: string; width: number }[], photo) => {
           if (photo?.childImageSharp) {
-            const gatsbyImageData = getImage(photo.childImageSharp.largeImage);
-            if (gatsbyImageData) {
-              acc.push(gatsbyImageData);
+            const {
+              base64: data,
+              height,
+              width,
+            } = photo.childImageSharp.largeImage ?? {};
+            if (data && height && width) {
+              acc.push({ data, width: Math.round(400 * (width / height)) });
             }
           }
           return acc;
-        },
-        [],
-      ) ?? [],
+        }, []) ?? [],
   }));
 
   return (
@@ -138,11 +141,11 @@ export const pageQuery = graphql`
                   quality: 90
                   layout: CONSTRAINED
                 )
-                largeImage: gatsbyImageData(
-                  height: 400
-                  quality: 100
-                  layout: CONSTRAINED
-                )
+                largeImage: fixed(base64Width: 500) {
+                  base64
+                  height
+                  width
+                }
               }
             }
           }
