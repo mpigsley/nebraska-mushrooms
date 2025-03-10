@@ -6,7 +6,7 @@ import { Tag, getTagClass } from '../utils/tag.util';
 type TagSelectProps = {
   className?: string;
   tags: Tag[];
-  setTags: (tags: string[]) => void;
+  setTags: (tags: Tag[]) => void;
 };
 
 export default function TagSelect({

@@ -1,8 +1,6 @@
-import { Download, Image, Map, Menu } from 'react-feather';
+import { Image, Map, Menu, Printer } from 'react-feather';
 import * as React from 'react';
 
-import { useActiveFilters } from '../utils/active-filter';
-import { useActiveSearch } from '../utils/active-search';
 import SpeciesImageList from './SpeciesImageList';
 import SpeciesTableList from './SpeciesTableList';
 import { Species } from '../utils/species.util';
@@ -47,6 +45,11 @@ export type LocationSpeciesListProps = Readonly<{
   title: string;
   geolocation?: string;
   description?: string;
+  onChangeTag: (tag: Tag) => void;
+  filters: Tag[];
+  setFilters: (tags: Tag[]) => void;
+  search: string;
+  setSearch: (search: string) => void;
 }>;
 
 export default function LocationSpeciesList({
@@ -54,59 +57,28 @@ export default function LocationSpeciesList({
   title,
   geolocation,
   description,
+  onChangeTag,
+  filters,
+  setFilters,
+  search,
+  setSearch,
 }: LocationSpeciesListProps): JSX.Element {
   const [listType, setListType] = React.useState<'table' | 'image'>('image');
-  const { filters, setFilters } = useActiveFilters();
-  const { search, setSearch } = useActiveSearch();
+  const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
 
   const formattedSpecies = React.useMemo(
     () =>
-      species
-        .filter((edge) =>
-          [
-            edge.name,
-            edge.scientificName,
-            search.length > 2 ? stripHtml(edge.bodyHtml) : '',
-          ].some((field) => {
-            const searchMatch =
-              !!field && field.toLowerCase().includes(search.toLowerCase());
-            const tagMatch = filters.every((filter) =>
-              edge.tags.includes(filter as Tag),
-            );
-
-            return (
-              (!search && !filters.length) ||
-              ((!search || searchMatch) && (!filters.length || tagMatch))
-            );
-          }),
-        )
-        .sort((a, b) => {
-          if (a.scientificName && b.scientificName) {
-            return a.scientificName.localeCompare(b.scientificName);
-          }
-          return 0;
-        })
-        .map((species) => ({
-          id: species.id,
-          slug: species.slug ?? '',
-          name: species.name ?? '',
-          tags: species.tags,
-          scientificName: species.scientificName ?? '',
-          photo: species.photos?.[0],
-          bodyMatch: buildBodyMatch(species.bodyHtml, search),
-        })),
-    [species, filters, search],
+      species.map((species) => ({
+        id: species.id,
+        slug: species.slug ?? '',
+        name: species.name ?? '',
+        tags: species.tags,
+        scientificName: species.scientificName ?? '',
+        photo: species.photos?.[0],
+        bodyMatch: buildBodyMatch(species.bodyHtml, search),
+      })),
+    [species, search],
   );
-
-  const ActiveList = listType === 'table' ? SpeciesTableList : SpeciesImageList;
-
-  const onChangeTag = (tag: Tag) =>
-    setFilters((prev) => {
-      if (prev.includes(tag)) {
-        return prev.filter((t) => t !== tag);
-      }
-      return [...prev, tag];
-    });
 
   return (
     <>
@@ -125,12 +97,13 @@ export default function LocationSpeciesList({
               </button>
             </a>
           )}
-          {/* <button
+          <button
             className="button button-icon mb-0 action-button"
-            title="Download PDF"
+            title="Print PDF"
+            onClick={() => window.print()}
           >
-            <Download size={20} />
-          </button> */}
+            <Printer size={20} />
+          </button>
           <div className="toggle-buttons">
             <button
               type="button"
@@ -167,8 +140,7 @@ export default function LocationSpeciesList({
         <div className="row">
           <p>{description}</p>
         </div>
-        )
-      }
+      )}
       <div className="row">
         <div className="six columns">
           <ClearableInput
@@ -184,7 +156,7 @@ export default function LocationSpeciesList({
         <div className="six columns">
           <TagSelect
             className="u-full-width mb-3"
-            tags={filters as Tag[]}
+            tags={filters}
             setTags={(tags) => setFilters(tags)}
           />
         </div>

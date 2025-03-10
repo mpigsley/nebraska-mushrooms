@@ -1,0 +1,57 @@
+#printable {
+  display: none;
+}
+@media print {
+  .screen-only {
+    display: none;
+  }
+  #printable {
+    display: block;
+  }
+}
+
+.printable_species {
+  page-break-after: always;
+}
+
+.printable_group {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.printable_images {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  page-break-after: avoid;
+}
+
+.printable_image {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.printable_content {
+  column-count: 2;
+  column-gap: 1em;
+  column-fill: auto;
+  page-break-before: avoid;
+}
+
+.printable_name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.printable_scientificName {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#printable iframe,
+#printable .printable_content .gatsby-resp-image-wrapper {
+  display: none !important;
+}

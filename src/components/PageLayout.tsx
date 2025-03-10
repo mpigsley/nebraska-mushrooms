@@ -5,14 +5,16 @@ import Header from './Header';
 
 interface Props {
   children: React.ReactNode;
+  printable?: React.ReactNode;
 }
 
-export default function PageLayout({ children }: Props) {
+export default function PageLayout({ children, printable }: Props) {
   return (
     <main>
-      <Header />
-      <div className="container page">{children}</div>
-      <Footer />
+      <Header className="screen-only" />
+      <div className="container page screen-only">{children}</div>
+      <div id="printable">{printable}</div>
+      <Footer className="screen-only" />
     </main>
   );
 }

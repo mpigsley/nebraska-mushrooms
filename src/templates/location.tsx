@@ -27,9 +27,7 @@ export default function LocationTemplate({
       edge.node.frontmatter?.photos?.reduce(
         (acc: IGatsbyImageData[], photo) => {
           if (photo?.childImageSharp) {
-            const gatsbyImageData = getImage(
-              photo.childImageSharp.gatsbyImageData,
-            );
+            const gatsbyImageData = getImage(photo.childImageSharp.smallImage);
             if (gatsbyImageData) {
               acc.push(gatsbyImageData);
             }
@@ -38,6 +36,22 @@ export default function LocationTemplate({
         },
         [],
       ) ?? [],
+    printablePhotos:
+      edge.node.frontmatter?.photos
+        ?.slice(0, 3)
+        .reduce((acc: { data: string; width: number }[], photo) => {
+          if (photo?.childImageSharp) {
+            const {
+              base64: data,
+              height,
+              width,
+            } = photo.childImageSharp.largeImage ?? {};
+            if (data && height && width) {
+              acc.push({ data, width: Math.round(400 * (width / height)) });
+            }
+          }
+          return acc;
+        }, []) ?? [],
   }));
 
   return (
@@ -53,25 +67,25 @@ export default function LocationTemplate({
 export const Head: HeadFC<Queries.LocationTemplateQuery> = ({ data }) => {
   const firstLocation = data.locations.edges[0].node;
   const title = firstLocation?.frontmatter?.title || 'Nebraska';
-  const description = `${title} Surveyed Mushroom List`
+  const description = `${title} Surveyed Mushroom List`;
 
-  return (<>
-    <title>
-      {title} | Mushrooms of Nebraska
-    </title>
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta name="description" content={description} />
-    <meta
-      property="og:image"
-      content={
-        firstLocation.frontmatter?.heroImage?.childImageSharp
-          ?.gatsbyImageData?.images?.fallback?.src || ''
-      }
-    />
-    <meta property="og:image:width" content="1000" />
-    <meta property="og:image:height" content="1000" />
-  </>)
+  return (
+    <>
+      <title>{title} | Mushrooms of Nebraska</title>
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta name="description" content={description} />
+      <meta
+        property="og:image"
+        content={
+          firstLocation.frontmatter?.heroImage?.childImageSharp?.gatsbyImageData
+            ?.images?.fallback?.src || ''
+        }
+      />
+      <meta property="og:image:width" content="1000" />
+      <meta property="og:image:height" content="1000" />
+    </>
+  );
 };
 
 export const pageQuery = graphql`
@@ -121,12 +135,17 @@ export const pageQuery = graphql`
             photos {
               childImageSharp {
                 id
-                gatsbyImageData(
+                smallImage: gatsbyImageData(
                   height: 235
                   width: 235
                   quality: 90
                   layout: CONSTRAINED
                 )
+                largeImage: fixed(base64Width: 500) {
+                  base64
+                  height
+                  width
+                }
               }
             }
           }

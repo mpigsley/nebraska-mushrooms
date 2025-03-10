@@ -1,11 +1,12 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
+import clsx from 'clsx';
 
 import Favicon from '../img/favicon.svg';
-import { Link } from 'gatsby';
 
-export default function Header() {
+export default function Header({ className }: { className?: string }) {
   return (
-    <header className="header">
+    <header className={clsx('header', className)}>
       <div className="container row flex items-center">
         <Link to="/">
           <img src={Favicon} className="logo action-button" />
