@@ -28,7 +28,6 @@ export default function PrintableSpeciesList({
           imageWidths[1] = `${(secondImage.width / total) * 100 - 1}%`;
           imageWidths[2] = `${(thirdImage.width / total) * 100 - 1}%`;
         }
-        console.log(species.printablePhotos);
 
         return (
           <div key={species.id} className="printable_species">
