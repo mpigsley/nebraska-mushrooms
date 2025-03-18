@@ -10,7 +10,6 @@ import References from '../components/References';
 export default function SpeciesProfileTemplate({
   data,
 }: Readonly<PageProps<Queries.SpeciesProfileTemplateQuery>>): JSX.Element {
-  console.log([data?.observations])
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
   const commonName = data.species?.frontmatter?.name;
@@ -31,7 +30,6 @@ export default function SpeciesProfileTemplate({
   }
 
   const speciesPhotos = [...(data.species?.frontmatter?.photos ?? [])].filter(Boolean);
-  console.log([data.observations])
   const observationPhotos = data.observations?.edges.flatMap(obs => [...(obs.node.frontmatter?.photos ?? [])]).filter(Boolean) ?? [];
   const allPhotos = [...speciesPhotos, ...observationPhotos];
 
