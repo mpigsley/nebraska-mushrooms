@@ -7,6 +7,15 @@ scientific_name: Gyroporus castaneus
 location: Indian Cave State Park
 date_pretty: July 26th, 2023
 uri: https://www.inaturalist.org/observations/175281413
+photos:
+  - /img/gyroporus-castaneus-175281413-1.jpeg
+  - /img/gyroporus-castaneus-175281413-2.jpeg
+  - /img/gyroporus-castaneus-175281413-3.jpeg
+  - /img/gyroporus-castaneus-175281413-4.jpeg
+  - /img/gyroporus-castaneus-175281413-5.jpeg
+  - /img/gyroporus-castaneus-175281413-6.jpeg
+  - /img/gyroporus-castaneus-175281413-7.jpeg
+  - /img/gyroporus-castaneus-175281413-8.jpeg
 ---
 
 #245

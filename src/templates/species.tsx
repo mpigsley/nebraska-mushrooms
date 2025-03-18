@@ -30,11 +30,16 @@ export default function SpeciesProfileTemplate({
     return nextPostion >= totalSpace ? 0 : nextPostion;
   }
 
+  const speciesPhotos = [...(data.species?.frontmatter?.photos ?? [])].filter(Boolean);
+  console.log([data.observations])
+  const observationPhotos = data.observations?.edges.flatMap(obs => [...(obs.node.frontmatter?.photos ?? [])]).filter(Boolean) ?? [];
+  const allPhotos = [...speciesPhotos, ...observationPhotos];
+
   return (
     <>
       <div className="u-full-width relative">
         <div className="horizontalScroll u-full-width" ref={scrollRef}>
-          {data.species?.frontmatter?.photos?.map((item) => {
+          {allPhotos?.map((item) => {
             if (item?.childImageSharp?.gatsbyImageData) {
               return (
                 <GatsbyImage
@@ -89,7 +94,7 @@ export default function SpeciesProfileTemplate({
                 <hr />
                 <h4>Observations</h4>
                 {data.observations.edges.map((observation) => (
-                  <>
+                  <div key={observation.node.id}>
                     <h5><a href={observation.node?.frontmatter?.uri ?? '#'}>{`${observation.node?.frontmatter?.date_pretty} ${observation.node?.frontmatter?.location}`}</a></h5>
                     <div
                       dangerouslySetInnerHTML={{
@@ -104,7 +109,7 @@ export default function SpeciesProfileTemplate({
                         </pre>
                       </>
                     )}
-                  </>
+                  </div>
                 ))}
               </>
             )}
@@ -261,6 +266,12 @@ export const pageQuery = graphql`
             location
             date_pretty
             uri
+            photos {
+              childImageSharp {
+                id
+                gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
+              }
+            }
           }
         }
       }
