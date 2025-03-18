@@ -4,6 +4,8 @@ name: Chestnut Bolete
 scientific_name: Gyroporus castaneus-IN07
 locations:
   - Indian Cave State Park
+observations:
+  - '175281413'
 tags:
   - summer
   - bolete

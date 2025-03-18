@@ -10,6 +10,7 @@ import References from '../components/References';
 export default function SpeciesProfileTemplate({
   data,
 }: Readonly<PageProps<Queries.SpeciesProfileTemplateQuery>>): JSX.Element {
+  console.log([data?.observations])
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
   const commonName = data.species?.frontmatter?.name;
@@ -83,9 +84,9 @@ export default function SpeciesProfileTemplate({
                 __html: data.species?.html ?? '',
               }}
             />
-            {!!data.species?.frontmatter?.references?.length 
+            {!!data.species?.frontmatter?.references?.length
               && (<References references={data.species?.frontmatter?.references as string[]} />
-            )}
+              )}
           </div>
 
           <div className="four columns">
@@ -176,7 +177,7 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!, $locationNames: [String!]) {
+  query SpeciesProfileTemplate($id: String!, $locationNames: [String!], $observations: [String!]) {
     locations: allMarkdownRemark(
       filter: { frontmatter: { title: { in: $locationNames } } }
     ) {
@@ -208,6 +209,29 @@ export const pageQuery = graphql`
           childImageSharp {
             id
             gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
+          }
+        }
+      }
+    }
+    observations: allMarkdownRemark(
+      filter: { 
+        frontmatter: { 
+          inat_id: { in: $observations },
+          templateKey: { eq: "observation" }
+        } 
+      }
+    ) {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            inat_id
+            name
+            scientific_name
+            dna_barcode_its
+            location
+            date_pretty
           }
         }
       }
