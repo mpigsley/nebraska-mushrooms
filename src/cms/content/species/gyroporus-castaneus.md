@@ -32,8 +32,6 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/121620
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/175281413
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/125688
   - tag: Mushroom Observer Species Description
@@ -94,18 +92,3 @@ The stem is brittle and becomes cottony hollow with age. It is colored similarly
 ![Stem](/img/gyroporus-castaneus-175281413-6.jpeg)
 
 Generally regarded as edible (Pavelle, 2025).
-
-#### July 26th, 2023 Field Notes - Indian Cave State Park:
-
-Growing gregariously near disturbed horse trail in open mixed oak/hickory woodland edge. Nearby Trees: Black Oak, Black Cherry, Chinkapin Oak, Elm, and Ash.
-
-- Caps light brown, subtomentose and firm.
-- Hymenium consisting of cream white circular pores that are unchanging when damaged.
-- Stipe light brown similar to cap, with central pith and slightly exuding liquid where snapped.
-- Flesh unchanging when bruised or cut.
-- Smell: not distinctive.
-- Taste: not distinctive.
-
-DNA Barcode ITS: AAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTAAGGGATAAAACGAAGGACCGTACGACCGAGTCGGTCTCGGTCATGTACGGTCCGGGTCGGTCTTTCCTGTGCACGCGTCGTAGGTCTTCGGGCCTACGTTCATACACCTCTCGGTGTTCGAACGTCCATGGACTGTGACCGCCCGACCGTCGTGTCGGGCGAGAACGCATAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGGACGCAGCGAATCGCGATAAGTAATGTGAATTGCAGATCTTCCGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCCTCGGTATTCCGAGGAGCATGCCTGTCTGAGTGTCTGGACTATACTCTCGGTTGCGAGATCCTTTCGGGGTATCGAAACCGGAATTTGGGAGCTTGCGGGCGTCCTCGGTCGAGGTGACGTCGGCTCTCCTGAAATGCATTAGCGGAGAGGAACGGCACCGAAGCCAAGCGATCGGAGCGCGACCTTTTCCCTCGGCGTCGTAAGGATCGCCGTGGGCTCGGGAAGCGTGAGCGAGGTTTTTCGGGGCATGACGTGTCTCACGCTGCTAGCACGGTCGGCGAGCCTCGGGCGTCGTCGGACACGTTTTCAGCACTCGGCCTCAGATCAGGCAGGGCTACCCGCTGAACTTAAG
-
-![Observation](/img/gyroporus-castaneus-175281413-8.jpeg)

@@ -84,8 +84,36 @@ export default function SpeciesProfileTemplate({
                 __html: data.species?.html ?? '',
               }}
             />
+            {data.observations?.edges.length > 0 && (
+              <>
+                <hr />
+                <h4>Observations</h4>
+                {data.observations.edges.map((observation) => (
+                  <>
+                    <h5><a href={observation.node?.frontmatter?.uri ?? '#'}>{`${observation.node?.frontmatter?.date_pretty} ${observation.node?.frontmatter?.location}`}</a></h5>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: observation.node?.html ?? '',
+                      }}
+                    />
+                    {!!observation.node?.frontmatter?.dna_barcode_its && (
+                      <>
+                        DNA Barcode ITS:
+                        <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>
+                          {observation.node?.frontmatter?.dna_barcode_its}
+                        </pre>
+                      </>
+                    )}
+                  </>
+                ))}
+              </>
+            )}
             {!!data.species?.frontmatter?.references?.length
-              && (<References references={data.species?.frontmatter?.references as string[]} />
+              && (
+                <>
+                  <hr />
+                  <References references={data.species?.frontmatter?.references as string[]} />
+                </>
               )}
           </div>
 
@@ -177,7 +205,7 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!, $locationNames: [String!], $observations: [String!]) {
+  query SpeciesProfileTemplate($id: String!, $locationNames: [String!], $observations: [String!] = []) {
     locations: allMarkdownRemark(
       filter: { frontmatter: { title: { in: $locationNames } } }
     ) {
@@ -232,6 +260,7 @@ export const pageQuery = graphql`
             dna_barcode_its
             location
             date_pretty
+            uri
           }
         }
       }
