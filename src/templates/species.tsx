@@ -31,13 +31,16 @@ export default function SpeciesProfileTemplate({
 
   const speciesPhotos = [...(data.species?.frontmatter?.photos ?? [])].filter(Boolean);
   const observationPhotos = data.observations?.edges.flatMap(obs => [...(obs.node.frontmatter?.photos ?? [])]).filter(Boolean) ?? [];
-  const allPhotos = [...speciesPhotos, ...observationPhotos];
+  const uniquePhotos = [...speciesPhotos, ...observationPhotos].filter((photo, index, self) =>
+    index === self.findIndex((p) => p?.childImageSharp?.gatsbyImageData?.images.fallback?.src === photo?.childImageSharp?.gatsbyImageData.images.fallback?.src)
+  );
+  
 
   return (
     <>
       <div className="u-full-width relative">
         <div className="horizontalScroll u-full-width" ref={scrollRef}>
-          {allPhotos?.map((item) => {
+          {uniquePhotos?.map((item) => {
             if (item?.childImageSharp?.gatsbyImageData) {
               return (
                 <GatsbyImage
