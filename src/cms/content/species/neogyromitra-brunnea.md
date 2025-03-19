@@ -50,7 +50,7 @@ photos:
 
 _Neogyromitra brunnea_ is a saprobic and mycorrhizal mushroom that can be found in spring-time forest settings under hardwoods. It can be found growing from the soil and well-decomposed stumps.
 
-A field test for this mushroom is to slice it in half. If the inside is brain-like, the features lean more towards a False Morel like _Neogyromitra_ rather than the [True Morels (_Morcella_)](/taxa/morchella)
+A field test for this mushroom is to slice it in half. If the inside is brain-like, the features lean more towards a False Morel like _Neogyromitra_ rather than the [True Morels (_Morcella_)](/taxa/morchella) which are hollow on the inside.
 
 This mushroom should not be eaten. It contains a toxin call Gyromitrin that breaks down into what NASA uses as rocket fuel: monomethylhydrazine (MMH). It's highly toxic, carcinogenic, and easily evaporates into toxic fumes when cooking. Though some people still eat this mushroom as a delicacy, proper cooking requires a fume hood, many cycles of boiling and discarding water, and cultural experience to keep things safe.
 
