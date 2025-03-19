@@ -41,7 +41,7 @@ photos:
   - /img/hypomyces-lactifluorum-230015177-3.jpeg
 ---
 
-The Lobster Mushroom (_Hypomyces lactifluorum_) is a parasite that infects other mushrooms, generally within the genuses [_Rusula_](/taxa/russula) and [_Lactarius_](/taxa/lactarius). It can be found in the summer through fall.
+The Lobster Mushroom (_Hypomyces lactifluorum_) is a parasite that infects other mushrooms generally within the genera [_Russula_](/taxa/russula) and [_Lactarius_](/taxa/lactarius). It can be found in the summer through fall.
 
 The host is infected at the time of fruiting body development, which changes the DNA expression of an otherwise white-colored, gilled mushroom into a contorted orange-pimpled form. The spore print is white. The spores are distinctly pointed on two ends.
 
