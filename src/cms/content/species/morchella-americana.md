@@ -2,8 +2,14 @@
 templateKey: species
 name: Common Morel
 scientific_name: Morchella americana
+observations:
+  - '208896176'
+  - '214285264'
+  - '215807081'
 locations:
   - Indian Cave State Park
+  - Neale Woods
+  - Fontenelle Forest
 references:
   - 'Kuo, M. (2012, November). Morchella esculentoides. Retrieved from the
     MushroomExpert.Com Web site:
@@ -39,15 +45,12 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/481143
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/208896176
   - tag: Mushroom Expert
     link: https://www.mushroomexpert.com/morchella_esculentoides.html
 photos:
-  - /img/morchella-americana1.jpeg
-  - /img/morchella-americana2.jpeg
-  - /img/morchella-americana3.jpeg
-  - /img/morchella-americana4.jpeg
+  - /img/morchella-americana-208896176-2.jpeg
+  - /img/morchella-americana-214285264-6.jpeg
+  - /img/morchella-americana-215807081-1.jpeg
 ---
 
 Also known as the White Morel.
