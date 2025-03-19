@@ -26,6 +26,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
               taxonomy
               templateKey
               title
+              observations
             }
           }
         }
@@ -47,6 +48,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
           id: string;
           fields: { slug: string };
           frontmatter: {
+            observations?: string[];
             taxonomy: string[];
             templateKey: string;
             locations: string[];
@@ -73,6 +75,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
 
   data.allMarkdownRemark.edges.forEach((edge) => {
     const id = edge.node.id;
+    const observations = edge.node.frontmatter?.observations;
 
     let locationNames =
       edge.node.frontmatter.templateKey === 'location'
@@ -93,7 +96,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
       component: path.resolve(
         `src/templates/${String(edge.node.frontmatter.templateKey)}.tsx`,
       ),
-      context: { id, locationNames },
+      context: { id, locationNames, observations: observations || [] },
     });
   });
 };

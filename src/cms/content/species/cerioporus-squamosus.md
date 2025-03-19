@@ -2,8 +2,12 @@
 templateKey: species
 name: Dryad's Saddle
 scientific_name: Cerioporus squamosus
+observations:
+  - '241554397'
+  - '183005269'
 locations:
   - Indian Cave State Park
+  - Neale Woods
 references:
   - 'Kuo, M. (2015, April). Polyporus squamosus. Retrieved from the
     MushroomExpert.Com Web site:
@@ -27,8 +31,6 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/83833
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/183005269
   - link: https://www.inaturalist.org/taxa/940028-Cerioporus-squamosus
     tag: iNaturalist Species Description
   - tag: Index Fungorum
@@ -38,20 +40,9 @@ external_links:
   - tag: Wikipedia
     link: https://en.wikipedia.org/wiki/Cerioporus_squamosus
 photos:
-  - /img/cerioporus_squamosus1.jpeg
-  - /img/cerioporus_squamosus2.jpeg
-  - /img/cerioporus_squamosus3.jpeg
-  - /img/cerioporus_squamosus4.jpeg
-  - /img/cerioporus_squamosus5.jpeg
-  - /img/cerioporus_squamosus6.jpeg
-  - /img/cerioporus_squamosus7.jpeg
-  - /img/cerioporus-squamosus1.jpeg
-  - /img/cerioporus-squamosus2.jpeg
-  - /img/cerioporus-squamosus3.jpeg
-  - /img/cerioporus-squamosus4.jpeg
-  - /img/cerioporus-squamosus5.jpeg
-  - /img/cerioporus-squamosus6.jpeg
-  - /img/cerioporus-squamosus7.jpeg
+  - /img/cerioporus-squamosus-241554397-1.jpeg
+  - /img/cerioporus-squamosus-183005269-3.jpeg
+  - /img/cerioporus-squamosus-183005269-5.jpeg
 ---
 
 #### Description
@@ -88,12 +79,3 @@ This is a good edible mushroom when collected young in its small button stage. I
 #### Toxicity
 
 This mushroom is not known to be toxic. However, allergies and sensitivities may affect individuals differently. Please use caution when eating any wild mushrooms.
-
-#### Field Characteristics:
-
-- Growing caespitose on fallen well-rotted (brown) hardwood log in low, moist, mixed oak/hickory woodland.
-- Caps semicircular with a wavy margin, brown squamules radiating outward from the center.
-- Hymenium with light honeycomb like pores.
-- Stipe black, matte, tough and corklike.
-- Smell: watermelon rind
-- Taste: watermelon rind

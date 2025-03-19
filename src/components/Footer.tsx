@@ -14,7 +14,7 @@ export default function Footer({ className }: { className?: string }) {
               educational groups promoting fungal education, recreation, and
               conservation in Nebraska.
             </p>
-            <p>
+            <div>
               <ul>
                 <li>
                   <Link to="/about">About</Link>
@@ -25,7 +25,7 @@ export default function Footer({ className }: { className?: string }) {
                   </Link>
                 </li>
               </ul>
-            </p>
+            </div>
             © Fungi Project {new Date().getFullYear()}
           </div>
         </div>

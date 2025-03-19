@@ -4,6 +4,8 @@ name: Chestnut Bolete
 scientific_name: Gyroporus castaneus-IN07
 locations:
   - Indian Cave State Park
+observations:
+  - '175281413'
 tags:
   - summer
   - bolete
@@ -30,8 +32,6 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/121620
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/175281413
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/125688
   - tag: Mushroom Observer Species Description
@@ -44,11 +44,6 @@ photos:
   - /img/gyroporus-castaneus-175281413-1.jpeg
   - /img/gyroporus-castaneus-175281413-2.jpeg
   - /img/gyroporus-castaneus-175281413-3.jpeg
-  - /img/gyroporus-castaneus-175281413-4.jpeg
-  - /img/gyroporus-castaneus-175281413-5.jpeg
-  - /img/gyroporus-castaneus-175281413-6.jpeg
-  - /img/gyroporus-castaneus-175281413-7.jpeg
-  - /img/gyroporus-castaneus-175281413-8.jpeg
 ---
 
 The Chestnut Bolete (_Gyroporus castaneus_) is a mycorrhizal (and reportably saprobic) bolete that can be found in woodland soil and disturbed areas. Although boletes generally associate with a mycorrhizal host tree, this mushrooms has reportably been found in areas without a visible mycorrhizal symbiont. Otherwise, it has been associated with Oaks, other broadleaf trees, and conifers. It can be found growing alone or in small groups in July, August, and September in eastern North America.
@@ -92,18 +87,3 @@ The stem is brittle and becomes cottony hollow with age. It is colored similarly
 ![Stem](/img/gyroporus-castaneus-175281413-6.jpeg)
 
 Generally regarded as edible (Pavelle, 2025).
-
-#### July 26th, 2023 Field Notes - Indian Cave State Park:
-
-Growing gregariously near disturbed horse trail in open mixed oak/hickory woodland edge. Nearby Trees: Black Oak, Black Cherry, Chinkapin Oak, Elm, and Ash.
-
-- Caps light brown, subtomentose and firm.
-- Hymenium consisting of cream white circular pores that are unchanging when damaged.
-- Stipe light brown similar to cap, with central pith and slightly exuding liquid where snapped.
-- Flesh unchanging when bruised or cut.
-- Smell: not distinctive.
-- Taste: not distinctive.
-
-DNA Barcode ITS: AAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTAAGGGATAAAACGAAGGACCGTACGACCGAGTCGGTCTCGGTCATGTACGGTCCGGGTCGGTCTTTCCTGTGCACGCGTCGTAGGTCTTCGGGCCTACGTTCATACACCTCTCGGTGTTCGAACGTCCATGGACTGTGACCGCCCGACCGTCGTGTCGGGCGAGAACGCATAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGGACGCAGCGAATCGCGATAAGTAATGTGAATTGCAGATCTTCCGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCCTCGGTATTCCGAGGAGCATGCCTGTCTGAGTGTCTGGACTATACTCTCGGTTGCGAGATCCTTTCGGGGTATCGAAACCGGAATTTGGGAGCTTGCGGGCGTCCTCGGTCGAGGTGACGTCGGCTCTCCTGAAATGCATTAGCGGAGAGGAACGGCACCGAAGCCAAGCGATCGGAGCGCGACCTTTTCCCTCGGCGTCGTAAGGATCGCCGTGGGCTCGGGAAGCGTGAGCGAGGTTTTTCGGGGCATGACGTGTCTCACGCTGCTAGCACGGTCGGCGAGCCTCGGGCGTCGTCGGACACGTTTTCAGCACTCGGCCTCAGATCAGGCAGGGCTACCCGCTGAACTTAAG
-
-![Observation](/img/gyroporus-castaneus-175281413-8.jpeg)

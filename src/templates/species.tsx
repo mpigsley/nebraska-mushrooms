@@ -29,11 +29,17 @@ export default function SpeciesProfileTemplate({
     return nextPostion >= totalSpace ? 0 : nextPostion;
   }
 
+  const speciesPhotos = [...(data.species?.frontmatter?.photos ?? [])].filter(Boolean);
+  const observationPhotos = data.observations?.edges.flatMap(obs => [...(obs.node.frontmatter?.photos ?? [])]).filter(Boolean) ?? [];
+  const uniquePhotos = [...speciesPhotos, ...observationPhotos].filter((photo, index, self) =>
+    index === self.findIndex((p) => p?.childImageSharp?.gatsbyImageData?.images.fallback?.src === photo?.childImageSharp?.gatsbyImageData.images.fallback?.src)
+  );
+
   return (
     <>
       <div className="u-full-width relative">
         <div className="horizontalScroll u-full-width" ref={scrollRef}>
-          {data.species?.frontmatter?.photos?.map((item) => {
+          {uniquePhotos?.map((item) => {
             if (item?.childImageSharp?.gatsbyImageData) {
               return (
                 <GatsbyImage
@@ -83,9 +89,45 @@ export default function SpeciesProfileTemplate({
                 __html: data.species?.html ?? '',
               }}
             />
-            {!!data.species?.frontmatter?.references?.length 
-              && (<References references={data.species?.frontmatter?.references as string[]} />
+            {data.observations?.edges.length > 0 && (
+              <>
+                <hr />
+                <h4>Observations</h4>
+                {data.observations.edges.map((observation) => (
+                  <div key={observation.node.id} className="observation-card">
+                    <h5><a href={observation.node?.frontmatter?.uri ?? '#'}>{`${observation.node?.frontmatter?.date_pretty} ${observation.node?.frontmatter?.location}`}</a></h5>
+                    {!!observation.node?.frontmatter?.photos?.length && (
+                      <GatsbyImage
+                        key={observation.node?.frontmatter?.photos[0]?.childImageSharp?.id}
+                        image={observation.node?.frontmatter?.photos[0]?.childImageSharp?.gatsbyImageData!}
+                        alt={`${observation.node?.frontmatter?.name} (${observation.node?.frontmatter?.scientific_name})`}
+                      />
+                    )}
+
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: observation.node?.html ?? '',
+                      }}
+                    />
+                    {!!observation.node?.frontmatter?.dna_barcode_its && (
+                      <>
+                        DNA Barcode ITS:
+                        <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>
+                          {observation.node?.frontmatter?.dna_barcode_its}
+                        </pre>
+                      </>
+                    )}
+                  </div>
+                ))}
+              </>
             )}
+            {!!data.species?.frontmatter?.references?.length
+              && (
+                <>
+                  <hr />
+                  <References references={data.species?.frontmatter?.references as string[]} />
+                </>
+              )}
           </div>
 
           <div className="four columns">
@@ -176,7 +218,7 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query SpeciesProfileTemplate($id: String!, $locationNames: [String!]) {
+  query SpeciesProfileTemplate($id: String!, $locationNames: [String!], $observations: [String!] = []) {
     locations: allMarkdownRemark(
       filter: { frontmatter: { title: { in: $locationNames } } }
     ) {
@@ -208,6 +250,36 @@ export const pageQuery = graphql`
           childImageSharp {
             id
             gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
+          }
+        }
+      }
+    }
+    observations: allMarkdownRemark(
+      filter: { 
+        frontmatter: { 
+          inat_id: { in: $observations },
+          templateKey: { eq: "observation" }
+        } 
+      }
+    ) {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            inat_id
+            name
+            scientific_name
+            dna_barcode_its
+            location
+            date_pretty
+            uri
+            photos {
+              childImageSharp {
+                id
+                gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
+              }
+            }
           }
         }
       }
