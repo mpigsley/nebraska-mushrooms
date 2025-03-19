@@ -624,3 +624,17 @@ input[type='text'].tag-select__input {
     width: 100%;
   }
 }
+
+.observation-card {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid black;
+}
+
+.observation-card h5 {
+  text-align: center;
+}
+
+.observation-card .gatsby-image-wrapper {
+  margin-bottom: 1em;
+}

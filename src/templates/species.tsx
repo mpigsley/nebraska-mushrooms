@@ -34,7 +34,6 @@ export default function SpeciesProfileTemplate({
   const uniquePhotos = [...speciesPhotos, ...observationPhotos].filter((photo, index, self) =>
     index === self.findIndex((p) => p?.childImageSharp?.gatsbyImageData?.images.fallback?.src === photo?.childImageSharp?.gatsbyImageData.images.fallback?.src)
   );
-  
 
   return (
     <>
@@ -95,8 +94,16 @@ export default function SpeciesProfileTemplate({
                 <hr />
                 <h4>Observations</h4>
                 {data.observations.edges.map((observation) => (
-                  <div key={observation.node.id}>
+                  <div key={observation.node.id} className="observation-card">
                     <h5><a href={observation.node?.frontmatter?.uri ?? '#'}>{`${observation.node?.frontmatter?.date_pretty} ${observation.node?.frontmatter?.location}`}</a></h5>
+                    {!!observation.node?.frontmatter?.photos?.length && (
+                      <GatsbyImage
+                        key={observation.node?.frontmatter?.photos[0]?.childImageSharp?.id}
+                        image={observation.node?.frontmatter?.photos[0]?.childImageSharp?.gatsbyImageData!}
+                        alt={`${observation.node?.frontmatter?.name} (${observation.node?.frontmatter?.scientific_name})`}
+                      />
+                    )}
+
                     <div
                       dangerouslySetInnerHTML={{
                         __html: observation.node?.html ?? '',
