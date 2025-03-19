@@ -47,7 +47,7 @@ photos:
   - /img/merulius-tremellosus-252741607-7.jpeg
 ---
 
-The Trembling Crust (_Merulius tremellosus_) is a decomposer of wood and is usually found growing on the side of large fallen tree trunks. It starts the fruiting body growth in the late spring through fall and overwinters as a dried up version of its former self.
+The Trembling Crust (_Merulius tremellosus_) is a decomposer of wood and is usually found growing on the side of large fallen tree trunks. It fruits in the late spring through fall and overwinters as a dried up version of its former self.
 
 The hymenophore features an array of patterns appearing wrinkled, pocketed, or angularly poriod with colors of red, pink, or purple. The spore print is white.
 
