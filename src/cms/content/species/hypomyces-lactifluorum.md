@@ -11,7 +11,7 @@ observations:
 tags:
   - summer
   - fall
-  - parasite
+  - parasitic
   - substrate-soil
   - edible-with-caution
 taxonomy:

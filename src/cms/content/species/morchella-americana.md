@@ -52,8 +52,6 @@ photos:
 
 Also known as the White Morel.
 
-#### Description
-
 - Hollow mushroom, with the cap fused to the stem at the cap margin possessing rounded, irregularly arranged pits. 2-4 inches tall at maturity, sometimes much larger.
 - Cap shape: rounded, oval, or egg-shaped, cylindrical, or rounded triangular
 - Color: Cap gray with white ridges when young, becoming yellow-brown to brown with age. Stem white to light yellow with age.

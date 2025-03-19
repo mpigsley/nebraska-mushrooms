@@ -49,8 +49,6 @@ photos:
   - /img/morchella-punctipes8.jpeg
 ---
 
-#### Description
-
 - This mushroom is hollow on the inside, brittle, and thin-fleshed. The inside texture is roughened.
 - The cap is skirt-like, meaning that the bottom margin is halfway free from the stem and fused to the stem for the upper half. This feature separates it from other Morels in Nebraska.
 - The cap shape is conic (cone-shaped), round, or oval when young, becoming mostly conic with age.

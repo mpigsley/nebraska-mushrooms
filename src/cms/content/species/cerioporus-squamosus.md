@@ -45,8 +45,6 @@ photos:
   - /img/cerioporus-squamosus-183005269-5.jpeg
 ---
 
-#### Description
-
 Key features include:
 
 - Flattened scales (squamules) on the cap surface. A feature from which the mushroom gets its name _C. squamosus_.

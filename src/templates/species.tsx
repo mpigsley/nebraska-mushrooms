@@ -84,6 +84,7 @@ export default function SpeciesProfileTemplate({
         </section>
         <section className="row">
           <div className="eight columns">
+            <h4>Description</h4>
             <div
               dangerouslySetInnerHTML={{
                 __html: data.species?.html ?? '',
