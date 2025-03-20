@@ -1,0 +1,37 @@
+---
+inat_id: '189059697'
+templateKey: observation
+dna_barcode_its: GTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACCAAGGAAGCGCCCGGGGCCTCGGCCCGGGGCGCGGACTTACCAAACCCTCTGTGTACCTTTACCTTTGTTGCTTCCCGTCGGGTTTGCGCCCGGCGGGGGAGGTCCACCAAACTCATGTTTTTCCATGCAGTCAGTAGAGCGGCTCGTCCGCGAAAATTTAAAAGTTAAAACTTTCAACAACGGATCTCTTGGTTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAGTGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCTCTGGTATTCCGGGGGGGCATGCCTGTCCGAGCGTCGTCAAACCCCCTCAAGCTCCTTTGCTTGGTCATGGTGGAAGATCCCCTCCCCGGAGGGGTTCCCCGCTTAAAGGAATCTGGCGGAGAGCCTGGTCCTCGGAGACGTAGTAAGCAATTCTATCGTCTCTCGAGCGATCATCTCCCAGCCGACAACCCCAAACTTTTCTAGGTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTT
+name:  
+scientific_name: Sarcoscypha dudleyi
+location: Indian Cave State Park
+date_pretty: October 25th, 2023
+uri: https://www.inaturalist.org/observations/189059697
+photos:
+  - /img/sarcoscypha-dudleyi-189059697-1.jpeg
+  - /img/sarcoscypha-dudleyi-189059697-2.jpeg
+  - /img/sarcoscypha-dudleyi-189059697-3.jpeg
+  - /img/sarcoscypha-dudleyi-189059697-4.jpeg
+  - /img/sarcoscypha-dudleyi-189059697-5.jpeg
+  - /img/sarcoscypha-dudleyi-189059697-6.jpeg
+---
+
+483
+
+**Nickname:** Sarcoschypha dudleii  
+**Sequence Number:** #0483  
+**Observed At:** Thursday, October 26, 2023 10:31 AM  
+**Location**: [40.260398723055, -95.56707560316735](http://www.google.com/maps/place/40.260398723055,-95.56707560316735)  
+
+**Form Group:** Cup fungi
+
+###### Habitat:
+- *Growth Habit:* Scattered to Single
+- *Substrate:* Lignicolous [1]
+- *Tree:* [2]
+
+**Attachment:** Sessile
+
+[1] Growing on submerged wood.
+
+[2] Linden
