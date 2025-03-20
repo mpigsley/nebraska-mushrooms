@@ -51,6 +51,6 @@ The Bay Polypore (_Picipes badius_) is a saprobic mushroom that can be found on 
 
 The cap color is tanish when young, becoming brown, then reddish-brown. The color is most vibrant towards the center of the cap. The cap is generally shaped with a deep depression, becoming funnel-shaped.
 
-The hymenophore consists of tiny, irregularly placed pores. Colored white when young, becoming cream-colored when cold.
+The hymenophore consists of tiny, irregularly placed pores. Colored white when young, becoming cream-colored with age.
 
 This mushroom is also called the "Black Footed Polypore" due to its black stem base developed with age.
