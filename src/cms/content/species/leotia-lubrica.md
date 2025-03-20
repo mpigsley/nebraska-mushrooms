@@ -34,8 +34,6 @@ photos:
   - /img/leotia-lubrica-175283372-1.jpeg
   - /img/leotia-lubrica-175283372-2.jpeg
   - /img/leotia-lubrica-175283372-3.jpeg
-  - /img/leotia-lubrica-175283372-4.jpeg
-  - /img/leotia-lubrica-175283372-5.jpeg
 ---
 
 Jelly Babies (_Leotia lubrica_) can be found in soil around broadleaf trees or conifers, but sometimes on decomposing wood. The season ranges from late spring through fall. It is also known as "Ochre Jelly Club".
