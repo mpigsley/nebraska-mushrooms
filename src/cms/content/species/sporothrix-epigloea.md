@@ -4,9 +4,14 @@ name:
 scientific_name: Sporothrix epigloea
 locations:
   - Indian Cave State Park
+  - Schramm Park
+observations:
+  - '176372267'
+  - '226561420'
 tags:
   - summer
   - substrate-fungi
+  - parasitic
 taxonomy:
   - Life
   - Fungi
@@ -20,24 +25,18 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/554048
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/176372267
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/1095660
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Sporothrix%20epigloea
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Sporothrix%20epigloea+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Sporothrix%20epigloea
 photos:
-  - /img/sporothrix-epigloea1.jpeg
-  - /img/sporothrix-epigloea2.jpeg
-  - /img/sporothrix-epigloea3.jpeg
-  - /img/sporothrix-epigloea4.jpeg
-  - /img/sporothrix-epigloea5.jpeg
-  - /img/sporothrix-epigloea6.jpeg
-  - /img/sporothrix-epigloea7.jpeg
-  - /img/sporothrix-epigloea8.jpeg
-  - /img/sporothrix-epigloea9.jpeg
-  - /img/sporothrix-epigloea10.jpeg
-  - /img/sporothrix-epigloea11.jpeg
+  - /img/sporothrix-epigloea-176372267-3.jpeg
+  - /img/sporothrix-epigloea-176372267-7.jpeg
+  - /img/sporothrix-epigloea-176372267-9.jpeg
 ---
 
-#### Field Characteristics:\*\*
-
-- Growing on Tremella fuciformis fruiting bodies, that are fruiting from fallen Northern Red Oak limb in open mixed oak/hickory woodland.
-- Fruiting bodies black and spine-like, some with fine droplet at the tip.
-- Some nearby Tremella specimens starting to dissolve.
+_Sporothrix epigloea_ is a tiny parasite that grows on [Snow Fungus (_Tremella fuciformis_)](/species/tremella-fuciformis/) and can be found in the fall. It features tiny pointed clubs that can be difficult to see to the naked eye.
