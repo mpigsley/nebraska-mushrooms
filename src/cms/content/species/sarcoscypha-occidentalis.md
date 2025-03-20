@@ -1,9 +1,13 @@
 ---
 templateKey: species
-name: Stalked Elf Cup
-scientific_name: Sarcoscypha occidentalis-IN03
-locations:
+name: Stalked Scarlet Cup 
+scientific_name: Sarcoscypha occidentalis
+locations: 
   - Indian Cave State Park
+observations:
+  - '167566157'
+  - '163682970'
+  - '228377376'
 tags:
   - spring
   - summer
@@ -24,29 +28,20 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/338651
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/167566157
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/58705
   - tag: Mushroom Observer Species Description
-    link: https://mushroomobserver.org/names?pattern=Sarcoscypha+occidentalis
+    link: https://mushroomobserver.org/names?pattern=Sarcoscypha%20occidentalis
   - tag: Mushroom Expert
-    link: https://www.google.com/search?q=Sarcoscypha+occidentalis+site:www.mushroomexpert.com
+    link: https://www.google.com/search?q=Sarcoscypha%20occidentalis+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Sarcoscypha%20occidentalis
 photos:
-  - /img/sarcoscypha-occidentalis-9525-3.jpeg
-  - /img/sarcoscypha-occidentalis-9525-2.jpeg
-  - /img/sarcoscypha-occidentalis-9525-4.jpeg
-  - /img/sarcoscypha-occidentalis-9525-1.jpeg
+  - /img/sarcoscypha-occidentalis-167566157-3.jpeg
+  - /img/sarcoscypha-occidentalis-163682970-2.jpeg
+  - /img/sarcoscypha-occidentalis-167566157-1.jpeg
 ---
 
-The Stalked Elf Cup is a decomposer of deciduous twigs and duff (sometimes submerged in soil) and can be found in the spring through summer. It can be found east of the Rocky Mountains in North America through Mexico.
+The Stalked Elf Cup (_Sarcoscypha occidentalis_) is a decomposer of deciduous twigs and duff (sometimes submerged in soil) and can be found in the spring through summer. It can be found east of the Rocky Mountains in North America through Mexico.
 
 The _Sarcoscypha occidentalis group_ can be distinguished from other _Sarcoscypha_ by the presence of a stem. North America may see the group split into several distinct species in the coming decades, as DNA testing suggests that _Sarcoscypha occidentalis-IN03_ could be a different species than others in the group. The fruiting body is saucer-shaped, scarlet colored on top and whitish on the bottom (the scarlet color shows through creating a muted scarlet effect). The stem is white, with cottony basal mycelial threads commonly present.
-
-![Form](/img/sarcoscypha-occidentalis-9525-4.jpeg)
-
-#### June 15th, 2023 Field Notes - Indian Cave State Park
-
-- Growing from submerged hardwood twig in low riparian woodland draw near creek.
-- Nearby trees: Elm, Black Walnut, and Honey Locust.
-- Long stipe
