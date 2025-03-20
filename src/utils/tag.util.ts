@@ -45,6 +45,7 @@ export enum SubstrateTags {
   SubstrateInsects = 'substrate-insects',
   SubstrateFungi = 'substrate-fungi',
   SubstrateDung = 'substrate-dung',
+  SubstrateSeeds = 'substrate-seeds',
 }
 
 export enum Tag {

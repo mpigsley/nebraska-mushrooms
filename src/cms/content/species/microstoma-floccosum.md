@@ -15,6 +15,7 @@ tags:
   - disc
   - substrate-wood
   - substrate-duff
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
