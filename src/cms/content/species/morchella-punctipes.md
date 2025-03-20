@@ -1,9 +1,11 @@
 ---
 templateKey: species
-name: Half-Free Morel
-scientific_name: Morchella punctipes (M. semilibera)
-locations:
+name: Half-free Morel 
+scientific_name: Morchella punctipes
+locations: 
   - Indian Cave State Park
+observations:
+  - '207828231'
 references:
   - Kay, S., Sikes, B., & Morse, C. (2022). A New Guide to Kansas Mushrooms.
     University Press of Kansas.
@@ -18,8 +20,8 @@ references:
 tags:
   - spring
   - disc
-  - edible-with-caution
   - substrate-soil
+  - edible-with-caution
 taxonomy:
   - Life
   - Fungi
@@ -33,20 +35,18 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/319984
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/207828231
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/32893904
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/133684
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Morchella%20punctipes
   - tag: Mushroom Expert
-    link: http://www.mushroomexpert.com/morchella_punctipes.html
+    link: https://www.google.com/search?q=Morchella%20punctipes+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Morchella%20punctipes
 photos:
-  - /img/morchella-punctipes1.jpeg
-  - /img/morchella-punctipes2.jpeg
-  - /img/morchella-punctipes4.jpeg
-  - /img/morchella-punctipes5.jpeg
-  - /img/morchella-punctipes6.jpeg
-  - /img/morchella-punctipes7.jpeg
-  - /img/morchella-punctipes8.jpeg
+  - /img/morchella-punctipes-207828231-1.jpeg
+  - /img/morchella-punctipes-207828231-4.jpeg
+  - /img/morchella-punctipes-207828231-5.jpeg
 ---
 
 - This mushroom is hollow on the inside, brittle, and thin-fleshed. The inside texture is roughened.
