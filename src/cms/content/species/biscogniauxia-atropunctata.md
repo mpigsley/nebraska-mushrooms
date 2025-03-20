@@ -4,6 +4,7 @@ name: Hypoxylon Canker
 scientific_name: Biscogniauxia atropunctata
 locations:
   - Indian Cave State Park
+  - Schramm Park
 observations:
   - '170159105'
   - '226580764'

@@ -4,6 +4,7 @@ name: Stalked Scarlet Cup
 scientific_name: Sarcoscypha occidentalis
 locations: 
   - Indian Cave State Park
+  - Wilderness Park
 observations:
   - '167566157'
   - '163682970'
