@@ -39,4 +39,4 @@ photos:
   - /img/holwaya-mucida-189059898-3.jpeg
 ---
 
-The Tapioca Club (_Holwaya mucida_) is a decomposer of wood. At Indian Cave State Park, it has found in the fall great numbers (hundreds to thousands) in the bark fissures of American Linden (_Tilia americana_). It features a black club form with a white, jelly-like apex which is easily rubbed off when fresh with a texture like tapioca pudding. The apex later turns gray colored with age. The species is polymorphic and can also be found in a black cup form amidst the clubs (not pictured).
+The Tapioca Club (_Holwaya mucida_) is a decomposer of wood and fruits in the fall. At Indian Cave State Park, it has found in great numbers (hundreds to thousands) between the bark fissures of fallen American Linden trunks (_Tilia americana_). It features a black club form with a cream-colored, tapioca pudding-like apex which is easily rubbed off when fresh. The apex later turns gray-colored and crusty with age. The species shape is polymorphic and can also be found in a black cup form amidst the clubs (not pictured).
