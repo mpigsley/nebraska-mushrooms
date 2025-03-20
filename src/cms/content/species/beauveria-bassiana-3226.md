@@ -7,7 +7,6 @@ locations:
 tags:
   - summer
   - entomopathogenic
-  - substrate-wood
   - substrate-insects
 taxonomy:
   - Life
