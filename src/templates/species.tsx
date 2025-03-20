@@ -84,12 +84,16 @@ export default function SpeciesProfileTemplate({
         </section>
         <section className="row">
           <div className="eight columns">
-            <h4>Description</h4>
-            <div
-              dangerouslySetInnerHTML={{
-                __html: data.species?.html ?? '',
-              }}
-            />
+            {data.species?.html?.trim().length !== 0 && (
+              <>
+                <h4>Description</h4>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: data.species?.html ?? '',
+                  }}
+                />
+              </>
+            )}
             {data.observations?.edges.length > 0 && (
               <>
                 <hr />

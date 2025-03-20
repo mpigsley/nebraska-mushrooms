@@ -4,10 +4,14 @@ name: Tapioca Club
 scientific_name: Holwaya mucida
 locations:
   - Indian Cave State Park
+observations:
+  - '179065783'
+  - '189059898'
 tags:
   - fall
   - club
   - substrate-wood
+  - disc
 taxonomy:
   - Life
   - Fungi
@@ -21,38 +25,18 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/58187
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/189059898
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/126908
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Holwaya%20mucida
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Holwaya%20mucida+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Holwaya%20mucida
 photos:
-  - /img/holwaya-mucida1.jpeg
-  - /img/holwaya-mucida2.jpeg
-  - /img/holwaya-mucida3.jpeg
-  - /img/holwaya-mucida4.jpeg
-  - /img/holwaya-mucida5.jpeg
-  - /img/holwaya-mucida6.jpeg
-  - /img/holwaya-mucida7.jpeg
-  - /img/holwaya-mucida8.jpeg
-  - /img/holwaya-mucida9.jpeg
-  - /img/holwaya-mucida10.jpeg
-  - /img/holwaya-mucida11.jpeg
-  - /img/holwaya-mucida12.jpeg
-  - /img/holwaya-mucida13.jpeg
+  - /img/holwaya-mucida-189059898-1.jpeg
+  - /img/holwaya-mucida-189059898-2.jpeg
+  - /img/holwaya-mucida-189059898-3.jpeg
 ---
 
-#### Field Characteristics:
-
-484
-
-**Nickname:** Tapioca Club  
-**Sequence Number:** #0484  
-**Observed At:** Thursday, October 26, 2023 10:44 AM  
-**Location**: [40.260510557631, -95.56686401378279](http://www.google.com/maps/place/40.260510557631,-95.56686401378279)
-
-**Form Group:** [1]
-
-[1] Trooping inside of bark grooves on large fallen Linden in low, open, moist mixed oak/hickory draw.
-
-Asco/club;
-White surface rubbing off reminiscent, of tapioca;
-Taste: indistinguishable, texture like tapioca;
-Growing on large brown rot Linden tree;
+The Tapioca Club (_Holwaya mucida_) is a decomposer of wood. At Indian Cave State Park, it has found in the fall great numbers (hundreds to thousands) in the bark fissures of American Linden (_Tilia americana_). It features a black club form with a white, jelly-like apex which is easily rubbed off when fresh with a texture like tapioca pudding. The apex later turns gray colored with age. The species is polymorphic and can also be found in a black cup form amidst the clubs (not pictured).
