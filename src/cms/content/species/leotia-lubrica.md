@@ -4,8 +4,11 @@ name: Jelly Babies
 scientific_name: Leotia lubrica
 locations:
   - Indian Cave State Park
+observations:
+  - '175283372'
 tags:
   - summer
+  - jelly
   - substrate-soil
 taxonomy:
   - Life
@@ -19,24 +22,20 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/122042
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/175283372
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/58669
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Leotia%20lubrica
   - tag: Mushroom Expert
-    link: https://www.mushroomexpert.com/leotia_lubrica.html
+    link: https://www.google.com/search?q=Leotia%20lubrica+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Leotia%20lubrica
 photos:
-  - /img/leotia-lubrica-1422-1.jpeg
-  - /img/leotia-lubrica-1422-2.jpeg
-  - /img/leotia-lubrica-1422-3.jpeg
-  - /img/leotia-lubrica-1422-4.jpeg
-  - /img/leotia-lubrica-1422-5.jpeg
+  - /img/leotia-lubrica-175283372-1.jpeg
+  - /img/leotia-lubrica-175283372-2.jpeg
+  - /img/leotia-lubrica-175283372-3.jpeg
+  - /img/leotia-lubrica-175283372-4.jpeg
+  - /img/leotia-lubrica-175283372-5.jpeg
 ---
 
-Also known as Ochre Jelly Club.
-
-This mushroom can be found in soil around broadleaf trees or conifers, but sometimes on decomposing wood. The season ranges from late spring through fall.
-
-DNA Barcode ITS:
-
-GAACGCACATTGCACCCTCTGGCACCCAGGGGGTATGCCTGTCCGAGCGTCGTCACGACCCTCGAGCTCCCCGGAGCTCGGCGTTGGGTGCGGCCCCGATCACCGGGGCCCTCCCCAAAACCAGTGGCGGCCGTGGCCCGGTCCCGAGCGCAGTAGACTTCTCTCGCTCAGGGGCCTGGGCGGCGTGCCGGCCAGCAAGACTTCAGCCACACCAAAGGTTGACCTCGGATCAGGTAGGAGCACCCGCTGAACTTAA
-
-Provisional species name: Leotia "lubrica-IN02"
+Jelly Babies (_Leotia lubrica_) can be found in soil around broadleaf trees or conifers, but sometimes on decomposing wood. The season ranges from late spring through fall. It is also known as "Ochre Jelly Club".
