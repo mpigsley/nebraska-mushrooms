@@ -15,18 +15,13 @@ export default function Footer({ className }: { className?: string }) {
               conservation in Nebraska.
             </p>
             <div>
-              <ul>
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdZGuo3D7oGBCX9NQ_Hc9BjMkqByTOQlolRZs9cjVS-Peld9w/viewform">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
+              <Link to="/about">About</Link>
+              <span> | </span>
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdZGuo3D7oGBCX9NQ_Hc9BjMkqByTOQlolRZs9cjVS-Peld9w/viewform">
+                Contact
+              </Link>
+              <span> | </span>© Fungi Project {new Date().getFullYear()}
             </div>
-            © Fungi Project {new Date().getFullYear()}
           </div>
         </div>
       </div>
