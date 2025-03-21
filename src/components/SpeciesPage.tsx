@@ -107,11 +107,11 @@ export default function SpeciesPage({
                   {species.externalLinks.map((item) => (
                     <li key={item?.name}>
                       <a
-                        href={item?.name ?? '/'}
+                        href={item?.url ?? '/'}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {item?.url}
+                        {item?.name}
                       </a>
                     </li>
                   ))}
