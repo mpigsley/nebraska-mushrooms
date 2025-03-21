@@ -21,7 +21,9 @@ export default function AllLocations({
       edge.node.frontmatter?.photos?.reduce(
         (acc: IGatsbyImageData[], photo) => {
           if (photo?.childImageSharp) {
-            const gatsbyImageData = getImage(photo.childImageSharp.smallImage);
+            const gatsbyImageData = getImage(
+              photo.childImageSharp.gatsbyImageData,
+            );
             if (gatsbyImageData) {
               acc.push(gatsbyImageData);
             }
@@ -29,7 +31,7 @@ export default function AllLocations({
           return acc;
         },
         [],
-      ) ?? []
+      ) ?? [],
   }));
 
   return <LocationPage title="All Nebraska Parks" species={species} />;
@@ -59,17 +61,12 @@ export const pageQuery = graphql`
             photos {
               childImageSharp {
                 id
-                smallImage: gatsbyImageData(
+                gatsbyImageData(
                   height: 235
                   width: 235
                   quality: 90
                   layout: CONSTRAINED
                 )
-                largeImage: fixed(base64Width: 500) {
-                  base64
-                  height
-                  width
-                }
               }
             }
           }
