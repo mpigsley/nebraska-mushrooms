@@ -2,6 +2,10 @@
 templateKey: species
 name: Cheeto Cordyceps
 scientific_name: Ophiocordyceps variabilis
+observations:
+  - '220344059'
+  - '170023277'
+  - '170134828'
 locations:
   - Indian Cave State Park
 tags:
@@ -23,19 +27,17 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/438404
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/170134828
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/552853
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Ophiocordyceps%20variabilis
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Ophiocordyceps%20variabilis+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Ophiocordyceps%20variabilis
 photos:
-  - /img/ophiocordyceps-variabilis12.jpeg
-  - /img/ophiocordyceps-variabilis2.jpeg
-  - /img/ophiocordyceps-variabilis3.jpeg
-  - /img/ophiocordyceps-variabilis4.jpeg
-  - /img/ophiocordyceps-variabilis5.jpeg
-  - /img/ophiocordyceps-variabilis6.jpeg
-  - /img/ophiocordyceps-variabilis1.jpeg
+  - /img/ophiocordyceps-variabilis-170023277-11.jpeg
+  - /img/ophiocordyceps-variabilis-170134828-5.jpeg
+  - /img/ophiocordyceps-variabilis-170134828-6.jpeg
 ---
 
-#### June 29th, 2023 Field Characteristics:
-
-- Emerging from a large rotting (white rot) basswood log in a large, moist woodland draw.
-- Host: Dipteran fly larvae.
