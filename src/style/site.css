@@ -52,6 +52,8 @@ h5 {
 
 .button-icon {
   line-height: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .toggle-buttons {

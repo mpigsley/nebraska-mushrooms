@@ -6,7 +6,6 @@ import { useActiveSearch } from '../utils/active-search';
 import { type Species } from '../utils/species.util';
 import PageLayout from '../components/PageLayout';
 import { Tag } from '../utils/tag.util';
-import PrintableSpeciesList from './PrintableSpeciesList';
 
 interface LocationPageProps {
   title: string;
@@ -71,9 +70,7 @@ export default function LocationPage({
     });
 
   return (
-    <PageLayout
-      printable={<PrintableSpeciesList species={filteredSortedSpecies} />}
-    >
+    <PageLayout>
       <LocationSpeciesList
         species={filteredSortedSpecies}
         title={title}

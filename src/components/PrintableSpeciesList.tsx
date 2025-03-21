@@ -1,10 +1,9 @@
 import * as React from 'react';
-import { GatsbyImage } from 'gatsby-plugin-image';
 
-import { Species } from '../utils/species.util';
+import { type PrintableSpecies } from '../utils/species.util';
 
 interface PrintableSpeciesListProps {
-  species: Species[];
+  species: PrintableSpecies[];
 }
 
 export default function PrintableSpeciesList({
@@ -13,8 +12,7 @@ export default function PrintableSpeciesList({
   return (
     <div id="printable">
       {species.map((species) => {
-        const [firstImage, secondImage, thirdImage] =
-          species.printablePhotos ?? [];
+        const [firstImage, secondImage, thirdImage] = species.photos ?? [];
         const imageWidths = ['31%', '31%', '31%'];
         if (!secondImage) {
           imageWidths[0] = '50%';

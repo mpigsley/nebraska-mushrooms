@@ -1,4 +1,4 @@
-import { Image, Map, Menu, Printer } from 'react-feather';
+import { Image, Map, Menu } from 'react-feather';
 import * as React from 'react';
 
 import SpeciesImageList from './SpeciesImageList';
@@ -97,13 +97,6 @@ export default function LocationSpeciesList({
               </button>
             </a>
           )}
-          <button
-            className="button button-icon mb-0 action-button"
-            title="Print PDF"
-            onClick={() => window.print()}
-          >
-            <Printer size={20} />
-          </button>
           <div className="toggle-buttons">
             <button
               type="button"
