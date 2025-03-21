@@ -102,11 +102,13 @@ export default function SpeciesProfileTemplate({
                   <div key={observation.node.id} className="observation-card">
                     <h5><a href={observation.node?.frontmatter?.uri ?? '#'}>{`${observation.node?.frontmatter?.date_pretty} ${observation.node?.frontmatter?.location || ''}`}</a></h5>
                     {!!observation.node?.frontmatter?.photos?.length && (
-                      <GatsbyImage
-                        key={observation.node?.frontmatter?.photos[0]?.childImageSharp?.id}
-                        image={observation.node?.frontmatter?.photos[0]?.childImageSharp?.gatsbyImageData!}
-                        alt={`${observation.node?.frontmatter?.name} (${observation.node?.frontmatter?.scientific_name})`}
-                      />
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <GatsbyImage
+                          key={observation.node?.frontmatter?.photos[0]?.childImageSharp?.id}
+                          image={observation.node?.frontmatter?.photos[0]?.childImageSharp?.gatsbyImageData!}
+                          alt={`${observation.node?.frontmatter?.name} (${observation.node?.frontmatter?.scientific_name})`}
+                        />
+                      </div>
                     )}
 
                     <div

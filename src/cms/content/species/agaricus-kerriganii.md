@@ -1,18 +1,22 @@
 ---
 templateKey: species
-name: Kerrigan's Agaricus
+name: Kerrigan's Champion
 scientific_name: Agaricus kerriganii
-locations: 
+observations:
+  - '177577333'
+locations:
   - Indian Cave State Park
 references: 
  - 'Muñoz, Guillermo & Palazón, Antonio. (2019). Ten rare or little-known
  species collected in the Iberian Peninsula.
  https://www.researchgate.net/publication/361879979_Ten_rare_or_little-known_species_collected_in_the_Iberian_Peninsula'
+ - 'Kuo, M. (2018, April). The genus Agaricus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/agaricus.html'
+ - 'Kalichman, J. (2023). Names - Agaricus & Agaricales. Retrieved January 17, 2025, from Agaric.us website: https://agaric.us/common_names/names.html'
 tags:
-    - summer
-    - fall
-    - agaric
-    - substrate-soil
+  - summer
+  - fall
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
@@ -27,23 +31,23 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/519308
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/177577333
   - tag: iNaturalist Species Description
-    link: https://www.inaturalist.org/taxa/886218-Agaricus-kerriganii
+    link: https://www.inaturalist.org/taxa/886218
   - tag: Mushroom Observer Species Description
-    link: https://mushroomobserver.org/names/59958
+    link: https://mushroomobserver.org/names?pattern=Agaricus%20kerriganii
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Agaricus%20kerriganii+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Agaricus%20kerriganii
 photos:
-  - /img/agaricus-kerriganii-9721-4.jpeg
-  - /img/agaricus-kerriganii-9721-1.jpeg
-  - /img/agaricus-kerriganii-9721-2.jpeg
-  - /img/agaricus-kerriganii-9721-3.jpeg
-  - /img/agaricus-kerriganii-9721-5.jpeg
+  - /img/agaricus-kerriganii-177577333-3.jpeg
+  - /img/agaricus-kerriganii-177577333-4.jpeg
+  - /img/agaricus-kerriganii-177577333-1.jpeg
 ---
 
-Kerrigan's Agaricus is a brown-spored gilled mushroom that grows in soil in wooded habitats. It can be found in late summer to early fall. It has a skirt on the stem without a volva at the stem base. It bruises yellow.
+Kerrigan's Champion (_Agaricus kerriganii_) is a brown-spored gilled mushroom that grows in soil in wooded habitats. It can be found from late summer to early fall in Oak and Pine forests. It has a skirt on the stem without a cup at the stem base. It bruises yellow.
 
-##### **Key Features**
+#### Morphology
 
 - Cap shape evenly rounded to half-sphere, later becoming flat to centrally depressed with age. 1.5-2.5 inches (4-6 cm) wide.
 - Texture smooth and dry. Ornamentation can be silky to scaly. Grayish brown becoming more brown towards the center of the cap.
@@ -52,18 +56,3 @@ Kerrigan's Agaricus is a brown-spored gilled mushroom that grows in soil in wood
 - Bruising yellow where handled. Bruising red with age and decomposition.
 - Spore print brown.
 
-_Environment_: A. kerriganii is a decomposer that can be found in soil in oak and pine forests from late summer to early fall. It has been reported along the West Coast, Colorado, and Nebraska.
-
-##### **August 9th, 2023 Field Characteristics**
-
-Growing gregariously on soil in open, mixed oak/hickory woodland hilltop.
-
-- Gills light pink on young specimens turning dark pink then chocolate brown.
-- Cap surface bruising reddish on mature to old specimens.
-- Smell: pleasant
-- Taste: Pleasant
-- Annulus present, no volva.
-- Base of stipe bruising yellow.
-- Stipe base bulbous.
-- KOH: flashing highlighter yellow for a few minutes, then dull gray
-- Ammonia: Indistinct
