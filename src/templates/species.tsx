@@ -43,6 +43,7 @@ export default function SpeciesProfileTemplate({
         name: o.node.frontmatter?.name ?? '',
         scientificName: o.node.frontmatter?.scientific_name ?? '',
         dnaBarcodeIts: o.node.frontmatter?.dna_barcode_its ?? '',
+        mycomapBlastLink: o.node.frontmatter?.mycomap_blast_link ?? '',
         location: o.node.frontmatter?.location ?? '',
         datePretty: o.node.frontmatter?.date_pretty ?? '',
         uri: o.node.frontmatter?.uri ?? '',
@@ -143,6 +144,7 @@ export const pageQuery = graphql`
             name
             scientific_name
             dna_barcode_its
+            mycomap_blast_link
             location
             date_pretty
             uri

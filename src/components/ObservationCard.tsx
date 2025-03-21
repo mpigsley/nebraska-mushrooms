@@ -14,6 +14,7 @@ export default function ObservationCard({
     name,
     scientificName,
     dnaBarcodeIts,
+    mycomapBlastLink,
     location,
     datePretty,
     uri,
@@ -26,7 +27,9 @@ export default function ObservationCard({
         <a href={uri ?? '#'}>{`${datePretty} ${location || ''}`}</a>
       </h5>
       {!!photos?.length && (
-        <GatsbyImage image={photos[0]} alt={`${name} (${scientificName})`} />
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+          <GatsbyImage image={photos[0]} alt={`${name} (${scientificName})`} />
+        </div>
       )}
 
       <div dangerouslySetInnerHTML={{ __html: html ?? '' }} />
@@ -41,6 +44,7 @@ export default function ObservationCard({
           >
             {dnaBarcodeIts}
           </pre>
+          {!!mycomapBlastLink && (<a href={mycomapBlastLink} target="_blank">View DNA BLAST Results</a>)}
         </>
       )}
     </div>

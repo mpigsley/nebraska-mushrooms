@@ -21,6 +21,7 @@ export type SpeciesObservation = {
   name?: string;
   scientificName?: string;
   dnaBarcodeIts?: string;
+  mycomapBlastLink?: string;
   location?: string;
   datePretty?: string;
   uri?: string;
