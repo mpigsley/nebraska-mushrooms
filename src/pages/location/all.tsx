@@ -29,23 +29,7 @@ export default function AllLocations({
           return acc;
         },
         [],
-      ) ?? [],
-    printablePhotos:
-      edge.node.frontmatter?.photos
-        ?.slice(0, 3)
-        .reduce((acc: { data: string; width: number }[], photo) => {
-          if (photo?.childImageSharp) {
-            const {
-              base64: data,
-              height,
-              width,
-            } = photo.childImageSharp.largeImage ?? {};
-            if (data && height && width) {
-              acc.push({ data, width: Math.round(400 * (width / height)) });
-            }
-          }
-          return acc;
-        }, []) ?? [],
+      ) ?? []
   }));
 
   return <LocationPage title="All Nebraska Parks" species={species} />;
