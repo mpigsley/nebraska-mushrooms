@@ -1,7 +1,7 @@
 ---
 templateKey: species
-name: Fool's Funnel / Sweating Descender
-scientific_name: Collibia 'rivulosa PNW07'
+name: Fool's Funnel
+scientific_name: Collybia 'rivulosa PNW07'
 locations:
   - Indian Cave State Park
 references:
@@ -47,7 +47,7 @@ photos:
   - /img/collybia-rivulosa-177761859-9.jpeg
 ---
 
-Fool's Funnel (*Collibia 'rivulosa PNW07'*, also known as *Clitocybe rivulosa*) is a decomposer that can be found in the late summer through fall and seems to have a global distribution. Its habit is to grow in arcs and rings in grasslands. It is relatively common and is a toxic look-alike of the Fairy Ring Mushroom (*Marasmius oreades*). The latter being an edible mushroom inhabiting the same habitat and growth habit (Wood, 2015).
+Fool's Funnel (*Collybia 'rivulosa PNW07'*, also known as *Clitocybe rivulosa*) is a decomposer that can be found in the late summer through fall and seems to have a global distribution. Its habit is to grow in arcs and rings in grasslands. It is relatively common and is a toxic look-alike of the Fairy Ring Mushroom (*Marasmius oreades*). The latter being an edible mushroom inhabiting the same habitat and growth habit (Wood, 2015).
 
 ![Form](/img/collybia-rivulosa-177761859-4.jpeg)
 
