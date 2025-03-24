@@ -17,7 +17,7 @@ export default function Footer({ className }: { className?: string }) {
             <div>
               <Link to="/about">About</Link>
               <span> | </span>
-              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdZGuo3D7oGBCX9NQ_Hc9BjMkqByTOQlolRZs9cjVS-Peld9w/viewform">
+              <Link to="https://forms.gle/YNMvbkB85unjfWS48">
                 Contact
               </Link>
               <span> | </span>© Fungi Project {new Date().getFullYear()}
