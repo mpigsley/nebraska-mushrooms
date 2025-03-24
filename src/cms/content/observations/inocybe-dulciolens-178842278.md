@@ -1,0 +1,27 @@
+---
+inat_id: '178842278'
+templateKey: observation
+dna_barcode_its: GTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTATTGAATAAACTTGAACAGGCTGTTGCTGGCCCTTAGGGGTATGTGCACGCTTGTCATCTTTATTTCTCCAACTGTGCACATATTGTAGACCTGGTTGTTGTTGATTTTGTTATCGAGTTGGAACTGCTACTGCTGTTGCTGTTGCTTTTCCTTGAAATCCTTTCCAGGTCTATGTACCTTTTTTCACAAACCTATGAATCTGTTTAGAATAACAAAGTTGAATTTAAATATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCATCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTGTCATTCAAGTTCTCAAACCACATTGATTGTGGCTTGGATGTGGGGGGGGTTTGCAGGCCTTTTTTGTGAGGGTCAGCTCCCCTGAAATGCATTAGCGGTATCTGAGCAGGGAAACTACCACAGGTGTGATAAATTTATCTATGCCTTGGTGAGCTGCATGAACAGATTGTGCTGCTTATAACCATATTTTGATGAAATTTGACCTCAAATCAGGTAGGACTACCCGCTGAACTT
+mycomap_blast_link: https://mycomap.com/genetics/blast-search/f01-cm24-0306-inat178842278-1-r127199/
+name:  
+scientific_name: Inocybe dulciolens
+location: Indian Cave State Park
+date_pretty: August 16th, 2023
+uri: https://www.inaturalist.org/observations/178842278
+photos:
+  - /img/inocybe-dulciolens-178842278-1.jpeg
+  - /img/inocybe-dulciolens-178842278-2.jpeg
+  - /img/inocybe-dulciolens-178842278-3.jpeg
+  - /img/inocybe-dulciolens-178842278-4.jpeg
+---
+
+306
+
+Growing on a ridgetop in mixed oak/hickory woodland. 
+
+Nearby trees: Chikapin oak, northern red oak, shagbark hickory, elm, black oak, red mulberry, ironwood.
+
+- Squamuals on cap surface.
+- Smell: fragrant and pleasant (somewhat reminiscent of "electrical burn" smell or Big Red Gum)
+- Taste: faint to not distinctive
+- Gills attached.
