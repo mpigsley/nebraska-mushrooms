@@ -1,0 +1,25 @@
+---
+inat_id: '175279303'
+templateKey: observation
+dna_barcode_its: AAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTAATGAATAAACCTGGTTTGCTGTTGCTGGCTCTTCGGAGTATGTGCACGCTTATCATCTTTATATTTCCACCTGTGCACCTTTTGTAGACTTGGATTATCTCTCGAGGCAACTCGGATGTTGGGTTTGCAGTTGTGAAAACTCTGCTCTCCTTGTATTATCCAGTCTATGTTAATTATATACACCATTAGTATGTTTATAGAATGTCGTTATTAGGATTTCAAATCCTTTTAATCAAATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATTAAATTATCAACCACTTCTTCTTTTATTAGTTGAAGCTGGCTTGGATGTGGGGGTTGCGGGCTTTTCTAATAAAAAGGTCGGCTCCTCCTTAAATGCATTAGCAGAACCTTATGTGGGATCAGCTATTGGTGTGATAATTATCTACGCCATTGGTTGTGAAGCAGCTATATACGGGGTTCAGCTTCTAATCGTCTGCAAGGACAATTATATGACAATTTGACCTCAAATCAGGTAGGACTACCCGCTGAACTTAAG
+mycomap_blast_link: https://mycomap.com/genetics/blast-search/c07-cm24-0253-inat175279303-1-r126612/
+name:  
+scientific_name: Crucibulum parvulum
+location: Indian Cave State Park
+date_pretty: July 26th, 2023
+uri: https://www.inaturalist.org/observations/175279303
+photos:
+  - /img/crucibulum-parvulum-175279303-1.jpeg
+  - /img/crucibulum-parvulum-175279303-2.jpeg
+  - /img/crucibulum-parvulum-175279303-3.jpeg
+  - /img/crucibulum-parvulum-175279303-4.jpeg
+  - /img/crucibulum-parvulum-175279303-5.jpeg
+  - /img/crucibulum-parvulum-175279303-6.jpeg
+---
+
+#253
+
+- Growing locally abundant on downed hardwood twig on Southwest- facing slope above creek in mixed oak/hickory woodland.
+- Young specimens with a subtomentose veil covering peridium.
+- Peridium white with tannish peridioles not attached by finiculus.
+- Basal surfaces subtomentose similar to veil tissues.
