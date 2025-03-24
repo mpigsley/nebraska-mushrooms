@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Antilles Panaeolus
+name: Antilles Mottlegill
 scientific_name: Panaeolus antillarum
 observations:
   - '173674673'
@@ -44,6 +44,6 @@ photos:
   - /img/panaeolus-antillarum-173674673-9.jpeg
 ---
 
-The Antilles Panaeolus (_Panaeolus antillarum_) is a widely distributed dung decomposer that can be found in the spring through fall. It can be found on a wide variety of herbivore dung, from those of horses, cows, buffalo, and elephant to name a few. The name is associated with where it was first described: in the Antilles archipelago bordered by the Caribbean Sea.
+The Antilles Mottlegill (_Panaeolus antillarum_) is a widely distributed dung decomposer that can be found in the spring through fall. It can be found on a wide variety of herbivore dung, from those of horses, cows, buffalo, and elephant to name a few. The name is associated with where it was first described: in the Antilles archipelago bordered by the Caribbean Sea.
 
 The cap is evenly rounded to bullet-shaped to bell-shaped, and colored gray to brown to white. The gills are distinctively "mottled" (two toned speckled, like granite stone), gray when young becoming black with age, and attached to the stem. The spore print is black. The stem has a constant width (even) has no annulus nor a volva.
