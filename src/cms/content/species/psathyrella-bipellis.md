@@ -2,6 +2,8 @@
 templateKey: species
 name: Maroon Brittlestem
 scientific_name: Psathyrella bipellis
+observations:
+  - '166139199'
 locations:
   - Indian Cave State Park
 references:
@@ -28,34 +30,23 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/122681
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/166139199
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/383829
   - tag: Mushroom Observer Species Description
-    link: https://mushroomobserver.org/names?pattern=Psathyrella+bipellis
+    link: https://mushroomobserver.org/names?pattern=Psathyrella%20bipellis
   - tag: Mushroom Expert
-    link: https://www.mushroomexpert.com/psathyrella_bipellis.html
+    link: https://www.google.com/search?q=Psathyrella%20bipellis+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Psathyrella%20bipellis
 photos:
-  - /img/psathyrella-bipellis2.jpeg
-  - /img/psathyrella-bipellis1.jpeg
-  - /img/psathyrella-bipellis3.jpeg
-  - /img/psathyrella-bipellis4.jpeg
-  - /img/psathyrella-bipellis6.jpeg
+  - /img/psathyrella-bipellis-166139199-7.jpeg
+  - /img/psathyrella-bipellis-166139199-1.jpeg
+  - /img/psathyrella-bipellis-166139199-5.jpeg
 ---
 
-The Maroon Brittlestem is a decomposer of woody debris in wood and gardens that can be found in the spring through summer. It is widespread across North America. This specimen was found in a deep woodland valley with a great deal of woody debris.
-
-![Form](/img/psathyrella-bipellis1.jpeg)
+The Maroon Brittlestem (_Psathyrella bipellis_) is a decomposer of woody debris in wood and gardens that can be found in the spring through summer. It is widespread across North America. This specimen was found in a deep woodland valley with a great deal of woody debris.
 
 The cap is purple, red, to maroon colored when young drying brownish with age. A drop of KOH/Drano on the cap should result in an instant dark gray reaction. Small bits of velar tissue can be found on the cap margin. The cap breaks with ease into pizza-slice-shaped radial sections.
 
-![KOH](/img/psathyrella-bipellis3.jpeg)
+The gills are attached to the stem, purplish when young becoming dark purplish brown to dark gray with age. The gill edges are whitish. The stem is exceptionally brittle (hence its name) with visible fibers. It does not have an annulus nor a volva. The spore print is purplish brown to purplish black.
 
-The gills are attached to the stem, purplish when young becoming dark purplish brown to dark gray with age. The gill edges are whitish. The stem is exceptionally brittle (hence its name) with visible fibers. It does not have an annulus nor a volva.
-
-![Stem and Gills](/img/psathyrella-bipellis4.jpeg)
-
-The spore print is purplish brown to purplish black.
-
-![Spore print](/img/psathyrella-bipellis6.jpeg)
