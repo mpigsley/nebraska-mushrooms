@@ -24,7 +24,7 @@ export default function ObservationCard({
   return (
     <div key={id} className="observation-card">
       <h5>
-        <a href={uri ?? '#'}>{`${datePretty} ${location || ''}`}</a>
+        <a href={uri ?? '#'} target="_blank">{`${datePretty} ${location || ''}`}</a>
       </h5>
       {!!photos?.length && (
         <div style={{display: 'flex', justifyContent: 'center'}}>
