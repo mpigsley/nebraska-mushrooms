@@ -15,6 +15,8 @@ export default function Footer({ className }: { className?: string }) {
               conservation in Nebraska.
             </p>
             <div>
+              <Link to="/field-guide">Field Guide Download</Link>
+              <span> | </span>
               <Link to="/about">About</Link>
               <span> | </span>
               <Link to="https://forms.gle/YNMvbkB85unjfWS48">
