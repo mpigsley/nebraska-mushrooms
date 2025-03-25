@@ -73,6 +73,28 @@ export const createPages: GatsbyNode['createPages'] = async ({
       });
     });
 
+  data.allMarkdownRemark.edges
+    .filter((edge) => edge.node.frontmatter.templateKey === 'location')
+    .forEach(edge => {
+      const locationPath = edge.node.fields.slug.split("/").filter(Boolean).pop()
+      createPage({
+        path: `/field-guide2/${locationPath}`,
+        component: path.resolve(`./src/templates/field-guide-template.tsx`),
+        context: {
+          location: locationPath,
+          useFilter: true,
+        },
+      })
+    })
+
+  createPage({
+    path: `/field-guide2/all`,
+    component: path.resolve(`./src/templates/field-guide-template.tsx`),
+    context: {
+      useFilter: false,
+    },
+  })
+
   data.allMarkdownRemark.edges.forEach((edge) => {
     const id = edge.node.id;
     const observations = edge.node.frontmatter?.observations;
