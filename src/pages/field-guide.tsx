@@ -2,14 +2,17 @@ import { graphql, type PageProps } from 'gatsby';
 import { Printer } from 'react-feather';
 import * as React from 'react';
 
-import PrintableSpeciesList from '../components/PrintableSpeciesList';
 import ExampleFieldGuide from '../img/example-field-guide.webp';
 import { type PrintableSpecies } from '../utils/species.util';
 import PageLayout from '../components/PageLayout';
 
+const PrintableSpeciesList = React.lazy(() => import('../components/PrintableSpeciesList'));
+
 export default function FieldGuide({
   data,
 }: Readonly<PageProps<Queries.FieldGuideQuery>>): JSX.Element {
+  const [printableReady, setPrintableReady] = React.useState(false);
+
   const species: PrintableSpecies[] = data.species.edges.map((edge) => ({
     id: edge.node.id,
     name: edge.node.frontmatter?.name ?? undefined,
@@ -34,7 +37,18 @@ export default function FieldGuide({
   }));
 
   return (
-    <PageLayout printable={<PrintableSpeciesList species={species} />}>
+    <PageLayout
+      printable={
+        <React.Suspense
+          fallback={<p>Loading printable field guide...</p>}
+        >
+          <PrintableSpeciesList
+            species={species}
+            onReady={() => setPrintableReady(true)}
+          />
+        </React.Suspense>
+      }
+    >
       <div className="container">
         <div className="row">
           <h2>Field Guide</h2>
@@ -58,9 +72,12 @@ export default function FieldGuide({
               className="button-primary button-icon mb-0"
               title="Print PDF"
               onClick={() => window.print()}
+              disabled={!printableReady}
             >
               <Printer size={20} />
-              <span className="ml-2">Print/Download Field Guide</span>
+              <span className="ml-2">
+                {printableReady ? 'Print/Download Field Guide' : 'Loading, please wait...'}
+              </span>
             </button>
           </p>
 

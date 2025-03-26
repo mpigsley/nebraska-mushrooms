@@ -4,11 +4,18 @@ import { type PrintableSpecies } from '../utils/species.util';
 
 interface PrintableSpeciesListProps {
   species: PrintableSpecies[];
+  onReady?: () => void;
 }
 
 export default function PrintableSpeciesList({
   species,
+  onReady,
 }: PrintableSpeciesListProps): JSX.Element {
+
+  React.useEffect(() => {
+    onReady?.();
+  }, [onReady]);
+
   return (
     <div id="printable">
       {species.map((species) => {
