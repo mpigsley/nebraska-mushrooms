@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Scaber Stem Agrocybe
+name: Scaber Stem Fieldcap
 scientific_name: Agrocybe firma
 observations:
   - '184317901'
