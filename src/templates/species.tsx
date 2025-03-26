@@ -64,6 +64,7 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
   const prettyName = !!data.species?.frontmatter?.name
     ? `${data.species?.frontmatter?.name} (${data.species?.frontmatter?.scientific_name})`
     : data.species?.frontmatter?.scientific_name;
+  const description = data.species?.excerpt ?? 'Mushrooms of Nebraska';
   return (
     <>
       <title>
@@ -71,8 +72,8 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
         {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
       </title>
       <meta property="og:title" content={prettyName || ''} />
-      <meta property="og:description" content="Mushrooms of Nebraska" />
-      <meta name="description" content="Mushrooms of Nebraska" />
+      <meta property="og:description" content={description} />
+      <meta name="description" content={description} />
       <meta
         property="og:image"
         content={
@@ -109,6 +110,7 @@ export const pageQuery = graphql`
     species: markdownRemark(id: { eq: $id }) {
       id
       html
+      excerpt
       frontmatter {
         name
         scientific_name
