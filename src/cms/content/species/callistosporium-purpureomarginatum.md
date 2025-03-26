@@ -1,7 +1,9 @@
 ---
 templateKey: species
-name: Purple-edged Lute
+name: Purple-edged Lute 
 scientific_name: Callistosporium purpureomarginatum
+observations:
+  - '178911801'
 locations:
   - Indian Cave State Park
 references:
@@ -26,8 +28,6 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/204036
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/178911801
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/500027
   - tag: Mushroom Observer Species Description
@@ -40,17 +40,9 @@ photos:
   - /img/callistosporium-purpureomarginatum-178911801-2.jpeg
   - /img/callistosporium-purpureomarginatum-178911801-1.jpeg
   - /img/callistosporium-purpureomarginatum-178911801-3.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-4.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-5.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-7.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-8.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-9.jpeg
-  - /img/callistosporium-purpureomarginatum-178911801-10.jpeg
 ---
 
 The Purple-edged Lute (_Callistosporium purpureomarginatum_) is a decomposer of fallen Oak wood and can be found widespread in eastern North America from mid-July to mid-September.
-
-![Cap](/img/callistosporium-purpureomarginatum-178911801-1.jpeg)
 
 When found fresh and well hydrated, this mushroom's color is pronounced purplish red. A distinctive feature of the cap is that the cap margin maintains a dark reddish violet color as it dries out while the rest of it changes color. It starts dark red or grayish reddish brown when moist the center starts to dry out to grayish yellow and later dries to light yellowish brown.
 
@@ -77,23 +69,6 @@ Cap margin:
 
 The gill attachment to the stem is directly connected to the intersection point (adnexed) or with a notch (emarginate) usually with a decurrent tooth running down the stem. The gills are fragile, especially toward the cap margin. The gill color is yellow or purple undertones and purple towards the cap margin. A color difference can be noticed on the gill margins (marginate) which is a more pronounced purple.
 
-![Gills](/img/callistosporium-purpureomarginatum-178911801-4.jpeg)
-
 The stem is usually attached off-center to the cap (eccentric) and is usually curved. Usually the same color as the gill margins (concolorous) drying into similar colors as the cap with age.
 
-![Stem](/img/callistosporium-purpureomarginatum-178911801-5.jpeg)
-
 The spore print is white. The odor is pleasant, but nondescriptive. The taste is slightly bitter with a metallic aftertaste (please spit it out after tasting). The name `purpureomarginatum` refers to the purple margins of the cap and gills as the mushroom dries out.
-
-#### August 16th, 2023 Field Notes - Indian Cave State Park:
-
-Growing gregarious to clustered on large fallen hardwood log.
-
-- Gills yellow when young becoming red with age; white marginate; shallow
-- Cap deep red-brown; subtomentose
-
-Additional Details
-
-- Microscopy: Spores with orange drop and 4 sterigmate basidia.
-
-![Observation](/img/callistosporium-purpureomarginatum-178911801-6.jpeg)
