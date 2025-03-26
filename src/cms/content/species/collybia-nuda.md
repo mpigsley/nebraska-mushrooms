@@ -2,6 +2,9 @@
 templateKey: species
 name: Blewit
 scientific_name: Collybia nuda
+observations:
+  - '188195467'
+  - '185921821'
 locations:
   - Indian Cave State Park
 tags:
@@ -21,23 +24,17 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/598881
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/188195467
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/1525548
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Collybia%20nuda
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Collybia%20nuda+site:www.mushroomexpert.com
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Collybia%20nuda
 photos:
-  - /img/collybia-nuda1.jpeg
-  - /img/collybia-nuda2.jpeg
-  - /img/collybia-nuda3.jpeg
-  - /img/collybia-nuda4.jpeg
-  - /img/collybia-nuda5.jpeg
-  - /img/collybia-nuda6.jpeg
+  - /img/collybia-nuda-188195467-1.jpeg
+  - /img/collybia-nuda-188195467-5.jpeg
+  - /img/collybia-nuda-188195467-3.jpeg
 ---
 
-#### Field Characteristics:
-
-#461
-
--Growing among leaf duff in low mixed oak/hickory woodland above creek.
-
-- Cap lightly colored with pale bright lilac color turning tannish.
-- Lamellae whitish with a light purplish hue, adnexed, close with frequent partial gills.
-- Stipe whitish, with fine interwoven fiber texture.
