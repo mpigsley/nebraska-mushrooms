@@ -13,8 +13,10 @@ export default function PrintableSpeciesList({
 }: PrintableSpeciesListProps): JSX.Element {
 
   React.useEffect(() => {
-    onReady?.();
-  }, [onReady]);
+    if (species && species.length > 0) {
+      onReady?.();
+    }
+  }, [species, onReady]);
 
   return (
     <div id="printable">
