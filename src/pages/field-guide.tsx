@@ -1,5 +1,5 @@
 import { graphql, type PageProps } from 'gatsby';
-import { Printer } from 'react-feather';
+import { Printer, Loader } from 'react-feather';
 import * as React from 'react';
 
 import ExampleFieldGuide from '../img/example-field-guide.webp';
@@ -7,6 +7,14 @@ import { type PrintableSpecies } from '../utils/species.util';
 import PageLayout from '../components/PageLayout';
 
 const PrintableSpeciesList = React.lazy(() => import('../components/PrintableSpeciesList'));
+
+const SpinnerIcon = () => (
+  <Loader
+    size={20}
+    className="spin"
+    style={{ verticalAlign: 'middle' }}
+  />
+);
 
 export default function FieldGuide({
   data,
@@ -74,11 +82,15 @@ export default function FieldGuide({
               onClick={() => window.print()}
               disabled={!printableReady}
             >
-              <Printer size={20} />
+              {printableReady ? <Printer size={20} /> : <SpinnerIcon />}
               <span className="ml-2">
                 {printableReady ? 'Print/Download Field Guide' : 'Loading, please wait...'}
               </span>
             </button>
+          </p>
+
+          <p>
+            <b>Heads up</b>: This file is quite large and might take a moment to load, especially on slower internet connections.
           </p>
 
           <hr />
