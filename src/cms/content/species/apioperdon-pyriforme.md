@@ -41,4 +41,6 @@ photos:
   - /img/apioperdon-pyriforme-188825357-3.jpeg
 ---
 
-The Pear-shaped Puffball (_Apioperdon pyriforme_) is a decomposer of wood and can be found from the fall through the early winter. It can be recognized by its gregarious growth habit (growing in groups) and numerous mycelium ropes growing through the wood (rhizomorphs). When young, the "pear-shaped" fruiting bodies have white-colored contents, that later turn brown with age. They split open at a single pore on the top of fruiting body from which they disperse their spores via wind, rain, and other disturbances.
+The Pear-shaped Puffball (_Apioperdon pyriforme_) is a decomposer of wood and can be found from the fall through the early winter. It can be recognized by its gregarious growth habit (growing in groups) and numerous mycelium ropes growing through the wood (rhizomorphs). 
+
+When young, the "pear-shaped" fruiting bodies have white-colored contents, that later turn brown with age. They split open at a single pore on the top of fruiting body from which they disperse their spores via wind, rain, and other disturbances. The spore print is brown.
