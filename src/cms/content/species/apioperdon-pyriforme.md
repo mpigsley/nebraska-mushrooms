@@ -8,6 +8,8 @@ observations:
 locations:
   - Niobrara Valley Preserve
   - Indian Cave State Park
+references:
+  - 'Kuo, M. (2016 November). Lycoperdon pyriforme. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/lycoperdon_pyriforme.html'
 tags:
   - summer
   - fall
@@ -43,4 +45,4 @@ photos:
 
 The Pear-shaped Puffball (_Apioperdon pyriforme_) is a decomposer of wood and can be found from the fall through the early winter. It can be recognized by its gregarious growth habit (growing in groups) and numerous mycelium ropes growing through the wood (rhizomorphs). 
 
-When young, the "pear-shaped" fruiting bodies have white-colored contents, that later turn brown with age. They split open at a single pore on the top of fruiting body from which they disperse their spores via wind, rain, and other disturbances. The spore print is brown.
+When young, the "pear-shaped" fruiting bodies have a white-colored interior that later turns brown with age. They split open at a single pore on the top of fruiting body from which they disperse their spores via wind, rain, and other disturbances. The spore print is brown.
