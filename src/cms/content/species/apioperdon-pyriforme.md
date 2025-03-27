@@ -2,7 +2,11 @@
 templateKey: species
 name: Pear-shaped Puffball
 scientific_name: Apioperdon pyriforme
+observations:
+  - '223655176'
+  - '188825357'
 locations:
+  - Niobrara Valley Preserve
   - Indian Cave State Park
 tags:
   - summer
@@ -23,38 +27,18 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/557986
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/188825357
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/972793
   - tag: Mushroom Observer Species Description
-    link: https://mushroomobserver.org/names?pattern=Apioperdon+pyriforme
+    link: https://mushroomobserver.org/names?pattern=Apioperdon%20pyriforme
   - tag: Mushroom Expert
-    link: https://www.google.com/search?q=Apioperdon+pyriforme+site:www.mushroomexpert.com
+    link: https://www.google.com/search?q=Apioperdon%20pyriforme+site:www.mushroomexpert.com
   - tag: Google Scholar
-    link: https://scholar.google.com/scholar?&q=Apioperdon+pyriforme
+    link: https://scholar.google.com/scholar?&q=Apioperdon%20pyriforme
 photos:
-  - /img/apioperdon-pyriforme4.jpeg
-  - /img/apioperdon-pyriforme1.jpeg
-  - /img/apioperdon-pyriforme2.jpeg
-  - /img/apioperdon-pyriforme3.jpeg
-  - /img/apioperdon-pyriforme5.jpeg
-  - /img/apioperdon-pyriforme6.jpeg
-  - /img/apioperdon-pyriforme7.jpeg
+  - /img/apioperdon-pyriforme-188825357-2.jpeg
+  - /img/apioperdon-pyriforme-188825357-4.jpeg
+  - /img/apioperdon-pyriforme-188825357-3.jpeg
 ---
 
-#### October 24th, 2023 Field Notes - Indian Cave State Park
-
-Burnt rubber smell Taste indistinguishable Form Group: puffball or similar
-Substrate:
-Substrate: lignicolous
-Habitat:
-Habitat: ( Growth Habit: gregarious [1], Substrate: lignicolous, Tree: ( Carya cordiformis ), Decay Type: ( White Rot ) )
-Growth Habit:
-Rhizomorphs present. Growth Habit: gregarious
-Growing on Tree:
-Tree: ( Carya cordiformis )
-Decay Type:
-Decay Type: ( White Rot )
-Footnotes:
-[1] Rhizomorphs present.
+The Pear-shaped Puffball (_Apioperdon pyriforme_) is a decomposer of wood and can be found from the fall through the early winter. It can be recognized by its gregarious growth habit (growing in groups) and numerous mycelium ropes growing through the wood (rhizomorphs). When young, the "pear-shaped" fruiting bodies have white-colored contents, that later turn brown with age. They split open at a single pore on the top of fruiting body from which they disperse their spores via wind, rain, and other disturbances.
