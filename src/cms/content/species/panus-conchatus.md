@@ -50,4 +50,4 @@ photos:
 
 The Lilac Oysterling (_Panus conchatus_) is a common decomposer of wood and can be found in the spring through the fall. It is commonly growing on fallen sticks. It can be recognized it tough consistency, purple margin, and by the presence of gills (though more closely related to polypores rather than "true" agarics). 
 
-The cap is smooth to slightly hairy, with a central depression or vase-shaped, with concentric zones of color from the center to the margin (a ripple effect). The gills are whitish, yellowish, or purplish when young, becoming brownish with age. The spore print is white.
+The cap is smooth to slightly hairy, with a central depression or vase-shaped, with concentric zones of color from the center to the margin (a ripple effect). The gills are decurrent and are whitish, yellowish, or purplish when young, becoming brownish with age. The spore print is white.
