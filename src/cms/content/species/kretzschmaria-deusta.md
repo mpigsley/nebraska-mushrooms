@@ -43,7 +43,8 @@ external_links:
     link: https://scholar.google.com/scholar?&q=Kretzschmaria%20deusta
 photos:
   - /img/kretzschmaria-deusta-223891468-1.jpeg
-  - /img/kretzschmaria-deusta-223891468-2.jpeg
+  - /img/kretzschmaria-deusta-215800859-5.jpeg
+  - /img/kretzschmaria-deusta-163683331-3.jpeg
 ---
 
 Brittle Cinder (_Kretzschmaria deusta_) is a decomposer of wood that can be found in the spring through fall. It has a spring and a summer form. The spring form is white or gray with a white margin and the summer form is black and bumpy. It can be found growing alone or in groups at the base of trees along fallen logs.
