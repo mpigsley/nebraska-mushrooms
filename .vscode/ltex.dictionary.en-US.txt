@@ -58,3 +58,5 @@ ergotism
 woodchips
 Fibercap
 rhizomorphs
+agarics
+polypores

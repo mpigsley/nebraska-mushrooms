@@ -4,11 +4,14 @@ name: Red Raspberry Slime Mold
 scientific_name: Tubifera ferruginosa
 observations:
   - '217585077'
+references:
+  - 'Leontyev, D. V., Schnittler, M., & Stephenson, S. L. (2015). A critical revision of the Tubifera ferruginosa complex. Mycologia, 107(5), 959–985. https://doi.org/10.3852/14-271'
 locations:
   - Fontenelle Forest
 tags:
   - spring
   - slime-mold
+  - substrate-wood
 taxonomy:
   - Life
   - Protozoa
