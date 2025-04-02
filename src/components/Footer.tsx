@@ -10,9 +10,8 @@ export default function Footer({ className }: { className?: string }) {
         <div className="row">
           <div>
             <p>
-              <b>Nebraska Mushrooms</b> is a collaboration of wildlife and
-              educational groups promoting fungal education, recreation, and
-              conservation in Nebraska.
+              <b>Nebraska Mushrooms</b> is a collaboration of wildlife groups with a mission to promote the education, recreation, and
+              conservation of fungi in Nebraska.
             </p>
             <div>
               <a href="/field-guide" target="_blank">Field Guide Download</a>
