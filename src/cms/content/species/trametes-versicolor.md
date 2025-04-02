@@ -20,7 +20,10 @@ locations:
 references:
   - 'Kuo, M. (2017, November). Trametes versicolor. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/trametes_versicolor.html'
 tags:
+  - spring
   - summer
+  - fall
+  - winter
   - shelf
   - crust
   - substrate-wood
@@ -50,7 +53,7 @@ photos:
   - /img/trametes-versicolor-189066308-7.jpeg
 ---
 
-Turkey Tail (_Trametes versicolor_) is a common decomposer of wood and can be found from the spring through the fall. The caps present concentric zones of color and are sometimes quite vivid. They are commonly velvety or fuzzy on top, especially when fresh. The zones contrast with varying degrees of fuzziness. It grows in groups that "shelf" or overlap on top of each other.
+Turkey Tail (_Trametes versicolor_) is a common decomposer of wood and can be found year-round. The caps present concentric zones of color and are sometimes quite vivid. They are commonly velvety or fuzzy on top, especially when fresh. The zones contrast with varying degrees of fuzziness. It grows in groups that "shelf" or overlap on top of each other.
 
 The hymenophore presents small round pores when young, commonly transitioning into more angular or "tooth-like" pores with age throughout the season. The spore print is whitish.
 
