@@ -63,3 +63,5 @@ polypores
 Ethnomycology
 conchate
 sporulating
+appendiculate
+Pholiota
