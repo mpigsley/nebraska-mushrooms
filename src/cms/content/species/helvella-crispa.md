@@ -4,8 +4,10 @@ name: White Saddle
 scientific_name: Helvella crispa
 locations:
   - Indian Cave State Park
+  - Neale Woods
 observations:
   - '176657709'
+  - '220958498'
 references:
   - 'Kuo, M. (2022, October). Helvella crispa. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/helvella_crispa.html'
   - 'Helvella crispa Bull., Herbier de la France 10 (109-120): t. 465 fig. 1 (1790) [MB#486426]'
@@ -39,10 +41,8 @@ external_links:
     link: https://www.mushroomexpert.com/helvella_crispa.html
 photos:
   - /img/helvella-crispa-176657709-3.jpeg
-  - /img/helvella-crispa-176657709-2.jpeg
-  - /img/helvella-crispa-176657709-4.jpeg
-  - /img/helvella-crispa-176657709-6.jpeg
-  - /img/helvella-crispa-176657709-1.jpeg
+  - /img/helvella-220958498-1.jpeg
+  - /img/helvella-220958498-3.jpeg
 ---
 
 The White Saddle is a presumed mycorrhizal mushroom that can be found on soil or well-rotted wood in the spring to summer months. It can be found growing alone or in groups under deciduous and conifer trees.
