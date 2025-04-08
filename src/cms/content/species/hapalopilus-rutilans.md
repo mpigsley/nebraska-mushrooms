@@ -15,6 +15,7 @@ tags:
   - fall
   - substrate-wood
   - polypore
+  - conk
 taxonomy:
   - Life
   - Fungi
