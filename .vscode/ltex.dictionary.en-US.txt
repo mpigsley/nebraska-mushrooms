@@ -68,3 +68,4 @@ Pholiota
 mycocrafting
 mycosweat
 Earthball
+Trametes
