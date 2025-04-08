@@ -5,6 +5,7 @@ scientific_name: Panus lecomtei
 observations:
   - '216217812'
   - '166353891'
+  - '217555736'
 locations:
   - Indian Cave State Park
   - Neale Woods
@@ -44,3 +45,5 @@ photos:
 ---
 
 The Hairy Oysterling (_Panus lecomtei_) is a decomposer of dead hardwood and can be found in the spring through fall. It can be found in woodlands and wooded interface areas with recently dead wood. The cap color transitions from purple to orange to tan with age. It is distinctively hairy on the cap surface, which it retains throughout its lifetime. The gills transition from white to orange with age. The spore print is cream-colored to slightly yellowish.
+
+Also known as _Panus neostrigosus_.
