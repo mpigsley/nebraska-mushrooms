@@ -44,7 +44,7 @@ photos:
   - /img/fulvifomes-robiniae-215801491-1.jpeg
 ---
 
-The Cracked Cap Polypore (_Fulvifomes robiniae_) is a parasite and decomposer of Black Locust (_Robinia pseudoacacia_). It is a tough perineal polypore that can be found year-round.
+The Cracked Cap Polypore (_Fulvifomes robiniae_) is a parasite and decomposer of Black Locust (_Robinia pseudoacacia_). It is a tough perennial polypore that can be found year-round.
 
 As the name suggests, the cap features cracked fissures. The cap color light brown when young and later transitions to black with age. The old fruiting bodies can get quite large. It's not uncommon to find specimens that are greater than a foot in diameter. The cap is sometimes covered with algae or moss. The cap is connected to its substrate without a stem (sessile).
 

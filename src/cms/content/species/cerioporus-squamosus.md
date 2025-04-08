@@ -64,7 +64,7 @@ Dryad's Saddle is the most commonly sighted mushroom in Nebraska, according to [
 
 #### Fruiting Period
 
-This mushroom can be found fruiting from spring through fall. However, it prefers cooler weather and is most abundant in the spring and fall. This is a common mushroom to find while morel hunting. Although the mushroom is not perineal, its older forms can be found in the winter, slowly decomposing, making it discoverable year-round.
+This mushroom can be found fruiting from spring through fall. However, it prefers cooler weather and is most abundant in the spring and fall. This is a common mushroom to find while morel hunting. Although the mushroom is not perennial, its older forms can be found in the winter, slowly decomposing, making it discoverable year-round.
 
 #### Similar Species
 

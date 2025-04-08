@@ -47,6 +47,6 @@ photos:
 
 The Lumpy Bracket (_Trametes gibbosa_) is a decomposer of wood that can be found year-round. Common in woodlands, it features a mostly white or cream-colored lumpy cap that sometimes cultures algae appearing vivid green. 
 
-The cap is shaped like a half-circle or kidney-shaped when viewed from the top (in outline), and is generally quite flat (other than the "lumpiness"). It is a tough perineal polypore (aka gargoyle) and can be found growing alone or in small to large groups. Some caps can grow up to a foot in diameter or larger. The caps are tough and leathery.
+The cap is shaped like a half-circle or kidney-shaped when viewed from the top (in outline), and is generally quite flat (other than the "lumpiness"). It is a tough perennial polypore (aka gargoyle) and can be found growing alone or in small to large groups. Some caps can grow up to a foot in diameter or larger. The caps are tough and leathery.
 
 The hymenophore consists of elongated, sausage-shaped, or maze-like pores. It has a white spore print.
