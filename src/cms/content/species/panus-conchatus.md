@@ -7,7 +7,6 @@ observations:
   - '223576347'
   - '223372255'
   - '220776214'
-  - '217555736'
   - '162311295'
 locations:
   - Niobrara Valley Preserve
