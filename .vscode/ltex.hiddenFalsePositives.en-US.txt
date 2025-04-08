@@ -1,1 +1,2 @@
 {"rule":"TOO_ADJECTIVE_TO","sentence":"^\\QThe top-of-cap shape ranges from fan-shaped to kidney-shaped to semicircular.\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QThe Leopard Earthball (Scleroderma areolatum) is a sequestrate fungi\\E$"}
