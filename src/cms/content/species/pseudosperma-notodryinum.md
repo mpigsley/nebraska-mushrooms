@@ -13,6 +13,7 @@ tags:
   - agaric
   - substrate-soil
   - mycorrhizal
+  - summer
 taxonomy:
   - Life
   - Fungi
@@ -43,4 +44,4 @@ photos:
 
 _Pseudosperma notodryinum_ is a mycorrhizal mushroom that shows up in summer, usually July through August, in mixed forests with pine and oak (Zhang et al., 2022). It grows from the ground and blends in with the leaf litter, often going unnoticed. The cap is dry and yellow-brown to dark brown, with fine cracks or wrinkles across the surface — a feature called `rivulose`.
 
-Caps start out cone-shaped and flatten with age, reaching about 2–4.5 cm wide. Gills are closely spaced and transition from pale to tan or brownish with age. The stem is long and slender, with a slightly thicker base and a covering of fine white hairs that become fibrous over time. There’s no strong smell, which can separate it from other _Inocyboid_ species. The spore print is brown.
+Caps start out cone-shaped and flatten with age, reaching about 3/4"-2" (2–4.5 cm) wide. Gills are closely spaced and transition from pale to tan or brownish with age. The stem is long and slender, with a slightly thicker base and a covering of fine white hairs that become fibrous over time. There’s no strong smell, which can separate it from other _Inocyboid_ species. The spore print is brown.
