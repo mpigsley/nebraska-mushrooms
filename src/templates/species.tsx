@@ -67,9 +67,7 @@ export const Head: HeadFC<Queries.SpeciesProfileTemplateQuery> = ({ data }) => {
   const description = data.species?.excerpt ?? 'Mushrooms of Nebraska';
   return (
     <>
-      <title>
-        {data.species?.frontmatter?.name} (
-        {data.species?.frontmatter?.scientific_name}) | Mushrooms of Nebraska
+      <title>{prettyName} | Mushrooms of Nebraska
       </title>
       <meta property="og:title" content={prettyName || ''} />
       <meta property="og:description" content={description} />

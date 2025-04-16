@@ -1,3 +1,4 @@
 {"rule":"TOO_ADJECTIVE_TO","sentence":"^\\QThe top-of-cap shape ranges from fan-shaped to kidney-shaped to semicircular.\\E$"}
 {"rule":"A_INFINITIVE","sentence":"^\\QThe Leopard Earthball (Scleroderma areolatum) is a sequestrate fungi\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe cup is yellow to ochre-colored, round in outline, semi-transparent, and with a waxy texture.\\E$"}
+{"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QThey tend to grow under hardwoods or conifers and are typically small to medium in size.\\E$"}
