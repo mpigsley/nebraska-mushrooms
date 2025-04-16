@@ -70,3 +70,5 @@ mycosweat
 Earthball
 Trametes
 Polypore
+ectomycorrhizal
+cortina

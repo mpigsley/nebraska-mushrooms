@@ -37,7 +37,7 @@ external_links:
     link: https://scholar.google.com/scholar?&q=Cortinarius%20tiffanyae
 photos:
   - /img/cortinarius-tiffanyae-173489363-11.jpeg
-  - /img/cortinarius-tiffanyae-173489363-6.jpeg
+  - /img/cortinarius-tiffanyae-173489363-3.jpeg
   - /img/cortinarius-tiffanyae-173489363-12.jpeg
 ---
 
