@@ -41,4 +41,4 @@ photos:
   - /img/cortinarius-sp-ne01-184429458-9.jpeg
 ---
 
-_Cortinarius sp-NE01_ is an unidentified Webcap species documented from Indian Cave State Park in eastern Nebraska. It was found growing on the ground in mid to late fall, likely forming mycorrhizal associations with oaks or other nearby trees.
+_Cortinarius sp-NE01_ is a cryptic name for a not yet described Webcap species documented from Indian Cave State Park in eastern Nebraska. It was found growing on the ground in mid to late fall, likely forming mycorrhizal associations with oaks or other nearby trees.
