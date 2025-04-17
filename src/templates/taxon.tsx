@@ -133,14 +133,14 @@ export default function TaxonTemplate({
           {data.taxa.edges.length} species found - {iNatLink}
         </h5>
         <TaxonomyBreadcrumbs taxonomy={preTaxonomy} noLastLink />
-        <hr />
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search taxa..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{ marginTop: '1rem', marginBottom: '1rem', width: '100%', padding: '0.5rem' }}
+          style={{ marginTop: '2em', width: '100%', padding: '0.5rem' }}
         />
+        <hr />
         {!!data.taxon?.html && (
           <div
             style={{ marginTop: '2em' }}
