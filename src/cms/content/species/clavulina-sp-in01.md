@@ -34,6 +34,8 @@ external_links:
     link: https://www.google.com/search?q=Clavulina+site:www.mushroomexpert.com
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Clavulina%20sp-IN01
+  - tag: Clavulina sp-IN01 Records
+    link: https://www.inaturalist.org/observations?field:Provisional%20Species%20Name=Clavulina%20%E2%80%9Csp-IN01%E2%80%9D
 photos:
   - /img/clavulina-sp-in01-174757595-6.jpeg
   - /img/clavulina-sp-in01-174757595-1.jpeg
@@ -41,5 +43,3 @@ photos:
 ---
 
 This white, coral-like fungus was found in the summer at Indian Cave State Park in eastern Nebraska and was originally documented in southern Indiana. It is mycorrhizal and grows on the ground, forming upright, branched structures similar to antlers or coral. It closely resembles *Clavulina cristata* or *Clavulina coralloides* (Kuo, 2007). This is a provisional species name, used temporarily while it awaits formal description and a long-term placement.
-
-Other observations that match this DNA can be found [on iNaturalist](https://www.inaturalist.org/observations?field:Provisional%20Species%20Name=Clavulina%20%E2%80%9Csp-IN01%E2%80%9D).
