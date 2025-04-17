@@ -5,7 +5,6 @@ scientific_name: Cortinarius sp-NE01
 observations:
   - '184429458'
   - '178911603'
-  - '174954453'
 locations:
   - Indian Cave State Park
 tags:
