@@ -35,7 +35,7 @@ external_links:
     link: https://www.google.com/search?q=Clavulina+site:www.mushroomexpert.com
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Clavulina%20sp-IN05
-  - tag: Clavulina sp-IN05 Records
+  - tag: Clavulina "sp-IN05" Records
     link: https://www.inaturalist.org/observations?field:Provisional%20Species%20Name=Clavulina%20%E2%80%9Csp-IN05%E2%80%9D
 photos:
   - /img/clavulina-sp-in05-172599660-1.jpeg
