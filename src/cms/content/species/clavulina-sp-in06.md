@@ -22,7 +22,7 @@ taxonomy:
   - Agaricomycetes
   - Cantharellales
   - Hydnaceae
-  - CLavulina
+  - Clavulina
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/56305
