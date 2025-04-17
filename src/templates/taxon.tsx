@@ -18,6 +18,29 @@ export default function TaxonTemplate({
 }: Readonly<PageProps<Queries.TaxonTemplateQuery, PageContext>>): JSX.Element {
   const [search, setSearch] = React.useState('');
 
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) setSearch(q);
+  }, []);
+
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+  
+    if (search) {
+      params.set('q', search);
+    } else {
+      params.delete('q');
+    }
+  
+    const queryString = params.toString();
+    const newUrl = queryString
+      ? `${window.location.pathname}?${queryString}`
+      : window.location.pathname;
+  
+    window.history.replaceState({}, '', newUrl);
+  }, [search]);
+
   const firstItemsTaxonomy = (data.taxa.edges[0].node.frontmatter
     ?.taxonomy || []) as string[];
   const indexOfTaxon = firstItemsTaxonomy.indexOf(pageContext.taxon) + 1;
