@@ -26,6 +26,7 @@ export type SpeciesObservation = {
   datePretty?: string;
   uri?: string;
   photos?: IGatsbyImageData[];
+  userId?: string;
 };
 
 export type Species = {

@@ -47,6 +47,7 @@ export default function SpeciesProfileTemplate({
         location: o.node.frontmatter?.location ?? '',
         datePretty: o.node.frontmatter?.date_pretty ?? '',
         uri: o.node.frontmatter?.uri ?? '',
+        userId: o.node.frontmatter?.user_id ?? 'thefungiproject',
         photos:
           (o.node.frontmatter?.photos
             ?.map((p) => p?.childImageSharp?.gatsbyImageData)
@@ -148,6 +149,7 @@ export const pageQuery = graphql`
             location
             date_pretty
             uri
+            user_id
             photos {
               childImageSharp {
                 id

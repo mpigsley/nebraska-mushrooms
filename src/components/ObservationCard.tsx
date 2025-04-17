@@ -19,8 +19,10 @@ export default function ObservationCard({
     datePretty,
     uri,
     photos,
+    userId,
   },
 }: ObservationCardProps) {
+  const userUrl = `https://www.inaturalist.org/people/${userId}`;
   return (
     <div key={id} className="observation-card">
       <h5>
@@ -44,9 +46,11 @@ export default function ObservationCard({
           >
             {dnaBarcodeIts}
           </pre>
-          {!!mycomapBlastLink && (<a href={mycomapBlastLink} target="_blank">View DNA BLAST Results</a>)}
+          {!!mycomapBlastLink && (<a href={mycomapBlastLink} target="_blank">View MycoMap DNA Results</a>)}
         </>
       )}
+      <hr />
+      <div>Observation by <a href={userUrl} target="_blank">{userId}</a></div>
     </div>
   );
 }
