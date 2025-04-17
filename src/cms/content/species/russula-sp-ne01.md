@@ -36,4 +36,4 @@ photos:
   - /img/russula-sp-ne01-185335043-4.jpeg
 ---
 
-_Russula sp-NE01_ is a placeholder name for an as-yet-undescribed Brittlegill species recorded from Indian Cave State Park in eastern Nebraska. This fungus was observed growing on the forest floor growing from moss during the fall season and is presumed to form mycorrhizal relationships with hardwoods, possibly oak or hickory.
+_Russula sp-NE01_ is a placeholder name for an as-yet-undescribed Brittlegill species recorded from Indian Cave State Park in eastern Nebraska. This fungus was observed growing on the forest floor growing from moss during the fall and is presumed to form mycorrhizal relationships with hardwoods, possibly oak or hickory.
