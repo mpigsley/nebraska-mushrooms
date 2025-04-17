@@ -1,5 +1,6 @@
 import { type PageProps, graphql, Link, type HeadFC } from 'gatsby';
 import * as React from 'react';
+import { X } from 'react-feather';
 
 import TaxonomyBreadcrumbs from '../components/TaxonomyBreadcrumbs';
 import Footer from '../components/Footer';
@@ -133,17 +134,40 @@ export default function TaxonTemplate({
           {data.taxa.edges.length} species found - {iNatLink}
         </h5>
         <TaxonomyBreadcrumbs taxonomy={preTaxonomy} noLastLink />
-        <input
-          type="text"
-          placeholder="Search taxa..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          style={{ marginTop: '2em', width: '100%', padding: '0.5rem' }}
-        />
+        <div style={{ position: 'relative', marginTop: '1rem', width: '100%' }}>
+          <input
+            type="text"
+            placeholder="Search taxa..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            style={{
+              width: '100%',
+              padding: '0.5rem',
+              paddingRight: '2rem',
+            }}
+          />
+          {search && (
+            <button
+              onClick={() => setSearch('')}
+              style={{
+                position: 'absolute',
+                right: '0.5rem',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                background: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                fontSize: '1rem',
+                width: '20px'
+              }}
+            >
+              <X size={20} />
+            </button>
+          )}
+        </div>
         <hr />
         {!!data.taxon?.html && (
           <div
-            style={{ marginTop: '2em' }}
             dangerouslySetInnerHTML={{
               __html: data.taxon?.html ?? '',
             }}
