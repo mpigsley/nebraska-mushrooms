@@ -75,7 +75,7 @@ export default function SpeciesPage({
                 <hr />
                 <h4>Observations</h4>
                 {observations.map((observation) => (
-                  <ObservationCard observation={observation} />
+                  <ObservationCard observation={observation} key={observation.inatId} />
                 ))}
               </>
             )}
