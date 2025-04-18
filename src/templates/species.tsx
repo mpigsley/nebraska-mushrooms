@@ -2,13 +2,16 @@ import { type PageProps, graphql, type HeadFC } from 'gatsby';
 import { IGatsbyImageData } from 'gatsby-plugin-image';
 import * as React from 'react';
 
-import { type Tag, getTagClass } from '../utils/tag.util';
+import { type Tag } from '../utils/tag.util';
 import SpeciesPage from '../components/SpeciesPage';
+import { formatToCentralTime } from '../utils/date.util';
 
 export default function SpeciesProfileTemplate({
   data,
 }: Readonly<PageProps<Queries.SpeciesProfileTemplateQuery>>) {
   if (!data.species?.frontmatter) return null;
+  const creationDate = formatToCentralTime((data.species.parent as {birthTime?: string}).birthTime || '');
+  const modifiedDate = formatToCentralTime((data.species.parent as {modifiedTime?: string}).modifiedTime || '');
 
   return (
     <SpeciesPage
@@ -57,6 +60,8 @@ export default function SpeciesProfileTemplate({
         slug: l.node.fields?.slug ?? '',
         title: l.node.frontmatter?.title ?? '',
       }))}
+      creationDate={creationDate}
+      modifiedDate={modifiedDate}
     />
   );
 }
@@ -125,6 +130,12 @@ export const pageQuery = graphql`
             id
             gatsbyImageData(height: 480, quality: 90, layout: CONSTRAINED)
           }
+        }
+      }
+      parent {
+        ... on File {
+          birthTime
+          modifiedTime
         }
       }
     }
