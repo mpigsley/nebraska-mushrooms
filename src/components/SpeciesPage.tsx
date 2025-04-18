@@ -29,7 +29,6 @@ export default function SpeciesPage({
 }: SpeciesPageProps): JSX.Element {
   const commonName = species.name;
   const scientificName = species.scientificName;
-  console.log([creationDate, modifiedDate])
 
   let locationSlug = '/location/all/';
   if (locations.length === 1) {
@@ -80,7 +79,10 @@ export default function SpeciesPage({
                 <hr />
                 <h4>Observations</h4>
                 {observations.map((observation) => (
-                  <ObservationCard observation={observation} key={observation.inatId} />
+                  <ObservationCard
+                    observation={observation}
+                    key={observation.inatId}
+                  />
                 ))}
               </>
             )}
@@ -144,7 +146,12 @@ export default function SpeciesPage({
           </div>
         </section>
         <hr />
-        {(!!creationDate && !!modifiedDate) && (<p>Created <span className='italic-text'>{creationDate}</span> and last updated <span className='italic-text'>{modifiedDate}</span></p>)}
+        {!!creationDate && !!modifiedDate && (
+          <p>
+            Created <span className="italic-text">{creationDate}</span> and last
+            updated <span className="italic-text">{modifiedDate}</span>
+          </p>
+        )}
       </main>
       <Footer />
     </>
