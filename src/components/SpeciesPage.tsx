@@ -16,15 +16,20 @@ type SpeciesPageProps = {
     slug: string;
     title: string;
   }[];
+  creationDate?: string;
+  modifiedDate?: string;
 };
 
 export default function SpeciesPage({
   species,
   observations,
   locations,
+  creationDate,
+  modifiedDate,
 }: SpeciesPageProps): JSX.Element {
   const commonName = species.name;
   const scientificName = species.scientificName;
+  console.log([creationDate, modifiedDate])
 
   let locationSlug = '/location/all/';
   if (locations.length === 1) {
@@ -138,6 +143,8 @@ export default function SpeciesPage({
             )}
           </div>
         </section>
+        <hr />
+        {(!!creationDate && !!modifiedDate) && (<p>Created <span className='italic-text'>{creationDate}</span> and last updated <span className='italic-text'>{modifiedDate}</span></p>)}
       </main>
       <Footer />
     </>
