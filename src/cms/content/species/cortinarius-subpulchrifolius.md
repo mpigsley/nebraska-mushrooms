@@ -39,7 +39,7 @@ external_links:
 photos:
   - /img/cortinarius-subpulchrifolius-178905803-4.jpeg
   - /img/cortinarius-subpulchrifolius-178905803-3.jpeg
-  - /img/cortinarius-subpulchrifolius-178905803-7.jpeg
+  - /img/cortinarius-subpulchrifolius-238705310-1.jpeg
 ---
 
 *Cortinarius subpulchrifolius* is a mycorrhizal mushroom found growing on the ground among fallen leaves in hardwood and mixed forests. It appears in September and October, often in small clusters or scattered groups. The name *subpulchrifolius* means “somewhat beautiful-gilled,” referencing its dull purple gills, which are a distinctive feature that persists longer than in many similar species. It resembles *Cortinarius pulchrifolius* but can be separated by differences in spore size and cap color (Kauffman, 1918).
