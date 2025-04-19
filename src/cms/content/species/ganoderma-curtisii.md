@@ -10,8 +10,11 @@ locations:
 references:
   - '213. Polyporus Curtisii Berk. MSS. https://www.mycobank.org/details/26/37630'
 tags:
-  - spring
+  - summer
+  - fall
   - polypore
+  - substrate-wood
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
