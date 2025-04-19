@@ -1,0 +1,25 @@
+---
+inat_id: '188412153'
+templateKey: observation
+dna_barcode_its: AAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTATTGAATTTTGAAAGAGGTTGTAGCTGATCTAATAAAGATATGTGCACACCTTGATTCCAAATTTTACACTATGTGCACTTTTTGTAGGCCAGCTTTTGTTGGTCTATGTCTTTTTTTTAAAAAACACACTCAAAAAAGTTTAGAATGTCAAAGCATAAAGCTTTTGGGCTTTAAATATTTAAATACAACTTTCAACAACGGATCTCTTGGCTCTTGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATTAAATTCTCAATCCTCTTTGATTTTTTTGAGGCTTTGGATTTTGAAGTGTTGCTGGTCTTTTTTCAAAAGTCGGCTCCTTTTAAATATATTAGCTAGCATCCTTTTGCAGAAAAGCTTCAGTTTTGATAAATTATCTATGCTAATAGCTTTGAAAGCAAATGTTAGCTTCCAATTGTTGTTCTTGCAACTCTTTTATGACATTTTGACCTCAAATCAGGTAGGACTACCCGCTGAACTTAAG
+mycomap_blast_link: https://mycomap.com/genetics/blast-search/h08-cm24-0464-inat188412153-1-r128141/
+name: Woodwaxes 
+scientific_name: Hygrophorus sp-IN07
+location: Indian Cave State Park
+date_pretty: October 20th, 2023
+uri: https://www.inaturalist.org/observations/188412153
+user_id: thefungiproject
+photos:
+  - /img/hygrophorus-sp-in07-188412153-1.jpeg
+  - /img/hygrophorus-sp-in07-188412153-2.jpeg
+  - /img/hygrophorus-sp-in07-188412153-3.jpeg
+---
+
+#464
+
+- Growing terrestrially in low mixed oak/hickory woodland near creek.
+- Nearby Trees: American Hop Hornbeam, American Hackberry, Red Mulberry, Northern Red Oak, American Linden, and Shagbark Hickory.
+
+- Caps whitish with a light tan central area and viscid.
+- Lamallae light tan, waxy.
+- Stipe white, slightly discoloring light tan.
