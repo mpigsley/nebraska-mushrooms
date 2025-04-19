@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name:  
+name: White-Margined Hebeloma
 scientific_name: Hebeloma albomarginatum
 observations:
   - '191718951'
