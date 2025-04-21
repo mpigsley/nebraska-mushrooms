@@ -29,6 +29,7 @@ export default function SpeciesPage({
 }: SpeciesPageProps): JSX.Element {
   const commonName = species.name;
   const scientificName = species.scientificName;
+  const containsHtmlBody = species.bodyHtml?.trim().length !== 0;
 
   let locationSlug = '/location/all/';
   if (locations.length === 1) {
@@ -68,7 +69,7 @@ export default function SpeciesPage({
         </section>
         <section className="row">
           <div className="eight columns">
-            {species.bodyHtml?.trim().length !== 0 && (
+            {containsHtmlBody && (
               <>
                 <h4>Description</h4>
                 <div dangerouslySetInnerHTML={{ __html: species.bodyHtml }} />
@@ -76,7 +77,7 @@ export default function SpeciesPage({
             )}
             {!!observations.length && (
               <>
-                <hr />
+                {containsHtmlBody && (<hr />)}
                 <h4>Observations</h4>
                 {observations.map((observation) => (
                   <ObservationCard
