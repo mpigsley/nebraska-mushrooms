@@ -22,6 +22,7 @@ taxonomy:
   - Agaricales
   - Phyllotopsidineae
   - Phyllotopsidaceae
+  - Tricholomopsis
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/57548
