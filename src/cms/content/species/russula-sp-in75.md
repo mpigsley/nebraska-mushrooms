@@ -36,7 +36,7 @@ external_links:
 photos:
   - /img/russula-sp-in75-172598013-3.jpeg
   - /img/russula-sp-in75-172598013-4.jpeg
-  - /img/russula-sp-in75-172598013-6.jpeg
+  - /img/russula-sp-in75-172598013-2.jpeg
 ---
 
 _Russula sp-IN75_ is a small mycorrhizal mushroom that can be found in woodland settings in the summer. This one was found growing from woodland soil near Black Oak, Bur Oak, Elm, Northern Red Oak and Shagbark Hickory at Indian Cave State Park in southeastern Nebraska. It was found fruiting scattered in a small group.
