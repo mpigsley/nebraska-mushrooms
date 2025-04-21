@@ -27,6 +27,9 @@ taxonomy:
   - Pluteineae
   - Amanitaceae
   - Amanita
+  - Amanita.Subgenus
+  - Amanita.Section
+  - Pantherinae.Subsection
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/224995
@@ -46,6 +49,6 @@ photos:
   - /img/amanita-multisquamosa-167200829-4.jpeg
 ---
 
-_Amanita multisquamosa_ is a presumed toxic, mycorrhizal mushroom that fruits in the summer in woodland settings. These have been observed in Indian Cave State Park in eastern Nebraska in an Oak/Hickory woodland.
+The White Panther (_Amanita multisquamosa_) is a presumed toxic, mycorrhizal mushroom that fruits in the summer in woodland settings. These have been observed in Indian Cave State Park in eastern Nebraska in an Oak/Hickory woodland.
 
 The fruiting body is mostly white, with a yellow or tan cap center. The cap is adorned with white, removable warts. The gill attachment is free to nearly attached (acutely adnexed), and the gill spacing is crowded. This species usually features a skirt of tissue on the stem (annulus), but sometimes the skirt falls off and/or is eaten by bugs. It has a bulbous base with a collar-like cup (volva) and sometimes transient velar tissue extending further up the stem.
