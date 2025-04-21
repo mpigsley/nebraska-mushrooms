@@ -80,9 +80,9 @@ export default function TaxonTemplate({
               image={firstImage?.childImageSharp?.gatsbyImageData!}
               alt={`${edge.node.frontmatter!.scientific_name}`}
             />
-            <div style={{ color: 'black' }}>
+            <div className="taxon-card-text">
               <span className='italic-text'>{edge.node.frontmatter!.scientific_name}</span>{' '}
-              {!!edge.node.frontmatter!.name && (<>({edge.node.frontmatter!.name})</>)}
+              {!!edge.node.frontmatter!.name && (<p>{edge.node.frontmatter!.name}</p>)}
             </div>
           </Link>
         </div>

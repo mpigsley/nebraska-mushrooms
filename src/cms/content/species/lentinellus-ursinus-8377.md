@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Bear Lentinus
+name: Bear Lentinellus
 scientific_name: Lentinellus ursinus
 locations:
   - Indian Cave State Park

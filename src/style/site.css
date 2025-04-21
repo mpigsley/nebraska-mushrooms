@@ -595,11 +595,26 @@ input[type='text'].tag-select__input {
   flex: 1 1 calc(50% - 10px);
   box-sizing: border-box;
   background-color: lightblue;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
   padding: 20px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.taxon-card a {
+  color: black;
+  text-decoration: none;
+}
+
+.taxon-card-text {
+  margin-top: 1em;
 }
 
 .key-form-tile-image-container {

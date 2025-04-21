@@ -48,7 +48,3 @@ _Sanghuangporus weirianus_ is a parasite and decomposer of Black Walnut (_Juglan
 Also known as _Phellinus weirianus_.
 
 Compare to [_Fulvifomes robiniae_](/species/fulvifomes-robiniae) which grows on Black Locust (_Robinia pseudoacacia_).
-
-#### Ethnomycology
-
-The genus _Sanghuangporus_ is named after the Chinese word 'sanghuang' which is what mushrooms in this genus go by in Chinese herbal markets. (Zhou, et al., 2016)
