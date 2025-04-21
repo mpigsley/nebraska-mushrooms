@@ -14,8 +14,6 @@ export default function Footer({ className }: { className?: string }) {
               conservation of fungi in Nebraska.
             </p>
             <div>
-              <a href="/field-guide" target="_blank">Field Guide Download</a>
-              <span> | </span>
               <Link to="/about">About</Link>
               <span> | </span>
               <Link to="https://forms.gle/YNMvbkB85unjfWS48">
