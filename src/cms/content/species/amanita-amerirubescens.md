@@ -27,8 +27,8 @@ taxonomy:
   - Pluteineae
   - Amanitaceae
   - Amanita
-  - Amanitina.Subgenus
-  - Validae.Section
+  - Amanitina
+  - Validae
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/56034

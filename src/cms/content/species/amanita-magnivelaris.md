@@ -23,7 +23,7 @@ taxonomy:
   - Amanitaceae
   - Amanita
   - Amanita.Subgenus
-  - Phalloidae.Section
+  - Phalloidae
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/325733
