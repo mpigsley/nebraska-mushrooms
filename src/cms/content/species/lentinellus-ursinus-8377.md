@@ -38,7 +38,7 @@ photos:
   - /img/lentinellus-ursinus-8377-7.jpeg
 ---
 
-The Bear Lentinus is a decomposer that can be found on dead wood in the fall. Widely distributed across the Northern Hemisphere.
+The Bear Lentinellus is a decomposer that can be found on dead wood in the fall. Widely distributed across the Northern Hemisphere.
 
 It is a gilled mushroom without a stem (sessile). The gills are saw-toothed and colored whitish to yellowish to pinkish. The spore print is white. The taste is bitter.
 
