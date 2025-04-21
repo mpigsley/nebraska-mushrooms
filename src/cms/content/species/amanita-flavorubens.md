@@ -2,6 +2,8 @@
 templateKey: species
 name: Yellow American Blusher
 scientific_name: Amanita flavorubens
+observations:
+  - '173675020'
 locations:
   - Indian Cave State Park
 tags:
@@ -19,40 +21,23 @@ taxonomy:
   - Pluteineae
   - Amanitaceae
   - Amanita
+  - Amanitina.Subgenus
+  - Validae.Section
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/457094
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/173675020
+  - tag: iNaturalist Species Description
+    link: https://www.inaturalist.org/taxa/350043
+  - tag: Mushroom Observer Species Description
+    link: https://mushroomobserver.org/names?pattern=Amanita%20flavorubens
+  - tag: Mushroom Expert
+    link: https://www.google.com/search?q=Amanita%20flavorubens+site:www.mushroomexpert.com
+  - tag: Amanitaceae.org
+    link: http://www.tullabs.com/amanita/?Amanita+flavorubens
+  - tag: Google Scholar
+    link: https://scholar.google.com/scholar?&q=Amanita%20flavorubens
 photos:
-  - /img/amanita-flavorubens3.jpeg
-  - /img/amanita-flavorubens1.jpeg
-  - /img/amanita-flavorubens2.jpeg
-  - /img/amanita-flavorubens4.jpeg
-  - /img/amanita-flavorubens5.jpeg
-  - /img/amanita-flavorubens6.jpeg
-  - /img/amanita-flavorubens7.jpeg
-  - /img/amanita-flavorubens8.jpeg
-  - /img/amanita-flavorubens9.jpeg
-  - /img/amanita-flavorubens10.jpeg
-  - /img/amanita-flavorubens11.jpeg
+  - /img/amanita-flavorubens-173675020-3.jpeg
+  - /img/amanita-flavorubens-173675020-9.jpeg
+  - /img/amanita-flavorubens-173675020-2.jpeg
 ---
-
-![Form](/img/amanita-flavorubens7.jpeg)
-
-![Form2](/img/amanita-flavorubens9.jpeg)
-
-#### July 18th, 2023 Field Characteristics:
-
-- Growing gregariously in well-shaded, mixed oak/hickory woodland edge.
-- Nearby Trees: Black Oak, Northern Red Oak, Black Cherry, Chinkapin Oak, and distant Bur Oak.
-- Cap yellow with yellowish-brown central portions, adorned with removable yellow universal veil remnants. Margin finely lined.
-- Stipe light yellow with prominent annulus, becoming more yellow and scaly towards the base. Volva consists of multiple yellow squarrose rings on a bulbous base.
-- Basal mycelium white.
-- Slight red blushing on vovla.
-- Smell: Not distinctive
-- Taste: Not distinctive
-- KOH: Negative
-- Ammonia: Negative
-
-![Observation](/img/amanita-flavorubens10.jpeg)
