@@ -570,6 +570,10 @@ input[type='text'].tag-select__input {
   font-style: italic;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .species-title {
     flex-direction: column;

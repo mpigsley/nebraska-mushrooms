@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Favicon from '../img/favicon.svg';
+
 import { type PrintableSpecies } from '../utils/species.util';
 
 interface PrintableSpeciesListProps {
@@ -20,6 +22,15 @@ export default function PrintableSpeciesList({
 
   return (
     <div id="printable">
+      <div className="printable_titlepage">
+        <h1 className="printable_name">Mushrooms of Nebraska</h1>
+
+        <img src={Favicon} className="printable_logo" />
+        
+        <p className="bold-text">Important: This guide is for informational use only. Do not use this guide as a singular source to determine edibility. Eat wild mushrooms at your own risk. We accept no responsibility for illness, injury, or other consequences resulting from mushroom consumption. Please do not use this PDF as a sole source for identification.</p>
+        
+        <p>This PDF is a snapshot of NebraskaMushrooms.org generated {new Date().toLocaleString()}</p>
+      </div>
       {species.map((species) => {
         const [firstImage, secondImage, thirdImage] = species.photos ?? [];
         const imageWidths = ['31%', '31%', '31%'];

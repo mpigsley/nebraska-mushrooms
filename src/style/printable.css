@@ -14,6 +14,23 @@
   page-break-after: always;
 }
 
+.printable_titlepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  page-break-after: always;
+}
+
+.printable_logo {
+  display: block;
+  height: 5em;
+  margin: 1em;
+}
+
 .printable_group {
   break-inside: avoid;
   page-break-inside: avoid;
