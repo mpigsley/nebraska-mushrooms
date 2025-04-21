@@ -40,17 +40,7 @@ external_links:
   - tag: Amanita "sp-IN34" Records
     link: https://www.inaturalist.org/observations?field:Provisional%20Species%20Name=Amanita%20%22sp-IN34%22&taxon_id=1144758
 photos:
-  - /img/amanita-sp-in34-172526312-1.jpeg
-  - /img/amanita-sp-in34-172526312-2.jpeg
-  - /img/amanita-sp-in34-172526312-3.jpeg
-  - /img/amanita-sp-in34-172526312-4.jpeg
-  - /img/amanita-sp-in34-172526312-5.jpeg
   - /img/amanita-sp-in34-172526312-6.jpeg
+  - /img/amanita-sp-in34-172526312-3.jpeg
   - /img/amanita-sp-in34-172526312-7.jpeg
-  - /img/amanita-sp-in34-172526312-8.jpeg
-  - /img/amanita-sp-in34-172526312-9.jpeg
-  - /img/amanita-sp-in34-172526312-10.jpeg
-  - /img/amanita-sp-in34-172526312-11.jpeg
-  - /img/amanita-sp-in34-172526312-12.jpeg
-  - /img/amanita-sp-in34-172526312-13.jpeg
 ---
