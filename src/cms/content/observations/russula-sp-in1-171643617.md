@@ -1,0 +1,27 @@
+---
+inat_id: '171643617'
+templateKey: observation
+dna_barcode_its: AAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTATCGTACAACCGAGGTGCGAGGGCTGTCGCTGACCCCTTTGAAAGGTCGTGCACGCCCGAGCGCTCTCATCCCAATCCATCTCACCCCTTTGTGCATCACCGCGTGGGTCCGCCTTTGCGGGAGGGCCCACGTTTTCACATAAAACATGATACAGTCTAGAATGTTTATTTTTGCGGTAACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCCTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGAAATTCTCAAAATCCTTTTCTTTGACCGGAATAGGACTTTTGGACTTGGAGGTTCAATGCTCGCTTTTGCCTTTGAAAGCGAGCTCCTCTCAAATGAATTAGTGGGGTCCGCTTTGCTGATCCTTGACGTGATAAGATGTTTCTACGTTTTGGATTTGGCACTGTTTTCTCCGCTCCCAACTGTCTCATGGACAGCGATGGTGCTCCGGTCGCCGCGTCTATGGCGGGAGGCTGGACCCACAAAAAACCTTGACCTCAAATCGGGTGAGACTACCCGCTGAACTTAAG
+mycomap_blast_link: https://mycomap.com/genetics/blast-search/e08-cm24-0161-inat171643617-1-r126569/
+name: Brittlegills 
+scientific_name: Russula sp-IN1
+location: Indian Cave State Park
+date_pretty: July 6th, 2023
+uri: https://www.inaturalist.org/observations/171643617
+user_id: thefungiproject
+photos:
+  - /img/russula-sp-in1-171643617-1.jpeg
+  - /img/russula-sp-in1-171643617-2.jpeg
+  - /img/russula-sp-in1-171643617-3.jpeg
+  - /img/russula-sp-in1-171643617-4.jpeg
+  - /img/russula-sp-in1-171643617-5.jpeg
+---
+
+#161
+
+Growing scattered in mixed oak/hickory woodland. 4 collected.
+
+Cap viscid from recent rain. Cap red-brown in the center, lightening towards margin. Gills discoloring brown where handled. Stipe bruising brown as well. Pileipellis  pulling easily from margin to apex 1/3rd up the stipe.
+
+Smell not distinctive.
+Taste not distinctive.
