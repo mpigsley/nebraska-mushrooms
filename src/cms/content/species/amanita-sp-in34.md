@@ -1,6 +1,6 @@
 ---
 templateKey: species
-name: Amanita Subsect. Gemmatae 
+name:
 scientific_name: Amanita sp-IN34
 observations:
   - '172526312'
