@@ -9,6 +9,8 @@ locations:
   - Indian Cave State Park
 tags:
   - summer
+  - agaric
+  - substrate-soil
 taxonomy:
   - Life
   - Fungi
