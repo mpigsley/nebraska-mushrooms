@@ -43,4 +43,6 @@ photos:
 
 _Lycoperdon sp-NY02_ is a decomposer that grows in the summer and fall in woodland settings under broadleaf trees and conifers. These were found fruiting in large numbers along an Oak/Hickory trail (Trail 2) at Indian Cave State Park in southeastern Nebraska.
 
-This mushroom is `gasteroid`. Meaning it produces spores _inside_ the fruiting body. When mature, a pore on the top opens and releases the spores in great numbers when hit by rain, wind, and forest elements. This species produces copious amounts of easily removable, soft white scales that unavoidably cover the mycologist's hand when inspected. The inside of the fruiting body is white when young, later turning brownish as the spores mature.
+This mushroom is `gasteroid`. Meaning it produces spores _inside_ the fruiting body. When mature, a pore on the top opens and releases the spores in great numbers when hit by rain, wind, and forest elements. This species produces copious amounts of easily removable, soft white scales that unavoidably cover the mycologist's hand when inspected. The inside of the fruiting body is white when young, later turning brownish as the spores mature. The spores are olive brown.
+
+This mushroom is similar in form to _Lycoperdon marginatum_.
