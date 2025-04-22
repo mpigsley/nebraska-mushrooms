@@ -44,4 +44,4 @@ photos:
 
 _Mycena inclinata-IN01_ is a common decomposer of wood and fruits in the spring and fall. The featured specimens were found in an Oak/Hickory woodland at Indian Cave State Park in southeastern Nebraska. It grows on wood in clusters.
 
-The cap is variable in color but mostly some shade between yellow, brown, tan, or white. The cap is egg-shaped when young becoming bell-shaped at maturity. When young, the cap margin features a serrated edge (or teeth). The gills are attached to the stem and develop cross-veins when mature. The stem is equal, fragile, and hollow.
+The cap is variable in color but mostly some shade between yellow, brown, tan, or white. The cap is egg-shaped when young becoming bell-shaped at maturity. When young, the cap margin features a serrated edge (or teeth). The gills are attached to the stem and develop cross-veins when mature. The stem is equal, fragile, and hollow. The spore print is white.
