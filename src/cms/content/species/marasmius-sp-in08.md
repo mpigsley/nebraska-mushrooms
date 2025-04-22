@@ -41,7 +41,7 @@ external_links:
   - tag: Marasmius "sp-IN08" Records
     link: https://www.inaturalist.org/observations?field:Provisional%20Species%20Name=Marasmius%20%22sp-IN08%22
 photos:
-  - /img/marasmius-sp-in08-179067301-1.jpeg
+  - /img/marasmius-sp-in08-167596308-4.jpeg
   - /img/marasmius-sp-in08-179067301-2.jpeg
   - /img/marasmius-sp-in08-179067301-3.jpeg
 ---
