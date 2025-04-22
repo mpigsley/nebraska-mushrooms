@@ -18,7 +18,7 @@ export default function FieldGuide(): JSX.Element {
 
           <h3>Snapshots</h3>
           <ul>
-            <li><a target="_blank" href="/pdf/Beta-April-2025.pdf">Beta April 2025</a> (240 pages, 112mb)</li>
+            <li><a target="_blank" href="/pdf/Beta-April-2025.pdf">Beta April 2025</a> (240 pages, 80mb, optimized for web)</li>
           </ul>
 
           <p>If you're interested in generating a current snapshot of all species profiles on the website to date, please use our <Link to="/generate-field-guide">generator</Link>. Note: a fast internet connection is recommended to access and use the generator.</p>
