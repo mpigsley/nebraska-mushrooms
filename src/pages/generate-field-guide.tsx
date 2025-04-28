@@ -59,7 +59,7 @@ export default function FieldGuide({
     >
       <div className="container">
         <div className="row">
-          <h2>Field Guide</h2>
+          <h2>Guide Generator</h2>
           <p>
             The <b>Nebraska Mushrooms</b> field guide is a full collection of
             species observed in Nebraska and catalogued on this website. Each
