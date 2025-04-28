@@ -8,6 +8,7 @@ import IdentificationKey from '../img/identification-key.jpeg';
 import MushrooomList from '../img/mushroom-list.jpeg';
 import { Tag, getTagClass } from '../utils/tag.util';
 import PageLayout from '../components/PageLayout';
+import { RotateCcw } from 'react-feather';
 
 export default function IndexPage({
   data,
@@ -62,8 +63,8 @@ export default function IndexPage({
         <hr />
         <div className="content-spaced">
           <h4>Random Mushroom</h4>
-          <button className="ml-2" onClick={generateRando}>
-            Regenerate
+          <button className="ml-2" onClick={generateRando} title="New random mushroom">
+            <RotateCcw className="index-regenerate-icon" size={24} />
           </button>
         </div>
 
