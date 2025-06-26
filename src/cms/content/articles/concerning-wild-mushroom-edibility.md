@@ -4,9 +4,9 @@ title: Concerning Wild Mushroom Edibility
 date: 2024-04-02T19:41:28.615Z
 author: Derek Zeller
 ---
-**Important: The Nebraska Game and Parks Commission, Nebraska Mycological Society, and Fungi Project take absolutely no responsibility poisonings or other harm that may result from misidentifications. Consume wild mushrooms at your own risk.**
+**Important: The Nebraska Game and Parks Commission, Nebraska Mycological Society, and Fungi Project take absolutely no responsibility for poisonings or other harm that may result from misidentifications. Consume wild mushrooms at your own risk.**
 
-If you or someone you know has been poisoned by consuming wild mushrooms, call 9-1-1 and get the individual medical attention IMMEDIATELY. Afterwards, please [report poisonings](https://namyco.org/interests/toxicology/report-a-poisoning/) to the North American Mycological Association to contribute to our understanding of wild mushroom safety.
+If you or someone you know has been poisoned by consuming wild mushrooms, call 9-1-1 and seek medical attention IMMEDIATELY. Afterwards, please [report poisonings](https://namyco.org/interests/toxicology/report-a-poisoning/) to the North American Mycological Association to contribute to our understanding of wild mushroom safety.
 
 #### It is your responsibility to keep yourself and those around you safe
 
