@@ -15,6 +15,11 @@ photos:
   - /img/fistulina-americana-307851899-5.jpeg
   - /img/fistulina-americana-307851899-6.jpeg
   - /img/fistulina-americana-307851899-7.jpeg
+  - /img/fistulina-americana-307851899-8.jpeg
+  - /img/fistulina-americana-307851899-9.jpeg
+  - /img/fistulina-americana-307851899-10.jpeg
+  - /img/fistulina-americana-307851899-11.jpeg
+  - /img/fistulina-americana-307851899-12.jpeg
 ---
 
 Collected With No Number.
