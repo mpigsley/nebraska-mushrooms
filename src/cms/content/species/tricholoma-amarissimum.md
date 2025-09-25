@@ -15,6 +15,7 @@ tags:
 references:
   - 'Renée Lebeuf, Jacques Landry, Irja Saar, Stephen D. Russell, and Clark L. Ovrebo. 2024. New species of Tricholoma in sections Genuina and Fucata from eastern North America. Botany. 102(10): 395-420. https://doi.org/10.1139/cjb-2024-0057'
   - 'Beug, M. (n.d.). Mushroom Poisoning Syndromes. North American Mycological Association. https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/'
+  - 'Donald J. Borror. (1988). Dictionary of Word Roots and Combining Forms Compiled from the Greek, Latin, and Other Languages. Mayfield Publishing Company. https://www.penguinprof.com/uploads/8/4/3/1/8431323/dictionary_of_word_roots_and_combining_forms.pdf'
 taxonomy:
   - Life
   - Fungi
@@ -47,7 +48,7 @@ The White-Banded Bitter Knight (_Tricholoma amarissimum_) is a mycorrhizal mushr
 
 _Tricholoma amarissimum_ is a gilled mushroom with an orange-brown cap that is viscid or tacky to the touch when moist. Leaf debris often sticks to the cap surface as it dries. The gills are notched at the point of attachment to the stem (emarginate), white or orange-white in color, and bruise orange-brown. The stem is fibrous and distinctly colored, with a white band at the apex, in contrast to the orange-brown coloring below. It has a mealy (farinaceous) odor and a strongly bitter taste.
 
-The scientific name _amarissimum_ comes from the Latin root _amar_ (‘bitter’) combined with -_issimum_ (‘to the highest degree’), referring to its extreme bitterness. The name suggests that this is the most bitter _Tricholoma_.
+The scientific name _amarissimum_ comes from the Latin root _amar_ (‘bitter’) combined with -_issimum_ (‘to the highest degree’), referring to its extreme bitterness. The name suggests that this is the most bitter _Tricholoma_ (Donald J. Borror, 1988).
 
 The key features for this species are:
 - The orange-brown viscid cap

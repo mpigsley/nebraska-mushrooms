@@ -75,3 +75,6 @@ cortina
 Russula
 agaric
 umbonate
+Oysterling
+oysterling
+hygrophanous
