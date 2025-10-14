@@ -3,3 +3,6 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe cup is yellow to ochre-colored, round in outline, semi-transparent, and with a waxy texture.\\E$"}
 {"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QThey tend to grow under hardwoods or conifers and are typically small to medium in size.\\E$"}
 {"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QWhen young, this mushroom is strikingly bright in color.\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QThe fruiting bodies are medium to large, usually brightly colored, and usually with a marginate stipe base (the stem base has a bulb with an angular ridge where the universal veil is attached).\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QThe fruiting bodies are medium to large, typically brightly colored, and often with a marginate stipe base (the stem base has a bulb with an angular ridge where the universal veil is attached).\\E$"}
+{"rule":"BEEN_PART_AGREEMENT","sentence":"^\\QThe stem is dry, is marginate (the stem base has a bulb with an angular ridge marking the attachment of the universal veil)\\E$"}
