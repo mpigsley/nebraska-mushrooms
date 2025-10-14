@@ -149,8 +149,13 @@ export default function SpeciesPage({
         <hr />
         {!!creationDate && !!modifiedDate && (
           <p>
-            Created <span className="italic-text">{creationDate}</span> and last
-            updated <span className="italic-text">{modifiedDate}</span>
+            Created <span className="italic-text">{creationDate}</span>
+            {creationDate !== modifiedDate && (
+              <>
+                {' and last updated '}
+                <span className="italic-text">{modifiedDate}</span>
+              </>
+            )}
           </p>
         )}
       </main>
