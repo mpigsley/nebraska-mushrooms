@@ -46,3 +46,14 @@ photos:
   - /img/atheniella-leptophylla-188827039-4.jpeg
 ---
 
+The Eastern Tangerine Athena (_Atheniella leptophylla_) is a decomposer of duff and wood, and can be found in September in woodland areas. It is small, grows alone or in small groups, and has a `Mycenoid` stature, sharing features with the genus [Mycena](/taxa/mycena).
+
+__Cap:__ convex or bell-shaped, and sometimes papillate (with a nipple-shaped umbo). The surface is smooth and presents a striped pattern when moist from the gills underneath (translucent-striate). It is pale reddish-yellow, brighter toward the center (disc), and becomes pleated at the margin with age.
+
+__Gills:__ close, narrow, and attached to the stem with a decurrent tooth (uncinate), yellowish to whitish in color.
+
+__Stem:__ slender, hollow, smooth at the apex and center with coarse fibrils towards the base.
+
+__Spore Print:__ white.
+
+__Etymology:__ *leptophylla* comes from the Greek roots *lepto-* meaning "slender" and *-phylla* meaning "leaf" or "gill," referring to its thin gills.
