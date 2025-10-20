@@ -20,7 +20,7 @@ export default function Footer({ className }: { className?: string }) {
               <Link to="/about">About</Link>
               <span> | </span>
               <Link to="https://forms.gle/YNMvbkB85unjfWS48">Contact</Link>
-              <span> | </span>© Fungi Project {new Date().getFullYear()}
+              <span> | </span>© <Link to="https://www.fungiproject.org/">Fungi Project</Link> {new Date().getFullYear()}
             </div>
           </div>
         </div>
