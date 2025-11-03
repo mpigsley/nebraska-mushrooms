@@ -681,3 +681,14 @@ input[type='text'].tag-select__input {
 .index-regenerate-icon {
   margin-top: 0.5em;
 }
+
+.key-choice-link {
+  text-align: right;
+  font-style: italic;
+  font-style: bold;
+}
+
+.key-choice-next {
+  text-align: right;
+  font-style: bold;
+}
