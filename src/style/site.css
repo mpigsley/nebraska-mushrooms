@@ -712,3 +712,18 @@ input[type='text'].tag-select__input {
   margin: 0 1rem;
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .key-option-container {
+    display: block;
+    justify-content: left;
+  }
+  .key-option-image {
+    width: 100%;
+    margin: 0 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .key-option-image img {
+    display: block;
+  }
+}
