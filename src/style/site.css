@@ -692,3 +692,23 @@ input[type='text'].tag-select__input {
   text-align: right;
   font-style: bold;
 }
+
+.key-option-container {
+  display: flex;
+  justify-content: left;
+}
+
+.key-option-image {
+  width: 300px;
+  margin: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.key-option-image img {
+  display: inline-block;
+}
+
+.key-option-text {
+  margin: 0 1rem;
+  margin-bottom: 1.5rem;
+}
