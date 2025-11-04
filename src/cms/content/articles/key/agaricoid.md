@@ -3,6 +3,9 @@ templateKey: article
 title: Key to Gilled Mushrooms
 date: 2025-11-03
 author: Derek Zeller
+references:
+  - 'Kuo, M. (2025, September). The gilled mushrooms. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/gilled.html'
+  - 'Glick, P. G. (1979). The Mushroom Trailguide. Owl Books.'
 ---
 
 <a href="/articles/key/major-forms">&lt; Back to Major Forms</a>
@@ -16,7 +19,12 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/taxa/phylloporus"><h4>Genus Phylloporus</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Gilled mushrooms, though more closely related to <a href="/taxa/boletales">Boletes</a><br>
+      * Yellow, decurrent gills<br>
+      * Basal mycelium is either white or yellow<br>
+      * Sometimes staining blue<br>
+      * Above appearance similar to a bolete<br>
+      * Velvety cap<br>
     </p>
   </div>
 </div>
@@ -28,7 +36,7 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/taxa/cantharellus"><h4>Genus Cantharellus</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Not "true" gills but raised ridges<br>
     </p>
   </div>
 </div>
@@ -40,13 +48,12 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/polyporoid"><h4>Gilled Polypores</h4></a>
     <p>
-      * Lor ipsum<br>
+      * These "gills" are hard as cardboard<br>
+      * Grow on wood and possess no stem (sessile)<br>
+      * Handled in the polypore key<br>
     </p>
   </div>
 </div>
-
-
-* [Gilled Polypores](/articles/polyporoid)
 
 ## Determine spore color
 
@@ -90,9 +97,18 @@ author: Derek Zeller
     <img src="/img/russula-sp-ne01-185335043-4.jpeg" alt="Russula" />
   </div>
   <div class="key-option-text">
-      <a href="/taxa/russula"><h4>Genus Russula</h4></a>
+      <a href="/taxa/russula"><h4>Brittle Gills (Genus <i>Russula</i>)</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Fragile consistency; shatters easily<br>
+      * Stout stature<br>
+      * Gills attached<br>
+      * Stem short, never longer than the width of the cap<br>
+      * Stem looks and breaks like a piece of chalk<br>
+      * Cap convex to coushion-shaped, sometimes becoming flat and funnel shaped with age<br>
+      * Not exuding latex<br>
+      * No volva, no annulus<br>
+      * Spore print white to cream to yellow<br>
+      * Grows terrestrially<br>
     </p>
   </div>
 </div>
@@ -102,9 +118,13 @@ author: Derek Zeller
     <img src="/img/lactarius-subplinthogalus-9606-1.jpeg" alt="Lactarius" />
   </div>
   <div class="key-option-text">
-      <a href="/taxa/lactarius"><h4>Genus Lactarius</h4></a>
+      <a href="/taxa/lactarius"><h4>Milk Caps (Genus <i>Lactarius</i>)</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Gills attached<br>
+      * Commonly exuding latex<br>
+      * Spore print white to yellow<br>
+      * No volva, no annulus<br>
+      * Grows terrestrially<br>
     </p>
   </div>
 </div>
@@ -117,7 +137,7 @@ author: Derek Zeller
       <a href="/articles/key/agaricoid/lepiotoid"><h4>Lepiotoid</h4></a>
     <p>
       * Gill attachment is free<br>
-      * Gills white, cream, or green colored<br>
+      * Gills white or green colored (one species)<br>
       * Cap may be adorned with patches, worts or fluff<br>
       * May have an annulus<br>
       * No volva<br>
@@ -134,7 +154,11 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/pleurotoid"><h4>Pleurotoid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Caps are convex or depressed<br>
+      * Gill attachment decurrent<br>
+      * Stem eccentric or absent<br>
+      * Spore print white<br>
+      * Grows from wood or burried wood<br>
     </p>
   </div>
 </div>
@@ -146,7 +170,12 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/mycenoid"><h4>Mycenoid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Stem longer than cap width<br>
+      * Gills attached, sometimes veined, white or pinkish<br>
+      * Generally quite fragile<br>
+      * Generally small to medium sized<br>
+      * Spore print white<br>
+      * Grows from, woodland duff, or humus
     </p>
   </div>
 </div>
@@ -158,7 +187,12 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/marasmioid"><h4>Marasmioid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Stem longer than cap width<br>
+      * Stem wirey and elastic<br>
+      * Gill attachment adnexed and sometimes collared<br>
+      * Generally quite small (with the execption of <i>Marasmias oreades</i>)<br>
+      * Spore print white to yellowish<br>
+      * Grows from woodland duff or grass<br>
     </p>
   </div>
 </div>
@@ -170,7 +204,9 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/tricholomatoid"><h4>Tricholomatoid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Fleshy, stout, medium-sized<br>
+      * Gill attachment notched<br>
+      * Grows terrestrially<br>
     </p>
   </div>
 </div>
@@ -182,7 +218,9 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/collybioid"><h4>Collybioid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Gills shallow, sometimes veined<br>
+      * Spore print white<br>
+      * Grows from wood, woodland duff, and humus
     </p>
   </div>
 </div>
@@ -194,7 +232,7 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/clitocyboid"><h4>Clitocyboid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Gill attachment decurrent<br>
     </p>
   </div>
 </div>
@@ -206,7 +244,7 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/hygrocyboid"><h4>Hygrocyboid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Gills think and waxy<br>
     </p>
   </div>
 </div>
@@ -218,7 +256,8 @@ author: Derek Zeller
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/omphalinoid"><h4>Omphalinoid</h4></a>
     <p>
-      * Lor ipsum<br>
+      * Cap convex to plane to umbilicate<br>
+      * Gills decurrent
     </p>
   </div>
 </div>
