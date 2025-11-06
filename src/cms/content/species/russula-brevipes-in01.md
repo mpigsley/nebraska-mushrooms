@@ -30,7 +30,7 @@ external_links:
   - tag: Mushroom Expert
     link: https://www.google.com/search?q=Russula%20brevipes-IN01+site:www.mushroomexpert.com
   - tag: Google Scholar
-    link: https://scholar.google.com/scholar?&q=Russula%20brevipes-IN01
+    link: https://scholar.google.com/scholar?&q=Russula%20brevipes
 photos:
   - /img/russula-brevipes-in01-173490335-1.jpeg
   - /img/russula-brevipes-in01-173490335-5.jpeg

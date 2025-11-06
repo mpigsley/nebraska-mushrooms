@@ -74,16 +74,16 @@ references:
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="/img/amanita-form.jpeg" alt="Amanita" />
+    <img src="/img/amanita-form-illistration.jpeg" alt="Amanita" />
   </div>
   <div class="key-option-text">
       <a href="/taxa/amanita"><h4>Genus Amanita</h4></a>
     <p>
-      * Gill attachment is free, or acutely adnexed<br>
+      * Gill attachment is free, or acutely adnexed; gills close<br>
       * Gills white or cream colored<br>
       * Cap margin may be striate<br>
       * Cap may be adorned with patches or worts<br>
-      * May have an annulus<br>
+      * May have a membranous annulus<br>
       * Volva or remnants<br>
       * Develops primoridially as a bulb<br>
       * Grows terrestrailly<br>
@@ -134,7 +134,7 @@ references:
     <img src="/img/chlorophyllum-molybdites-178674202-9.jpeg" alt="Lepiotoid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/lepiotoid"><h4>Lepiotoid</h4></a>
+      <a href="/articles/key/agaricoid/lepiotoid"><h4>Dapperlings (Lepiotoid)</h4></a>
     <p>
       * Gill attachment is free<br>
       * Gills white or green colored (one species)<br>
@@ -168,7 +168,7 @@ references:
     <img src="/img/mycena-haematopus1.jpeg" alt="Mycenoid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/mycenoid"><h4>Mycenoid</h4></a>
+      <a href="/articles/key/agaricoid/mycenoid"><h4>Bonets (Mycenoid)</h4></a>
     <p>
       * Stem longer than cap width<br>
       * Gills attached, sometimes veined, white or pinkish<br>
@@ -185,7 +185,7 @@ references:
     <img src="/img/marasmius-siccus-171643542-3.jpeg" alt="Marasmioid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/marasmioid"><h4>Marasmioid</h4></a>
+      <a href="/articles/key/agaricoid/marasmioid"><h4>Pinwheels (Marasmioid)</h4></a>
     <p>
       * Stem longer than cap width<br>
       * Stem wirey and elastic<br>
@@ -242,7 +242,7 @@ references:
     <img src="/img/hygrocybe-acutoconica-microspora-178749752-6.jpeg" alt="Hygrocyboid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/hygrocyboid"><h4>Hygrocyboid</h4></a>
+      <a href="/articles/key/agaricoid/hygrocyboid"><h4>Wax Gills (Hygrocyboid)</h4></a>
     <p>
       * Gills think and waxy<br>
     </p>
@@ -274,10 +274,10 @@ references:
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="/img/volvopluteus-224065436-3.jpeg" alt="Pluetoid" />
+    <img src="/img/volvopluteus-224065436-3.jpeg" alt="Pluetioid" />
   </div>
   <div class="key-option-text">
-      <a href="/taxa/pluteaceae/"><h4>Pluetoid (Family <i>Pluteaceae</i>)</h4></a>
+      <a href="/taxa/pluteaceae/"><h4>Pluetioid (Family <i>Pluteaceae</i>)</h4></a>
     <p>
       * Gill attachment is free<br>
     </p>
@@ -362,7 +362,7 @@ references:
     <img src="/img/coprinopsis-atramentaria-189060198-1.jpeg" alt="Coprinoid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/coprinoid"><h4>Coprinoid</h4></a>
+      <a href="/articles/key/agaricoid/coprinoid"><h4>Ink Caps (Coprinoid)</h4></a>
     <p>
       * Lor ipsum<br>
     </p>
@@ -374,7 +374,7 @@ references:
     <img src="/img/psathyrella-bipellis-166139199-7.jpeg" alt="Psathyrelloid" />
   </div>
   <div class="key-option-text">
-      <a href="/articles/key/agaricoid/psathyrelloid"><h4>Psathyrelloid</h4></a>
+      <a href="/articles/key/agaricoid/psathyrelloid"><h4>Brittle Stems (Psathyrelloid)</h4></a>
     <p>
       * Lor ipsum<br>
     </p>
@@ -410,7 +410,7 @@ references:
     <img src="/img/pseudosperma-notodryinum-172898646-7.jpeg" alt="Inocybaceae" />
   </div>
   <div class="key-option-text">
-      <a href="/taxa/inocybaceae"><h4>Inocybaceae</h4></a>
+      <a href="/taxa/inocybaceae"><h4>Fiber Caps (Family <i>Inocybaceae</i>)</h4></a>
     <p>
       * Lor ipsum<br>
     </p>
@@ -422,7 +422,7 @@ references:
     <img src="/img/cortinarius-sp-ne01-184429458-1.jpeg" alt="Cortinariaceae" />
   </div>
   <div class="key-option-text">
-      <a href="/taxa/cortinariaceae"><h4>Cortinariaceae</h4></a>
+      <a href="/taxa/cortinariaceae"><h4>Web Caps (Family <i>Cortinariaceae</i>)</h4></a>
     <p>
       * Lor ipsum<br>
     </p>
