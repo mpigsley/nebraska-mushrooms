@@ -10,7 +10,9 @@ references:
 
 <a href="/articles/key/major-forms">&lt; Back to Major Forms</a>
 
-## Contradictions
+## Exceptions
+
+![Agaric exceptions key](/img/agaric-exceptions-fractal.jpg)
 
 <div class="key-option-container">
   <div class="key-option-image">
