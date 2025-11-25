@@ -5,7 +5,7 @@ date: 2025-11-02
 author: Derek Zeller
 ---
 
-![Major Forms](/img/mushroom-major-forms.jpg)
+![Major Forms](/img/major-forms-fractal.jpg)
 
 <table>
 
