@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: Key to Mushrooms with a Sessile Cap
+title: Key to Mushrooms with a Cap
 date: 2025-11-02
 author: Derek Zeller
 ---

@@ -5,112 +5,192 @@ date: 2025-11-02
 author: Derek Zeller
 ---
 
+Classifying fungi is like trying to draw sharp lines in a watercolor wash. We humans can attempt to fit them neatly in boxes, though nature isn't structured that way. Inevitably, there are paradoxes, contradictions, exceptions, and overlap that we must account for. In *Opticks* (1704), Isaac Newton performed his famous prism experiment and noticed the rainbow cast by the prism divided light into seven distinct colors: red, orange, yellow, green, blue, indigo, and violet. It was later pointed out by Johann Wolfgang von Goethe in *Zur Farbenlehre (Theory of Colours)* (1810) that no distinct colors exist, but rather a continuous gradient of color. The human-factor is essential to making the process of observing the light spectrum intelligible, but there is something else much more innate and beautiful at work that 'muds-up' the simplistic perspective.
+
+Biological nature is the same way. It is not clean and organized into distinct nameable objects, but rather a gradient of evolution and fallout from all genetic possibilities that 'worked' throughout time. That doesn't stop us humans from attempting to categorize the mess into clean slices. The process of categorization is completely necessary to generate a useful key for identification. For this key, an effort has been made to divide *most* of what would be found in nature into twelve general slices. These slices can then be divided further and further in other keys to hopefully come to a satisfying identification to species, though possibly not, as general keys aren't comprehensive. Identification to genus or family may be all the same degree of satisfaction. The mycologist must always keep in mind that which we have not found (especially in North America), which contradictions may exist in the biological gradient, and maintain a healthy skepticism of what we think we know.
+
+This is key is not a traditional dichotomous key (two-choice key), but rather a sunburst or wheel. This design is heavily inspired by the publication Fungi of Temperate Europe (T. Læssøe, J. Petersen), for which a free PDF of the identification wheels are available from [MycoKey](https://www.mycokey.com/). A multitude of photos is used to reduce the verbosity of text, because we as humans are naturally visual pattern seeking creatures (and many people scroll past text, anyway). Below the wheels are descriptions of the slices with links to other keys, taxa, and feature filters in our fungal database. Please also note that this key depends on forms and morphology rather than lineages, so this key does not represent evolutionary or taxonomic relationships. For that, we suggest using the [Structured Species List](/taxa/life/). Enjoy!
+
 ![Major Forms](/img/major-forms-fractal.jpg)
 
-<table>
+<hr>
 
-<tr>
-<td>1. Mushroom bears a cap</td>
-<td class="key-choice-next">2</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="/img/pileate.jpg" alt="Mushrooms with a Cap" />
+  </div>
+  <div class="key-option-text">
+      <h4>Mushrooms with a Cap</h4>
+    <p>
+      • Umbrella-like object; Wearing a ‘hat’.<br>
+      • Can be on a stem (stipitate) or attached directly to the substrate from which it is growing (sessile).<br>
+      • 'Pileate' in Mycologese, or bearing a 'pileus'.<br>
+      <br>
+      Common groups:
+      <br>👉 <a href="/location/all/?t=agaric">agarics</a>
+      <br>👉 <a href="/location/all/?t=bolete">boletes</a>
+      <br>👉 <a href="/location/all/?t=polypore">polypores</a>
+      <br>👉 <a href="/location/all/?t=toothed">toothed</a> fungi, among others.<br>
+      <br>🔑 Check out the  <a href="/articles/key/pileate/">Key</a>
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>1. Mushroom does not possess a cap</td>
-<td class="key-choice-next">3</td>
-</tr>
+<hr>
 
-<tr>
-<td>2. Mushroom bears a distinct stem supporting a cap</td>
-<td class="key-choice-link"><a href="/articles/key/pileate-stipitate">Cap and Stem</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Carbon Fungi" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Carbon Fungi</h4></a>
+    <p>
+      • Firm; texture as if charred when old.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>2. Mushroom does not have a distinct stem</td>
-<td class="key-choice-link"><a href="/articles/key/pileate-astipitate">Cap sessile</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Toothed" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Toothed</h4></a>
+    <p>
+      • With spines.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>3. Mushroom is flat against its substrate. Manytimes, it is attached firmly to wood or bark</td>
-<td class="key-choice-link"><a href="/articles/key/corticioid">Crust</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Crust" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Crust</h4></a>
+    <p>
+      • Fruiting body is firm against its substrate.
+      • Commonly growing from inner wood, bark, or twigs.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>3. Mushroom not as above</td>
-<td class="key-choice-next">4</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Coral, Club(Calvarioid)" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Coral, Club (Calvarioid)</h4></a>
+    <p>
+      • Branching or not.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>4. Mushroom club-shaped, coral-shaped, or mane-shaped.</td>
-<td class="key-choice-link"><a href="/articles/key/club-coral-mane">Club, Coral, or Mane Shaped</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Sphere-Shaped" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Sphere-Shaped</h4></a>
+    <p>
+      • Some aspect like an orb.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>4. Mushroom not as above</td>
-<td class="key-choice-next">5</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Jelly & Rubber" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Jelly & Rubber</h4></a>
+    <p>
+      • Variably shaped; flexible.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>5. Mushroom shaped like a cup, disc, or nest-like with small spore sacks resembling eggs.</td>
-<td class="key-choice-link"><a href="/articles/key/disc-nest">Disc, Cup, or Nest-Shaped Mushrooms</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Stinkhorns" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Stinkhorns</h4></a>
+    <p>
+      • Arising from 'egg'; Insect attracting; Putrid smell.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>5. Mushroom not as above</td>
-<td class="key-choice-next">6</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Disc, Cup,Nest, Saucer(Discomycetes)" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Disc, Cup, Nest, Saucer (Discomycetes)</h4></a>
+    <p>
+      • Bowl-shaped or circular and flat
+    </p>
+  </div>
+</div>
 
-<td>6. Mushroom with a round inner chamber that produces spores. Sometimes with an outer skin that tears into a star shape.</td>
-<td class="key-choice-link"><a href="/articles/key/sequestrate">Sequestrate Mushrooms</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Morels & Allies(Moreloid)" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Morels & Allies (Moreloid)</h4></a>
+    <p>
+      • Saddled, folded, pitted, ridged, w/stem.
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>6. Mushroom not as above, though maybe starting out as a round object with jelly-like contents when young</td>
-<td class="key-choice-next">7</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Lichens" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Lichens</h4></a>
+    <p>
+      • Commonly growing on bark, rocks, tombstones, metal, or other stationary hard objects. Perrenial. Colors becoming more vivid after rain. Contains a photobiont.
+    </p>
+  </div>
+</div>
 
-<td>7. Mushroom producing a round sack that is jelly-like inside when young, later opening up to a phallic shape. Commonly smelling putrid</td>
-<td class="key-choice-link"><a href="/articles/key/stickhorn">Stinkhorns</a></td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Rusts & Smuts" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Rusts & Smuts</h4></a>
+    <p>
+      • Plant pathogens
+    </p>
+  </div>
+</div>
 
-<tr>
-<td>7. Mushroom not as above</td>
-<td class="key-choice-next">8</td>
-</tr>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Entomopathogens" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Entomopathogens</h4></a>
+    <p>
+      • Insect/spider pathogens
+    </p>
+  </div>
+</div>
 
-<td>8. Mushroom jelly-like or the consistency of rubber</td>
-<td class="key-choice-link"><a href="/articles/key/jelly-rubber">Jelly and Rubber Fungi</a></td>
-</tr>
-
-<tr>
-<td>8. Mushroom not as above</td>
-<td class="key-choice-next">9</td>
-</tr>
-
-<td>9. Mushroom parasitising plants (ie. grasses, corn, Eastern Red Cedar, other herbacious plants)</td>
-<td class="key-choice-link"><a href="/articles/key/rust-smut">Rusts and Smuts</a></td>
-</tr>
-
-<tr>
-<td>9. Mushroom not as above</td>
-<td class="key-choice-next">10</td>
-</tr>
-
-<td>10. Commonly growing on bark, rocks, tombstones, metal, or other stationary hard objects. Perrenial. Colors becoming more vivid after rain. Contains a photobiont.</td>
-<td class="key-choice-link"><a href="/articles/key/lichen">Lichens</a></td>
-</tr>
-
-<tr>
-<td>10. Mushroom not as above</td>
-<td class="key-choice-next">11</td>
-</tr>
-
-<td>11. Not true fungi, though similar. Manytimes growing in large groups in orb or club shapes.</td>
-<td class="key-choice-link"><a href="/articles/key/slime-mold">Slime Molds</a></td>
-</tr>
-
-<tr>
-<td>11. Mushroom not as above</td>
-<td class="key-choice-link"><a href="/articles/key/oddities">Oddities</a></td>
-</tr>
-
-</table>
+<div class="key-option-container">
+  <div class="key-option-image">
+    <img src="https://placehold.co/300x300" alt="Atypical Fungi" />
+  </div>
+  <div class="key-option-text">
+      <a href="#"><h4>Atypical Fungi</h4></a>
+    <p>
+      • Oddballs and the unknown.
+    </p>
+  </div>
+</div>
