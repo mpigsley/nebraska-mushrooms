@@ -97,24 +97,33 @@ This is key is not a traditional dichotomous key (two-choice key), but rather a 
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Coral, Club(Calvarioid)" />
+    <img src="/img/clavarioid.jpg" alt="Coral, Club" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Coral, Club (Calvarioid)</h4></a>
+      <h4>Coral-shaped or Club-shaped</h4>
     <p>
-      • Branching or not.
+      • This group compose fungi that are shaped like a bat/club or branching updwardly like coral. The grouping is broad; including many linages and ecological functions (ie. decomposers, parasites, and mycorrhizal associations).
+      <br><br>👉 Use the <a href="/location/all/?t=club">club</a> or <a href="/location/all/?t=coral">coral</a> tags to view the many species.
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Sphere-Shaped" />
+    <img src="/img/sphere.jpg" alt="Sphere-Shaped" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Sphere-Shaped</h4></a>
+      <h4>Sphere-Shaped</h4>
     <p>
-      • Some aspect like an orb.
+      • This group includes fungi that possess some shereical aspect.
+      <br>• These fungi mostly create spores inside rather than externally like (for example) gilled mushrooms. A trait known as gasteroid or sequestrate.
+      <br><br>👉 puffballs (<a href="/taxa/apioperdon">Apioperdon</a>, <a href="/taxa/lycoperdon">Lycoperdon</a>, <a href="/taxa/calvatia">Calvatia</a>), 
+      <br>👉 stalked-puffballs (Tulostoma),
+      <br>👉 earthballs (<a href="/taxa/scleroderma">Scleroderma</a>),
+      <br>👉 earthstars (<a href="/taxa/geastrum">Geastrum</a>),
+      <br>👉 true truffles (Tuber),
+      <br>👉 truffles-like fungi (<a href="/taxa/densocarpa">Densocarpa</a>, Hymenogaster),
+      <br><br>👉 View all <a href="/location/all?t=sequestrate">shpereical</a>
     </p>
   </div>
 </div>
