@@ -15,7 +15,7 @@ __Gear__: Backpack, Notebook and pencil, Smartphone, TG-6 Tough Macro Digital Ca
 
 __Software__: *iNaturalist*: phone application for photos and species descriptions that is used as the central project database for this project. *OnX*: phone application used for mapping and pathfinding. *GeoForager*: phone application used for rainfall calculation.
 
-__ID Slips__: ID slips are printed on 3x5" index cards using a Cannon MG5320 printer using a custom application [Record Sheet Printer](https://record-sheet-printer.netlify.app) in 100 ID stacks. The ID slip issues a unique identifier for each specimen to be tracked from the field through herbarium storage. See [Identifer Strategy](#identifer) below for more information about the ID strategy, which describes the philosophy for best use in the field and herbarium storage.
+__ID Slips__: ID slips are printed on 3x5" index cards using a Cannon MG5320 printer using a custom application [Survey Card Printer](https://survey-card-printer.netlify.app) in 100 ID stacks. The ID slip issues a unique identifier for each specimen to be tracked from the field through herbarium storage. See [Identifer Strategy](#identifer) below for more information about the ID strategy, which describes the philosophy for best use in the field and herbarium storage.
 
 #### Survey Execution
 
@@ -47,6 +47,8 @@ Further details, such as photos of spore print color, UV light reactions, chemic
 Dried specimens in ziplock bags are stored in groups of ten in larger gallon-sized ziplock bags creating groupings `AA0x`, `AA1x`, ... `AA9x` for example. These larger bags are then stored in 13-quart plastic bins usually in groupings of five to ten, resulting in 50 to 100 specimens being stored in each bin. Bins are stacked a stored in a cool, dry location away from sunlight.
 
 #### DNA Sequencing
+
+To prepare material for DNA sequencing, a smaller portion of each collection will need to be packaged itself in a ziplock back with a duplicate identifier. A custom application [Record Sheet Printer](https://record-sheet-printer.netlify.app) is loaded with a list of the specimens that will be shared to the sequencing facility and printed on 3x5" index cards using the browser's print dialog. A small portion is provided, about the size of a dime if possible of tissue from the hymenophore of the fruiting body, which generally provides the best chance of DNA.
 
 DNA sequencing is performed at [Bellevue University Science Lab](https://www.bellevue.edu/student-support/labs/science-lab). Through laboratory techniques, an ITS barcode is obtained and shared back to the project.
 
@@ -83,7 +85,7 @@ Advantages:
 - Random number identifiers are useful for asynchronous collection, though can be hard to store in a herbarium collection by number. The random nature doesn't account for incremental collection storage in the same way.
 - Project-based collection: If the project were to require input from a community, a stack could be set aside to give identifiers to this specific project, maintaining a separate index from the main project.
 
-##### Old Identifier Stragegies
+##### Old Identifier Strategies
 
 `1-~644` - Useful for tracking in sequence, but not easy to split up in the field.
 
