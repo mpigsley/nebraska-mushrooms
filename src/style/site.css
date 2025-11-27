@@ -732,3 +732,6 @@ input[type='text'].tag-select__input {
   max-width: none !important;
 }
 
+li {
+  margin-bottom: 0;
+}
