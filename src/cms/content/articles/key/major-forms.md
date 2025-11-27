@@ -75,20 +75,22 @@ This is key is not a traditional dichotomous key (two-choice key), but rather a 
       <br>👉 <a href="/taxa/hydnum">hedgehogs</a>
       <br>👉 <a href="/taxa/hericium">Hericium</a> (manes and combs)
       <br>👉 <a href="/location/all/?t=toothed%2Cpolypore">polypore-like</a> shelf and conk fungi.
-      <br>👉 Use the <a href="/location/all/?t=toothed">toothed</a> tag to view the many shapes.
+      <br><br>👉 Use the <a href="/location/all/?t=toothed">toothed</a> tag to view the many shapes.
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Crust" />
+    <img src="/img/crust.jpg" alt="Crust" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Crust</h4></a>
+      <h4>Crust</h4>
     <p>
-      • Fruiting body is firm against its substrate.
-      • Commonly growing from inner wood, bark, or twigs.
+      • Fruiting body grows flat against its substrate (bark, barkless wood, twigs, etc.) utilizing the entire surface to reproduce spores. Formally known as the Corticioids.
+      <br>• Some species grow a cap as well (known as effused-reflexed).
+      <br>• Surfaces can be wrinkled, folded, smooth, worty, or toothed (if pored, it's considered a flat polypore)
+      <br><br>👉 Use the <a href="/location/all/?t=crust">crust</a> tag to view the many species.
     </p>
   </div>
 </div>
