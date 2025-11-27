@@ -735,3 +735,46 @@ input[type='text'].tag-select__input {
 li {
   margin-bottom: 0;
 }
+
+.chevron-block {
+  font-family: sans-serif;
+  width: 300px;
+  cursor: pointer;
+  margin-bottom: 1em;
+  width:auto;
+}
+
+.chevron-block summary {
+  list-style: none;
+}
+
+.chevron-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.chevron-block summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 16px;
+}
+
+.chevron {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(45deg); /* ▼ */
+  transition: transform 0.2s ease;
+}
+
+.chevron-block[open] .chevron {
+  transform: rotate(-135deg); /* ▲ */
+}
+
+.chevron-content {
+  padding-left: 20px;
+  border-left: 2px solid #ccc;
+}
