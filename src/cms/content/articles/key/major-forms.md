@@ -37,8 +37,6 @@ author: Derek Zeller
   </div>
 </div>
 
-<hr>
-
 <div class="key-option-container">
   <div class="key-option-image">
     <img src="/img/carbon.jpg" alt="Carbon Fungi" />
@@ -60,8 +58,6 @@ author: Derek Zeller
     </p>
   </div>
 </div>
-
-<hr>
 
 <div class="key-option-container">
   <div class="key-option-image">
@@ -204,24 +200,33 @@ author: Derek Zeller
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Lichens" />
+    <img src="/img/lichens.jpg" alt="Lichens" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Lichens</h4></a>
+      <h4>Lichens</h4>
     <p>
-      • Commonly growing on bark, rocks, tombstones, metal, or other stationary hard objects. Perrenial. Colors becoming more vivid after rain. Contains a photobiont.
+      • Grows on bark, rocks, tombstones, metal, or other stationary hard objects.
+      <br>• Perrenial (found year-round), slow-growing, and can become very old.
+      <br>• Colors becoming more vivid after rain.
+      <br>• Combination of a fungus and a photobiont (algea or cyanobacteria)
+      <br>• The fungus "farms" the photobiont for energy, while providing a safe environment for the community of algea.
+      <br><br>👉 Major group Lichens (Class <a href="https://www.inaturalist.org/observations?taxon_id=54743&user_id=thefungiproject&verifiable=any">Lecanormycetes</a>)
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Rusts & Smuts" />
+    <img src="/img/rust-smut.jpg" alt="Rusts & Smuts" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Rusts & Smuts</h4></a>
+      <h4>Rusts & Smuts</h4>
     <p>
-      • Plant pathogens
+      • Pathogens infecting leaves and fruits of many plant species.
+      <br><br>• <b>Juniper-Apple Rust</b> (<i>Gymnosporangium juniperi-virginianae</i>) is the most commonly observed rust which creates a large ball on the cones of Eastern Redcedar (Juniperus virginiana) that grow large orange tentacles when wet. It also creates small dots on apple tree (genus Malus) leaves and has a lifecycle alternating between the two trees.
+      <br>• <b>Corn Smut</b> (<i>Mycosarcoma maydis</i>) is the most commonly observed smut that infects corn cobs on the stalk and makes large gray and black growths. These growths are highly prised edibles in some cultures when gathered at the correct growth stage.
+      <br><br>👉 Rusts (Order <a href="https://www.inaturalist.org/observations?taxon_id=69968&user_id=thefungiproject&verifiable=any">Pucciniales</a>)
+      <br>👉 Smuts (Class Ustilaginomycetes <a href="https://www.inaturalist.org/observations?taxon_id=1409663&user_id=fungizen&verifiable=any">Ustilaginomycetes</a>)
     </p>
   </div>
 </div>
