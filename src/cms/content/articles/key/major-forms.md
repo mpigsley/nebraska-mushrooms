@@ -5,6 +5,8 @@ date: 2025-11-02
 author: Derek Zeller
 ---
 
+![Major Forms](/img/major-forms-fractal.jpg)
+
 <details class="chevron-block">
     <summary><span class="chevron"></span><span class="chevron-label">More about this key...</span></summary>
     <div class="chevron-content">
@@ -13,8 +15,6 @@ author: Derek Zeller
         <p>This key is not a traditional dichotomous key (two-choice key), but rather a sunburst or wheel. This design is heavily inspired by the publication Fungi of Temperate Europe (T. Læssøe, J. Petersen), for which a free PDF of the identification wheels are available from <a href="https://www.mycokey.com/">MycoKey</a>. A multitude of photos is used to reduce the verbosity of text, because we as humans are naturally visual pattern seeking creatures (and many people scroll past text, anyway). Below the wheels are descriptions of the slices with links to other keys, taxa, and feature filters in our fungal database. Please also note that this key depends on forms and morphology rather than lineages, so this key does not represent evolutionary or taxonomic relationships. For that, we suggest using the <a href="/taxa/life/">Structured Species List</a>. Enjoy!</p>
     </div>
 </details>
-
-![Major Forms](/img/major-forms-fractal.jpg)
 
 <hr>
 
@@ -25,11 +25,10 @@ author: Derek Zeller
   <div class="key-option-text">
       <h4>Mushrooms with a Cap <a href="/articles/key/pileate/">🔑</a></h4>
     <p>
-      • Umbrella-like object; Wearing a ‘hat’.<br>
-      • Can be on a stem (stipitate) or attached directly to the substrate from which it is growing (sessile).<br>
-      • 'Pileate' in Mycologese, or bearing a 'pileus'.<br>
-      <br>
-      Common groups:
+      • Umbrella-like object; Wearing a ‘hat’.
+      <br>• Can be on a stem (stipitate) or attached directly to the substrate from which it is growing (sessile).<br>• 'Pileate' in Mycologese, or bearing a 'pileus'.
+      <br>• Immensly diverse. Any different lineages have developed the cap through convergent evolution.
+      <br><br>Common groups:
       <br>👉 gilled <a href="/location/all/?t=agaric">agarics</a>
       <br>👉 pored <a href="/location/all/?t=bolete">boletes</a> and <a href="/location/all/?t=polypore">polypores</a>
       <br>👉 hydnoid <a href="/location/all/?t=toothed">toothed</a>
@@ -133,48 +132,72 @@ author: Derek Zeller
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Jelly & Rubber" />
+    <img src="/img/jelly-rubber.jpg" alt="Jelly & Rubber" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Jelly & Rubber</h4></a>
+      <h4>Jelly & Rubber</h4>
     <p>
-      • Variably shaped; flexible.
+      • Variably shaped: ear-shaped, cushion-shaped, and many looking like a deflated ballon.
+      <br>• Flexible, jiggly, squishy, and gelatinous when hydrated, becoming hard and shriveled with dry weather.
+      <br>• Brown, black, white, orange, or yellow.
+      <br>• Many are decomposers of wood, though some encrust the bases of living plants.
+      <br>• Many are decomposers of wood, though some encrust the bases of living plants.
+      <br><br>👉 Jelly fungi (<a href="/taxa/auriculariales">Auriculariales</a>)
+      <br>👉 Rubber fungi (<a href="/taxa/dacrymycetales">Dacrymycetales</a>)
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Stinkhorns" />
+    <img src="/img/stinkhorn.jpg" alt="Stinkhorns" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Stinkhorns</h4></a>
+      <h4>Stinkhorns</h4>
     <p>
-      • Arising from 'egg'; Insect attracting; Putrid smell.
+      • These fungi arrise from 'egg'. When sliced in half, the egg possesses a slimy-gelatinous interior, separating it from puffballs, earthballs, and young Amanita.
+      <br>• In adult form, resemble morels at first glance, though the smell and the slimy apex of the stinkhorn makes them easy to seaprate.
+      <br>• The gelatinous material is composed of small spores. Flies and other insects are attrated and are eventualy covered in numerous spores which they then dispurse in other locations.
+      <br><br>👉 Major group (<a href="/taxa/phallales">Phallales</a>)
+      <br>👉 Genus Phallogaster
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Disc, Cup,Nest, Saucer(Discomycetes)" />
+    <img src="/img/disc.jpg" alt="Disc Fungi (Discomycetes)" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Disc, Cup, Nest, Saucer (Discomycetes)</h4></a>
+      <h4>Disc Fungi (Discomycetes)</h4>
     <p>
-      • Bowl-shaped or circular and flat
-    </p>
+      • Variably shaped; bowl-shaped, circular and flat, urn-shaped, or resembling a bird's nest.
+      <br>• Appearing on the ground, attached to duff, or on decomposing trees.
+      <br>• Most possess a fruiting structured called an apothecium with an upper reproductive surface (hymenium) and a lower supporting surface (abhymenium).
+      <br>• Can be directly attached (sessile apothecium) or with a minimal stem (pseudostipitate apothecium), or distinct stem (stipitate apothecium).
+      <br>• Morels and the like are also included in this group, however, due to their own diversity, they are handled separately in this key under the group "Moreloid".
+      <br><br>👉 Major group (<a href="/taxa/pezizales">Pezizales</a>)
+      <br>👉 Bird's Nest - Family <a href="/taxa/nidulariaceae">Nidulariaceae</a>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Morels & Allies(Moreloid)" />
+    <img src="/img/moreloid.jpg" alt="Morels & Allies(Moreloid)" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Morels & Allies (Moreloid)</h4></a>
+      <h4>Morels & Allies (Moreloid)</h4>
     <p>
-      • Saddled, folded, pitted, ridged, w/stem.
+      • Saddled, folded, pitted, ridged, or brain-like.
+      <br>• Usually with a stem; can be hollow or with brain-like contents.
+      <br>• Growing from the ground (though sometimes found in well-decomposed wood) in the spring and fall.
+      <br>• Morels are found in the spring.
+      <br>• Members of the Disc Fungi (Discomycetes)
+      <br><br>👉 Major group (<a href="/taxa/pezizales">Pezizales</a>)
+      <br>👉 Shucked corn-cob - Morels (<a href="/taxa/morchella">Morchella</a>)
+      <br>👉 Brainlike or flat - Lorchels (<a href="/taxa/neogyromitra">Neogyromitra</a> and Gyromitra)
+      <br>👉 Saddle-shaped, ribbed-urn, or stemmed disc - <a href="/taxa/helvella">Helvella</a>
+      <br>👉 Cone-shaped - Verpa
     </p>
   </div>
 </div>
