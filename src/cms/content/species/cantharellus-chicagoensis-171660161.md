@@ -9,7 +9,7 @@ references:
   - 'Kuo, M. (2015, March). Cantharellus "cibarius." Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/cantharellus_cibarius.html'
 tags:
   - summer
-  - chantrelle
+  - chanterelle
   - substrate-soil
   - edible-with-caution
 taxonomy:

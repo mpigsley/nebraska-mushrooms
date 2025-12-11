@@ -71,7 +71,7 @@ The main types of hymenophores for capped fungi are gills, pores, ridges, and te
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="/img/chanterelle-trumpet.jpg" alt="Chantrelles & Trumpets" />
+    <img src="/img/chanterelle-trumpet.jpg" alt="Chanterelles & Trumpets" />
   </div>
   <div class="key-option-text">
     <h4>Chanterelles & Trumpets</h4>
@@ -79,7 +79,7 @@ The main types of hymenophores for capped fungi are gills, pores, ridges, and te
       • Underside with raised 'ridges' resembling, though different than gills. As if a flat surface was wrinkled.
       <br>• Growing from the ground and always possessing a stem. Some are desirable edibles.
       <br>• Chanterelles are usually brightly colored (yellow and orange) and trumpets are usually black, white, yellow, or gray.
-      <br><br>👉 View all categorized <a href="/location/all/?t=chantrelle">Chanterelles</a> and <a href="https://www.inaturalist.org/observations?taxon_id=48611&user_id=thefungiproject&verifiable=any">Trumpets</a>
+      <br><br>👉 View all categorized <a href="/location/all/?t=chanterelle">Chanterelles</a> and <a href="https://www.inaturalist.org/observations?taxon_id=48611&user_id=thefungiproject&verifiable=any">Trumpets</a>
     </p>
   </div>
 </div>
