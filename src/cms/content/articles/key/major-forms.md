@@ -233,24 +233,33 @@ author: Derek Zeller
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Entomopathogens" />
+    <img src="/img/entomopathogens.jpg" alt="Entomopathogens" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Entomopathogens</h4></a>
+      <h4>Entomopathogens</h4>
     <p>
-      • Insect/spider pathogens
+      • Pathogens of insects and spiders. Entomo- is a root meaning "insect".
+      <br> These fungi are way more common than we would expect, however, they are quite small and hard to find.
+      <br>• Most common in Nebraska found are on insects in the Order Lepitoptera (butterflys and moths) and manytimes on the pupae (cacoon-stage).
+      <br>• Some rare species infect other entomopathogens and are known as "hyperparasites".
+      <br><br>👉 Major group - Order <a href="/taxa/hypocreales">Hypocreales<a>
     </p>
   </div>
 </div>
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="https://placehold.co/300x300" alt="Atypical Fungi" />
+    <img src="/img/atypical.jpg" alt="Atypical Fungi" />
   </div>
   <div class="key-option-text">
-      <a href="#"><h4>Atypical Fungi</h4></a>
+      <h4>Atypical Fungi</h4>
     <p>
       • Oddballs and the unknown.
+      <br><br>👉 Mold-like on other fungi - <a href="https://www.inaturalist.org/observations?taxon_id=48246&user_id=thefungiproject&verifiable=any">Hypomyces</a>
+      <br>👉 Infecting Russula turning it orange/yellow - <a href="/species/hypomyces-lactifluorum/">Lobster Mushroom</a>
+      <br>👉 Creating large black growths on grass/grain seeds in development - Ergot (Genus <a href="/taxa/claviceps">Claviceps</a>)
+      <br>👉 Creating wood-like sclerotia on Birch (<i>Betula sp.</i>) - Chaga (<a href="https://www.inaturalist.org/observations?taxon_id=127021&user_id=thefungiproject&verifiable=any">Inonotus obliquus</a>)
+      <br><br>This is by no means a comprehensive list. We inhabit a world of many more undiscovered, unrecognized, or uncommon fungi!
     </p>
   </div>
 </div>
