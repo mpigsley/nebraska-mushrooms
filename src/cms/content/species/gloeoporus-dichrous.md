@@ -7,7 +7,7 @@ locations:
 tags:
   - fall
   - polypore
-  - cust
+  - crust
   - substrate-wood
 taxonomy:
   - Life

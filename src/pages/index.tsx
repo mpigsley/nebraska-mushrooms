@@ -49,7 +49,7 @@ export default function IndexPage({
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
             <img src={IdentificationKey} className="centered-image" />
-            <a className="mx-2 grid-link" href="/key">
+            <a className="mx-2 grid-link" href="/articles/key/major-forms">
               <h5 className="noMargin">Identification Key</h5>
             </a>
           </div>

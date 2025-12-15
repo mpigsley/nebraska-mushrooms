@@ -14,7 +14,7 @@ export enum FormTags {
   Agaric = 'agaric',
   Bolete = 'bolete',
   Disc = 'disc',
-  Chantrelle = 'chantrelle',
+  Chanterelle = 'chanterelle',
   Polypore = 'polypore',
   Conk = 'conk',
   Shelf = 'shelf',
@@ -60,7 +60,7 @@ export enum Tag {
   FormAgaric = FormTags.Agaric,
   FormBolete = FormTags.Bolete,
   FormDisc = FormTags.Disc,
-  FormChantrelle = FormTags.Chantrelle,
+  FormChanterelle = FormTags.Chanterelle,
   FormPolypore = FormTags.Polypore,
   FormConk = FormTags.Conk,
   FormShelf = FormTags.Shelf,
@@ -111,7 +111,7 @@ export const getTagClass = (tag: Tag) => {
       return 'tag-brown';
     case Tag.FormDisc:
       return 'tag-pink';
-    case Tag.FormChantrelle:
+    case Tag.FormChanterelle:
       return 'tag-mauve';
     case Tag.FormPolypore:
       return 'tag-amber';

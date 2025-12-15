@@ -55,7 +55,7 @@ If you're interested in the gilled mushrooms from Indian Cave State Park, simply
  - [Agaric](/location/all/?t=agaric)
  - [Bolete](/location/all/?t=bolete)
  - [Disc](/location/all/?t=disc)
- - [Chantrelle](/location/all/?t=chantrelle)
+ - [Chanterelle](/location/all/?t=chanterelle)
  - [Polypore](/location/all/?t=polypore)
  - [Conk](/location/all/?t=conk)
  - [Shelf](/location/all/?t=shelf)
