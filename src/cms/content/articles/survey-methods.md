@@ -9,7 +9,7 @@ This project has been in process since the spring of 2023 and is reported on iNa
 
 #### Survey Preparation
 
-__Time Calculation__: A successful survey relies on appropriate triangulation of season, habitation, and weather conditions, as most fungal organisms have specific conditions that trigger their reproductive cycle. Choosing the best days to survey is mainly based on the ecosystem's moisture level over time. A good rule of thumb is that if rain has accumulated for two days at a daytime temperature above 60 degrees Fahrenheit, the possibility of finding fungi is worth the survey time. Some fungi (though few) prefer the cold and will fruit in near-freezing conditions.
+__Time Calculation__: A successful survey relies on appropriate triangulation of season, habitation, and weather conditions. Most fungal organisms have specific conditions that trigger their reproductive cycle. Choosing the best days to survey is mainly based on the ecosystem's moisture level over time. A good rule of thumb is that if rain has accumulated for two days at a daytime temperature above 60 degrees Fahrenheit, the possibility of finding fungi is worth the survey time. Some fungi (though few) prefer the cold and will fruit in near-freezing conditions.
 
 __Gear__: Backpack, Notebook and pencil, Smartphone, TG-6 Tough Macro Digital Camera, black velvet sheet for photo backdrops, Tackle box for collection, stack of ID slips, food, and water.
 
