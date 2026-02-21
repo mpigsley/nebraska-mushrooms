@@ -31,20 +31,8 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Lactarius
 photos:
-  - /img/lactarius-230014937-1.jpeg
-  - /img/lactarius-230014937-2.jpeg
-  - /img/lactarius-230014937-3.jpeg
-  - /img/lactarius-230014937-4.jpeg
   - /img/lactarius-230014937-5.jpeg
-  - /img/lactarius-230014937-6.jpeg
-  - /img/lactarius-230014937-7.jpeg
-  - /img/lactarius-230014937-8.jpeg
-  - /img/lactarius-230014937-9.jpeg
-  - /img/lactarius-230014937-10.jpeg
-  - /img/lactarius-230014937-11.jpeg
-  - /img/lactarius-230014937-12.jpeg
+  - /img/lactarius-230014937-3.jpeg
   - /img/lactarius-230014937-13.jpeg
-  - /img/lactarius-230014937-14.jpeg
-  - /img/lactarius-230014937-15.jpeg
 ---
 
