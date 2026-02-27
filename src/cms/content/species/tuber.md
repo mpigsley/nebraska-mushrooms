@@ -4,6 +4,7 @@ name: Truffles
 scientific_name: Tuber sp.
 observations:
   - '322154202'
+  - '188288403'
 locations:
   - Indian Cave State Park
 tags:
