@@ -5,6 +5,11 @@ name: Oysterlings
 rank: genus
 references:
     - 'Hesler, L. R., & Smith, A. H. (1965). North American species of Crepidotus (pp. 3-161). New York, NY, USA:: Hafner Publishing Company. Retrieved from https://www.mykoweb.com/Crepidotus/North_American_species_of_Crepidotus.pdf'
+    - 'North American species of Crepidotus, by L.R. Hesler and Alexander H. Smith." In the digital collection University of Michigan Herbarium Fungus Monographs. https://name.umdl.umich.edu/AGK0799.0001.001. University of Michigan Library Digital Collections. Accessed August 3, 2026.'
+    - 'Zmitrovich, I.V.; Malysheva, V.F.; Malysheva, E.F.; Spirin, W.A. 2004. Pleurotoid fungi of Leningrad Region (with notes on rare and interesting East-European taxa). Folia Cryptogamica Petropolitana. 1:1-124'
+    - 'Senn-Irlet, B. 1995. The genus Crepidotus (Fr.) Staude in Europe. Persoonia. 16(1):1-80 https://mykoweb.com/systematics/journals/Persoonia/Persoonia%20v16n1.pdf'
+    - 'Zmitrovich, I.V.; Malysheva, V.F.; Malysheva, E.F.; Spirin, W.A. 2004. Pleurotoid fungi of Leningrad Region (with notes on rare and interesting East-European taxa). Folia Cryptogamica Petropolitana. 1:1-124 https://www.researchgate.net/publication/363404209_FOLIA_CRYPTOGAMICA_PETROPOLITANA'
+    - 'Consiglio, G; Setti, L. 2008. Il Genere Crepidotus in Europa. :1-344'
     - 'Kuo, M. (2023, August). The genus Crepidotus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/crepidotus.html'
     - 'Matheny, P. B., Curtis, J. M., Hofstetter, V., Aime, M. C., Moncalvo, J. M., Ge, Z. W., … Hibbett, D. S. (2006). Major clades of Agaricales: a multilocus phylogenetic overview. Mycologia, 98(6), 982–995. https://doi.org/10.1080/15572536.2006.11832627'
     - 'Bandala, V. M., & Montoya, L. (2000). A taxonomic revision of some American Crepidotus. Mycologia, 92(2), 341–353. https://doi.org/10.1080/00275514.2000.12061165'
