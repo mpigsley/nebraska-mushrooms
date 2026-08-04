@@ -13,6 +13,8 @@ references:
     - 'Kuo, M. (2023, August). The genus Crepidotus. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/crepidotus.html'
     - 'Matheny, P. B., Curtis, J. M., Hofstetter, V., Aime, M. C., Moncalvo, J. M., Ge, Z. W., … Hibbett, D. S. (2006). Major clades of Agaricales: a multilocus phylogenetic overview. Mycologia, 98(6), 982–995. https://doi.org/10.1080/15572536.2006.11832627'
     - 'Bandala, V. M., & Montoya, L. (2000). A taxonomic revision of some American Crepidotus. Mycologia, 92(2), 341–353. https://doi.org/10.1080/00275514.2000.12061165'
+    - 'GE Yu-Peng, BAU Tolgor. Descriptions of six new species of Crepidotus from China[J]. Mycosystema, 2020, 39(2): 238-255 https://doi.org/10.13346/j.mycosystema.190345'
+    - 'Han M, Na Q, Wei R, Zeng H, Hu Y, Zhang L, Du J, Zou L, Tang W, Cheng X, et al. Phylogenetic and Morphological Perspectives on Crepidotus subg. Dochmiopus: Exploratively Unveiling Hidden Diversity in China. Journal of Fungi. 2024; 10(10):710. https://doi.org/10.3390/jof10100710'
 ---
 
 Known as the 'Oysterlings', the genus _Crepidotus_ consists of small, stemless mushrooms that grow on dead wood, usually shaped like tiny fans or shells, and are recognized by their brown spore prints. They are common and fruiting bodies can be found alone or in large numbers.
