@@ -167,7 +167,7 @@ references:
 
 <div class="key-option-container">
   <div class="key-option-image">
-    <img src="/img/mycena-haematopus1.jpeg" alt="Mycenoid" />
+    <img src="/img/mycena-sp-'haematopus-in01'-183033429-1.jpeg" alt="Mycenoid" />
   </div>
   <div class="key-option-text">
       <a href="/articles/key/agaricoid/mycenoid"><h4>Bonets (Mycenoid)</h4></a>

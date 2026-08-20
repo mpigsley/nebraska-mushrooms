@@ -6,11 +6,17 @@ observations:
   - '216217571'
   - '162385604'
   - '214469261'
+  - '215804355'
+  - '216232151'
 locations:
   - Neale Woods
   - Indian Cave State Park
+  - Fontenelle Forest
 tags:
   - spring
+  - summer
+  - fall
+  - winter
   - agaric
   - substrate-wood
   - substrate-duff
