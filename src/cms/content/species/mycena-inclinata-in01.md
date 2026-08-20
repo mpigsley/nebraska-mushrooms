@@ -1,7 +1,7 @@
 ---
 templateKey: species
 name: Clustered Bonnet 
-scientific_name: Mycena inclinata-IN01
+scientific_name: Mycena sp. 'inclinata-IN01'
 observations:
   - '185291630'
   - '179067225'

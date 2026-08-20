@@ -1,7 +1,7 @@
 ---
 templateKey: species
 name:  
-scientific_name: Mycena rutilantiformis
+scientific_name: Mycena sp. 'IN6' (Mycena rutilantiformis)
 observations:
   - '185337066'
 locations:

@@ -4,6 +4,7 @@ name: Unidentified Mycena
 scientific_name: Mycena spp.
 observations:
   - '216217571'
+  - '162385604'
 locations:
   - Neale Woods
   - Indian Cave State Park
@@ -11,6 +12,7 @@ tags:
   - spring
   - agaric
   - substrate-wood
+  - substrate-duff
 taxonomy:
   - Life
   - Fungi
@@ -35,8 +37,6 @@ external_links:
     link: https://scholar.google.com/scholar?&q=Mycena
 photos:
   - /img/mycena-216217571-1.jpeg
-  - /img/mycena-216217571-2.jpeg
-  - /img/mycena-216217571-3.jpeg
-  - /img/mycena-216217571-4.jpeg
+  - /img/mycena-162385604-2.jpeg
 ---
 
