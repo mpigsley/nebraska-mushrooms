@@ -4,10 +4,12 @@ name: Bleeding Fairy Helmet
 scientific_name: Mycena sp. 'haematopus-IN01'
 observations:
   - '183033429'
+  - '174954664'
 locations:
   - Indian Cave State Park
 tags:
   - summer
+  - fall
   - agaric
   - substrate-wood
 taxonomy:
@@ -33,14 +35,7 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Mycena%20sp.%20'haematopus-IN01'
 photos:
-  - /img/mycena-sp-'haematopus-in01'-183033429-1.jpeg
   - /img/mycena-sp-'haematopus-in01'-183033429-2.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-3.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-4.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-5.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-6.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-7.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-8.jpeg
   - /img/mycena-sp-'haematopus-in01'-183033429-9.jpeg
-  - /img/mycena-sp-'haematopus-in01'-183033429-10.jpeg
+  - /img/mycena-sp-'haematopus-in01'-174954664-4.jpeg
 ---
