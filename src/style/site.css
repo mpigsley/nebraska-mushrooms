@@ -195,6 +195,7 @@ h5 {
 .tag {
   display: inline-block;
   padding: var(--s1) var(--s2);
+  margin-bottom: var(--s1);
   border-radius: var(--s2);
   color: #555;
   font-size: 1.3rem;
