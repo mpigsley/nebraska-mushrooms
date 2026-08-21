@@ -9,10 +9,14 @@ observations:
   - '215801309'
   - '188826112'
   - '162385387'
+  - '215728767'
+  - '223886173'
+  - '211894238'
 locations:
   - Fontenelle Forest
   - Schramm Park
   - Indian Cave State Park
+  - Niobrara Valley Preserve
 tags:
   - spring
   - summer
@@ -47,6 +51,7 @@ external_links:
 photos:
   - /img/galerina-marginata-252742662-3.jpeg
   - /img/galerina-marginata-188826112-4.jpeg
+  - /img/galerina-marginata-211894238-1.jpeg
   - /img/galerina-marginata-252742662-2.jpeg
 ---
 
