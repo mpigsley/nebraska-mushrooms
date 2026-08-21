@@ -30,12 +30,19 @@ export default function SpeciesImageScroll({
         {photos?.map((item, i) => {
           if (!item) return null;
           return (
-            <GatsbyImage
-              className="horizontalScrollItem"
+            <a 
+              href={`${item.images?.fallback?.src}`}
               key={i}
-              image={item}
-              alt={`${commonName} (${scientificName})`}
-            />
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GatsbyImage
+                className="horizontalScrollItem"
+                key={i}
+                image={item}
+                alt={`${commonName} (${scientificName})`}
+              />
+            </a>
           );
         })}
       </div>
