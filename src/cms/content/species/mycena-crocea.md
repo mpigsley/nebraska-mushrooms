@@ -2,8 +2,13 @@
 templateKey: species
 name: Walnut Mycena
 scientific_name: Mycena crocea
+observations:
+  - '183034269'
+  - '241550992'
+  - '241551847'
 locations:
   - Indian Cave State Park
+  - Neale Woods
 references:
   - 'Kuo, M. (2010, December). Mycena luteopallens. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/mycena_luteopallens.html'
 tags:
@@ -25,39 +30,28 @@ taxonomy:
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/187798
-  - tag: iNaturalist Observation
-    link: https://www.inaturalist.org/observations/183034269
   - tag: iNaturalist Species Description
     link: https://www.inaturalist.org/taxa/504601
   - tag: Mushroom Observer Species Description
-    link: https://mushroomobserver.org/names?pattern=Mycena+crocea
+    link: https://mushroomobserver.org/names?pattern=Mycena%20crocea
   - tag: Mushroom Expert
-    link: https://www.google.com/search?q=Mycena+crocea+site:www.mushroomexpert.com
+    link: https://www.google.com/search?q=Mycena%20crocea+site:www.mushroomexpert.com
   - tag: Google Scholar
-    link: https://scholar.google.com/scholar?&q=Mycena+crocea
+    link: https://scholar.google.com/scholar?&q=Mycena%20crocea
 photos:
-  - /img/mycena-crocea4.jpeg
-  - /img/mycena-crocea5.jpeg
-  - /img/mycena-crocea1.jpeg
-  - /img/mycena-crocea2.jpeg
-  - /img/mycena-crocea6.jpeg
-  - /img/mycena-crocea7.jpeg
+  - /img/mycena-crocea-241550992-2.jpeg
+  - /img/mycena-crocea-183034269-1.jpeg
+  - /img/mycena-crocea-183034269-2.jpeg
 ---
 
 The Walnut Mycena (_Mycena crocea_) is a decomposer of Walnut and Hickory shells and can be found from late summer through fall. It is distributed east of the Rocky Mountains in North America and can be found in wooded settings composed of Walnut (_Juglans sp._) and/or Hickory (_Carya_) trees.
 
 _M. crocea_ is colored distinctly orange to yellow. It is easily distinguished by its color and habit of growing on buried nut shells. The gills are color whitish to yellowish. The gill attachment is attached to the stem or creating an "S"-like loop on attachment to the stem (sinuate). The stem is much longer than the width of the cap with white basal mycelium. The spore print is white.
 
-![Gills](/img/mycena-crocea1.jpeg)
+![Gills](/img/mycena-crocea-183034269-1.jpeg)
 
-![Stem](/img/mycena-crocea7.jpeg)
+![Stem](/img/mycena-crocea-183034269-7.jpeg)
 
 The terminal ends of the mycelium on the mushroom's gills are quite unique. Below is a video tour of these structures.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/WPtzet6UuMs?si=-stOHJxZ7Dz8aHGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-#### September 12th, 2023 Field Notes - Indian Cave State Park
-
-Growing gregariously on Black Walnut shells in low woodland area.
-
-![Observation](/img/mycena-crocea3.jpeg)
