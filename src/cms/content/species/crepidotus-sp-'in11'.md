@@ -36,3 +36,5 @@ photos:
   - /img/crepidotus-sp-'in11'-217554676-1.jpeg
   - /img/crepidotus-sp-'in11'-217554676-2.jpeg
 ---
+
+Compare to [_Crepidotus epigloeus_](https://www.mycobank.org/page/Name%20details%20page/271872).
