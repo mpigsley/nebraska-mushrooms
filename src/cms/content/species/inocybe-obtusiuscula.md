@@ -7,7 +7,8 @@ observations:
 locations:
   - Niobrara Valley Preserve
 tags:
-  - spring
+  - summer
+  - fall
   - agaric
   - substrate-soil
   - substrate-moss
