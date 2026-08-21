@@ -12,7 +12,6 @@ observations:
   - '290528579'
   - '290526637'
   - '223654950'
-  - '220971646'
   - '217546516'
   - '216217291'
 locations:
@@ -48,12 +47,7 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Crepidotus
 photos:
-  - /img/crepidotus-389668461-1.jpeg
-  - /img/crepidotus-389668461-2.jpeg
+  - /img/crepidotus-375062680-1.jpeg
+  - /img/crepidotus-290528579-1.jpeg
   - /img/crepidotus-389668461-3.jpeg
-  - /img/crepidotus-389668461-4.jpeg
-  - /img/crepidotus-389668461-5.jpeg
-  - /img/crepidotus-389668461-6.jpeg
-  - /img/crepidotus-389668461-7.jpeg
-  - /img/crepidotus-389668461-8.jpeg
 ---
