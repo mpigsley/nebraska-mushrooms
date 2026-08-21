@@ -4,6 +4,7 @@ name:
 scientific_name: Mycena sp. 'IN6' (Mycena rutilantiformis)
 observations:
   - '185337066'
+  - '312996673'
 locations:
   - Indian Cave State Park
 references:
@@ -44,3 +45,5 @@ photos:
 _Mycena rutilantiformis_ was found growing gregariously from woodland duff at Indian Cave State Park the fall. It was living in along the crest of an Oak/Hickory woodland draw. Its non-typical for a _Mycena_, which are known for being small and brittle, this mushroom is large and robust. The striking color combinations make this mushroom a distinctive and unique find.
 
 The cap is umbonate, a shade of light wine red, and bumpy with a lined margin. The gills are attached with a decurrent tooth and are the same color as the cap with a darker margin. The stem is yellow, has a fibrous texture, is rigid, and solid. The stem base attaches to small rhizomorphs with white basal mycelium. The spore print is white.
+
+_Mycena Sect. Calodontes_

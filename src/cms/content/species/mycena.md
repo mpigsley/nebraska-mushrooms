@@ -25,6 +25,10 @@ observations:
   - '306770887'
   - '307411463'
   - '307851717'
+  - '325602387'
+  - '375395708'
+  - '375396652'
+  - '375399659'
 locations:
   - Neale Woods
   - Indian Cave State Park
