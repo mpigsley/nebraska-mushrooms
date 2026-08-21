@@ -1,7 +1,7 @@
 ---
 templateKey: species
 name:  
-scientific_name: Elaphomyces sp.
+scientific_name: Elaphomyces spp.
 locations:
   - Indian Cave State Park
 observations:
