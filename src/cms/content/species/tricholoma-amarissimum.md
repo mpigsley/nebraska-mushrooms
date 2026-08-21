@@ -24,9 +24,11 @@ taxonomy:
   - Agaricomycetes
   - Agaricomycetidae
   - Agaricales
+  - Tricholomatineae
   - Tricholomataceae
+  - Tricholomatoideae
   - Tricholoma
-  - Genuina
+  - Section.Genuina
 external_links:
   - tag: MycoBank
     link: https://www.mycobank.org/page/Name%20details%20page/609085

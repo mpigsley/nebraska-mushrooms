@@ -19,7 +19,9 @@ taxonomy:
   - Agaricomycetes
   - Agaricomycetidae
   - Agaricales
+  - Tricholomatineae
   - Tricholomataceae
+  - Tricholomatoideae
   - Tricholoma
 external_links:
   - tag: MycoBank
