@@ -6,9 +6,11 @@ observations:
   - '286602636'
   - '166139090'
   - '217554718'
+  - '290942270'
 locations:
   - Indian Cave State Park
   - Fontenelle Forest
+  - Niobrara Valley Preserve
 tags:
   - spring
   - summer

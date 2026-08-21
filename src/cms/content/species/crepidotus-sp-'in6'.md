@@ -4,8 +4,11 @@ name:
 scientific_name: Crepidotus sp. 'IN6'
 observations:
   - '214471254'
+  - '290650321'
+  - '307640566'
 locations:
   - Andrew Property
+  - Niobrara Valley Preserve
 tags:
   - spring
   - agaric
