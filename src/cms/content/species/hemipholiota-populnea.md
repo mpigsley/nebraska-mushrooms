@@ -24,7 +24,7 @@ taxonomy:
   - Agaricomycetidae
   - Agaricales
   - Agaricineae
-  - Strophariaceae
+  - Hymenogastraceae
   - Hemipholiota
 external_links:
   - tag: MycoBank

@@ -5,8 +5,10 @@ scientific_name: Deconica coprophila
 observations:
   - '174960783'
   - '171644108'
+  - '374751493'
 locations:
   - Indian Cave State Park
+  - Niobrara Valley Preserve
 tags:
   - summer
   - substrate-dung
@@ -20,7 +22,7 @@ taxonomy:
   - Agaricomycetidae
   - Agaricales
   - Agaricineae
-  - Strophariaceae
+  - Hymenogastraceae
   - Deconica
 external_links:
   - tag: MycoBank

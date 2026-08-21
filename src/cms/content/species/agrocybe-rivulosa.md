@@ -22,7 +22,7 @@ taxonomy:
   - Agaricomycetidae
   - Agaricales
   - Agaricineae
-  - Strophariaceae
+  - Hymenogastraceae
   - Agrocybe
 external_links:
   - tag: MycoBank
