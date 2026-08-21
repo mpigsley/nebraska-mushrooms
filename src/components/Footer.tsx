@@ -15,9 +15,11 @@ export default function Footer({ className }: { className?: string }) {
               conservation of fungi in Nebraska.
             </p>
             <div>
+              <Link to="/about">About</Link>
+              <span> | </span>
               <Link to="/field-guide">Offline Guide</Link>
               <span> | </span>
-              <Link to="/about">About</Link>
+              <Link to="/articles/survey-methods/">Methods</Link>
               <span> | </span>
               <Link to="https://forms.gle/YNMvbkB85unjfWS48">Contact</Link>
               <span> | </span>© <Link to="https://www.fungiproject.org/">Fungi Project</Link> {new Date().getFullYear()}

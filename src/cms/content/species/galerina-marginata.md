@@ -23,6 +23,7 @@ tags:
   - fall
   - agaric
   - substrate-wood
+  - poisonous
 references:
   - 'Kuo, M. (2016, July). Galerina marginata. Retrieved from the MushroomExpert.Com Web site: http://www.mushroomexpert.com/galerina_marginata.html'
   - 'Beug, M. (2024, April 23). Mushroom Poisoning Syndromes - North American Mycological Association. North American Mycological Association. https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/#amatoxin'
@@ -68,3 +69,6 @@ It's important to not wait for symptoms to appear if you suspect that someone ha
 #### Synonyms
 
 - _Galerina autumnalis_
+- _Galerina oregonensis_
+- _Galerina unicolor_
+- _Galerina venenata_
