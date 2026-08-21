@@ -5,8 +5,10 @@ scientific_name: Crepidotus crocophyllus
 observations:
   - '286602636'
   - '166139090'
+  - '217554718'
 locations:
   - Indian Cave State Park
+  - Fontenelle Forest
 tags:
   - spring
   - summer
