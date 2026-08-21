@@ -22,7 +22,7 @@ taxonomy:
   - Agaricomycetidae
   - Agaricales
   - Agaricineae
-  - Strophariaceae
+  - Hymenogastraceae
   - Hebeloma
 external_links:
   - tag: MycoBank
