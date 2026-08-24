@@ -37,6 +37,8 @@ photos:
   - /img/pachyphlodes-carnea-300031333-3.jpeg
 ---
 
+This collection was found in Indian Cave State Park in a mixed oak/hickory woodland during the summer.
+
 #### Bioinformatics
 
  August 24th, 2026 - BLAST using `(query coverage, e-value, percent identity)`:
