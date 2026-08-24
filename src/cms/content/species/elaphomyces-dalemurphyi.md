@@ -34,5 +34,5 @@ external_links:
 photos:
   - /img/elaphomyces-dalemurphyi-302470187-1.jpeg
   - /img/elaphomyces-dalemurphyi-302470187-2.jpeg
-  - /img/elaphomyces-dalemurphyi-302470187-3.jpeg
+  - /img/elaphomyces-dalemurphyi-302470187-7.jpeg
 ---
