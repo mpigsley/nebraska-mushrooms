@@ -11,7 +11,6 @@ observations:
   - '329701598'
   - '313046801'
   - '312554628'
-  - '302470187'
   - '263553004'
   - '183034664'
   - '181251741'
@@ -45,6 +44,5 @@ external_links:
 photos:
   - /img/elaphomyces-312554628-1.jpeg
   - /img/elaphomyces-313046801-5.jpeg
-  - /img/elaphomyces-302470187-1.jpeg
+  - /img/elaphomyces-313046801-1.jpeg
 ---
-
