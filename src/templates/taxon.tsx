@@ -26,23 +26,23 @@ export default function TaxonTemplate({
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-  
+
     if (search) {
       params.set('q', search);
     } else {
       params.delete('q');
     }
-  
+
     const queryString = params.toString();
     const newUrl = queryString
       ? `${window.location.pathname}?${queryString}`
       : window.location.pathname;
-  
+
     window.history.replaceState({}, '', newUrl);
   }, [search]);
 
-  const firstItemsTaxonomy = (data.taxa.edges[0].node.frontmatter
-    ?.taxonomy || []) as string[];
+  const firstItemsTaxonomy = (data.taxa.edges[0].node.frontmatter?.taxonomy ||
+    []) as string[];
   const indexOfTaxon = firstItemsTaxonomy.indexOf(pageContext.taxon) + 1;
   const preTaxonomy = firstItemsTaxonomy.slice(0, indexOfTaxon);
 
@@ -59,7 +59,8 @@ export default function TaxonTemplate({
     return data.taxa.edges.some((edge) => {
       const { taxonomy, scientific_name, name } = edge.node.frontmatter!;
       const taxonMatch = taxonomy?.includes(taxon);
-      const str = `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
+      const str =
+        `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
       return taxonMatch && str.includes(lower);
     });
   }
@@ -68,21 +69,29 @@ export default function TaxonTemplate({
     .filter((edge) => {
       if (!search) return true;
       const { scientific_name, name, taxonomy } = edge.node.frontmatter!;
-      const str = `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
+      const str =
+        `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
       return str.includes(search.toLowerCase());
     })
     .map((edge) => {
       const firstImage = edge.node.frontmatter?.photos?.[0]!;
       return (
-        <div className="taxon-card" key={edge.node.frontmatter!.scientific_name}>
+        <div
+          className="taxon-card"
+          key={edge.node.frontmatter!.scientific_name}
+        >
           <Link to={edge.node.fields!.slug!}>
             <GatsbyImage
               image={firstImage?.childImageSharp?.gatsbyImageData!}
               alt={`${edge.node.frontmatter!.scientific_name}`}
             />
             <div className="taxon-card-text">
-              <span className='italic-text'>{edge.node.frontmatter!.scientific_name}</span>{' '}
-              {!!edge.node.frontmatter!.name && (<p>{edge.node.frontmatter!.name}</p>)}
+              <span className="italic-text">
+                {edge.node.frontmatter!.scientific_name}
+              </span>{' '}
+              {!!edge.node.frontmatter!.name && (
+                <p>{edge.node.frontmatter!.name}</p>
+              )}
             </div>
           </Link>
         </div>
@@ -113,14 +122,19 @@ export default function TaxonTemplate({
         const matchesParent = taxonomy?.[taxonomy.length - 1] === parentTaxa;
         if (!matchesParent) return false;
         if (!search) return true;
-        const str = `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
+        const str =
+          `${scientific_name} ${name ?? ''} ${taxonomy?.join(' ')}`.toLowerCase();
         return str.includes(search.toLowerCase());
       })
       .map((species) => (
         <li key={species.node.frontmatter!.scientific_name}>
           <Link to={species.node.fields!.slug!}>
-            <span className='italic-text'>{species.node.frontmatter!.scientific_name}</span>{' '}
-            {!!species.node.frontmatter!.name && (<>({species.node.frontmatter!.name})</>)}
+            <span className="italic-text">
+              {species.node.frontmatter!.scientific_name}
+            </span>{' '}
+            {!!species.node.frontmatter!.name && (
+              <>({species.node.frontmatter!.name})</>
+            )}
           </Link>
         </li>
       ));
@@ -133,7 +147,8 @@ export default function TaxonTemplate({
           return (
             <li key={taxon}>
               <Link className="dark-link" to={`/taxa/${taxon.toLowerCase()}`}>
-                <span className='italic-text'>{taxon}</span> {taxonRank.length > 0 ? `(${taxonRank})` : ''}
+                <span className="italic-text">{taxon}</span>{' '}
+                {taxonRank.length > 0 ? `(${taxonRank})` : ''}
               </Link>
               {buildTaxonomyTree(taxon, level + 1)}
             </li>
@@ -150,7 +165,7 @@ export default function TaxonTemplate({
       <main className="container page">
         <Link to="/">&lt; Back to Home</Link>
         <h3 className="noMargin">
-          <span className='italic-text'>{pageContext.taxon}</span>{' '}
+          <span className="italic-text">{pageContext.taxon}</span>{' '}
           {taxonRank.length > 0 ? `(${taxonRank})` : ''}
         </h3>
         <h5>
@@ -181,30 +196,41 @@ export default function TaxonTemplate({
                 border: 'none',
                 cursor: 'pointer',
                 fontSize: '1rem',
-                width: '20px'
+                width: '20px',
               }}
             >
               <X size={20} />
             </button>
           )}
         </div>
-        <hr />
         {!!data.taxon?.html && (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: data.taxon?.html ?? '',
-            }}
-          />
-        )}
-        {buildTaxonomyTree(pageContext.taxon, indexOfTaxon)}
-        {!!topSpeciesPhotos.length && (
-          <div style={{ marginTop: '2em', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-            {topSpeciesPhotos}
-          </div>
+          <>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: data.taxon?.html ?? '',
+              }}
+            />
+          </>
         )}
         {!!data.taxon?.frontmatter?.references?.length && (
           <div style={{ marginTop: '2em' }}>
-            <References references={data.taxon?.frontmatter?.references as string[]} />
+            <References
+              references={data.taxon?.frontmatter?.references as string[]}
+            />
+          </div>
+        )}
+        <hr />
+        {buildTaxonomyTree(pageContext.taxon, indexOfTaxon)}
+        {!!topSpeciesPhotos.length && (
+          <div
+            style={{
+              marginTop: '2em',
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '10px',
+            }}
+          >
+            {topSpeciesPhotos}
           </div>
         )}
       </main>
@@ -219,7 +245,9 @@ export const Head: HeadFC<Queries.TaxonTemplateQuery, PageContext> = ({
 
 export const pageQuery = graphql`
   query TaxonTemplate($taxon: String!) {
-    taxa: allMarkdownRemark(filter: { frontmatter: { taxonomy: { eq: $taxon } } }) {
+    taxa: allMarkdownRemark(
+      filter: { frontmatter: { taxonomy: { eq: $taxon } } }
+    ) {
       edges {
         node {
           fields {
