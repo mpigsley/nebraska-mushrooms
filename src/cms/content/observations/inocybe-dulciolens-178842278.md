@@ -8,6 +8,7 @@ scientific_name: Inocybe dulciolens
 location: Indian Cave State Park
 date_pretty: August 16th, 2023
 uri: https://www.inaturalist.org/observations/178842278
+user_id: thefungiproject
 photos:
   - /img/inocybe-dulciolens-178842278-1.jpeg
   - /img/inocybe-dulciolens-178842278-2.jpeg

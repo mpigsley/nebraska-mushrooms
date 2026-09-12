@@ -1,0 +1,36 @@
+---
+inat_id: '240840720'
+templateKey: observation
+dna_barcode_its: TTACTTCGTTCAGTTGTTATCAAAATTGGGTGTTTAACCACATGTTGGAGTGAAAGTCGGGTACCATATCCGTGTCGCCCTTTCCTCCGCTTATTGATATGCTTAAGTTCAGCGGGTAGTCCTACCTGATTTGAGGTCAAATTTCATCAAAATATGGTTATAAGCAGCACAATCTGTTCATGCAGCTCACCAAGGCATAGATAAATTTATCACACCTGTGGTAGTTTCTCTGCTCAGATACCGCTAATGCATTTCAGGGGAGCTGACCCTCACAAAAAGGCCTGCACAAAAACCCCCCACATCCAAGCCACAATCAATGTGGTTTGAGAACTTGAATGACACTCAAACAGGCATGCTCCAAGGAATACCAAGGAGCGCAAGATGCGTTCAAAGATTCGATGATTCACTGAATTCTGCAATTCACATTACTTATCGCATTTCGCTGCGTTCTTCATCGATGCGAGAGCCAAGAGATCCGTTGCTGAAAGTTGTATATTTAAATTCAACTTTGTTATTCTAAACAGATTCATAGGTTTGTGAAAAAGGTACATAGACCTGGAAAGGATTTCAAGGAAAAGCAACAGCAACAGCAGTAGCAGTTCCAACTCGATAACAAAATCAACAACAACAAAAAAATCTCCAGGTCTACAATATGTGCACAGTTGGAGAAATAAAGATGACAAGCGTGCACATACCCCTAAGGGCCAGCAACAGCCTGTTCAAGTTTATTCAATAATGATCCTTCCGCAGGTTCACCTACGGAAAGGGCGACACGGATATGGTACCCGACTTTCACTCCAACATGTGGTTAAACACCCAAGTTTTTCACATATAACTGAACGAAGTA
+name:  
+scientific_name: Inocybe dulciolens
+location: Indian Cave State Park
+date_pretty: September 8th, 2024
+uri: https://www.inaturalist.org/observations/240840720
+user_id: thefungiproject
+photos:
+  - /img/inocybe-dulciolens-240840720-1.jpeg
+  - /img/inocybe-dulciolens-240840720-2.jpeg
+  - /img/inocybe-dulciolens-240840720-3.jpeg
+  - /img/inocybe-dulciolens-240840720-4.jpeg
+  - /img/inocybe-dulciolens-240840720-5.jpeg
+  - /img/inocybe-dulciolens-240840720-6.jpeg
+  - /img/inocybe-dulciolens-240840720-7.jpeg
+  - /img/inocybe-dulciolens-240840720-8.jpeg
+  - /img/inocybe-dulciolens-240840720-9.jpeg
+  - /img/inocybe-dulciolens-240840720-10.jpeg
+  - /img/inocybe-dulciolens-240840720-11.jpeg
+  - /img/inocybe-dulciolens-240840720-12.jpeg
+  - /img/inocybe-dulciolens-240840720-13.jpeg
+  - /img/inocybe-dulciolens-240840720-14.jpeg
+  - /img/inocybe-dulciolens-240840720-15.jpeg
+  - /img/inocybe-dulciolens-240840720-16.jpeg
+---
+
+AA52
+
+- Growing gregariously among dense ground vegetation in mixed oak/hickory woodland.
+- Nearby Trees: American Linden, Northern Red Oak, Shagbark Hickory, Ailanthus altissima, and Chinkapin Oak.
+- Spore Print: light brown
+
+- Microscopy: mounted in Melzer's Reagent.

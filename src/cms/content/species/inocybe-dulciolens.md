@@ -3,6 +3,7 @@ templateKey: species
 name: Sweet-Smelling Fibercap
 scientific_name: Inocybe dulciolens
 observations:
+  - '240840720'
   - '178842278'
 locations:
   - Indian Cave State Park
@@ -39,9 +40,9 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Inocybe%20dulciolens
 photos:
+  - /img/inocybe-dulciolens-240840720-1.jpeg
   - /img/inocybe-dulciolens-178842278-1.jpeg
   - /img/inocybe-dulciolens-178842278-2.jpeg
-  - /img/inocybe-dulciolens-178842278-3.jpeg
 ---
 
 The Sweet-Smelling Fibercap (_Inocybe dulciolens_) is a mycorrhizal mushroom that can be found from summer through fall. It is distributed east of the Rocky Mountains and generally associates with deciduous trees in soils that are high in calcium carbonate. Occasionally fruiting in large numbers.
