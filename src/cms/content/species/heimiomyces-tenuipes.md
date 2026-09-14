@@ -47,3 +47,7 @@ photos:
 The Orange Faint Foot Mushroom (_Heimiomyces tenuipes_) is a decomposer of dead wood and duff and can be found in the late-spring through early-summer. It is common in hardwood forests.
 
 The fruiting body has a tough consistency and has a "felty" texture. The gills commonly possess cross-veins at the base of the gills. The gills are notched as they attach to the stem. The spore print is white.
+
+##### Synonyms
+
+_Xeromphalina tenuipes_
