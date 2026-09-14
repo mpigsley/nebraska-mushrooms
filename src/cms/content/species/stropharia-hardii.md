@@ -5,6 +5,7 @@ scientific_name: Stropharia hardii
 observations:
   - '243680666'
   - '179066813'
+  - '238313907'
 locations:
   - Indian Cave State Park
 tags:
@@ -39,4 +40,3 @@ photos:
   - /img/stropharia-hardii-243680666-5.jpeg
   - /img/stropharia-hardii-243680666-4.jpeg
 ---
-
