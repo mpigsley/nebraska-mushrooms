@@ -4,6 +4,7 @@ name: White-Banded Bitter Knight
 scientific_name: Tricholoma amarissimum
 observations:
   - '167406400'
+  - '240039112'
 locations:
   - Indian Cave State Park
 tags:
