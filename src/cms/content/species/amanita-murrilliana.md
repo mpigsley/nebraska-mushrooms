@@ -4,6 +4,7 @@ name: Murrill's Slender Caesar
 scientific_name: Amanita murrilliana
 observations:
   - '175093295'
+  - '226772523'
 locations:
   - Indian Cave State Park
 references:
