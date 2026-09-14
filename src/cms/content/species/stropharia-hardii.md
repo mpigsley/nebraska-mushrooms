@@ -9,6 +9,7 @@ locations:
   - Indian Cave State Park
 tags:
   - summer
+  - fall
   - agaric
   - substrate-soil
 taxonomy:
