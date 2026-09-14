@@ -1,0 +1,33 @@
+---
+inat_id: '237377131'
+templateKey: observation
+dna_barcode_its: GGTGTTTAACCAGACTCTTGGGCTCGCCACGTCCCCCATATCCGTGTCGCCCTTTCCGTAGGTGAACCTGCGGAAGGATCATTAGCGAATAAACAAGTGTTGGTTGTGCTGACCATTCGTGGTATGTGCACGCTGACCACTGTTTCATTCATTTTCCACCTGTGCACTTCATGTAGTCCATTGCATTGCTGATTTCGGGCCTTTTAAGCCTGGTTTAAGGAAGTTGCCTGTTTCACAACAGGCTCTTCTTGGGCATGCATGGTCTATGTTTACTATCTACACCATATAAATGTCATAGAATGTATCAGGCCTTGTGCCTTTAAACTATAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGCATTCCGAGGAGCATGCCTGTTTGAGTGTCATTAAATTCTCAATCCTATGCTCTCTTGTATTGTATGGTGATTGGATTATGGAGGCTGCTGGCTTGTTCAGCTCCTCTTAAAAGCATTAGCAGGGTATAATGCCATCTGTGCTTTGTATGATATGTATCTATACATTGTGCAATTGTGCATGTCTGCTACAAATTGTCAGACTTTGACACTTGACCAATTTGACCTCAAATCAGGTAGGACTACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAGGAAAGGGCGACACGGATATGGGGGACGTGGCGAGCCCAAGAGTCTGGTTAAACACCCATTTTTGATAAAACTGAACGAA
+name:  
+scientific_name: Pluteus septocystidiatus
+location: Indian Cave State Park
+date_pretty: August 21st, 2024
+uri: https://www.inaturalist.org/observations/237377131
+user_id: thefungiproject
+photos:
+  - /img/pluteus-septocystidiatus-237377131-1.jpeg
+  - /img/pluteus-septocystidiatus-237377131-2.jpeg
+  - /img/pluteus-septocystidiatus-237377131-3.jpeg
+  - /img/pluteus-septocystidiatus-237377131-4.jpeg
+  - /img/pluteus-septocystidiatus-237377131-5.jpeg
+  - /img/pluteus-septocystidiatus-237377131-6.jpeg
+  - /img/pluteus-septocystidiatus-237377131-7.jpeg
+  - /img/pluteus-septocystidiatus-237377131-8.jpeg
+  - /img/pluteus-septocystidiatus-237377131-9.jpeg
+  - /img/pluteus-septocystidiatus-237377131-10.jpeg
+  - /img/pluteus-septocystidiatus-237377131-11.jpeg
+  - /img/pluteus-septocystidiatus-237377131-12.jpeg
+  - /img/pluteus-septocystidiatus-237377131-13.jpeg
+  - /img/pluteus-septocystidiatus-237377131-14.jpeg
+  - /img/pluteus-septocystidiatus-237377131-15.jpeg
+---
+
+AA38
+
+- Growing on well-rotted hardwood log in riparian woodland area.
+- Stipe slowly bruising blue.
+- Microscopy: Mounted in Congo Red.
