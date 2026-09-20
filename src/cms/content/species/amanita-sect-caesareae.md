@@ -35,9 +35,9 @@ external_links:
   - tag: Google Scholar
     link: https://scholar.google.com/scholar?&q=Caesareae
 photos:
-  - /img/caesareae-226772523-4.jpeg
-  - /img/caesareae-226772523-2.jpeg
-  - /img/caesareae-226772523-5.jpeg
-  - /img/caesareae-226772523-6.jpeg
+  - /img/amanita-murrilliana-226772523-4.jpeg
+  - /img/amanita-murrilliana-226772523-2.jpeg
+  - /img/amanita-murrilliana-226772523-5.jpeg
+  - /img/amanita-murrilliana-226772523-6.jpeg
 ---
 
