@@ -1,5 +1,4 @@
 import type { GatsbyConfig } from 'gatsby';
-import adapter from 'gatsby-adapter-netlify';
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -8,7 +7,6 @@ const config: GatsbyConfig = {
     description: '',
   },
   graphqlTypegen: true,
-  adapter: adapter(),
   plugins: [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -66,12 +64,6 @@ const config: GatsbyConfig = {
         attributes: {
           rel: 'stylesheet preload prefetch',
         },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-decap-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.ts`,
       },
     },
     {

@@ -1,0 +1,68 @@
+name: Build and deploy to Firebase Hosting
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      # Gatsby reuses processed images and unchanged pages from a previous
+      # build when both of these directories are restored. public/img is a raw
+      # copy of static/img that every build recreates, so it isn't worth caching.
+      - name: Restore Gatsby build cache
+        uses: actions/cache/restore@v6
+        with:
+          path: |
+            .cache
+            public/*
+            !public/img
+          key: gatsby-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            gatsby-${{ runner.os }}-
+
+      - run: npm ci
+
+      - run: npm run build
+
+      # Only main saves, so pull requests can't evict its cache from the
+      # repository's 10 GB quota.
+      - name: Save Gatsby build cache
+        if: github.ref == 'refs/heads/main'
+        uses: actions/cache/save@v6
+        with:
+          path: |
+            .cache
+            public/*
+            !public/img
+          key: gatsby-${{ runner.os }}-${{ github.run_id }}
+
+      # Pushes to main go live; pull requests get a temporary preview URL.
+      # Secrets aren't available to pull requests from forks, so those only build.
+      - name: Deploy to Firebase Hosting
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: ${{ github.event_name != 'pull_request' && 'live' || '' }}
+          expires: 7d
