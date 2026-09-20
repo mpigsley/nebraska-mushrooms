@@ -163,7 +163,6 @@ export const query = graphql`
               childImageSharp {
                 id
                 gatsbyImageData(
-                  quality: 90
                   height: 300
                   width: 468
                   layout: CONSTRAINED
@@ -198,7 +197,6 @@ export const query = graphql`
                 id
                 gatsbyImageData(
                   height: 480
-                  quality: 90
                   layout: CONSTRAINED
                 )
               }

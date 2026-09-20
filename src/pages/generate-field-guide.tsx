@@ -123,7 +123,7 @@ export const query = graphql`
             photos {
               childImageSharp {
                 id
-                fixed(base64Width: 500) {
+                fixed(base64Width: 500, toFormat: WEBP, toFormatBase64: JPG) {
                   base64
                   height
                   width
