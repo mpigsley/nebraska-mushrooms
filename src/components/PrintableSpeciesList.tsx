@@ -25,7 +25,7 @@ export default function PrintableSpeciesList({
       <div className="printable_titlepage">
         <h1 className="printable_name">Mushrooms of Nebraska</h1>
 
-        <img src={Favicon} className="printable_logo" />
+        <img src={Favicon} className="printable_logo" alt="" />
         
         <p className="bold-text">Important: This guide is for informational use only. Do not use this guide as a singular source to determine edibility. Eat wild mushrooms at your own risk. We accept no responsibility for illness, injury, or other consequences resulting from mushroom consumption. Please do not use this PDF as a sole source for identification.</p>
         

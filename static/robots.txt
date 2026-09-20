@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /generate-field-guide/
+
+Sitemap: https://nebraskamushrooms.org/sitemap-index.xml

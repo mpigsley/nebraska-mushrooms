@@ -1,5 +1,5 @@
 import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type HeadFC, PageProps } from 'gatsby';
 import * as React from 'react';
 
 import WildMushroomEdibility from '../img/wild-mushroom-edibility.jpeg';
@@ -8,6 +8,7 @@ import IdentificationKey from '../img/identification-key.jpeg';
 import MushrooomList from '../img/mushroom-list.jpeg';
 import { Tag, getTagClass } from '../utils/tag.util';
 import PageLayout from '../components/PageLayout';
+import Seo from '../components/Seo';
 import { RotateCcw } from 'react-feather';
 
 export default function IndexPage({
@@ -27,11 +28,11 @@ export default function IndexPage({
   }, []);
 
   return (
-    <PageLayout>
+    <PageLayout home>
       <div>
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
-            <img src={WildMushroomEdibility} className="centered-image" />
+            <img src={WildMushroomEdibility} className="centered-image" alt="" />
             <a
               className="mx-2 grid-link"
               href="/articles/concerning-wild-mushroom-edibility"
@@ -40,7 +41,7 @@ export default function IndexPage({
             </a>
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
-            <img src={HowToUseThisWebiste} className="centered-image" />
+            <img src={HowToUseThisWebiste} className="centered-image" alt="" />
             <a className="mx-2 grid-link" href="/articles/manual">
               <h5 className="noMargin">How to Use This Website</h5>
             </a>
@@ -48,13 +49,13 @@ export default function IndexPage({
         </div>
         <div className="row">
           <div className="six columns relative link-tile content-centered mb-4">
-            <img src={IdentificationKey} className="centered-image" />
+            <img src={IdentificationKey} className="centered-image" alt="" />
             <a className="mx-2 grid-link" href="/articles/key/major-forms">
               <h5 className="noMargin">Identification Key</h5>
             </a>
           </div>
           <div className="six columns relative link-tile content-centered mb-4">
-            <img src={MushrooomList} className="centered-image" />
+            <img src={MushrooomList} className="centered-image" alt="" />
             <a className="mx-2 grid-link" href="/taxa/life/">
               <h5 className="noMargin">Structured Species List</h5>
             </a>
@@ -153,6 +154,24 @@ export default function IndexPage({
     </PageLayout>
   );
 }
+
+export const Head: HeadFC<Queries.LocationIndexQuery> = ({
+  data,
+  location,
+}) => (
+  <Seo
+    pathname={location.pathname}
+    image={
+      data.locations.edges[0]?.node.frontmatter?.heroImage?.childImageSharp
+        ?.gatsbyImageData
+    }
+    jsonLd={{
+      '@type': 'WebSite',
+      name: 'Mushrooms of Nebraska',
+      url: 'https://nebraskamushrooms.org/',
+    }}
+  />
+);
 
 export const query = graphql`
   query LocationIndex {

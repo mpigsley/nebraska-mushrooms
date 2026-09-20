@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import { generateTaxaRank } from '../utils/taxon-service';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import References from '../components/References';
+import Seo from '../components/Seo';
 
 interface PageContext {
   taxon: string;
@@ -164,10 +165,10 @@ export default function TaxonTemplate({
     <>
       <main className="container page">
         <Link to="/">&lt; Back to Home</Link>
-        <h3 className="noMargin">
+        <h1 className="h3 noMargin">
           <span className="italic-text">{pageContext.taxon}</span>{' '}
           {taxonRank.length > 0 ? `(${taxonRank})` : ''}
-        </h3>
+        </h1>
         <h5>
           {data.taxa.edges.length} species found - {iNatLink}
         </h5>
@@ -241,7 +242,14 @@ export default function TaxonTemplate({
 
 export const Head: HeadFC<Queries.TaxonTemplateQuery, PageContext> = ({
   pageContext,
-}) => <title>Taxon: {pageContext.taxon}</title>;
+  location,
+}) => (
+  <Seo
+    pathname={location.pathname}
+    title={`${pageContext.taxon} (Taxon)`}
+    description={`Nebraska mushroom and fungus species in ${pageContext.taxon}, with photos and links to each species profile.`}
+  />
+);
 
 export const pageQuery = graphql`
   query TaxonTemplate($taxon: String!) {

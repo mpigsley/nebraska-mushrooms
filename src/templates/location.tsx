@@ -3,6 +3,7 @@ import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
 import LocationPage from '../components/LocationPage';
+import Seo from '../components/Seo';
 import { type Species } from '../utils/species.util';
 import { type Tag } from '../utils/tag.util';
 
@@ -50,27 +51,22 @@ export default function LocationTemplate({
   );
 }
 
-export const Head: HeadFC<Queries.LocationTemplateQuery> = ({ data }) => {
+export const Head: HeadFC<Queries.LocationTemplateQuery> = ({
+  data,
+  location,
+}) => {
   const firstLocation = data.locations.edges[0].node;
   const title = firstLocation?.frontmatter?.title || 'Nebraska';
-  const description = `${title} Surveyed Mushroom List`;
 
   return (
-    <>
-      <title>{title} | Mushrooms of Nebraska</title>
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta name="description" content={description} />
-      <meta
-        property="og:image"
-        content={
-          firstLocation.frontmatter?.heroImage?.childImageSharp?.gatsbyImageData
-            ?.images?.fallback?.src || ''
-        }
-      />
-      <meta property="og:image:width" content="1000" />
-      <meta property="og:image:height" content="1000" />
-    </>
+    <Seo
+      pathname={location.pathname}
+      title={title}
+      description={`Mushrooms and fungi surveyed at ${title}, Nebraska, with photos and a full species list.`}
+      image={
+        firstLocation.frontmatter?.heroImage?.childImageSharp?.gatsbyImageData
+      }
+    />
   );
 };
 

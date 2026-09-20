@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { PageProps } from 'gatsby';
+import { type HeadFC, PageProps } from 'gatsby';
 import PageLayout from '../components/PageLayout';
+import Seo from '../components/Seo';
 // @ts-ignore ???
 import MycotaImage from '../img/mycota.jpg';
 
@@ -120,7 +121,7 @@ const About: React.FC<PageProps> = () => {
       <div className="container">
         <div className="row">
           <a href="/">&lt; Back to Home</a>
-          <h2 className="noMargin">About</h2>
+          <h1 className="h2 noMargin">About</h1>
           <hr />
           <div>
             <p>
@@ -177,3 +178,11 @@ const About: React.FC<PageProps> = () => {
 };
 
 export default About;
+
+export const Head: HeadFC = ({ location }) => (
+  <Seo
+    pathname={location.pathname}
+    title="About"
+    description="About the Mushrooms of Nebraska project: who we are, how species are surveyed and documented, and the partners who support the work."
+  />
+);

@@ -28,7 +28,7 @@ export default function ImageList({ species, onChangeTag }: ImageListProps) {
               {!!photo ? (
                 <GatsbyImage className="grid-image" image={photo} alt={name} />
               ) : (
-                <img src={Favicon} className="defaultGridImg" />
+                <img src={Favicon} className="defaultGridImg" alt="" />
               )}
               <h5 className="noMargin small-header my-1">
                 {name || <span className="italic-text">{scientificName}</span>}

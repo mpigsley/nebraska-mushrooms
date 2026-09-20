@@ -36,7 +36,7 @@ export default function TableList({ species, onChangeTag }: TableListProps) {
                 {!!photo ? (
                   <GatsbyImage image={photo} alt={name} />
                 ) : (
-                  <img src={Favicon} className="defaultTableImg" />
+                  <img src={Favicon} className="defaultTableImg" alt="" />
                 )}
               </td>
               <td>

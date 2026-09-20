@@ -56,9 +56,9 @@ export default function SpeciesPage({
       <main className="container page">
         <section className="row">
           <Link to={'/'}>&lt; Back to Home</Link>
-          <h3 className={`noMargin ${!!!commonName && 'italic-text'}`}>
+          <h1 className={`h3 noMargin ${!!!commonName && 'italic-text'}`}>
             {commonName || scientificName}
-          </h3>
+          </h1>
           {!!commonName && <h5 className="italic-text">{scientificName}</h5>}
           <p>
             {species.taxonomy && (

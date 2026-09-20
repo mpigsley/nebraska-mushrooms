@@ -4,6 +4,7 @@ import * as React from 'react';
 
 import { type Tag } from '../utils/tag.util';
 import SpeciesPage from '../components/SpeciesPage';
+import Seo from '../components/Seo';
 
 interface ExploreSpeciesPageProps extends PageProps<Queries.ExploreSpeciesQuery> {}
 
@@ -133,14 +134,12 @@ export default function ExploreSpecies({ data }: Readonly<ExploreSpeciesPageProp
   );
 }
 
-export const Head: HeadFC<Queries.ExploreSpeciesQuery> = () => (
-  <>
-    <title>Explore Species | Mushrooms of Nebraska</title>
-    <meta
-      name="description"
-      content="Explore a new mushroom species every 5 minutes, randomly selected from our database."
-    />
-  </>
+export const Head: HeadFC<Queries.ExploreSpeciesQuery> = ({ location }) => (
+  <Seo
+    pathname={location.pathname}
+    title="Explore Species"
+    description="Explore a new mushroom species every 5 minutes, randomly selected from our database."
+  />
 );
 
 export const query = graphql`

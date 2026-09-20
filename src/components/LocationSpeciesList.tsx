@@ -83,7 +83,7 @@ export default function LocationSpeciesList({
   return (
     <>
       <div className="species-title content-spaced mb-3 items-centered">
-        <h3 className="mb-0">{title}</h3>
+        <h1 className="h3 mb-0">{title}</h1>
         <div className="flex">
           {!!geolocation && (
             <a

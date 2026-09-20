@@ -3,6 +3,7 @@ import { graphql, PageProps, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
 import LocationPage from '../../components/LocationPage';
+import Seo from '../../components/Seo';
 import { type Species } from '../../utils/species.util';
 import { type Tag } from '../../utils/tag.util';
 
@@ -37,8 +38,12 @@ export default function AllLocations({
   return <LocationPage title="All Nebraska Parks" species={species} />;
 }
 
-export const Head: HeadFC<Queries.AllLocationsQuery> = () => (
-  <title>All Nebraska Parks</title>
+export const Head: HeadFC<Queries.AllLocationsQuery> = ({ location }) => (
+  <Seo
+    pathname={location.pathname}
+    title="All Nebraska Parks"
+    description="Every mushroom and fungus species surveyed across Nebraska parks and natural areas, in one list."
+  />
 );
 
 export const pageQuery = graphql`

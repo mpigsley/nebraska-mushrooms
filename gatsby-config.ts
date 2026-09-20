@@ -2,9 +2,10 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
 	siteMetadata: {
-		title: "Nebraska Mushrooms",
+		title: "Mushrooms of Nebraska",
 		siteUrl: "https://nebraskamushrooms.org",
-		description: "",
+		description:
+			"A photographic guide to the wild mushrooms and fungi of Nebraska, with species profiles, identification keys, and observations from parks across the state.",
 	},
 	graphqlTypegen: true,
 	plugins: [
@@ -95,6 +96,13 @@ const config: GatsbyConfig = {
 				theme_color: "#33c3f0",
 				display: "standalone",
 				icon: "src/img/favicon.svg",
+			},
+		},
+		{
+			resolve: "gatsby-plugin-sitemap",
+			options: {
+				// The field guide generator is a ~64 MB print utility, not content.
+				excludes: ["/generate-field-guide/"],
 			},
 		},
 	],

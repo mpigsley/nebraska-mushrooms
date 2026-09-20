@@ -1,10 +1,11 @@
-import { graphql, Link, type PageProps } from 'gatsby';
+import { graphql, type HeadFC, Link, type PageProps } from 'gatsby';
 import { Printer, Loader } from 'react-feather';
 import * as React from 'react';
 
 import ExampleFieldGuide from '../img/example-field-guide.webp';
 import { type PrintableSpecies } from '../utils/species.util';
 import PageLayout from '../components/PageLayout';
+import Seo from '../components/Seo';
 
 const PrintableSpeciesList = React.lazy(() => import('../components/PrintableSpeciesList'));
 
@@ -59,7 +60,7 @@ export default function FieldGuide({
     >
       <div className="container">
         <div className="row">
-          <h2>Guide Generator</h2>
+          <h1 className="h2">Guide Generator</h1>
           <p>
             The <b>Nebraska Mushrooms</b> field guide is a full collection of
             species observed in Nebraska and catalogued on this website. Each
@@ -107,6 +108,10 @@ export default function FieldGuide({
     </PageLayout>
   );
 }
+
+export const Head: HeadFC = ({ location }) => (
+  <Seo pathname={location.pathname} title="Field Guide Generator" noindex />
+);
 
 export const query = graphql`
   query FieldGuide {

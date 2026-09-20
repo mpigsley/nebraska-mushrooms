@@ -2,6 +2,7 @@ import { type PageProps, graphql, Link, type HeadFC } from 'gatsby';
 import * as React from 'react';
 
 import Footer from '../components/Footer';
+import Seo from '../components/Seo';
 
 export default function ArticleTemplate({
   data,
@@ -24,9 +25,9 @@ export default function ArticleTemplate({
           <div className="one columns">&nbsp;</div>
           <div className="ten columns">
             <Link to="/">&lt; Back to Home</Link>
-            <h2 className="noMargin">
+            <h1 className="h2 noMargin">
               {data.markdownRemark?.frontmatter?.title}
-            </h2>
+            </h1>
             <p className="mt-2">
               {!!formattedDate && (
                 <>
@@ -56,15 +57,35 @@ export default function ArticleTemplate({
   );
 }
 
-export const Head: HeadFC<Queries.ArticleTemplateQuery> = ({ data }) => (
-  <title>{data.markdownRemark?.frontmatter?.title}</title>
-);
+export const Head: HeadFC<Queries.ArticleTemplateQuery> = ({
+  data,
+  location,
+}) => {
+  const frontmatter = data.markdownRemark?.frontmatter;
+  return (
+    <Seo
+      pathname={location.pathname}
+      title={frontmatter?.title}
+      description={data.markdownRemark?.excerpt}
+      type="article"
+      jsonLd={{
+        '@type': 'Article',
+        headline: frontmatter?.title,
+        datePublished: frontmatter?.date || undefined,
+        author: frontmatter?.author
+          ? { '@type': 'Person', name: frontmatter.author }
+          : undefined,
+      }}
+    />
+  );
+};
 
 export const pageQuery = graphql`
   query ArticleTemplate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
+      excerpt(pruneLength: 160)
       frontmatter {
         title
         date
