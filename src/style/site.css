@@ -429,11 +429,13 @@ h5 {
 }
 
 .link-tile {
+  border-radius: var(--s3);
   height: 270px;
   overflow: hidden;
 }
 
 .location-tile {
+  border-radius: var(--s3);
   height: 400px;
   overflow: hidden;
 }
@@ -441,6 +443,10 @@ h5 {
 .random-mushroom-tile {
   height: 300px;
   overflow: hidden;
+}
+
+.random-mushroom-tile .gatsby-image-wrapper {
+  border-radius: var(--s3);
 }
 
 .grid-link {
