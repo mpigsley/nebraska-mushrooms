@@ -7,6 +7,11 @@
         "regex": "^/species/boletus-vermiculosoides-4571/?$",
         "destination": "/species/suillellus-ameriluridus-176372550/",
         "type": 301
+      },
+      {
+        "regex": "^/species/amanita-sect-caesareae/?$",
+        "destination": "/species/amanita-murrilliana/",
+        "type": 301
       }
     ],
     "headers": [

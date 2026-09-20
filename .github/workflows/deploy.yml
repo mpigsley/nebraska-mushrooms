@@ -22,9 +22,30 @@ jobs:
       - uses: actions/checkout@v7
 
       - uses: actions/setup-node@v7
+        id: node
         with:
           node-version: 22
-          cache: npm
+
+      # npm ci takes about two minutes, so node_modules is reused until the
+      # lockfile or the Node version changes. It's saved right after installing
+      # so a failed build doesn't throw the install away.
+      - name: Restore node_modules
+        id: node-modules
+        uses: actions/cache/restore@v6
+        with:
+          path: node_modules
+          key: node-modules-${{ runner.os }}-${{ runner.arch }}-${{ steps.node.outputs.node-version }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.node-modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Save node_modules
+        if: steps.node-modules.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v6
+        with:
+          path: node_modules
+          key: ${{ steps.node-modules.outputs.cache-primary-key }}
 
       # Gatsby reuses processed images and unchanged pages from a previous
       # build when both of these directories are restored. public/img is a raw
@@ -39,8 +60,6 @@ jobs:
           key: gatsby-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             gatsby-${{ runner.os }}-
-
-      - run: npm ci
 
       - run: npm run build
 
