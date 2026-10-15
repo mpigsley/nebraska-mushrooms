@@ -4,6 +4,7 @@ name: Small-Spored Sunset Waxycap
 scientific_name: Hygrocybe acutoconica var. microspora
 observations:
   - '178749752'
+  - '228897279'
 locations:
   - Indian Cave State Park
 references:
