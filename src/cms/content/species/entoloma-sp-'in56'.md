@@ -4,6 +4,7 @@ name:
 scientific_name: Entoloma sp. 'IN56'
 observations:
   - '254168755'
+  - '253228537'
 locations:
   - Indian Cave State Park
 tags:
